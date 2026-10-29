@@ -1,0 +1,5 @@
+﻿log,stage,distinct_queries,repeated_outputs,mapping_precision,mapping_recall,mapping_f1,decision_accuracy,new_review_suggestions,corrected_outputs,regressed_outputs
+self_consistency_raw.csv,phase2_logged_output,18,540,1.0,0.7761904761904762,0.8739946380697051,0.825925925925926,0,0,0
+self_consistency_raw.csv,phase2_plus_review_suggestions,18,540,1.0,1.0,1.0,1.0,94,94,0
+self_consistency_raw_fixed.csv,phase2_logged_output,18,540,1.0,0.7619047619047619,0.8648648648648648,0.8148148148148148,0,0,0
+self_consistency_raw_fixed.csv,phase2_plus_review_suggestions,18,540,1.0,1.0,1.0,1.0,100,100,0

@@ -2,6 +2,7 @@
 import copy,json,unittest
 import numpy as np
 from run_experiments import HERE,Features,summarize,tune_threshold
+from upgrade_adapter import combine
 
 class EvaluationTests(unittest.TestCase):
     def row(self,gold,pred,rank=None):
@@ -30,15 +31,36 @@ class EvaluationTests(unittest.TestCase):
         data=json.loads((HERE/'data'/'snapshot.json').read_text(encoding='utf-8'))
         f=Features(data)
         train=[i for i,q in enumerate(f.q) if q['system']!='CHATBOT']
-        original=f.scores('hybrid_transfer',train).copy()
-        threshold=tune_threshold(f,'hybrid_transfer',train)
+        original={method:f.scores(method,train).copy() for method in ['hybrid_transfer','maps_v3_candidate']}
+        threshold={method:tune_threshold(f,method,train) for method in original}
         # Perturb all held-out labels, leaving only schema metadata untouched.
         for i,q in enumerate(f.q):
             if q['system']=='CHATBOT':
                 q['gold']=['CUSTOMER.CUST_ID'] if not q['gold'] else []
                 f.gold[i]=set(q['gold'])
-        np.testing.assert_array_equal(original,f.scores('hybrid_transfer',train))
-        self.assertEqual(threshold,tune_threshold(f,'hybrid_transfer',train))
+        for method in original:
+            np.testing.assert_array_equal(original[method],f.scores(method,train))
+            self.assertEqual(threshold[method],tune_threshold(f,method,train))
+
+    def test_upgrade_preserves_existing_positive_output(self):
+        target,status=combine('COMPLAINT.CMPL_ID','COUNSEL.CNSL_ID',.99,.4)
+        self.assertEqual(target,'COMPLAINT.CMPL_ID')
+        self.assertEqual(status,'LEGACY_PRESERVED')
+
+    def test_upgrade_conflict_is_flagged_without_silent_rewrite(self):
+        target,status=combine('CUSTOMER.TEL_NO','COMPLAINT.RCV_CNTC_TEL_NO',.99,.4,False)
+        self.assertEqual(target,'CUSTOMER.TEL_NO')
+        self.assertEqual(status,'REVIEW_LEGACY_CONFLICT')
+
+    def test_upgrade_only_adds_above_threshold_candidates(self):
+        self.assertEqual(combine('EXCLUDE','COMPLAINT.REG_DTM',.5,.44),('COMPLAINT.REG_DTM','REVIEW_NEW_CANDIDATE'))
+        self.assertEqual(combine('EXCLUDE','COMPLAINT.REG_DTM',.3,.44),('EXCLUDE','LEGACY_EXCLUDE_PRESERVED'))
+
+    def test_homepage_cannot_be_ranked_into_customer_master(self):
+        d=json.loads((HERE/'data'/'snapshot.json').read_text(encoding='utf-8'));f=Features(d)
+        q={'system':'HOMEPAGE','table':'homepage_complaint','column':'CUST_ID'}
+        self.assertFalse(f.permitted(q,{'table':'CUSTOMER','column':'CUST_ID'}))
+        self.assertTrue(f.permitted(q,{'table':'COMPLAINT','column':'CUST_ID'}))
 
     def test_snapshot_integrity_and_unique_query_units(self):
         d=json.loads((HERE/'data'/'snapshot.json').read_text(encoding='utf-8'))

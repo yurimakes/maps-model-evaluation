@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T15:16:35+09:00",
+  "timestamp": "2026-10-29T15:30:02+09:00",
   "audit": {
     "mapping_rows": 123,
     "positive_mapping_rows": 74,
@@ -6830,7 +6830,7 @@
       "predicted": [
         "PRODUCT.PRD_CD"
       ],
-      "score": 0.7522709332924967,
+      "score": 0.7522709332924966,
       "threshold": 0.7000000000000001,
       "ranked": [
         "PRODUCT.PRD_CD",
@@ -7290,7 +7290,7 @@
         "COUNSEL.PRD_ID"
       ],
       "predicted": [],
-      "score": 0.5752424483705779,
+      "score": 0.575242448370578,
       "threshold": 0.6,
       "ranked": [
         "PRODUCT.PRD_CD",
@@ -9477,7 +9477,7 @@
       "predicted": [
         "PRODUCT.PRD_CD"
       ],
-      "score": 0.7522709332924967,
+      "score": 0.7522709332924966,
       "threshold": 0.7000000000000001,
       "ranked": [
         "PRODUCT.PRD_CD",
@@ -9937,7 +9937,7 @@
         "COUNSEL.PRD_ID"
       ],
       "predicted": [],
-      "score": 0.5752424483705779,
+      "score": 0.575242448370578,
       "threshold": 0.6,
       "ranked": [
         "PRODUCT.PRD_CD",
@@ -11000,7 +11000,7 @@
       "predicted": [
         "COUNSEL.PRD_ID"
       ],
-      "score": 0.6185381632904376,
+      "score": 0.6185381632904375,
       "threshold": 0.44,
       "ranked": [
         "COUNSEL.PRD_ID",
@@ -11507,7 +11507,7 @@
       "predicted": [
         "COUNSEL.PRD_ID"
       ],
-      "score": 0.5665868350306679,
+      "score": 0.5665868350306676,
       "threshold": 0.44,
       "ranked": [
         "COUNSEL.PRD_ID",
@@ -12136,7 +12136,7 @@
       "predicted": [
         "COUNSEL.PRD_ID"
       ],
-      "score": 0.5574685506501288,
+      "score": 0.5574685506501287,
       "threshold": 0.4,
       "ranked": [
         "COUNSEL.PRD_ID",
@@ -12600,7 +12600,7 @@
         "COUNSEL.PRD_ID"
       ],
       "predicted": [],
-      "score": 0.4207166832713669,
+      "score": 0.42071668327136696,
       "threshold": 0.44,
       "ranked": [
         "CONTRACT.PRD_ID",
@@ -13667,7 +13667,7 @@
       "predicted": [
         "COUNSEL.PRD_ID"
       ],
-      "score": 0.6185381632904376,
+      "score": 0.6185381632904375,
       "threshold": 0.4,
       "ranked": [
         "COUNSEL.PRD_ID",
@@ -14178,7 +14178,7 @@
       "predicted": [
         "COMPLAINT.PRD_ID"
       ],
-      "score": 0.5665868350306679,
+      "score": 0.5665868350306676,
       "threshold": 0.18,
       "ranked": [
         "COMPLAINT.PRD_ID",
@@ -14811,7 +14811,7 @@
       "predicted": [
         "COUNSEL.PRD_ID"
       ],
-      "score": 0.5574685506501288,
+      "score": 0.5574685506501287,
       "threshold": 0.14,
       "ranked": [
         "COUNSEL.PRD_ID",
@@ -15934,7 +15934,7 @@
       "predicted": [
         "COUNSEL.CNSL_ST_CD"
       ],
-      "score": 0.32183686276223833,
+      "score": 0.32183686276223844,
       "threshold": 0.26,
       "ranked": [
         "COUNSEL.CNSL_ST_CD",

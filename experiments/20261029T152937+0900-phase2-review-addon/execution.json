@@ -1,0 +1,49 @@
+{
+  "timestamp": "20261029T152937+0900",
+  "steps": [
+    {
+      "name": "tests",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "test_evaluation.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "benchmark",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "run_experiments.py",
+        "--out",
+        "experiments/20261029T152937+0900-phase2-review-addon"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "phase2_replay",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "upgrade_adapter.py",
+        "--out",
+        "experiments/20261029T152937+0900-phase2-review-addon"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "prepare_data.py": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf",
+    "record_run.py": "43c483966b1f627ec02076ba43b1089adeffc63e8770d7bee7d7ed7aca437326",
+    "run_experiments.py": "5c8ae45ebc870df7102d497cbf3b4401052c8197f73f0e33e82f8a3dfe1a54bc",
+    "test_evaluation.py": "f249598fa90a803ff23854474ef4e4ab7f2963c361ec33273d8965b12875b896",
+    "upgrade_adapter.py": "0c03c15913378b8a294e1b2079a342ddd2620a59e415494a16b5c6989da6f7be",
+    "maps_policy.json": "e4b1bf883a3d913334d8fb25ccca232fcd88e021dead7533a75437e4901a2e06",
+    "requirements.txt": "dab55f452eaf6fbad5ab486ffed48de364284db1fc177c9ddc147bd229561786"
+  },
+  "parent_commit": "18bf7249eb8249e7c00c6774327a3ed9510310a1"
+}
