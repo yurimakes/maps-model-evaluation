@@ -1,0 +1,404 @@
+{
+  "execution": "Actual original retrieval code, actual original corpus, original cached query/document embeddings; upgraded retrieval uses same vectors.",
+  "not_executed": "Azure chat/embedding API; final model mapping accuracy/precision/F1",
+  "api_calls": 0,
+  "actual_original_scope": "COUNSEL and COMPLAINT only; source channel target fixed",
+  "scoped_questions": 93,
+  "positive_questions": 44,
+  "out_of_scope_ground_truth_questions": 21,
+  "original_target_columns": 25,
+  "original_archive": {
+    "archive_sha256": "86faaff4fe24d9e26f57b82def4131d2f1a84ca37570db3eafe47d72251517e4",
+    "files": [
+      {
+        "path": "data/10_운영_실행.py",
+        "bytes": 17141,
+        "sha256": "e182025ea8187a3a2684a9a23020bd8c3db564b7684e268ba245b0cf1976937f"
+      },
+      {
+        "path": "data/data/원천컬럼_입력목록.csv",
+        "bytes": 11653,
+        "sha256": "e92ae30b26420231704d59130ce8f3c419ea2cd43f6915969dbf74d87c929ea2"
+      },
+      {
+        "path": "data/data/임베딩/embeddings.npz",
+        "bytes": 1088352,
+        "sha256": "9837a7736f5c7951b1d0064a13dbf5200f64dd75f9394aa543ce33193c7bb32d"
+      },
+      {
+        "path": "data/maps_rag/azure_client.py",
+        "bytes": 9239,
+        "sha256": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83"
+      },
+      {
+        "path": "data/maps_rag/delta_io.py",
+        "bytes": 4747,
+        "sha256": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450"
+      },
+      {
+        "path": "data/maps_rag/delta_io_prod.py",
+        "bytes": 5280,
+        "sha256": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5"
+      },
+      {
+        "path": "data/maps_rag/embeddings.py",
+        "bytes": 1947,
+        "sha256": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc"
+      },
+      {
+        "path": "data/maps_rag/facts.py",
+        "bytes": 4283,
+        "sha256": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa"
+      },
+      {
+        "path": "data/maps_rag/knowledge.py",
+        "bytes": 2908,
+        "sha256": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a"
+      },
+      {
+        "path": "data/maps_rag/notebook_common.py",
+        "bytes": 13190,
+        "sha256": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3"
+      },
+      {
+        "path": "data/maps_rag/paths.py",
+        "bytes": 774,
+        "sha256": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede"
+      },
+      {
+        "path": "data/maps_rag/recommend.py",
+        "bytes": 34004,
+        "sha256": "4502c3d3b1630c1f314bc49ed1d1fbb6c6a9ab4d01248967ddc26929ecfa0353"
+      },
+      {
+        "path": "data/maps_rag/retrieval.py",
+        "bytes": 3692,
+        "sha256": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0"
+      },
+      {
+        "path": "data/maps_rag/source_loader.py",
+        "bytes": 14032,
+        "sha256": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585"
+      }
+    ]
+  },
+  "bundle": {
+    "source_path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1029\\maps_ai_demo_bundle.dat_(원본압축)",
+    "archive_sha256": "a65694fa4ea90ea5fcef0d5788ce2fd69118ab03e9cc0f5da4ce677ba5f33e58",
+    "files": [
+      {
+        "path": "자료/1_원천데이터(브론즈)/1_인바운드(콜센터)/인바운드_원천_상담_1000행.csv",
+        "bytes": 351766,
+        "sha256": "749adce26dba3c528087ee755bd5c4b3c7e7a9e64692a60b1f2beab7eb7a181e"
+      },
+      {
+        "path": "자료/1_원천데이터(브론즈)/2_아웃바운드(TM)/아웃바운드_원천_TM상담_1000행.csv",
+        "bytes": 998455,
+        "sha256": "14114a1af2e1ce88a1ac25a18b9983820281fa1a6bb99c56632d01475256765d"
+      },
+      {
+        "path": "자료/1_원천데이터(브론즈)/3_세일즈포스(웹상담)/세일즈포스_원천_상담_1000행.csv",
+        "bytes": 686616,
+        "sha256": "1e30b9234a488ecac1fec01195e5626ed85201cfee37b49b462bc12fba1bd625"
+      },
+      {
+        "path": "자료/1_원천데이터(브론즈)/4_홈페이지(민원)/홈페이지_원천_민원_1000행.csv",
+        "bytes": 953315,
+        "sha256": "3ad5c790bbc1b137c04d77ec5206d129cac7f727f7f8c4d0670031ec5c21f220"
+      },
+      {
+        "path": "자료/1_원천데이터(브론즈)/5_챗봇/챗봇_원천_세션_1005건.json",
+        "bytes": 2235991,
+        "sha256": "b30443d5cc0744f9ebc78ce8d9b020fa1a2e9b33f67ec378cb5a582548585cb9"
+      },
+      {
+        "path": "자료/2_타겟_정의/2_타겟_물리모델_v1.0.csv",
+        "bytes": 5050,
+        "sha256": "5bdf0d8c436f857c011abfd95f0914957ba7cbf8f913f943289eb9f15baad9d2"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_01_타겟컬럼.jsonl",
+        "bytes": 60294,
+        "sha256": "acd81ca4360f6df02a52a54d5a8d7f8a0663576ad50b594e79dc4706714f3d4d"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_02_표준단어.jsonl",
+        "bytes": 30909,
+        "sha256": "008cfc3a6b66de61d0a5b2a695b5f6f034cd6bf88596c64e626cf69840fc85db"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_03_표준용어.jsonl",
+        "bytes": 41881,
+        "sha256": "6c3d032e094944524281b7fadd41bf599491bf40bd308c37bc08c0e8220a9485"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_04_표준도메인.jsonl",
+        "bytes": 8217,
+        "sha256": "fb02d8fcc5b8afe1bb6fa0bb95059714180f7cf50d409ed5c0eb1ee7f6cc5c34"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_05_표준코드.jsonl",
+        "bytes": 10860,
+        "sha256": "4b973fd746db6edb3377bce5f5e0cfa6be942f9e566ed3032fbc5c20e4b19651"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_09_설계결정.jsonl",
+        "bytes": 6457,
+        "sha256": "4fe83c593af858778d63d0a4793d0078e5d8b8d3c85a00d4cdb233163d8ed75b"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_10_DQ규칙.jsonl",
+        "bytes": 87618,
+        "sha256": "06ac5393251f411c0614b2a5cac2dbb3b171cdaac4d540811795f8e580ebf986"
+      },
+      {
+        "path": "자료/4_지식조각_RAG용/지식조각/지식_11_원천코드표.jsonl",
+        "bytes": 39354,
+        "sha256": "0c422bf5fd114ffb21897f3896ef0dc0fe6ee3d1268c766ae5ad2029bd7296f1"
+      },
+      {
+        "path": "코드/maps_rag/azure_client.py",
+        "bytes": 9239,
+        "sha256": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83"
+      },
+      {
+        "path": "코드/maps_rag/delta_io.py",
+        "bytes": 4747,
+        "sha256": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450"
+      },
+      {
+        "path": "코드/maps_rag/delta_io_prod.py",
+        "bytes": 5280,
+        "sha256": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5"
+      },
+      {
+        "path": "코드/maps_rag/embeddings.py",
+        "bytes": 1947,
+        "sha256": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc"
+      },
+      {
+        "path": "코드/maps_rag/facts.py",
+        "bytes": 4283,
+        "sha256": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa"
+      },
+      {
+        "path": "코드/maps_rag/knowledge.py",
+        "bytes": 2908,
+        "sha256": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a"
+      },
+      {
+        "path": "코드/maps_rag/notebook_common.py",
+        "bytes": 13190,
+        "sha256": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3"
+      },
+      {
+        "path": "코드/maps_rag/paths.py",
+        "bytes": 774,
+        "sha256": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede"
+      },
+      {
+        "path": "코드/maps_rag/recommend.py",
+        "bytes": 34004,
+        "sha256": "4502c3d3b1630c1f314bc49ed1d1fbb6c6a9ab4d01248967ddc26929ecfa0353"
+      },
+      {
+        "path": "코드/maps_rag/retrieval.py",
+        "bytes": 3692,
+        "sha256": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0"
+      },
+      {
+        "path": "코드/maps_rag/source_loader.py",
+        "bytes": 14032,
+        "sha256": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585"
+      },
+      {
+        "path": "코드/data/원천컬럼_입력목록.csv",
+        "bytes": 11653,
+        "sha256": "e92ae30b26420231704d59130ce8f3c419ea2cd43f6915969dbf74d87c929ea2"
+      },
+      {
+        "path": "코드/data/임베딩/embeddings.npz",
+        "bytes": 1088352,
+        "sha256": "9837a7736f5c7951b1d0064a13dbf5200f64dd75f9394aa543ce33193c7bb32d"
+      }
+    ],
+    "code_comparison": [
+      {
+        "path": "코드/maps_rag/azure_client.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/delta_io.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/delta_io_prod.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/embeddings.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/facts.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/knowledge.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/notebook_common.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/paths.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/recommend.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/retrieval.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/maps_rag/source_loader.py",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/data/원천컬럼_입력목록.csv",
+        "same_as_RAG_zip": true
+      },
+      {
+        "path": "코드/data/임베딩/embeddings.npz",
+        "same_as_RAG_zip": true
+      }
+    ]
+  },
+  "upgrade_build": {
+    "source_archive_sha256": "86faaff4fe24d9e26f57b82def4131d2f1a84ca37570db3eafe47d72251517e4",
+    "modified_files": [
+      "recommend.py",
+      "strict_validation.py",
+      "retrieval.py"
+    ],
+    "source_preserved": true,
+    "files": {
+      "azure_client.py": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83",
+      "delta_io.py": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450",
+      "delta_io_prod.py": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5",
+      "embeddings.py": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc",
+      "facts.py": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa",
+      "knowledge.py": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a",
+      "legacy_retrieval.py": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0",
+      "notebook_common.py": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3",
+      "paths.py": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede",
+      "recommend.py": "d8d23cad63fa85c3f2eef05849d8b9605b75596f4f0feeba91ad199073958cdb",
+      "retrieval.py": "895b9719445320a160a146d402362b7d62cc46cbad461e77c6eaefb92530df85",
+      "source_loader.py": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585",
+      "strict_validation.py": "a34f55795937f658800e283030e2407c405905ec37573c71465fca7132dc7dcf"
+    }
+  },
+  "result": {
+    "readiness": {
+      "knowledge_chunks": 424,
+      "retrievable_chunks": 186,
+      "cached_retrievable_chunks": 186,
+      "cached_question_profiles": 114,
+      "question_profiles": 120,
+      "raw_row_counts": {
+        "INBOUND": 1000,
+        "OUTBOUND": 1000,
+        "SALESFORCE": 1000,
+        "HOMEPAGE": 1000,
+        "CHATBOT": 1005
+      },
+      "bundle_code_identical": true,
+      "cache_entries": 306
+    },
+    "candidate_ranking_diagnostic": [
+      {
+        "method": "phase2_original_hybrid",
+        "n_positive_questions": 44,
+        "any_gold_hit_at1": 0.6363636363636364,
+        "any_gold_hit_at3": 0.9545454545454546,
+        "any_gold_hit_at5": 1.0,
+        "mrr": 0.7992424242424242
+      },
+      {
+        "method": "phase2_hardening_same_weighted",
+        "n_positive_questions": 44,
+        "any_gold_hit_at1": 0.6363636363636364,
+        "any_gold_hit_at3": 0.9545454545454546,
+        "any_gold_hit_at5": 1.0,
+        "mrr": 0.7992424242424242
+      },
+      {
+        "method": "experimental_rrf_alias_NOT_DEFAULT",
+        "n_positive_questions": 44,
+        "any_gold_hit_at1": 0.5909090909090909,
+        "any_gold_hit_at3": 0.9772727272727273,
+        "any_gold_hit_at5": 1.0,
+        "mrr": 0.7784090909090909
+      }
+    ],
+    "evidence_proxy": [
+      {
+        "method": "phase2_original_hybrid",
+        "scope_questions": 93,
+        "eligible_positive_questions": 35,
+        "target_reference_hit_at5": 0.9142857142857143,
+        "elapsed_seconds": 0.0786125999984506,
+        "api_calls": 0
+      },
+      {
+        "method": "phase2_hardening_same_weighted",
+        "scope_questions": 93,
+        "eligible_positive_questions": 35,
+        "target_reference_hit_at5": 0.9142857142857143,
+        "elapsed_seconds": 0.10839900000064517,
+        "api_calls": 0
+      },
+      {
+        "method": "experimental_rrf_alias_NOT_DEFAULT",
+        "scope_questions": 93,
+        "eligible_positive_questions": 35,
+        "target_reference_hit_at5": 0.9428571428571428,
+        "elapsed_seconds": 0.10786899999948218,
+        "api_calls": 0
+      }
+    ],
+    "validation_diagnostics": [
+      {
+        "case": "Only NAME score; six criteria missing",
+        "original_level": "HIGH",
+        "original_confidence": 1.0,
+        "upgraded_level": "LOW",
+        "upgraded_confidence": 0.15
+      },
+      {
+        "case": "Mandatory relationship gate NA",
+        "original_level": "HIGH",
+        "original_confidence": 1.0,
+        "upgraded_level": "INVALID_CANDIDATE",
+        "upgraded_confidence": 1.0
+      },
+      {
+        "case": "No cited evidence",
+        "original_level": "HIGH",
+        "original_confidence": 1.0,
+        "upgraded_level": "INVALID_CANDIDATE",
+        "upgraded_confidence": 1.0
+      },
+      {
+        "case": "Valid complete mapping",
+        "original_level": "HIGH",
+        "original_confidence": 1.0,
+        "upgraded_level": "HIGH",
+        "upgraded_confidence": 1.0
+      }
+    ]
+  }
+}

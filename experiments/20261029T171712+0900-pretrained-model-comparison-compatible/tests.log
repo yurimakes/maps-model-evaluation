@@ -1,0 +1,37 @@
+test_exclusions_affect_precision (test_evaluation.EvaluationTests.test_exclusions_affect_precision) ... ok
+test_homepage_cannot_be_ranked_into_customer_master (test_evaluation.EvaluationTests.test_homepage_cannot_be_ranked_into_customer_master) ... ok
+test_multitarget_is_not_collapsed (test_evaluation.EvaluationTests.test_multitarget_is_not_collapsed) ... ok
+test_snapshot_integrity_and_unique_query_units (test_evaluation.EvaluationTests.test_snapshot_integrity_and_unique_query_units) ... ok
+test_test_labels_do_not_change_scores_or_threshold (test_evaluation.EvaluationTests.test_test_labels_do_not_change_scores_or_threshold) ... ok
+test_upgrade_conflict_is_flagged_without_silent_rewrite (test_evaluation.EvaluationTests.test_upgrade_conflict_is_flagged_without_silent_rewrite) ... ok
+test_upgrade_only_adds_above_threshold_candidates (test_evaluation.EvaluationTests.test_upgrade_only_adds_above_threshold_candidates) ... ok
+test_upgrade_preserves_existing_positive_output (test_evaluation.EvaluationTests.test_upgrade_preserves_existing_positive_output) ... ok
+test_wrong_table_is_wrong_mapping (test_evaluation.EvaluationTests.test_wrong_table_is_wrong_mapping) ... ok
+test_budget_prevents_http_attempt (test_model_ab.ModelABTests.test_budget_prevents_http_attempt) ... ok
+test_invalid_proposal_is_not_counted_as_a_true_positive (test_model_ab.ModelABTests.test_invalid_proposal_is_not_counted_as_a_true_positive) ... ok
+test_negative_question_error_is_not_counted_as_correct_exclusion (test_model_ab.ModelABTests.test_negative_question_error_is_not_counted_as_correct_exclusion) ... ok
+test_output_limit_is_enforced_on_every_attempt (test_model_ab.ModelABTests.test_output_limit_is_enforced_on_every_attempt) ... ok
+test_heldout_labels_do_not_affect_own_threshold (test_model_comparison.NeuralEvaluationTests.test_heldout_labels_do_not_affect_own_threshold) ... ok
+test_negative_questions_penalize_precision (test_model_comparison.NeuralEvaluationTests.test_negative_questions_penalize_precision) ... ok
+test_positive_wrong_table_is_false_positive_and_false_negative (test_model_comparison.NeuralEvaluationTests.test_positive_wrong_table_is_false_positive_and_false_negative) ... ok
+test_citing_unseen_evidence_blocks_valid_mapping (test_phase2_rag.Phase2Tests.test_citing_unseen_evidence_blocks_valid_mapping) ... ok
+test_default_full_cache_weighting_preserves_original_ranking (test_phase2_rag.Phase2Tests.test_default_full_cache_weighting_preserves_original_ranking) ... ok
+test_duplicate_candidate_is_flagged (test_phase2_rag.Phase2Tests.test_duplicate_candidate_is_flagged) ... ok
+test_embedding_mode_without_query_vector_returns_no_fake_hits (test_phase2_rag.Phase2Tests.test_embedding_mode_without_query_vector_returns_no_fake_hits) ... ok
+test_embedding_space_mismatch_is_explicit (test_phase2_rag.Phase2Tests.test_embedding_space_mismatch_is_explicit) ... ok
+test_invalid_mapping_and_process_types_block_mapping (test_phase2_rag.Phase2Tests.test_invalid_mapping_and_process_types_block_mapping) ... ok
+test_justified_na_can_be_excluded_from_denominator (test_phase2_rag.Phase2Tests.test_justified_na_can_be_excluded_from_denominator) ... ok
+test_missing_scores_cannot_be_renormalized_to_high (test_phase2_rag.Phase2Tests.test_missing_scores_cannot_be_renormalized_to_high) ... ok
+test_no_evidence_blocks_valid_mapping (test_phase2_rag.Phase2Tests.test_no_evidence_blocks_valid_mapping) ... ok
+test_original_requires_complete_embedding_cache (test_phase2_rag.Phase2Tests.test_original_requires_complete_embedding_cache) ... ok
+test_out_of_range_and_non_finite_scores_rejected (test_phase2_rag.Phase2Tests.test_out_of_range_and_non_finite_scores_rejected) ... ok
+test_positive_two_stage_flow_is_preserved (test_phase2_rag.Phase2Tests.test_positive_two_stage_flow_is_preserved) ... ok
+test_unjustified_na_is_not_silently_accepted (test_phase2_rag.Phase2Tests.test_unjustified_na_is_not_silently_accepted) ... ok
+test_unknown_gate_is_not_pass (test_phase2_rag.Phase2Tests.test_unknown_gate_is_not_pass) ... ok
+test_unknown_scan_stops_before_unjustified_detail_call (test_phase2_rag.Phase2Tests.test_unknown_scan_stops_before_unjustified_detail_call) ... ok
+test_zero_relevance_does_not_fill_evidence_with_arbitrary_docs (test_phase2_rag.Phase2Tests.test_zero_relevance_does_not_fill_evidence_with_arbitrary_docs) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 1.654s
+
+OK

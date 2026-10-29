@@ -1,0 +1,100 @@
+{
+  "readiness": {
+    "knowledge_chunks": 424,
+    "retrievable_chunks": 186,
+    "cached_retrievable_chunks": 186,
+    "cached_question_profiles": 114,
+    "question_profiles": 120,
+    "raw_row_counts": {
+      "INBOUND": 1000,
+      "OUTBOUND": 1000,
+      "SALESFORCE": 1000,
+      "HOMEPAGE": 1000,
+      "CHATBOT": 1005
+    },
+    "bundle_code_identical": true,
+    "cache_entries": 306
+  },
+  "candidate_ranking_diagnostic": [
+    {
+      "method": "phase2_original_hybrid",
+      "n_positive_questions": 44,
+      "any_gold_hit_at1": 0.6363636363636364,
+      "any_gold_hit_at3": 0.9545454545454546,
+      "any_gold_hit_at5": 1.0,
+      "mrr": 0.7992424242424242
+    },
+    {
+      "method": "phase2_hardening_same_weighted",
+      "n_positive_questions": 44,
+      "any_gold_hit_at1": 0.6363636363636364,
+      "any_gold_hit_at3": 0.9545454545454546,
+      "any_gold_hit_at5": 1.0,
+      "mrr": 0.7992424242424242
+    },
+    {
+      "method": "experimental_rrf_alias_NOT_DEFAULT",
+      "n_positive_questions": 44,
+      "any_gold_hit_at1": 0.5909090909090909,
+      "any_gold_hit_at3": 0.9772727272727273,
+      "any_gold_hit_at5": 1.0,
+      "mrr": 0.7784090909090909
+    }
+  ],
+  "evidence_proxy": [
+    {
+      "method": "phase2_original_hybrid",
+      "scope_questions": 93,
+      "eligible_positive_questions": 35,
+      "target_reference_hit_at5": 0.9142857142857143,
+      "elapsed_seconds": 0.0786125999984506,
+      "api_calls": 0
+    },
+    {
+      "method": "phase2_hardening_same_weighted",
+      "scope_questions": 93,
+      "eligible_positive_questions": 35,
+      "target_reference_hit_at5": 0.9142857142857143,
+      "elapsed_seconds": 0.10839900000064517,
+      "api_calls": 0
+    },
+    {
+      "method": "experimental_rrf_alias_NOT_DEFAULT",
+      "scope_questions": 93,
+      "eligible_positive_questions": 35,
+      "target_reference_hit_at5": 0.9428571428571428,
+      "elapsed_seconds": 0.10786899999948218,
+      "api_calls": 0
+    }
+  ],
+  "validation_diagnostics": [
+    {
+      "case": "Only NAME score; six criteria missing",
+      "original_level": "HIGH",
+      "original_confidence": 1.0,
+      "upgraded_level": "LOW",
+      "upgraded_confidence": 0.15
+    },
+    {
+      "case": "Mandatory relationship gate NA",
+      "original_level": "HIGH",
+      "original_confidence": 1.0,
+      "upgraded_level": "INVALID_CANDIDATE",
+      "upgraded_confidence": 1.0
+    },
+    {
+      "case": "No cited evidence",
+      "original_level": "HIGH",
+      "original_confidence": 1.0,
+      "upgraded_level": "INVALID_CANDIDATE",
+      "upgraded_confidence": 1.0
+    },
+    {
+      "case": "Valid complete mapping",
+      "original_level": "HIGH",
+      "original_confidence": 1.0,
+      "upgraded_level": "HIGH",
+      "upgraded_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+LOAD_REAL_MODEL mpnet e8c3b32edf5434bc2275fc9bab85f82640a19130
+Attempting to load HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/mpnet'...
+Successfully loaded HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/mpnet' on cpu
+REAL_FORWARD_COMPLETE mpnet texts 118
+MAGNETO_GROUP mpnet header CHATBOT session 14 152
+MAGNETO_GROUP mpnet header HOMEPAGE homepage_complaint 18 252
+MAGNETO_GROUP mpnet header INBOUND consultation 13 143
+MAGNETO_GROUP mpnet header OUTBOUND TM_SOURCE_EXPORT 28 308
+MAGNETO_GROUP mpnet header SALESFORCE Insurance_Consultation__c 20 220
+MAGNETO_GROUP mpnet metadata CHATBOT session 14 150
+MAGNETO_GROUP mpnet metadata HOMEPAGE homepage_complaint 18 251
+MAGNETO_GROUP mpnet metadata INBOUND consultation 13 140
+MAGNETO_GROUP mpnet metadata OUTBOUND TM_SOURCE_EXPORT 28 305
+MAGNETO_GROUP mpnet metadata SALESFORCE Insurance_Consultation__c 20 216
+MODEL_PIPELINES_COMPLETE mpnet
+LOAD_REAL_MODEL e5_multilingual 614241f622f53c4eeff9890bdc4f31cfecc418b3
+Attempting to load HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/e5_multilingual'...
+Successfully loaded HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/e5_multilingual' on cpu
+REAL_FORWARD_COMPLETE e5_multilingual texts 118
+MAGNETO_GROUP e5_multilingual metadata CHATBOT session 14 154
+MAGNETO_GROUP e5_multilingual metadata HOMEPAGE homepage_complaint 18 252
+MAGNETO_GROUP e5_multilingual metadata INBOUND consultation 13 143
+MAGNETO_GROUP e5_multilingual metadata OUTBOUND TM_SOURCE_EXPORT 28 308
+MAGNETO_GROUP e5_multilingual metadata SALESFORCE Insurance_Consultation__c 20 220
+MODEL_PIPELINES_COMPLETE e5_multilingual
+LOAD_REAL_MODEL ko_sroberta 8fca7c9c98c26599be0e14b9916b11a756a26f19
+Attempting to load HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/ko_sroberta'...
+Successfully loaded HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/ko_sroberta' on cpu
+REAL_FORWARD_COMPLETE ko_sroberta texts 118
+MAGNETO_GROUP ko_sroberta metadata CHATBOT session 14 154
+MAGNETO_GROUP ko_sroberta metadata HOMEPAGE homepage_complaint 18 252
+MAGNETO_GROUP ko_sroberta metadata INBOUND consultation 13 143
+MAGNETO_GROUP ko_sroberta metadata OUTBOUND TM_SOURCE_EXPORT 28 308
+MAGNETO_GROUP ko_sroberta metadata SALESFORCE Insurance_Consultation__c 20 220
+MODEL_PIPELINES_COMPLETE ko_sroberta
+METRICS cached_phase2_embedding {"questions": 93, "positive_questions": 44, "accuracy": 0.44086021505376344, "precision": 0.3, "recall": 0.3409090909090909, "f1": 0.3191489361702128, "rank_top1": 0.5227272727272727, "rank_top5": 0.9772727272727273, "tp": 15, "fp": 35, "fn": 29, "proposals": 50}
+METRICS dense_mpnet {"questions": 93, "positive_questions": 44, "accuracy": 0.6021505376344086, "precision": 0.5333333333333333, "recall": 0.36363636363636365, "f1": 0.43243243243243246, "rank_top1": 0.5909090909090909, "rank_top5": 0.9772727272727273, "tp": 16, "fp": 14, "fn": 28, "proposals": 30}
+METRICS magneto_mpnet_schema_only {"questions": 93, "positive_questions": 44, "accuracy": 0.6129032258064516, "precision": 0.5333333333333333, "recall": 0.36363636363636365, "f1": 0.43243243243243246, "rank_top1": 0.4772727272727273, "rank_top5": 0.8181818181818182, "tp": 16, "fp": 14, "fn": 28, "proposals": 30}
+METRICS magneto_mpnet_metadata {"questions": 93, "positive_questions": 44, "accuracy": 0.7204301075268817, "precision": 0.6444444444444445, "recall": 0.6590909090909091, "f1": 0.651685393258427, "rank_top1": 0.7954545454545454, "rank_top5": 0.9318181818181818, "tp": 29, "fp": 16, "fn": 15, "proposals": 45}
+METRICS dense_e5_multilingual {"questions": 93, "positive_questions": 44, "accuracy": 0.6451612903225806, "precision": 0.5833333333333334, "recall": 0.4772727272727273, "f1": 0.5250000000000001, "rank_top1": 0.5909090909090909, "rank_top5": 0.9545454545454546, "tp": 21, "fp": 15, "fn": 23, "proposals": 36}
+METRICS magneto_e5_multilingual_metadata {"questions": 93, "positive_questions": 44, "accuracy": 0.7419354838709677, "precision": 0.6382978723404256, "recall": 0.6818181818181818, "f1": 0.6593406593406593, "rank_top1": 0.7954545454545454, "rank_top5": 0.9318181818181818, "tp": 30, "fp": 17, "fn": 14, "proposals": 47}
+METRICS dense_ko_sroberta {"questions": 93, "positive_questions": 44, "accuracy": 0.1935483870967742, "precision": 0.16470588235294117, "recall": 0.3181818181818182, "f1": 0.21705426356589147, "rank_top1": 0.38636363636363635, "rank_top5": 0.8409090909090909, "tp": 14, "fp": 71, "fn": 30, "proposals": 85}
+METRICS magneto_ko_sroberta_metadata {"questions": 93, "positive_questions": 44, "accuracy": 0.5698924731182796, "precision": 0.4090909090909091, "recall": 0.4090909090909091, "f1": 0.4090909090909091, "rank_top1": 0.5, "rank_top5": 0.8636363636363636, "tp": 18, "fp": 26, "fn": 26, "proposals": 44}
+NEURAL_REPORT C:\choiyuri\msdt-team-project-03\experiments\20261029T171712+0900-pretrained-model-comparison-compatible\neural_model_report.html

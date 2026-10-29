@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-10-29T17:17:28+09:00",
+  "seed": 42,
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "snapshot_sha256": "f8ce2fdf4f4a9e9146ee706f779efd4f3adee9b6cc8f4a7d57bf4f8f34f6bc4c",
+  "protocol": "outer leave-one-source-system-out; threshold selected by inner leave-one-source-system-out mapping pair F1",
+  "models": [
+    "magneto_name",
+    "metadata_tfidf",
+    "hybrid_dictionary",
+    "hybrid_type_rules",
+    "hybrid_transfer",
+    "maps_v3_candidate"
+  ],
+  "threshold_grid": "0.00 to 1.00 step 0.02; ties prefer precision, then lower threshold",
+  "selection_warning": "Exploratory benchmark; method design and standard dictionaries were informed by this project, not a blinded external validation.",
+  "target_catalog_size": 78,
+  "query_count": 114,
+  "magneto_commit": "6620623265fc7feac0f053996e62b68a13a72a57",
+  "source_manifest": [
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip",
+      "bytes": 8515682,
+      "sha256": "0a5374c832ab753d965aa8a9326ea6f3af6363d4455af707b678949b6103e2a3"
+    },
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx",
+      "bytes": 38931,
+      "sha256": "da6f25aa98fd209ee77a5c33896800f70266b96e24801c6eaaffb59fa007c207"
+    },
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/8.MAPS_TO-BE_물리데이터모델_v1.0_확정.csv",
+      "bytes": 5050,
+      "sha256": "5bdf0d8c436f857c011abfd95f0914957ba7cbf8f913f943289eb9f15baad9d2"
+    },
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/3.MAPS_표준용어사전_v1.0_확정.csv",
+      "bytes": 12793,
+      "sha256": "c5a9d96109e06b8a795720ac144833337c775350300765634cc503b574dbe3a7"
+    },
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/2.MAPS_표준단어사전_v1.0_확정.csv",
+      "bytes": 10168,
+      "sha256": "0f5e98e2dcd2f062aa848a1a656a5fcf599a492fc6b01857e31dedc25193404d"
+    },
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_raw.csv",
+      "bytes": 37173,
+      "sha256": "ecef3196fd9b584f963d47c14314a025e8bd87f5f89830fdd7a02fa21004eb23"
+    },
+    {
+      "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_raw_fixed.csv",
+      "bytes": 43450,
+      "sha256": "72edecaabb68ac1ef34487a0d1759b3c7344bb5c66cd8989807b5369d70e3fa1"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\04_metadata\\homepage_complaint_metadata.csv",
+      "bytes": 2749,
+      "sha256": "0668e4b9316d6cd348ddabf5f9c5947e8f93ff4bc50558d4e83d3fc29ff1365a"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\04_metadata\\salesforce_source_metadata_v1_2.csv",
+      "bytes": 2880,
+      "sha256": "1e7ccc8b3e6f247a40cd6772abe9aea45f6a565293490c22303beef7d2c0b4bf"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\아웃바운드 상담 데이터\\tm_schema_code_product_v02.xlsx",
+      "bytes": 27868,
+      "sha256": "f80a6fc801bcca5963985a9504a2ca49dcc95c0dd6aee4e80dd6401857f93d38"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\챗봇 데이터\\챗봇_Source_Metadata.xlsx",
+      "bytes": 20274,
+      "sha256": "63fed5c851eaa456bbb9606bf61cecdd4d404576aa6ca04112bf45d8ed435559"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\# Inbound Source 특성 및 테스트 시나리오.md",
+      "bytes": 11616,
+      "sha256": "1570cd3f2a60c14aa3f6347d1607679cb1c483f90f404fc6fb7f26683f454650"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\consultation.csv",
+      "bytes": 351766,
+      "sha256": "749adce26dba3c528087ee755bd5c4b3c7e7a9e64692a60b1f2beab7eb7a181e"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\아웃바운드 상담 데이터\\tm_source_export_1000_v02.csv",
+      "bytes": 998455,
+      "sha256": "14114a1af2e1ce88a1ac25a18b9983820281fa1a6bb99c56632d01475256765d"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\02_source\\homepage_complaint_source_1000_v1_2.csv",
+      "bytes": 953315,
+      "sha256": "3ad5c790bbc1b137c04d77ec5206d129cac7f727f7f8c4d0670031ec5c21f220"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\02_source\\insurance_consultation_source_1000_v1_2.csv",
+      "bytes": 686616,
+      "sha256": "1e30b9234a488ecac1fec01195e5626ed85201cfee37b49b462bc12fba1bd625"
+    },
+    {
+      "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\챗봇 데이터\\chatbot_dummy_sessions_1000_dq.json",
+      "bytes": 2235991,
+      "sha256": "b30443d5cc0744f9ebc78ce8d9b020fa1a2e9b33f67ec378cb5a582548585cb9"
+    }
+  ],
+  "source_code_sha256": {
+    "prepare_data.py": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf",
+    "run_experiments.py": "8820d84bb43bfe382a9a44f354fc8bc10c72dc0be836cb41a1ffcc06859a8db8",
+    "magneto_name.py": "b9423f36dac0674f4ad25b86c6a0c9714ab9ed503f2a1ad8ef0fd31d194803ee"
+  }
+}

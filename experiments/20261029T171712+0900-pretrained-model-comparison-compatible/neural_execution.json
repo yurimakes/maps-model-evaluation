@@ -1,0 +1,413 @@
+{
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "seed": 42,
+  "pythonhashseed": "42",
+  "threads": 2,
+  "ram_total_gb": 11.804008483886719,
+  "peak_rss_gb_at_end": 1.2475166320800781,
+  "model_checkpoints": [
+    {
+      "repository": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "bytes": 190,
+          "sha256": "a37f83ada23e7887be6b88f4998927dbeac0038af301553c7cd5461413bf1a56"
+        },
+        {
+          "path": "README.md",
+          "bytes": 11612,
+          "sha256": "89a1a9c3290fe58e76c939b578c48a14331dc7bfcaaf5a53102adb183da6f96a"
+        },
+        {
+          "path": "config.json",
+          "bytes": 571,
+          "sha256": "d46a3e04ded82bba22528424480697d394eeda6a27484e08c5bb2bdf5906cfa0"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "bytes": 116,
+          "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3"
+        },
+        {
+          "path": "data_config.json",
+          "bytes": 39265,
+          "sha256": "32edcb108fc2516b920734a862ae0692bcae1c5d45d5f8d972cb0d53434a4c54"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 437971872,
+          "sha256": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658"
+        },
+        {
+          "path": "modules.json",
+          "bytes": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "bytes": 53,
+          "sha256": "cabfacded9272091a06ff595a46ef027a76ddf4ac9e77d0fcf11c605748f1667"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 239,
+          "sha256": "9ef40e9c160511bf3f46ceb71f1471dafa1e9473d5120bb816c36b2efa75f8ba"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 466021,
+          "sha256": "b8be2c30ba5dd723a6d5ee26d013da103d5408d92ddcb23747622f9e48f1d842"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 363,
+          "sha256": "67f2ff7e223518e729869bb3a70f0caf8368fe549383fc11cfe2dfb42fffc268"
+        },
+        {
+          "path": "vocab.txt",
+          "bytes": 231536,
+          "sha256": "dbd90cb94e2247bd4d4ccaecbf616d2290e66691d7d5e5bb81f063c2d0649ada"
+        }
+      ],
+      "parameters": 109486464,
+      "model_type": "mpnet",
+      "device": "cpu",
+      "dtype": "float32",
+      "max_seq_length": 512,
+      "e5_prefix": null,
+      "tokenizer_eos_none_handling": "empty string in official column serializer"
+    },
+    {
+      "repository": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "license": "mit",
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "bytes": 200,
+          "sha256": "987f7a67a38fa564c849bb5d277c52ab9088a84368fc0be31a354125aebb12a0"
+        },
+        {
+          "path": "README.md",
+          "bytes": 497538,
+          "sha256": "0038de97aee16258cecbad7ffda4b4febd6953e747a00e0ddbc8e6ed241e9c1c"
+        },
+        {
+          "path": "config.json",
+          "bytes": 655,
+          "sha256": "69137736cab8b8903a07fe8afaafdda25aac55415a12a55d1bffa9f581abf959"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 470641600,
+          "sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477"
+        },
+        {
+          "path": "modules.json",
+          "bytes": 387,
+          "sha256": "c6e29747481e8b5dd2b58401966aeac910de39092f90cda9a704b1545f902b04"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "bytes": 57,
+          "sha256": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529"
+        },
+        {
+          "path": "sentencepiece.bpe.model",
+          "bytes": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 167,
+          "sha256": "d05497f1da52c5e09554c0cd874037a083e1dc1b9cfd48034d1c717f1afc07a7"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 17082730,
+          "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 443,
+          "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+        }
+      ],
+      "parameters": 117653760,
+      "model_type": "bert",
+      "device": "cpu",
+      "dtype": "float32",
+      "max_seq_length": 512,
+      "e5_prefix": "query on both sides",
+      "tokenizer_eos_none_handling": "empty string in official column serializer"
+    },
+    {
+      "repository": "jhgan/ko-sroberta-multitask",
+      "revision": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+      "license": null,
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "bytes": 190,
+          "sha256": "a37f83ada23e7887be6b88f4998927dbeac0038af301553c7cd5461413bf1a56"
+        },
+        {
+          "path": "README.md",
+          "bytes": 4858,
+          "sha256": "00f40982660d39f808a54e0ba800d5f115d69877a34ccf955576aad179692cb8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 744,
+          "sha256": "50fb1a0ef3d83f79e28a157218dfce1f8e53bcd71a203168a06fff9d040d344b"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "bytes": 123,
+          "sha256": "7b2b1e4dc143d04c4605120313b4066db17d41bab4e9aa42b4e9fadce49492f0"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 442499016,
+          "sha256": "5c06458b266887f2b2d71176c3fe4505249f737209a82a49bde44a7df57cf23d"
+        },
+        {
+          "path": "modules.json",
+          "bytes": 229,
+          "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "bytes": 53,
+          "sha256": "70f4448f31320443fe3557cacea5abf2dcc4915dda8c80646bec9f3bb0aa5a1f"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 156,
+          "sha256": "fcfbeb4e25cd37fb5b8030406394253b245230fd3b552750092bab7d24d827da"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 495027,
+          "sha256": "70f194d3bd8fc273ee0bca77b49404c6230ebaca2cfe0af04d6b82964e054660"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 585,
+          "sha256": "f534522d501e985fd55c18a97cf90674fbbdbf736d4c6b0ab14cd2f86cc96d7f"
+        },
+        {
+          "path": "vocab.txt",
+          "bytes": 248477,
+          "sha256": "1ad4978b5dbe269dcc402a3c6eb71ceab21d712bca3b7d3b9994845e54cdcb39"
+        }
+      ],
+      "parameters": 110618112,
+      "model_type": "roberta",
+      "device": "cpu",
+      "dtype": "float32",
+      "max_seq_length": 512,
+      "e5_prefix": null,
+      "tokenizer_eos_none_handling": "empty string in official column serializer"
+    }
+  ],
+  "upstream": {
+    "repository": "https://github.com/VIDA-NYU/magneto-matcher",
+    "commit": "6620623265fc7feac0f053996e62b68a13a72a57",
+    "source_files_modified": false,
+    "mode": "Official Magneto non-GPT mode; actual embedding model + equal matching + bipartite reranking; MAPS schema-only configuration."
+  },
+  "questions": 93,
+  "positive_questions": 44,
+  "targets": 25,
+  "paid_inference_api_calls": 0,
+  "paid_inference_api_cost_usd": 0,
+  "hardware_electricity_cost": "NOT_MEASURED",
+  "total_seconds": 121.17691980000018,
+  "timing": [
+    {
+      "stage": "load_model",
+      "model": "mpnet",
+      "seconds": 0.23299699999915902,
+      "texts": 0
+    },
+    {
+      "stage": "download_model",
+      "model": "mpnet",
+      "seconds": 61.070151399999304,
+      "texts": 0
+    },
+    {
+      "stage": "real_forward_common_inputs",
+      "model": "mpnet",
+      "seconds": 42.371059299999615,
+      "texts": 118
+    },
+    {
+      "stage": "official_magneto_header_only",
+      "model": "mpnet",
+      "seconds": 4.6904224999998405,
+      "texts": 151
+    },
+    {
+      "stage": "official_magneto_with_metadata",
+      "model": "mpnet",
+      "seconds": 17.181027599999652,
+      "texts": 151
+    },
+    {
+      "stage": "load_model",
+      "model": "e5_multilingual",
+      "seconds": 3.254490399998758,
+      "texts": 0
+    },
+    {
+      "stage": "download_model",
+      "model": "e5_multilingual",
+      "seconds": 66.56857430000309,
+      "texts": 0
+    },
+    {
+      "stage": "real_forward_common_inputs",
+      "model": "e5_multilingual",
+      "seconds": 8.105877199999668,
+      "texts": 118
+    },
+    {
+      "stage": "official_magneto_with_metadata",
+      "model": "e5_multilingual",
+      "seconds": 3.0510310999998183,
+      "texts": 151
+    },
+    {
+      "stage": "load_model",
+      "model": "ko_sroberta",
+      "seconds": 1.061686599998211,
+      "texts": 0
+    },
+    {
+      "stage": "download_model",
+      "model": "ko_sroberta",
+      "seconds": 51.158184200001415,
+      "texts": 0
+    },
+    {
+      "stage": "real_forward_common_inputs",
+      "model": "ko_sroberta",
+      "seconds": 26.995964900001127,
+      "texts": 118
+    },
+    {
+      "stage": "official_magneto_with_metadata",
+      "model": "ko_sroberta",
+      "seconds": 11.007189100000687,
+      "texts": 151
+    }
+  ],
+  "versions": {
+    "aiohappyeyeballs": "2.7.1",
+    "aiohttp": "3.14.5",
+    "aiosignal": "1.4.0",
+    "annotated-types": "0.8.0",
+    "anyio": "4.15.1",
+    "anytree": "2.13.0",
+    "attrs": "26.1.0",
+    "cbcbox": "2.929",
+    "certifi": "2026.10.23",
+    "chardet": "7.7.0",
+    "charset-normalizer": "3.5.2",
+    "click": "8.5.0",
+    "cloudpickle": "3.1.2",
+    "colorama": "0.4.6",
+    "cpsat-logutils": "1.0.0",
+    "defusedxml": "0.7.1",
+    "distro": "1.9.0",
+    "et_xmlfile": "2.0.0",
+    "fastuuid": "0.14.0",
+    "filelock": "4.2.4",
+    "frozenlist": "1.8.0",
+    "fsspec": "2026.9.0",
+    "fuzzywuzzy": "0.18.0",
+    "h11": "0.16.0",
+    "httpcore": "1.0.9",
+    "httpx": "0.28.1",
+    "huggingface_hub": "0.36.2",
+    "idna": "3.20",
+    "importlib_metadata": "10.1.0",
+    "jellyfish": "1.2.1",
+    "Jinja2": "3.1.6",
+    "jiter": "0.18.0",
+    "joblib": "1.6.0",
+    "jsonschema": "4.26.0",
+    "jsonschema-specifications": "2025.9.1",
+    "json_repair": "0.64.2",
+    "Levenshtein": "0.27.5",
+    "litellm": "1.80.0",
+    "MarkupSafe": "3.0.3",
+    "mmh3": "5.3.1",
+    "mpmath": "1.3.0",
+    "multidict": "7.2.1",
+    "narwhals": "2.28.0",
+    "networkx": "3.7",
+    "nltk": "3.10.4",
+    "numpy": "2.5.4",
+    "openai": "2.6.1",
+    "openpyxl": "3.1.5",
+    "orloge": "1.0.0",
+    "packaging": "26.3",
+    "pandas": "3.1.0",
+    "pillow": "13.0.0",
+    "pip": "25.1.1",
+    "POT": "0.9.7.post1",
+    "propcache": "0.5.4",
+    "psutil": "7.2.2",
+    "PuLP": "3.3.2",
+    "pydantic": "2.14.1",
+    "pydantic_core": "2.50.1",
+    "python-dateutil": "2.9.0.post0",
+    "python-dotenv": "1.2.4",
+    "python-Levenshtein": "0.27.5",
+    "PyYAML": "6.0.3",
+    "RapidFuzz": "3.14.6",
+    "referencing": "0.37.0",
+    "regex": "2026.9.29",
+    "requests": "2.34.2",
+    "rpds-py": "2026.9.1",
+    "safetensors": "0.8.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "sentence-transformers": "5.1.1",
+    "setuptools": "78.1.0",
+    "six": "1.17.0",
+    "sniffio": "1.3.1",
+    "sympy": "1.14.0",
+    "threadpoolctl": "3.7.0",
+    "tiktoken": "0.14.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.9.0+cpu",
+    "tqdm": "4.70.1",
+    "transformers": "4.57.1",
+    "typing_extensions": "4.16.0",
+    "typing-inspection": "0.4.4",
+    "tzdata": "2026.6",
+    "urllib3": "2.8.0",
+    "valentine": "0.5.0",
+    "yarl": "1.25.1",
+    "zipp": "4.1.2"
+  },
+  "scope_notes": [
+    "Controlled dense models use exactly matching original query/card text, with required E5 prefix.",
+    "Magneto uses official supported schema-only mode; metadata is a MAPS input adaptation; GPT reranking and GDC fine-tuning are not run.",
+    "Historical phase-2 outputs are not a newly executed phase-2 LLM. Only 18 common questions can be compared.",
+    "Rejection threshold is selected from other source systems; no neural fine-tuning.",
+    "Development evaluation, not blinded external validation."
+  ],
+  "source_sha256": {
+    "run_neural_model_comparison.py": "59bcf33402c14867d61f1c8155a5424bfdc0e53cdf9325e0518c32111cfb19b2",
+    "model_comparison_utils.py": "dc1d3d37d8448a1328bd3c8ca39d318af825d347cc3a9227a68a254675362806"
+  }
+}

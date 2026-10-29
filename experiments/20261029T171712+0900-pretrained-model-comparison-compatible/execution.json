@@ -1,0 +1,157 @@
+{
+  "timestamp": "20261029T171712+0900",
+  "steps": [
+    {
+      "name": "phase2_build",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "build_phase2_upgrade.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "tests",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-v",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "benchmark",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "run_experiments.py",
+        "--out",
+        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "phase2_replay",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "upgrade_adapter.py",
+        "--out",
+        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "phase2_actual_cached_retrieval",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "run_phase2_rag.py",
+        "--out",
+        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "phase2_model_ab_dry_run",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "run_phase2_model_ab.py",
+        "--out",
+        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible",
+        "--max-questions",
+        "5",
+        "--max-requests",
+        "24"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "actual_neural_model_comparison",
+      "command": [
+        "C:\\Users\\최유리\\.codex\\.chatgpt-projects\\g-p-6ad1c67af0f88191a49734bfa61b87d9\\output\\maps-model-runtime\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "run_neural_model_comparison.py",
+        "--out",
+        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "build_phase2_upgrade.py": "46607e5e024bf201f1455bbedd2a1a6c26cf6719f1187edb9fdc60600d6ec7cb",
+    "download_comparison_models.py": "782793ed5e4b8a04682c2f53100a1337d1cba552318dcb19630417032314b3bc",
+    "improved_retrieval.py": "895b9719445320a160a146d402362b7d62cc46cbad461e77c6eaefb92530df85",
+    "model_comparison_utils.py": "dc1d3d37d8448a1328bd3c8ca39d318af825d347cc3a9227a68a254675362806",
+    "prepare_data.py": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf",
+    "record_run.py": "e9fcc10bcd14e96fecaf114f3703235e4c2e61a16ba56162656e3b1a3c29b51c",
+    "run_experiments.py": "8820d84bb43bfe382a9a44f354fc8bc10c72dc0be836cb41a1ffcc06859a8db8",
+    "run_neural_model_comparison.py": "59bcf33402c14867d61f1c8155a5424bfdc0e53cdf9325e0518c32111cfb19b2",
+    "run_phase2_model_ab.py": "de24247d48e43fb9f0597e8cfb545a03385140d9239969946481c36e52be9df9",
+    "run_phase2_rag.py": "186ebcab3b1919e0b58f3ecce74ac37b14a9768e1be7c82dfc9b7412d09d4216",
+    "strict_validation.py": "a34f55795937f658800e283030e2407c405905ec37573c71465fca7132dc7dcf",
+    "test_evaluation.py": "f249598fa90a803ff23854474ef4e4ab7f2963c361ec33273d8965b12875b896",
+    "test_model_ab.py": "7db63dc8a472b985364617ada7a71640c0482d539c46da22a2c196e8d1e39212",
+    "test_model_comparison.py": "1f121a07c3ad4eb97915f417b604718aa259cbdc5f2dcdd86ab07c73936bb356",
+    "test_phase2_rag.py": "8c58024b2aeef5ba058d5d5ad73edfa7a4f07e7afa65db3c46280cc40a60fc51",
+    "upgrade_adapter.py": "0c03c15913378b8a294e1b2079a342ddd2620a59e415494a16b5c6989da6f7be",
+    "maps_policy.json": "e4b1bf883a3d913334d8fb25ccca232fcd88e021dead7533a75437e4901a2e06",
+    "requirements.txt": "d97533ed1bca6179953e61c104ec4520ba5f2ab69c7ce5cb4f214dd914838216",
+    "phase2_original\\data\\10_운영_실행.py": "e182025ea8187a3a2684a9a23020bd8c3db564b7684e268ba245b0cf1976937f",
+    "phase2_original\\data\\maps_rag\\azure_client.py": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83",
+    "phase2_original\\data\\maps_rag\\delta_io.py": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450",
+    "phase2_original\\data\\maps_rag\\delta_io_prod.py": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5",
+    "phase2_original\\data\\maps_rag\\embeddings.py": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc",
+    "phase2_original\\data\\maps_rag\\facts.py": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa",
+    "phase2_original\\data\\maps_rag\\knowledge.py": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a",
+    "phase2_original\\data\\maps_rag\\notebook_common.py": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3",
+    "phase2_original\\data\\maps_rag\\paths.py": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede",
+    "phase2_original\\data\\maps_rag\\recommend.py": "4502c3d3b1630c1f314bc49ed1d1fbb6c6a9ab4d01248967ddc26929ecfa0353",
+    "phase2_original\\data\\maps_rag\\retrieval.py": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0",
+    "phase2_original\\data\\maps_rag\\source_loader.py": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585",
+    "phase2_upgrade\\maps_rag\\azure_client.py": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83",
+    "phase2_upgrade\\maps_rag\\delta_io.py": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450",
+    "phase2_upgrade\\maps_rag\\delta_io_prod.py": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5",
+    "phase2_upgrade\\maps_rag\\embeddings.py": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc",
+    "phase2_upgrade\\maps_rag\\facts.py": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa",
+    "phase2_upgrade\\maps_rag\\knowledge.py": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a",
+    "phase2_upgrade\\maps_rag\\legacy_retrieval.py": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0",
+    "phase2_upgrade\\maps_rag\\notebook_common.py": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3",
+    "phase2_upgrade\\maps_rag\\paths.py": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede",
+    "phase2_upgrade\\maps_rag\\recommend.py": "d8d23cad63fa85c3f2eef05849d8b9605b75596f4f0feeba91ad199073958cdb",
+    "phase2_upgrade\\maps_rag\\retrieval.py": "895b9719445320a160a146d402362b7d62cc46cbad461e77c6eaefb92530df85",
+    "phase2_upgrade\\maps_rag\\source_loader.py": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585",
+    "phase2_upgrade\\maps_rag\\strict_validation.py": "a34f55795937f658800e283030e2407c405905ec37573c71465fca7132dc7dcf",
+    "third_party\\magneto_full\\magneto\\basic_matcher.py": "057f9d9062caffea596c42cdd9c8014460eca3a6d62cce68341c55faeaa7430a",
+    "third_party\\magneto_full\\magneto\\bp_reranker.py": "e623d14052f69b48ca0f87f15c92619a048dc7944b21e43c40bd97b7631cce0c",
+    "third_party\\magneto_full\\magneto\\column_encoder.py": "c0136ea8cdb9cf489956f9bd93b020a7ae5bdb3262b247107b2e79c61f551f97",
+    "third_party\\magneto_full\\magneto\\embedding_matcher.py": "ece5173b29c54a87d59a4decb3dcd7f1db74a8d1df3fa8121118998bce09dc0a",
+    "third_party\\magneto_full\\magneto\\llm_reranker.py": "29486a1c9a6df964834109bf66df9679d91aa58885654f27d1c309e91ec60083",
+    "third_party\\magneto_full\\magneto\\magneto.py": "633cee3c15b93ab7b7dfcd2978ba2da5d6d68e85f85ce9f19fe66d004d5edbc0",
+    "third_party\\magneto_full\\magneto\\retriever.py": "ea6950cc84e0affb305c4456190e11b554164a648d450d34ebcafbd944b05f6f",
+    "third_party\\magneto_full\\magneto\\__init__.py": "34f62cd63749e04a2a38e5e284adfefe3ad7ede9a893c53db1b58df029ffb36d",
+    "third_party\\magneto_full\\magneto\\utils\\base_column.py": "d9a5264335286fec9a6c85918f8617e6cb92facaecd989ac4c1fd19c41e5753f",
+    "third_party\\magneto_full\\magneto\\utils\\base_table.py": "3308a2cc41beb1fe132a3a77d17209d011b19e45fbbf40a399a00a9bb1d9c039",
+    "third_party\\magneto_full\\magneto\\utils\\constants.py": "f342ec8676456da68bbadcd70ea7de9221ec6bf3911aa16f61ac431199580091",
+    "third_party\\magneto_full\\magneto\\utils\\dataframe_column.py": "c08263ebb59861dbef82ca796d9b990e295b9197286e645f2a22a03045378033",
+    "third_party\\magneto_full\\magneto\\utils\\dataframe_table.py": "a9dbe26c39029b0bb49568da5a0e30651c304f0b7ed8361df5eebb5b48dcb6a7",
+    "third_party\\magneto_full\\magneto\\utils\\embedding_utils.py": "0ccc70814147c9fb313ff90de881e9dbd0f60ea79e20e5cf666cef4301cfc40b",
+    "third_party\\magneto_full\\magneto\\utils\\retriever_utils.py": "c180657e6d60eff88947dd1b1a88a46572aec5db6d81118703347cd0f593b94a",
+    "third_party\\magneto_full\\magneto\\utils\\utils.py": "71981cd97198576d8da5d370a250bb156462433d0558345fef8450689dfcfba0",
+    "third_party\\magneto_full\\magneto\\utils\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "parent_commit": "19d5a590eb886b09d0a3126451c0ecf2d3357540"
+}

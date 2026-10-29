@@ -1,0 +1,10 @@
+Collecting valentine==0.5.0
+  Downloading valentine-0.5.0-py3-none-any.whl.metadata (27 kB)
+Downloading valentine-0.5.0-py3-none-any.whl (38.3 MB)
+   ---------------------------------------- 38.3/38.3 MB 5.0 MB/s eta 0:00:00
+Installing collected packages: valentine
+  Attempting uninstall: valentine
+    Found existing installation: valentine 1.1.0
+    Uninstalling valentine-1.1.0:
+      Successfully uninstalled valentine-1.1.0
+Successfully installed valentine-0.5.0

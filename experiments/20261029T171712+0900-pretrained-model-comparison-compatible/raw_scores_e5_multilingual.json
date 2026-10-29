@@ -1,0 +1,4382 @@
+{
+  "dense_e5_multilingual": [
+    {
+      "id": "CHATBOT|session|app_version",
+      "query_id": "Q100",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "app_version",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8945416808128357
+    },
+    {
+      "id": "CHATBOT|session|channel",
+      "query_id": "Q097",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "channel",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.89046710729599
+    },
+    {
+      "id": "CHATBOT|session|customer_id",
+      "query_id": "Q106",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "customer_id",
+      "gold": [
+        "COUNSEL.CUST_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9034598469734192
+    },
+    {
+      "id": "CHATBOT|session|device_type",
+      "query_id": "Q098",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "device_type",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8865606188774109
+    },
+    {
+      "id": "CHATBOT|session|duration_seconds",
+      "query_id": "Q103",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "duration_seconds",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8821197152137756
+    },
+    {
+      "id": "CHATBOT|session|ended_at",
+      "query_id": "Q102",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "ended_at",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9101227521896362
+    },
+    {
+      "id": "CHATBOT|session|entry_login_status",
+      "query_id": "Q104",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "entry_login_status",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8871780633926392
+    },
+    {
+      "id": "CHATBOT|session|free_text_queries[].query",
+      "query_id": "Q110",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "free_text_queries[].query",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.LANG_CD"
+      ],
+      "score": 0.8789655566215515
+    },
+    {
+      "id": "CHATBOT|session|intent_category_guess",
+      "query_id": "Q107",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "intent_category_guess",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8971031904220581
+    },
+    {
+      "id": "CHATBOT|session|is_logged_in",
+      "query_id": "Q105",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "is_logged_in",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8838605880737305
+    },
+    {
+      "id": "CHATBOT|session|os",
+      "query_id": "Q099",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "os",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8887765407562256
+    },
+    {
+      "id": "CHATBOT|session|product_interest.product_code",
+      "query_id": "Q108",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "product_interest.product_code",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.891926646232605
+    },
+    {
+      "id": "CHATBOT|session|session_id",
+      "query_id": "Q096",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "session_id",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8939199447631836
+    },
+    {
+      "id": "CHATBOT|session|started_at",
+      "query_id": "Q101",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "started_at",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8863320350646973
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|ANSWER_DUE_DT",
+      "query_id": "Q072",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "ANSWER_DUE_DT",
+      "gold": [
+        "COMPLAINT.ANS_DUE_DTM"
+      ],
+      "ranked": [
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9090328812599182
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_CONTENT",
+      "query_id": "Q064",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_CONTENT",
+      "gold": [
+        "COMPLAINT.CMPL_CNTNT"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID"
+      ],
+      "score": 0.9262699484825134
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_ID",
+      "query_id": "Q057",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_ID",
+      "gold": [
+        "COMPLAINT.CMPL_ID"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9346138834953308
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_TITLE",
+      "query_id": "Q063",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_TITLE",
+      "gold": [
+        "COMPLAINT.CMPL_TTL"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CUST_ID"
+      ],
+      "score": 0.9308136105537415
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_TP",
+      "query_id": "Q062",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_TP",
+      "gold": [
+        "COMPLAINT.CMPL_TYPE_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CUST_ID"
+      ],
+      "score": 0.9298804402351379
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|CONTACT_EMAIL",
+      "query_id": "Q073",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "CONTACT_EMAIL",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9109998345375061
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|CONTACT_TEL",
+      "query_id": "Q074",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "CONTACT_TEL",
+      "gold": [
+        "COMPLAINT.RCV_CNTC_TEL_NO"
+      ],
+      "ranked": [
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.ANS_DUE_DTM"
+      ],
+      "score": 0.9056972861289978
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|CUST_ID",
+      "query_id": "Q058",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "CUST_ID",
+      "gold": [
+        "COMPLAINT.CUST_ID"
+      ],
+      "ranked": [
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.ANS_DUE_DTM"
+      ],
+      "score": 0.9224883317947388
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|FSS_CASE_NO",
+      "query_id": "Q068",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "FSS_CASE_NO",
+      "gold": [
+        "COMPLAINT.FSS_CASE_NO"
+      ],
+      "ranked": [
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.PRD_ID"
+      ],
+      "score": 0.9188734292984009
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|FSS_RELATED_YN",
+      "query_id": "Q067",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "FSS_RELATED_YN",
+      "gold": [
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "ranked": [
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM"
+      ],
+      "score": 0.9384862780570984
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|INBOUND_PRODUCT_CODE",
+      "query_id": "Q060",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "INBOUND_PRODUCT_CODE",
+      "gold": [
+        "COMPLAINT.PRD_ID"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM"
+      ],
+      "score": 0.8862508535385132
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|LANG_CD",
+      "query_id": "Q065",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "LANG_CD",
+      "gold": [
+        "COMPLAINT.LANG_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CUST_ID"
+      ],
+      "score": 0.9174667000770569
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PROCESS_ST",
+      "query_id": "Q070",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "PROCESS_ST",
+      "gold": [
+        "COMPLAINT.PROC_ST_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CUST_ID"
+      ],
+      "score": 0.9160875082015991
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PRODUCT_CODE_MATCH_STATUS",
+      "query_id": "Q061",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "PRODUCT_CODE_MATCH_STATUS",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.8917809128761292
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PRODUCT_GB",
+      "query_id": "Q059",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "PRODUCT_GB",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.ANS_DUE_DTM"
+      ],
+      "score": 0.902047336101532
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|RCV_PATH",
+      "query_id": "Q066",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "RCV_PATH",
+      "gold": [
+        "COMPLAINT.RCV_PATH_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CUST_ID"
+      ],
+      "score": 0.9269683361053467
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|REG_DT",
+      "query_id": "Q071",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "REG_DT",
+      "gold": [
+        "COMPLAINT.REG_DTM"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9207482933998108
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|SENTIMENT_REF",
+      "query_id": "Q069",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "SENTIMENT_REF",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.ANS_DUE_DTM"
+      ],
+      "score": 0.9022334814071655
+    },
+    {
+      "id": "INBOUND|consultation|agent_id",
+      "query_id": "Q019",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "agent_id",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.9121465086936951
+    },
+    {
+      "id": "INBOUND|consultation|agent_name",
+      "query_id": "Q020",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "agent_name",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.903880774974823
+    },
+    {
+      "id": "INBOUND|consultation|ars_menu",
+      "query_id": "Q003",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "ars_menu",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8981127142906189
+    },
+    {
+      "id": "INBOUND|consultation|consultation_content",
+      "query_id": "Q022",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "consultation_content",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9075352549552917
+    },
+    {
+      "id": "INBOUND|consultation|consultation_id",
+      "query_id": "Q001",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "consultation_id",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.9123129844665527
+    },
+    {
+      "id": "INBOUND|consultation|consultation_type",
+      "query_id": "Q004",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "consultation_type",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9178142547607422
+    },
+    {
+      "id": "INBOUND|consultation|customer_id",
+      "query_id": "Q008",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "customer_id",
+      "gold": [
+        "COUNSEL.CUST_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9156587719917297
+    },
+    {
+      "id": "INBOUND|consultation|ended_at",
+      "query_id": "Q006",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "ended_at",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.9139461517333984
+    },
+    {
+      "id": "INBOUND|consultation|inbound_type",
+      "query_id": "Q002",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "inbound_type",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.907751202583313
+    },
+    {
+      "id": "INBOUND|consultation|product_code",
+      "query_id": "Q018",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "product_code",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9035096168518066
+    },
+    {
+      "id": "INBOUND|consultation|started_at",
+      "query_id": "Q005",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "started_at",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.9019783735275269
+    },
+    {
+      "id": "INBOUND|consultation|status",
+      "query_id": "Q007",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "status",
+      "gold": [
+        "COUNSEL.CNSL_ST_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9156981706619263
+    },
+    {
+      "id": "INBOUND|consultation|team_name",
+      "query_id": "Q021",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "team_name",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.9084910750389099
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|APPL_NO",
+      "query_id": "Q053",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "APPL_NO",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8939482569694519
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CALL_CONN_DTM",
+      "query_id": "Q039",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CALL_CONN_DTM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8992719054222107
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CALL_END_DTM",
+      "query_id": "Q040",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CALL_END_DTM",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.9042434692382812
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CALL_ST_DTM",
+      "query_id": "Q038",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CALL_ST_DTM",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8993664979934692
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CMPGN_CD",
+      "query_id": "Q032",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CMPGN_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8894135355949402
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CNTR_PRGS_CD",
+      "query_id": "Q054",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CNTR_PRGS_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9004929065704346
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CONN_RSLT_CD",
+      "query_id": "Q041",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CONN_RSLT_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.9037563800811768
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CSLT_NOTE",
+      "query_id": "Q046",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CSLT_NOTE",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8966358304023743
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CSLT_TP_CD",
+      "query_id": "Q044",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CSLT_TP_CD",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.908220112323761
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CTI_ID",
+      "query_id": "Q035",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CTI_ID",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8968421220779419
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DB_ACQ_DTM",
+      "query_id": "Q030",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DB_ACQ_DTM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8837793469429016
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DB_ACQ_PATH_CD",
+      "query_id": "Q029",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DB_ACQ_PATH_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8862987756729126
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DB_ST_CD",
+      "query_id": "Q031",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DB_ST_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8888275027275085
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DNC_YN",
+      "query_id": "Q052",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DNC_YN",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8804624676704407
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|GD_CD",
+      "query_id": "Q033",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "GD_CD",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8986361026763916
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|GD_NM",
+      "query_id": "Q034",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "GD_NM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8821476101875305
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|LEAD_MGMT_NO",
+      "query_id": "Q028",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "LEAD_MGMT_NO",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8915954828262329
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|MKT_AGR_YN",
+      "query_id": "Q050",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "MKT_AGR_YN",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.870110034942627
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|MN_PREM",
+      "query_id": "Q055",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "MN_PREM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8774251937866211
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|REC_AGR_YN",
+      "query_id": "Q051",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "REC_AGR_YN",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8692305088043213
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|REC_URI",
+      "query_id": "Q049",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "REC_URI",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8809625506401062
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|RJT_RSN_CD",
+      "query_id": "Q045",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "RJT_RSN_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8877747654914856
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|R_CALL_RSV_DTM",
+      "query_id": "Q047",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "R_CALL_RSV_DTM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8859649300575256
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|STT_TXT",
+      "query_id": "Q048",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "STT_TXT",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.878688395023346
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TALK_TM",
+      "query_id": "Q042",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TALK_TM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8773183226585388
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TMR_ID",
+      "query_id": "Q036",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TMR_ID",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9049854874610901
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TM_RSLT_CD",
+      "query_id": "Q043",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TM_RSLT_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8974210023880005
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TRY_CNT",
+      "query_id": "Q037",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TRY_CNT",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8701795935630798
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Access_Path__c",
+      "query_id": "Q084",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Access_Path__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8817173838615417
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consent_Yn__c",
+      "query_id": "Q091",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consent_Yn__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8864973783493042
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consult_Category__c",
+      "query_id": "Q082",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consult_Category__c",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8942558765411377
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consult_Content__c",
+      "query_id": "Q083",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consult_Content__c",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9062439799308777
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consult_Datetime__c",
+      "query_id": "Q092",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consult_Datetime__c",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8896844387054443
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consultation_No__c",
+      "query_id": "Q076",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consultation_No__c",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8951870799064636
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Country_Code__c",
+      "query_id": "Q089",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Country_Code__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8828646540641785
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|CreatedDate",
+      "query_id": "Q093",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "CreatedDate",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8849268555641174
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Customer_Id__c",
+      "query_id": "Q081",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Customer_Id__c",
+      "gold": [
+        "COUNSEL.CUST_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8932325839996338
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Customer_Type__c",
+      "query_id": "Q080",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Customer_Type__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8953204154968262
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Device_Type__c",
+      "query_id": "Q086",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Device_Type__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8874806761741638
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Id",
+      "query_id": "Q075",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Id",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8862307071685791
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Inbound_Product_Code__c",
+      "query_id": "Q078",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Inbound_Product_Code__c",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8700565099716187
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Inbound_Product_Match_Status__c",
+      "query_id": "Q079",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Inbound_Product_Match_Status__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID"
+      ],
+      "score": 0.8867349028587341
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Language_Code__c",
+      "query_id": "Q085",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Language_Code__c",
+      "gold": [
+        "COUNSEL.LANG_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8977575898170471
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|LastModifiedDate",
+      "query_id": "Q094",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "LastModifiedDate",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8895994424819946
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Process_Status__c",
+      "query_id": "Q090",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Process_Status__c",
+      "gold": [
+        "COUNSEL.CNSL_ST_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.892444908618927
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Product_Code__c",
+      "query_id": "Q077",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Product_Code__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8774092197418213
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Referrer_Channel__c",
+      "query_id": "Q087",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Referrer_Channel__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.887043297290802
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Session_Id__c",
+      "query_id": "Q088",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Session_Id__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8830211758613586
+    }
+  ],
+  "magneto_e5_multilingual_metadata": [
+    {
+      "id": "CHATBOT|session|app_version",
+      "query_id": "Q100",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "app_version",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8814769387245178
+    },
+    {
+      "id": "CHATBOT|session|channel",
+      "query_id": "Q097",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "channel",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9336031079292297
+    },
+    {
+      "id": "CHATBOT|session|customer_id",
+      "query_id": "Q106",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "customer_id",
+      "gold": [
+        "COUNSEL.CUST_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9233474135398865
+    },
+    {
+      "id": "CHATBOT|session|device_type",
+      "query_id": "Q098",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "device_type",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8137767897892902
+    },
+    {
+      "id": "CHATBOT|session|duration_seconds",
+      "query_id": "Q103",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "duration_seconds",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8039049459905682
+    },
+    {
+      "id": "CHATBOT|session|ended_at",
+      "query_id": "Q102",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "ended_at",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.909980833530426
+    },
+    {
+      "id": "CHATBOT|session|entry_login_status",
+      "query_id": "Q104",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "entry_login_status",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8856983184814453
+    },
+    {
+      "id": "CHATBOT|session|free_text_queries[].query",
+      "query_id": "Q110",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "free_text_queries[].query",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8946749567985535
+    },
+    {
+      "id": "CHATBOT|session|intent_category_guess",
+      "query_id": "Q107",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "intent_category_guess",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9028533101081848
+    },
+    {
+      "id": "CHATBOT|session|is_logged_in",
+      "query_id": "Q105",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "is_logged_in",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8528474569320679
+    },
+    {
+      "id": "CHATBOT|session|os",
+      "query_id": "Q099",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "os",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.9012700319290161
+    },
+    {
+      "id": "CHATBOT|session|product_interest.product_code",
+      "query_id": "Q108",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "product_interest.product_code",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8146637034826435
+    },
+    {
+      "id": "CHATBOT|session|session_id",
+      "query_id": "Q096",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "session_id",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.9103680849075317
+    },
+    {
+      "id": "CHATBOT|session|started_at",
+      "query_id": "Q101",
+      "system": "CHATBOT",
+      "table": "session",
+      "column": "started_at",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8915693759918213
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|ANSWER_DUE_DT",
+      "query_id": "Q072",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "ANSWER_DUE_DT",
+      "gold": [
+        "COMPLAINT.ANS_DUE_DTM"
+      ],
+      "ranked": [
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9417967796325684
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_CONTENT",
+      "query_id": "Q064",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_CONTENT",
+      "gold": [
+        "COMPLAINT.CMPL_CNTNT"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9250451326370239
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_ID",
+      "query_id": "Q057",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_ID",
+      "gold": [
+        "COMPLAINT.CMPL_ID"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9375334978103638
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_TITLE",
+      "query_id": "Q063",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_TITLE",
+      "gold": [
+        "COMPLAINT.CMPL_TTL"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9334275722503662
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_TP",
+      "query_id": "Q062",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "COMPLAINT_TP",
+      "gold": [
+        "COMPLAINT.CMPL_TYPE_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9434605240821838
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|CONTACT_EMAIL",
+      "query_id": "Q073",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "CONTACT_EMAIL",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.8595352072638666
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|CONTACT_TEL",
+      "query_id": "Q074",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "CONTACT_TEL",
+      "gold": [
+        "COMPLAINT.RCV_CNTC_TEL_NO"
+      ],
+      "ranked": [
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9201836585998535
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|CUST_ID",
+      "query_id": "Q058",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "CUST_ID",
+      "gold": [
+        "COMPLAINT.CUST_ID"
+      ],
+      "ranked": [
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.CMPL_CNTNT"
+      ],
+      "score": 0.9338286519050598
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|FSS_CASE_NO",
+      "query_id": "Q068",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "FSS_CASE_NO",
+      "gold": [
+        "COMPLAINT.FSS_CASE_NO"
+      ],
+      "ranked": [
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.PRD_ID"
+      ],
+      "score": 0.9648435711860657
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|FSS_RELATED_YN",
+      "query_id": "Q067",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "FSS_RELATED_YN",
+      "gold": [
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "ranked": [
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.PRD_ID"
+      ],
+      "score": 0.9152829647064209
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|INBOUND_PRODUCT_CODE",
+      "query_id": "Q060",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "INBOUND_PRODUCT_CODE",
+      "gold": [
+        "COMPLAINT.PRD_ID"
+      ],
+      "ranked": [
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_CNTNT"
+      ],
+      "score": 0.8447986835400211
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|LANG_CD",
+      "query_id": "Q065",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "LANG_CD",
+      "gold": [
+        "COMPLAINT.LANG_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.984016478061676
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PROCESS_ST",
+      "query_id": "Q070",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "PROCESS_ST",
+      "gold": [
+        "COMPLAINT.PROC_ST_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9514958262443542
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PRODUCT_CODE_MATCH_STATUS",
+      "query_id": "Q061",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "PRODUCT_CODE_MATCH_STATUS",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_CNTNT"
+      ],
+      "score": 0.8386247065311419
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PRODUCT_GB",
+      "query_id": "Q059",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "PRODUCT_GB",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_RLTD_YN",
+        "COMPLAINT.CMPL_CNTNT"
+      ],
+      "score": 0.9062299728393555
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|RCV_PATH",
+      "query_id": "Q066",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "RCV_PATH",
+      "gold": [
+        "COMPLAINT.RCV_PATH_CD"
+      ],
+      "ranked": [
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9687953591346741
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|REG_DT",
+      "query_id": "Q071",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "REG_DT",
+      "gold": [
+        "COMPLAINT.REG_DTM"
+      ],
+      "ranked": [
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.9361456036567688
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|SENTIMENT_REF",
+      "query_id": "Q069",
+      "system": "HOMEPAGE",
+      "table": "homepage_complaint",
+      "column": "SENTIMENT_REF",
+      "gold": [],
+      "ranked": [
+        "COMPLAINT.PROC_ST_CD",
+        "COMPLAINT.RCV_PATH_CD",
+        "COMPLAINT.LANG_CD",
+        "COMPLAINT.RCV_CNTC_TEL_NO",
+        "COMPLAINT.CMPL_TYPE_CD",
+        "COMPLAINT.CMPL_ID",
+        "COMPLAINT.FSS_CASE_NO",
+        "COMPLAINT.CMPL_TTL",
+        "COMPLAINT.PRD_ID",
+        "COMPLAINT.CUST_ID",
+        "COMPLAINT.REG_DTM",
+        "COMPLAINT.ANS_DUE_DTM",
+        "COMPLAINT.CMPL_CNTNT",
+        "COMPLAINT.FSS_RLTD_YN"
+      ],
+      "score": 0.8587277064025863
+    },
+    {
+      "id": "INBOUND|consultation|agent_id",
+      "query_id": "Q019",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "agent_id",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.954345166683197
+    },
+    {
+      "id": "INBOUND|consultation|agent_name",
+      "query_id": "Q020",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "agent_name",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8996790051460266
+    },
+    {
+      "id": "INBOUND|consultation|ars_menu",
+      "query_id": "Q003",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "ars_menu",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.9049335718154907
+    },
+    {
+      "id": "INBOUND|consultation|consultation_content",
+      "query_id": "Q022",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "consultation_content",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9273689985275269
+    },
+    {
+      "id": "INBOUND|consultation|consultation_id",
+      "query_id": "Q001",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "consultation_id",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9434255361557007
+    },
+    {
+      "id": "INBOUND|consultation|consultation_type",
+      "query_id": "Q004",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "consultation_type",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8674870415805173
+    },
+    {
+      "id": "INBOUND|consultation|customer_id",
+      "query_id": "Q008",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "customer_id",
+      "gold": [
+        "COUNSEL.CUST_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9341533184051514
+    },
+    {
+      "id": "INBOUND|consultation|ended_at",
+      "query_id": "Q006",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "ended_at",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9469453692436218
+    },
+    {
+      "id": "INBOUND|consultation|inbound_type",
+      "query_id": "Q002",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "inbound_type",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8864453434944153
+    },
+    {
+      "id": "INBOUND|consultation|product_code",
+      "query_id": "Q018",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "product_code",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.9134582877159119
+    },
+    {
+      "id": "INBOUND|consultation|started_at",
+      "query_id": "Q005",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "started_at",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9118443727493286
+    },
+    {
+      "id": "INBOUND|consultation|status",
+      "query_id": "Q007",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "status",
+      "gold": [
+        "COUNSEL.CNSL_ST_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9421591758728027
+    },
+    {
+      "id": "INBOUND|consultation|team_name",
+      "query_id": "Q021",
+      "system": "INBOUND",
+      "table": "consultation",
+      "column": "team_name",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8636175413782415
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|APPL_NO",
+      "query_id": "Q053",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "APPL_NO",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8368426427719267
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CALL_CONN_DTM",
+      "query_id": "Q039",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CALL_CONN_DTM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8502773530901705
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CALL_END_DTM",
+      "query_id": "Q040",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CALL_END_DTM",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9612094163894653
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CALL_ST_DTM",
+      "query_id": "Q038",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CALL_ST_DTM",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9490534663200378
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CMPGN_CD",
+      "query_id": "Q032",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CMPGN_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.849669242211182
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CNTR_PRGS_CD",
+      "query_id": "Q054",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CNTR_PRGS_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9115036725997925
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CONN_RSLT_CD",
+      "query_id": "Q041",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CONN_RSLT_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.8808737397193909
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CSLT_NOTE",
+      "query_id": "Q046",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CSLT_NOTE",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8591687169938428
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CSLT_TP_CD",
+      "query_id": "Q044",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CSLT_TP_CD",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM"
+      ],
+      "score": 0.9531905055046082
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|CTI_ID",
+      "query_id": "Q035",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "CTI_ID",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.9101623296737671
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DB_ACQ_DTM",
+      "query_id": "Q030",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DB_ACQ_DTM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8389113287105422
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DB_ACQ_PATH_CD",
+      "query_id": "Q029",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DB_ACQ_PATH_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8361911620640674
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DB_ST_CD",
+      "query_id": "Q031",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DB_ST_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8418748055868335
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|DNC_YN",
+      "query_id": "Q052",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "DNC_YN",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8163808124092407
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|GD_CD",
+      "query_id": "Q033",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "GD_CD",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.9459741115570068
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|GD_NM",
+      "query_id": "Q034",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "GD_NM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8880706429481506
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|LEAD_MGMT_NO",
+      "query_id": "Q028",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "LEAD_MGMT_NO",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8344790419969902
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|MKT_AGR_YN",
+      "query_id": "Q050",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "MKT_AGR_YN",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.818617268217513
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|MN_PREM",
+      "query_id": "Q055",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "MN_PREM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8187232223563997
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|REC_AGR_YN",
+      "query_id": "Q051",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "REC_AGR_YN",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8165783921739314
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|REC_URI",
+      "query_id": "Q049",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "REC_URI",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8330859921139593
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|RJT_RSN_CD",
+      "query_id": "Q045",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "RJT_RSN_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8312655023732228
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|R_CALL_RSV_DTM",
+      "query_id": "Q047",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "R_CALL_RSV_DTM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8427310577651835
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|STT_TXT",
+      "query_id": "Q048",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "STT_TXT",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9163350462913513
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TALK_TM",
+      "query_id": "Q042",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TALK_TM",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8172690704233269
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TMR_ID",
+      "query_id": "Q036",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TMR_ID",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9468483328819275
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TM_RSLT_CD",
+      "query_id": "Q043",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TM_RSLT_CD",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9376450181007385
+    },
+    {
+      "id": "OUTBOUND|tm_source_export|TRY_CNT",
+      "query_id": "Q037",
+      "system": "OUTBOUND",
+      "table": "TM_SOURCE_EXPORT",
+      "column": "TRY_CNT",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8188679348486823
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Access_Path__c",
+      "query_id": "Q084",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Access_Path__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8280164890223173
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consent_Yn__c",
+      "query_id": "Q091",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consent_Yn__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8334018792833164
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consult_Category__c",
+      "query_id": "Q082",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consult_Category__c",
+      "gold": [
+        "COUNSEL.CNSL_TYPE_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.920767605304718
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consult_Content__c",
+      "query_id": "Q083",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consult_Content__c",
+      "gold": [
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9253766536712646
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consult_Datetime__c",
+      "query_id": "Q092",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consult_Datetime__c",
+      "gold": [
+        "COUNSEL.STRT_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8934746980667114
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Consultation_No__c",
+      "query_id": "Q076",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Consultation_No__c",
+      "gold": [
+        "COUNSEL.CNSL_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM"
+      ],
+      "score": 0.8802134990692139
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Country_Code__c",
+      "query_id": "Q089",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Country_Code__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8378359163106138
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|CreatedDate",
+      "query_id": "Q093",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "CreatedDate",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8204721139024378
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Customer_Id__c",
+      "query_id": "Q081",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Customer_Id__c",
+      "gold": [
+        "COUNSEL.CUST_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.912988007068634
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Customer_Type__c",
+      "query_id": "Q080",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Customer_Type__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9179458618164062
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Device_Type__c",
+      "query_id": "Q086",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Device_Type__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.8192585570854078
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Id",
+      "query_id": "Q075",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Id",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8791930079460144
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Inbound_Product_Code__c",
+      "query_id": "Q078",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Inbound_Product_Code__c",
+      "gold": [
+        "COUNSEL.PRD_ID"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8182422482438404
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Inbound_Product_Match_Status__c",
+      "query_id": "Q079",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Inbound_Product_Match_Status__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CNSL_CNTNT"
+      ],
+      "score": 0.8133645970864392
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Language_Code__c",
+      "query_id": "Q085",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Language_Code__c",
+      "gold": [
+        "COUNSEL.LANG_CD"
+      ],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.9135750532150269
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|LastModifiedDate",
+      "query_id": "Q094",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "LastModifiedDate",
+      "gold": [
+        "COUNSEL.END_DTM"
+      ],
+      "ranked": [
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9006465673446655
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Process_Status__c",
+      "query_id": "Q090",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Process_Status__c",
+      "gold": [
+        "COUNSEL.CNSL_ST_CD"
+      ],
+      "ranked": [
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.END_DTM",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.9111184477806091
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Product_Code__c",
+      "query_id": "Q077",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Product_Code__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.CNTR_ID"
+      ],
+      "score": 0.823585442278758
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Referrer_Channel__c",
+      "query_id": "Q087",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Referrer_Channel__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CHNL_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.PRD_ID"
+      ],
+      "score": 0.8248509968074553
+    },
+    {
+      "id": "SALESFORCE|insurance_consultation__c|Session_Id__c",
+      "query_id": "Q088",
+      "system": "SALESFORCE",
+      "table": "Insurance_Consultation__c",
+      "column": "Session_Id__c",
+      "gold": [],
+      "ranked": [
+        "COUNSEL.CNTR_ID",
+        "COUNSEL.CNSL_ID",
+        "COUNSEL.CUST_ID",
+        "COUNSEL.CNSL_TYPE_CD",
+        "COUNSEL.LANG_CD",
+        "COUNSEL.PRD_ID",
+        "COUNSEL.CNSL_ST_CD",
+        "COUNSEL.STRT_DTM",
+        "COUNSEL.END_DTM",
+        "COUNSEL.CNSL_CNTNT",
+        "COUNSEL.CNSL_CHNL_CD"
+      ],
+      "score": 0.8676282167434692
+    }
+  ]
+}

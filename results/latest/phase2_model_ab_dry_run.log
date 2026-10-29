@@ -16,4 +16,3 @@
   "comparison": "Original recommend_v2 vs strict recommend_v2; same corpus, cached embeddings, weighted fusion and deployment.",
   "sampling_note": "A small round-robin run is a smoke test; full-scope results and independent validation are required."
 }
-

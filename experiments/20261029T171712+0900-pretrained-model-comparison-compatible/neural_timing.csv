@@ -1,0 +1,14 @@
+﻿stage,model,seconds,texts
+load_model,mpnet,0.23299699999915902,0
+download_model,mpnet,61.070151399999304,0
+real_forward_common_inputs,mpnet,42.371059299999615,118
+official_magneto_header_only,mpnet,4.6904224999998405,151
+official_magneto_with_metadata,mpnet,17.181027599999652,151
+load_model,e5_multilingual,3.254490399998758,0
+download_model,e5_multilingual,66.56857430000309,0
+real_forward_common_inputs,e5_multilingual,8.105877199999668,118
+official_magneto_with_metadata,e5_multilingual,3.0510310999998183,151
+load_model,ko_sroberta,1.061686599998211,0
+download_model,ko_sroberta,51.158184200001415,0
+real_forward_common_inputs,ko_sroberta,26.995964900001127,118
+official_magneto_with_metadata,ko_sroberta,11.007189100000687,151
