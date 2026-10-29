@@ -4,6 +4,7 @@ from pathlib import Path
 import requests
 
 MODEL_IDS={'mpnet':'sentence-transformers/all-mpnet-base-v2','e5_multilingual':'intfloat/multilingual-e5-small','ko_sroberta':'jhgan/ko-sroberta-multitask'}
+MODEL_REVISIONS={'mpnet':'e8c3b32edf5434bc2275fc9bab85f82640a19130','e5_multilingual':'614241f622f53c4eeff9890bdc4f31cfecc418b3','ko_sroberta':'8fca7c9c98c26599be0e14b9916b11a756a26f19'}
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',required=True);a=p.parse_args();root=Path(a.root);root.mkdir(parents=True,exist_ok=True)
@@ -11,7 +12,8 @@ def main():
     if registry_path.exists():registry=json.loads(registry_path.read_text(encoding='utf-8'))
     for key,repo in MODEL_IDS.items():
         start=time.perf_counter();meta=requests.get('https://huggingface.co/api/models/'+repo,timeout=45);meta.raise_for_status();meta=meta.json()
-        revision=registry.get(key,{}).get('revision') or meta['sha'];destination=root/key
+        revision=MODEL_REVISIONS[key];destination=root/key
+        if registry.get(key,{}).get('revision',revision)!=revision:raise RuntimeError('Existing model revision differs from pinned experiment: '+key)
         file_meta=requests.get('https://huggingface.co/api/models/'+repo+'/revision/'+revision,timeout=45);file_meta.raise_for_status();file_meta=file_meta.json()
         names=[f['rfilename'] for f in file_meta['siblings']]
         weight='model.safetensors' if 'model.safetensors' in names else 'pytorch_model.bin'
