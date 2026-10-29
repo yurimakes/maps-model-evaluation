@@ -1,0 +1,72 @@
+{
+  "baseline": "2차 저장 출력 · self_consistency_raw_fixed.csv · first_rep",
+  "candidate": "magneto_e5_multilingual_metadata",
+  "common_questions": 18,
+  "baseline_metrics": {
+    "questions": 18,
+    "positive_questions": 14,
+    "accuracy": 0.8888888888888888,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1": 0.923076923076923,
+    "rank_top1": 0.8571428571428571,
+    "rank_top5": 0.8571428571428571,
+    "tp": 12,
+    "fp": 0,
+    "fn": 2,
+    "proposals": 12
+  },
+  "candidate_metrics": {
+    "questions": 18,
+    "positive_questions": 14,
+    "accuracy": 0.8888888888888888,
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1": 0.9285714285714286,
+    "rank_top1": 1.0,
+    "rank_top5": 1.0,
+    "tp": 13,
+    "fp": 1,
+    "fn": 1,
+    "proposals": 14
+  },
+  "f1_delta": 0.005494505494505586,
+  "precision_delta": -0.0714285714285714,
+  "recall_delta": 0.07142857142857151,
+  "paired_question_bootstrap_95_interval": [
+    -0.10981802085382641,
+    0.11936339522546435
+  ],
+  "bootstrap_seed": 42,
+  "bootstrap_resamples": 2000,
+  "limitations": "Descriptive question bootstrap on the same 18 development questions in one source system; does not establish external generalization.",
+  "changes": [
+    {
+      "id": "HOMEPAGE|homepage_complaint|COMPLAINT_TP",
+      "column": "COMPLAINT_TP",
+      "gold": [
+        "COMPLAINT.CMPL_TYPE_CD"
+      ],
+      "baseline": [],
+      "e5": [
+        "COMPLAINT.CMPL_TYPE_CD"
+      ]
+    },
+    {
+      "id": "HOMEPAGE|homepage_complaint|PRODUCT_GB",
+      "column": "PRODUCT_GB",
+      "gold": [],
+      "baseline": [],
+      "e5": [
+        "COMPLAINT.PRD_ID"
+      ]
+    }
+  ],
+  "decision": "Prioritize clear source/target metadata and multilingual E5 candidate support; retain phase-2 final validation/HITL; do not claim a wholesale model replacement improves precision.",
+  "input_sha256": {
+    "neural_predictions.csv": "c9a7c2fd8abe50f875918fec98d9d2b31a2e78380a46d664fb5a92116bd13e2b",
+    "neural_model_metrics.csv": "b5893e4814dc4058b86f2a9ff423740ccad9c79d64f3eeeba8b576f9d6cf534a",
+    "neural_common18_metrics.csv": "59fe3359b5adb0db75eef49ee1543ddcd2acac406f2340b93db0315373f03ad9",
+    "neural_execution.json": "70045357f76f3d3be5a3685ce1ab38baa374499eaafb3d258ad947e961838a9d"
+  }
+}

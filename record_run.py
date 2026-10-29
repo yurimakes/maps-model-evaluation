@@ -5,7 +5,7 @@ from pathlib import Path
 HERE=Path(__file__).resolve().parent
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--label',default='local');p.add_argument('--commit',action='store_true');p.add_argument('--push',action='store_true');p.add_argument('--model-ab-api',action='store_true');p.add_argument('--model-ab-questions',type=int,default=5);p.add_argument('--model-ab-max-requests',type=int,default=24);p.add_argument('--local-models',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--label',default='local');p.add_argument('--commit',action='store_true');p.add_argument('--push',action='store_true');p.add_argument('--model-ab-api',action='store_true');p.add_argument('--model-ab-questions',type=int,default=5);p.add_argument('--model-ab-max-requests',type=int,default=24);p.add_argument('--local-models',action='store_true');p.add_argument('--analyze-models',action='store_true');a=p.parse_args()
     import re
     if not re.fullmatch(r'[a-zA-Z0-9_-]+',a.label):p.error('Use letters, numbers, underscores or hyphens in label')
     stamp=datetime.now(timezone(timedelta(hours=9))).strftime('%Y%m%dT%H%M%S%z');relative='experiments/'+stamp+'-'+a.label
@@ -22,6 +22,9 @@ def main():
     if a.local_models:
         model_runtime=json.loads((HERE/'model_runtime.local.json').read_text(encoding='utf-8'))['python']
         steps.append(('actual_neural_model_comparison',[model_runtime,'-X','utf8','run_neural_model_comparison.py','--out',relative]))
+    if a.local_models or a.analyze_models:
+        analysis_input=relative if a.local_models else 'results/latest'
+        steps.append(('neural_model_findings',[sys.executable,'-X','utf8','analyze_neural_results.py','--input',analysis_input,'--out',relative]))
     for name,command in steps:
         import os
         environment=dict(os.environ);environment['PYTHONHASHSEED']='42'

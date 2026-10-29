@@ -1,5 +1,5 @@
 {
-  "timestamp": "20261029T171712+0900",
+  "timestamp": "20261029T172757+0900",
   "steps": [
     {
       "name": "phase2_build",
@@ -34,7 +34,7 @@
         "utf8",
         "run_experiments.py",
         "--out",
-        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+        "experiments/20261029T172757+0900-neural-model-findings"
       ],
       "exit_code": 0
     },
@@ -46,7 +46,7 @@
         "utf8",
         "upgrade_adapter.py",
         "--out",
-        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+        "experiments/20261029T172757+0900-neural-model-findings"
       ],
       "exit_code": 0
     },
@@ -58,7 +58,7 @@
         "utf8",
         "run_phase2_rag.py",
         "--out",
-        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+        "experiments/20261029T172757+0900-neural-model-findings"
       ],
       "exit_code": 0
     },
@@ -70,7 +70,7 @@
         "utf8",
         "run_phase2_model_ab.py",
         "--out",
-        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible",
+        "experiments/20261029T172757+0900-neural-model-findings",
         "--max-questions",
         "5",
         "--max-requests",
@@ -79,25 +79,28 @@
       "exit_code": 0
     },
     {
-      "name": "actual_neural_model_comparison",
+      "name": "neural_model_findings",
       "command": [
-        "C:\\Users\\최유리\\.codex\\.chatgpt-projects\\g-p-6ad1c67af0f88191a49734bfa61b87d9\\output\\maps-model-runtime\\Scripts\\python.exe",
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
         "-X",
         "utf8",
-        "run_neural_model_comparison.py",
+        "analyze_neural_results.py",
+        "--input",
+        "results/latest",
         "--out",
-        "experiments/20261029T171712+0900-pretrained-model-comparison-compatible"
+        "experiments/20261029T172757+0900-neural-model-findings"
       ],
       "exit_code": 0
     }
   ],
   "source_sha256": {
+    "analyze_neural_results.py": "86ef812d1cd6d7ff1dba88497eb8829fd9b87441a8d658e5c88c022ad8bd1d29",
     "build_phase2_upgrade.py": "46607e5e024bf201f1455bbedd2a1a6c26cf6719f1187edb9fdc60600d6ec7cb",
     "download_comparison_models.py": "782793ed5e4b8a04682c2f53100a1337d1cba552318dcb19630417032314b3bc",
     "improved_retrieval.py": "895b9719445320a160a146d402362b7d62cc46cbad461e77c6eaefb92530df85",
     "model_comparison_utils.py": "dc1d3d37d8448a1328bd3c8ca39d318af825d347cc3a9227a68a254675362806",
     "prepare_data.py": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf",
-    "record_run.py": "e9fcc10bcd14e96fecaf114f3703235e4c2e61a16ba56162656e3b1a3c29b51c",
+    "record_run.py": "9199441015e3b702968c89d041705f74012973dec9328805c5b6b8f263447e0b",
     "run_experiments.py": "8820d84bb43bfe382a9a44f354fc8bc10c72dc0be836cb41a1ffcc06859a8db8",
     "run_neural_model_comparison.py": "59bcf33402c14867d61f1c8155a5424bfdc0e53cdf9325e0518c32111cfb19b2",
     "run_phase2_model_ab.py": "de24247d48e43fb9f0597e8cfb545a03385140d9239969946481c36e52be9df9",
@@ -153,5 +156,5 @@
     "third_party\\magneto_full\\magneto\\utils\\utils.py": "71981cd97198576d8da5d370a250bb156462433d0558345fef8450689dfcfba0",
     "third_party\\magneto_full\\magneto\\utils\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
-  "parent_commit": "19d5a590eb886b09d0a3126451c0ecf2d3357540"
+  "parent_commit": "d2baa0ddebb4d14c9b21e399b6673d7ba9da1899"
 }

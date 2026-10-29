@@ -350,7 +350,7 @@
         "scope_questions": 93,
         "eligible_positive_questions": 35,
         "target_reference_hit_at5": 0.9142857142857143,
-        "elapsed_seconds": 0.0786125999984506,
+        "elapsed_seconds": 0.17134810000061407,
         "api_calls": 0
       },
       {
@@ -358,7 +358,7 @@
         "scope_questions": 93,
         "eligible_positive_questions": 35,
         "target_reference_hit_at5": 0.9142857142857143,
-        "elapsed_seconds": 0.10839900000064517,
+        "elapsed_seconds": 0.24669150000045192,
         "api_calls": 0
       },
       {
@@ -366,7 +366,7 @@
         "scope_questions": 93,
         "eligible_positive_questions": 35,
         "target_reference_hit_at5": 0.9428571428571428,
-        "elapsed_seconds": 0.10786899999948218,
+        "elapsed_seconds": 0.25295639999967534,
         "api_calls": 0
       }
     ],

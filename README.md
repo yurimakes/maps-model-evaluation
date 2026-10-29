@@ -1,5 +1,7 @@
 # MAPS 2차 고도화 실험
 
+**실제 모델 간 비교 완료:** MPNet·다국어 E5·한국어 SRoBERTa의 실제 가중치를 로드하고 공식 Magneto 기본 모드를 실행했다. 최신 결과는 `results/latest/neural_model_report.html`, 판단은 [MODEL_FINDINGS.md](MODEL_FINDINGS.md), 재실행은 `run_model_comparison.cmd`를 사용한다.
+
 **최신 기준:** 실제 2차 RAG 코드와 원본 지식·임베딩 묶음을 수령했다. 실제 검색 재실행 결과는 `results/latest/phase2_report.html`에서 확인한다. 초기 78후보 실험과 18문항 재생 결과는 별도 탐색 기록이다. 2차에도 이미 하이브리드 검색과 채널별 Target 고정이 있으므로 이를 신규 고도화 효과로 주장하지 않는다.
 
 목표는 기존 2차 MAPS의 RAG·매핑 추천 성능을 개선하는 것이다. 기존 데이터와 Target 표준체계를 유지하며 검색, 업무관계 검사, 승인 이력 활용을 추가한다.

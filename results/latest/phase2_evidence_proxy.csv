@@ -1,4 +1,4 @@
 ﻿method,scope_questions,eligible_positive_questions,target_reference_hit_at5,elapsed_seconds,api_calls
-phase2_original_hybrid,93,35,0.9142857142857143,0.0786125999984506,0
-phase2_hardening_same_weighted,93,35,0.9142857142857143,0.10839900000064517,0
-experimental_rrf_alias_NOT_DEFAULT,93,35,0.9428571428571428,0.10786899999948218,0
+phase2_original_hybrid,93,35,0.9142857142857143,0.17134810000061407,0
+phase2_hardening_same_weighted,93,35,0.9142857142857143,0.24669150000045192,0
+experimental_rrf_alias_NOT_DEFAULT,93,35,0.9428571428571428,0.25295639999967534,0
