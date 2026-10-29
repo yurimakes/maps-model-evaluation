@@ -1,0 +1,31 @@
+﻿kind,item,detail
+domain_type_difference,CUSTOMER.CUST_NM,VARCHAR(100) / domain VARCHAR(200) (검토 필요; 오류 확정 아님)
+domain_type_difference,CUSTOMER.GEND_CD,VARCHAR(20) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,CUSTOMER.CUST_TYPE_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,PRODUCT.PRD_CLS_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+missing_standard_term,CONTRACT.CUST_ID,표준용어를 정확히 연결하지 못함
+missing_standard_term,CONTRACT.PRD_ID,표준용어를 정확히 연결하지 못함
+domain_type_difference,CONTRACT.PLCY_NO,VARCHAR(50) / domain VARCHAR(200) (검토 필요; 오류 확정 아님)
+domain_type_difference,CONTRACT.CNTR_ST_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+missing_standard_term,COUNSEL.CUST_ID,표준용어를 정확히 연결하지 못함
+missing_standard_term,COUNSEL.PRD_ID,표준용어를 정확히 연결하지 못함
+missing_standard_term,COUNSEL.CNTR_ID,표준용어를 정확히 연결하지 못함
+domain_type_difference,COUNSEL.CNSL_TYPE_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,COUNSEL.CNSL_CHNL_CD,VARCHAR(20) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,COUNSEL.CNSL_ST_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,COUNSEL.LANG_CD,VARCHAR(10) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+missing_standard_term,COUNSEL_DETAIL.CNSL_ID,표준용어를 정확히 연결하지 못함
+domain_type_difference,COUNSEL_DETAIL.DTL_TYPE_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+missing_standard_term,COMPLAINT.CUST_ID,표준용어를 정확히 연결하지 못함
+missing_standard_term,COMPLAINT.PRD_ID,표준용어를 정확히 연결하지 못함
+domain_type_difference,COMPLAINT.CMPL_TYPE_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,COMPLAINT.RCV_PATH_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,COMPLAINT.LANG_CD,VARCHAR(10) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,COMPLAINT.FSS_CASE_NO,VARCHAR(50) / domain VARCHAR(200) (검토 필요; 오류 확정 아님)
+domain_type_difference,COMPLAINT.PROC_ST_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,CODE_GROUP.CD_GRP_NM,VARCHAR(100) / domain VARCHAR(200) (검토 필요; 오류 확정 아님)
+domain_type_difference,CODE.CD_NM,VARCHAR(100) / domain VARCHAR(200) (검토 필요; 오류 확정 아님)
+domain_type_difference,PRODUCT_MAPPING.SRC_PRD_CD,VARCHAR(100) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_nullable_difference,PRODUCT_MAPPING.TGT_PRD_ID,도메인 NOT NULL / 물리모델 NULL 허용 (검토 필요)
+domain_type_difference,PRODUCT_MAPPING.MAP_ST_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)
+domain_type_difference,MIGRATION_TRACE.MIG_ST_CD,VARCHAR(30) / domain VARCHAR(50) (검토 필요; 오류 확정 아님)

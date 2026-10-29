@@ -1,0 +1,19 @@
+{
+  "experiment": {
+    "id": "mpnet-phase2",
+    "model_config": "configs/models/mpnet.json",
+    "suite": "phase2-model-93",
+    "saved_method": "dense_mpnet",
+    "seed": 42,
+    "execution_kind": "saved_prediction_rescore"
+  },
+  "model": {
+    "id": "mpnet",
+    "repository": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "license": "apache-2.0",
+    "task": "schema-mapping",
+    "environment": "legacy-neural",
+    "weights_in_git": false
+  }
+}

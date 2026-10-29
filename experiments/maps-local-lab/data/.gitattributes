@@ -1,0 +1,2 @@
+# Preserve archived Git object bytes, including historical line endings.
+* -text

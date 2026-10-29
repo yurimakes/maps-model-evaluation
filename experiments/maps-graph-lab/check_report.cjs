@@ -1,0 +1,14 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const dir = path.join(__dirname, 'results');
+const html = fs.readFileSync(path.join(dir, 'report.html'), 'utf8');
+const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
+if (scripts.length !== 1) throw new Error('Expected one self-contained report script');
+new vm.Script(scripts[0][1]);
+const links = [...html.matchAll(/href="([^"]+)"/g)].map(m => m[1]).filter(x => x && !x.startsWith('#') && !x.includes('://'));
+const missing = [...new Set(links)].filter(x => !fs.existsSync(path.join(dir, x)));
+if (missing.length) throw new Error(`Missing local artifacts: ${missing.join(', ')}`);
+const checks = { passed: true, inlineJavaScriptSyntax: 'valid', localResultLinks: [...new Set(links)].length, missingLocalLinks: missing, visualBrowserReview: 'not performed: Windows browser URL verification stopped computer use' };
+fs.writeFileSync(path.join(dir, 'report_checks.json'), JSON.stringify(checks, null, 2));
+console.log(JSON.stringify(checks));

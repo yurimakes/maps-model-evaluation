@@ -1,0 +1,1223 @@
+[
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\5dt2nd6팀_MAPS.mp4",
+    "sha256": "0982fecffc34549badbdf0a994f72c77fb0d54017df6fd62d347300125848015",
+    "bytes": 22134278,
+    "extension": ".mp4",
+    "status": "binary_inventory_only",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\5dt2nd6팀_MAPS발표용(MicrosoftAzure를 활용한 AI추천 데이터 매핑 자동화 PoC)_v1.1.pptx",
+    "sha256": "47050422f0d814a4f0400c98ba1c86e4385d0b740a5fa8e71b4b1cd31ab893f9",
+    "bytes": 43075805,
+    "extension": ".pptx",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx",
+    "sha256": "c176e9bb7f26b46cfc05906311201149f2392c889b68940bd5d1d1f392bdb1ba",
+    "bytes": 4267850,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip",
+    "sha256": "b6de4a83e7c8a9de3f926110a92f59ba3ece73bf4debd13701b88f0d50a6afac",
+    "bytes": 9126853,
+    "extension": ".zip",
+    "status": "archive_expanded",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/# Inbound Source 특성 및 테스트 시나리오.md",
+    "sha256": "1570cd3f2a60c14aa3f6347d1607679cb1c483f90f404fc6fb7f26683f454650",
+    "bytes": 11616,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/01_현대해상_인바운드_상담데이터_AS-IS_리서치및전체스키마설계_v2.pdf",
+    "sha256": "f5d4a34a6c055581fb8d6bbbae449e2821a3fa38e6049cebda0b9f1cac0e2e81",
+    "bytes": 360249,
+    "extension": ".pdf",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/02_현대해상_인바운드_상담데이터_AS-IS_데이터품질_값기준명세서_v2.pdf",
+    "sha256": "25f59ecbfb4d52bf2b2d9d367fa7210b2c0405b3f3020fa96e34bddcb06ea38a",
+    "bytes": 319791,
+    "extension": ".pdf",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/CONSULTATION_데이터셋_생성결과요약보고서_v4.docx",
+    "sha256": "1e37ebc20c151e8e4254297ed2ae669d56c371b0d9908e7cedb0ee731993d3ac",
+    "bytes": 27273,
+    "extension": ".docx",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/consultation_error_log.csv",
+    "sha256": "502c6d7a45cd45807c17608c3f8cc56c784c1bffe87c84edb5908b60d8c99575",
+    "bytes": 15707,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 146
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/product_code_master_코드체계.xlsx",
+    "sha256": "7fa72ff2101f34791cfb0f4b6ecb6f5ce990af33e874fec8a0fb9e123f3093c6",
+    "bytes": 41244,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/ars_menu.csv",
+    "sha256": "caa1f2ae924ae565b3ab2ad3d149f8cfb256465e0f5c6591cf758180a8d2f492",
+    "bytes": 247,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 9
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/consultation.csv",
+    "sha256": "749adce26dba3c528087ee755bd5c4b3c7e7a9e64692a60b1f2beab7eb7a181e",
+    "bytes": 351766,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/consultation.xlsx",
+    "sha256": "3ce2b9fcf6d65e4b89c181cc3636e0a8b241e4333ac980227ddae4bc6e9da180",
+    "bytes": 158896,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/consultation_type.csv",
+    "sha256": "54b0f87596567f2a841ad7be2320b1784fcd6769edddbddaa2ac5c364e3bb8a9",
+    "bytes": 230,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 9
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/gender.csv",
+    "sha256": "7295bd125700fb01ddba9824d939a4ae2efbe94b649fdb4abd75121e8c07fe61",
+    "bytes": 31,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 2
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/inbound_type.csv",
+    "sha256": "393a626c26fb2c842aa091f380d8bc7d9292ec8a3ad67102aaa4d32ede25cd1e",
+    "bytes": 140,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/policy_status.csv",
+    "sha256": "8dcf72b37339ea8dfe104c5b61f0ecd670955c444500a22c4bffadd0cf963d42",
+    "bytes": 84,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/product_master_code.csv",
+    "sha256": "8ffba6ab547361006f295355cb37c465bac714dccceae86222d2bd45cb0972f4",
+    "bytes": 16801,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 185
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/status.csv",
+    "sha256": "bb28d0e6eee835e7960d3d9fb014989c27304c5dde0003ec1b6170f26c86990d",
+    "bytes": 88,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/team_name.csv",
+    "sha256": "5e700d99e04bed93bdc2e80c6057e8ebe84b9df892842bb12761643a70a812d1",
+    "bytes": 180,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 6
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_complaint_type.csv",
+    "sha256": "eec3586b16eff05be7f97cdcd0cbe50f6a68dffde9cff54864f6609198746f44",
+    "bytes": 379,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 10
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_process_status.csv",
+    "sha256": "72f7e999f15153ab8c0366dd5b12d69141bb1e72d5bd0bca088f793891bd73dd",
+    "bytes": 128,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_product_area.csv",
+    "sha256": "2bd88ba94ec750541cf3a0bbd9632c124a6534844f80ea1d39dd4023168079bc",
+    "bytes": 215,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 8
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_receive_channel.csv",
+    "sha256": "fa36da35a698b9adec2ed27a62187e73d153b032680c4f66582c2590e13b6fa6",
+    "bytes": 144,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_sentiment_reference.csv",
+    "sha256": "40213714b7231b43fd0c457bcfa65f058eb6e8c1c9bc482f1d09def8ab65b8c5",
+    "bytes": 124,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/02_source/homepage_complaint_source_1000_v1_2.csv",
+    "sha256": "3ad5c790bbc1b137c04d77ec5206d129cac7f727f7f8c4d0670031ec5c21f220",
+    "bytes": 953315,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/02_source/이력/homepage_complaint_source_1000_v1_1.csv",
+    "sha256": "62ef4270b7e737bdef674cb97ae361692ff59e0f56f42a47d45213e9c31d7adb",
+    "bytes": 932721,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/04_metadata/homepage_complaint_dq_test_scenario_log.csv",
+    "sha256": "6f3acc15bfdfe12f7ba23cd0fae8236b44b573902e8098da70d1cb2b0f992eca",
+    "bytes": 9526,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 54
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/04_metadata/homepage_complaint_metadata.csv",
+    "sha256": "0668e4b9316d6cd348ddabf5f9c5947e8f93ff4bc50558d4e83d3fc29ff1365a",
+    "bytes": 2749,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 16
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/04_metadata/homepage_complaint_profile_precheck.csv",
+    "sha256": "9c1844a98a93bb126bea8adaf9d11b76e0c18294f6b58f5367289a3c05202fb2",
+    "bytes": 420,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 22
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/05_document/Homepage_Complaint_Source_특성_및_테스트_시나리오.md",
+    "sha256": "4b16598e4ff495409389e5ea7ced42ddf99f1bbb0efa075ae25d1813dfcc89aa",
+    "bytes": 1859,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!챗봇 데이터/챗봇_세션로그_데이터정의서-1.docx",
+    "sha256": "88926b08c7081f8e83c5e853e3b306596cb4fb0cfc0211f6c8ac36f8d0dd32d0",
+    "bytes": 482473,
+    "extension": ".docx",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!챗봇 데이터/챗봇_Source_Metadata.xlsx",
+    "sha256": "63fed5c851eaa456bbb9606bf61cecdd4d404576aa6ca04112bf45d8ed435559",
+    "bytes": 20274,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!챗봇 데이터/chatbot_dummy_sessions_1000_dq.json",
+    "sha256": "b30443d5cc0744f9ebc78ce8d9b020fa1a2e9b33f67ec378cb5a582548585cb9",
+    "bytes": 2235991,
+    "extension": ".json",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1005
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/TM_샘플데이터_설계_및_생성_기준_v02.docx",
+    "sha256": "466b904a844fedeb10780abffbed45fdd1a0b35a83984468655dc5a4acc37aa1",
+    "bytes": 51978,
+    "extension": ".docx",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_error_manifest_1000_v02.csv",
+    "sha256": "e032d460d3cf1551a5d98c35988bea5f51bb90f26dc6d5bd7dd56c1e4d3b536a",
+    "bytes": 46627,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 150
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_schema_code_product_v02.xlsx",
+    "sha256": "f80a6fc801bcca5963985a9504a2ca49dcc95c0dd6aee4e80dd6401857f93d38",
+    "bytes": 27868,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_source_export_1000_v02.csv",
+    "sha256": "14114a1af2e1ce88a1ac25a18b9983820281fa1a6bb99c56632d01475256765d",
+    "bytes": 998455,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/(참고용)insurance_consultation_clean_1000.csv",
+    "sha256": "2b7017b747fb4c3a3a6af681854d686e0672cc0fd9e6505e23251fadeea8fc03",
+    "bytes": 667229,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/이력/insurance_consultation_source_1000.csv",
+    "sha256": "fe1fb14fabed58f12dc346930f17481e57770b8cdcf1feda15360ef7c776fb75",
+    "bytes": 665470,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/insurance_consultation_ASIS_CODE_MASTER_v1.0.csv",
+    "sha256": "ee6cfc708e1644aeb84fa9e280c92f7cea93877635b4839fadcd84282b75dc0a",
+    "bytes": 8250,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 63
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/insurance_consultation_source_1000_v1_2.csv",
+    "sha256": "1e30b9234a488ecac1fec01195e5626ed85201cfee37b49b462bc12fba1bd625",
+    "bytes": 686616,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 1000
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/salesforce_dq_test_scenario_log.csv",
+    "sha256": "7636f256b7e6d5205d47296f010bb68c31c9aa59ace6f578008bd2d3ff68de30",
+    "bytes": 8259,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 60
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/이력/salesforce_source_metadata_v1_1.csv",
+    "sha256": "f1412b7c935176d4bbfeafceaa4339bb7dbffc93f7f5b1bddf66d6026afbfe2a",
+    "bytes": 2516,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 18
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/salesforce_profile_precheck.csv",
+    "sha256": "99a5f96dad582d6338e79d5113f66fca27c8f324f7cfc12135bee8696cc2c644",
+    "bytes": 362,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 13
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/salesforce_source_metadata_v1_2.csv",
+    "sha256": "1e7ccc8b3e6f247a40cd6772abe9aea45f6a565293490c22303beef7d2c0b4bf",
+    "bytes": 2880,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 20
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/05_document/Salesforce_Source_특성_및_테스트_시나리오.md",
+    "sha256": "5577f8f164e75ce1b2bc7107c1867e43f44237f6929957fb8959d3a65a4bf1b6",
+    "bytes": 3884,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_참조지식_그래프고도화_개인확인용.html",
+    "sha256": "147955ad7c7f8d6c5c13a26d36b9ac27d47c02c956e580a19c8a94a1b4e64e88",
+    "bytes": 314915,
+    "extension": ".html",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_참조지식_그래프고도화_개인확인용.md",
+    "sha256": "fb015e2c28c730f9959f82f5e6bf07bce49f78cc9f7254d4e6a95a8352813ea1",
+    "bytes": 14770,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\고도화 방안 제안.txt",
+    "sha256": "05a2d4022e42e6b07004810ac6257269f531346f58e9793bf27a31bc3c4ca2ba",
+    "bytes": 880,
+    "extension": ".txt",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\02_source\\(참고용)insurance_consultation_clean_1000.csv",
+    "sha256": "2b7017b747fb4c3a3a6af681854d686e0672cc0fd9e6505e23251fadeea8fc03",
+    "bytes": 667229,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:676ff076925858dc1b23",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\02_source\\insurance_consultation_ASIS_CODE_MASTER_v1.0.csv",
+    "sha256": "ee6cfc708e1644aeb84fa9e280c92f7cea93877635b4839fadcd84282b75dc0a",
+    "bytes": 8250,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:789cdb67dea5195fc7a5",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\02_source\\insurance_consultation_source_1000_v1_2.csv",
+    "sha256": "1e30b9234a488ecac1fec01195e5626ed85201cfee37b49b462bc12fba1bd625",
+    "bytes": 686616,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:2779f7621071e7ba07ce",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\02_source\\이력\\insurance_consultation_source_1000.csv",
+    "sha256": "fe1fb14fabed58f12dc346930f17481e57770b8cdcf1feda15360ef7c776fb75",
+    "bytes": 665470,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:a80cb2f82581b08ed37c",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\04_metadata\\salesforce_dq_test_scenario_log.csv",
+    "sha256": "7636f256b7e6d5205d47296f010bb68c31c9aa59ace6f578008bd2d3ff68de30",
+    "bytes": 8259,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:b3f794f885f1056acd3c",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\04_metadata\\salesforce_profile_precheck.csv",
+    "sha256": "99a5f96dad582d6338e79d5113f66fca27c8f324f7cfc12135bee8696cc2c644",
+    "bytes": 362,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:4e7e15ac3b5412934e19",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\04_metadata\\salesforce_source_metadata_v1_2.csv",
+    "sha256": "1e7ccc8b3e6f247a40cd6772abe9aea45f6a565293490c22303beef7d2c0b4bf",
+    "bytes": 2880,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:a26d386f5d392f1c0a64",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\04_metadata\\이력\\salesforce_source_metadata_v1_1.csv",
+    "sha256": "f1412b7c935176d4bbfeafceaa4339bb7dbffc93f7f5b1bddf66d6026afbfe2a",
+    "bytes": 2516,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:4012146e6070b11d9ad3",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\보험상품가입데이터(세일즈포스)\\MAPS_salesforce_asis_v1_1\\05_document\\Salesforce_Source_특성_및_테스트_시나리오.md",
+    "sha256": "5577f8f164e75ce1b2bc7107c1867e43f44237f6929957fb8959d3a65a4bf1b6",
+    "bytes": 3884,
+    "extension": ".md",
+    "status": "duplicate",
+    "duplicate_of": "doc:7059a7cb113c48a2bef4",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\아웃바운드 상담 데이터\\tm_error_manifest_1000_v02.csv",
+    "sha256": "e032d460d3cf1551a5d98c35988bea5f51bb90f26dc6d5bd7dd56c1e4d3b536a",
+    "bytes": 46627,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:1b1fa2dffa729d60e6f5",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\아웃바운드 상담 데이터\\tm_schema_code_product_v02.xlsx",
+    "sha256": "f80a6fc801bcca5963985a9504a2ca49dcc95c0dd6aee4e80dd6401857f93d38",
+    "bytes": 27868,
+    "extension": ".xlsx",
+    "status": "duplicate",
+    "duplicate_of": "doc:1056e9214be516a76c93",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\아웃바운드 상담 데이터\\tm_source_export_1000_v02.csv",
+    "sha256": "14114a1af2e1ce88a1ac25a18b9983820281fa1a6bb99c56632d01475256765d",
+    "bytes": 998455,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:8d7ba9772143d688d2fc",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\아웃바운드 상담 데이터\\TM_샘플데이터_설계_및_생성_기준_v02.docx",
+    "sha256": "466b904a844fedeb10780abffbed45fdd1a0b35a83984468655dc5a4acc37aa1",
+    "bytes": 51978,
+    "extension": ".docx",
+    "status": "duplicate",
+    "duplicate_of": "doc:55c61d8957940c5a9b0d",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\# Inbound Source 특성 및 테스트 시나리오.md",
+    "sha256": "1570cd3f2a60c14aa3f6347d1607679cb1c483f90f404fc6fb7f26683f454650",
+    "bytes": 11616,
+    "extension": ".md",
+    "status": "duplicate",
+    "duplicate_of": "doc:4aa8e6368ad9e6630cba",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\ars_menu.csv",
+    "sha256": "caa1f2ae924ae565b3ab2ad3d149f8cfb256465e0f5c6591cf758180a8d2f492",
+    "bytes": 247,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:837578eb22962c95a765",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\consultation.csv",
+    "sha256": "749adce26dba3c528087ee755bd5c4b3c7e7a9e64692a60b1f2beab7eb7a181e",
+    "bytes": 351766,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:9f742b847a459e918182",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\consultation.xlsx",
+    "sha256": "3ce2b9fcf6d65e4b89c181cc3636e0a8b241e4333ac980227ddae4bc6e9da180",
+    "bytes": 158896,
+    "extension": ".xlsx",
+    "status": "duplicate",
+    "duplicate_of": "doc:f6e440d07e49aba8f6c7",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\consultation_type.csv",
+    "sha256": "54b0f87596567f2a841ad7be2320b1784fcd6769edddbddaa2ac5c364e3bb8a9",
+    "bytes": 230,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:e8aee1b1e575a6bcce66",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\gender.csv",
+    "sha256": "7295bd125700fb01ddba9824d939a4ae2efbe94b649fdb4abd75121e8c07fe61",
+    "bytes": 31,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:ad4c3724f6faebeb4ab0",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\inbound_type.csv",
+    "sha256": "393a626c26fb2c842aa091f380d8bc7d9292ec8a3ad67102aaa4d32ede25cd1e",
+    "bytes": 140,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:081a07267bd704376a8a",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\policy_status.csv",
+    "sha256": "8dcf72b37339ea8dfe104c5b61f0ecd670955c444500a22c4bffadd0cf963d42",
+    "bytes": 84,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:1bc249e74e659d6c9c37",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\product_master_code.csv",
+    "sha256": "8ffba6ab547361006f295355cb37c465bac714dccceae86222d2bd45cb0972f4",
+    "bytes": 16801,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:d131dd3b1ee26eb47bed",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\status.csv",
+    "sha256": "bb28d0e6eee835e7960d3d9fb014989c27304c5dde0003ec1b6170f26c86990d",
+    "bytes": 88,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:9111b175e4343cee3a7c",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\team_name.csv",
+    "sha256": "5e700d99e04bed93bdc2e80c6057e8ebe84b9df892842bb12761643a70a812d1",
+    "bytes": 180,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:874ca49b29ef69f34719",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\상세\\01_현대해상_인바운드_상담데이터_AS-IS_리서치및전체스키마설계_v2.pdf",
+    "sha256": "f5d4a34a6c055581fb8d6bbbae449e2821a3fa38e6049cebda0b9f1cac0e2e81",
+    "bytes": 360249,
+    "extension": ".pdf",
+    "status": "duplicate",
+    "duplicate_of": "doc:c8de34f621081ae753e1",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\상세\\02_현대해상_인바운드_상담데이터_AS-IS_데이터품질_값기준명세서_v2.pdf",
+    "sha256": "25f59ecbfb4d52bf2b2d9d367fa7210b2c0405b3f3020fa96e34bddcb06ea38a",
+    "bytes": 319791,
+    "extension": ".pdf",
+    "status": "duplicate",
+    "duplicate_of": "doc:35b6921034694ebe7f68",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\상세\\consultation_error_log.csv",
+    "sha256": "502c6d7a45cd45807c17608c3f8cc56c784c1bffe87c84edb5908b60d8c99575",
+    "bytes": 15707,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:b006ee34f75221d57a22",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\상세\\CONSULTATION_데이터셋_생성결과요약보고서_v4.docx",
+    "sha256": "1e37ebc20c151e8e4254297ed2ae669d56c371b0d9908e7cedb0ee731993d3ac",
+    "bytes": 27273,
+    "extension": ".docx",
+    "status": "duplicate",
+    "duplicate_of": "doc:390ef2a9e085bd010db3",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\인바운드 상담 데이터\\상세\\product_code_master_코드체계.xlsx",
+    "sha256": "7fa72ff2101f34791cfb0f4b6ecb6f5ce990af33e874fec8a0fb9e123f3093c6",
+    "bytes": 41244,
+    "extension": ".xlsx",
+    "status": "duplicate",
+    "duplicate_of": "doc:6338026775ddca2d7035",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\챗봇 데이터\\chatbot_dummy_sessions_1000_dq.json",
+    "sha256": "b30443d5cc0744f9ebc78ce8d9b020fa1a2e9b33f67ec378cb5a582548585cb9",
+    "bytes": 2235991,
+    "extension": ".json",
+    "status": "duplicate",
+    "duplicate_of": "doc:b38a640371d8ccf7e06b",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\챗봇 데이터\\챗봇_Source_Metadata.xlsx",
+    "sha256": "63fed5c851eaa456bbb9606bf61cecdd4d404576aa6ca04112bf45d8ed435559",
+    "bytes": 20274,
+    "extension": ".xlsx",
+    "status": "duplicate",
+    "duplicate_of": "doc:ec1d6855de1002595f23",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\챗봇 데이터\\챗봇_세션로그_데이터정의서-1.docx",
+    "sha256": "88926b08c7081f8e83c5e853e3b306596cb4fb0cfc0211f6c8ac36f8d0dd32d0",
+    "bytes": 482473,
+    "extension": ".docx",
+    "status": "duplicate",
+    "duplicate_of": "doc:5e05dcce006c312ce7c3",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\01_master\\code_complaint_type.csv",
+    "sha256": "eec3586b16eff05be7f97cdcd0cbe50f6a68dffde9cff54864f6609198746f44",
+    "bytes": 379,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:54232fce81a10965b10d",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\01_master\\code_process_status.csv",
+    "sha256": "72f7e999f15153ab8c0366dd5b12d69141bb1e72d5bd0bca088f793891bd73dd",
+    "bytes": 128,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:45731593b8fedd4213ec",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\01_master\\code_product_area.csv",
+    "sha256": "2bd88ba94ec750541cf3a0bbd9632c124a6534844f80ea1d39dd4023168079bc",
+    "bytes": 215,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:4438588bde617f24a3a6",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\01_master\\code_receive_channel.csv",
+    "sha256": "fa36da35a698b9adec2ed27a62187e73d153b032680c4f66582c2590e13b6fa6",
+    "bytes": 144,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:05cd6a2b716a677071ec",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\01_master\\code_sentiment_reference.csv",
+    "sha256": "40213714b7231b43fd0c457bcfa65f058eb6e8c1c9bc482f1d09def8ab65b8c5",
+    "bytes": 124,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:228cad95cb639e324b4c",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\02_source\\homepage_complaint_source_1000_v1_2.csv",
+    "sha256": "3ad5c790bbc1b137c04d77ec5206d129cac7f727f7f8c4d0670031ec5c21f220",
+    "bytes": 953315,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:2162c922efa9341be790",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\02_source\\이력\\homepage_complaint_source_1000_v1_1.csv",
+    "sha256": "62ef4270b7e737bdef674cb97ae361692ff59e0f56f42a47d45213e9c31d7adb",
+    "bytes": 932721,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:b04b91e3d297dd9135df",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\04_metadata\\homepage_complaint_dq_test_scenario_log.csv",
+    "sha256": "6f3acc15bfdfe12f7ba23cd0fae8236b44b573902e8098da70d1cb2b0f992eca",
+    "bytes": 9526,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:7f18621613adaedb14ae",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\04_metadata\\homepage_complaint_metadata.csv",
+    "sha256": "0668e4b9316d6cd348ddabf5f9c5947e8f93ff4bc50558d4e83d3fc29ff1365a",
+    "bytes": 2749,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:3b3475ff76b702a013c1",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\04_metadata\\homepage_complaint_profile_precheck.csv",
+    "sha256": "9c1844a98a93bb126bea8adaf9d11b76e0c18294f6b58f5367289a3c05202fb2",
+    "bytes": 420,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:a2ddec915b5a3f46a01b",
+    "error": ""
+  },
+  {
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\홈페이지_민원상담데이터\\MAPS_homepage_complaint_v1_0\\05_document\\Homepage_Complaint_Source_특성_및_테스트_시나리오.md",
+    "sha256": "4b16598e4ff495409389e5ea7ced42ddf99f1bbb0efa075ae25d1813dfcc89aa",
+    "bytes": 1859,
+    "extension": ".md",
+    "status": "duplicate",
+    "duplicate_of": "doc:5033f2e01b1ca960db1d",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip",
+    "sha256": "0a5374c832ab753d965aa8a9326ea6f3af6363d4455af707b678949b6103e2a3",
+    "bytes": 8515682,
+    "extension": ".zip",
+    "status": "archive_expanded",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/1.MAPS_TO-BE_논리모델_v0.4_확정.md",
+    "sha256": "94a2f7cf39683160e3dfc9058abe503a2ae40e661bdfc9f7880fb8fe206ca94b",
+    "bytes": 7167,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/10.MAPS_02_데이터표준화_단계마무리_팀공유가이드_v1.1_최종.md",
+    "sha256": "024273e480103c00439439edddc4ab65d06f635da970b557d5a7c774d7edd666",
+    "bytes": 5989,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/2.MAPS_표준단어사전_v1.0_확정.csv",
+    "sha256": "0f5e98e2dcd2f062aa848a1a656a5fcf599a492fc6b01857e31dedc25193404d",
+    "bytes": 10168,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 59
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/3.MAPS_표준용어사전_v1.0_확정.csv",
+    "sha256": "c5a9d96109e06b8a795720ac144833337c775350300765634cc503b574dbe3a7",
+    "bytes": 12793,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 66
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/4.MAPS_표준도메인사전_v1.0_확정.csv",
+    "sha256": "6075211b025e11377ef46b4c8d81105a2ee907c87f23f66818d58c4603c7c2dc",
+    "bytes": 1655,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 16
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/5.MAPS_TO-BE_표준코드사전_v1.1_최종.csv",
+    "sha256": "07c718a82ffb3dd7ca983b9e34fd8dda8c1c7fcf03987cfa7fc9d5d51be5cbf2",
+    "bytes": 12336,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 80
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/6.MAPS_ASIS_TO_TOBE_코드매핑_v1.1_최종.csv",
+    "sha256": "cd39650e2ce74d2cdefd953105237398a934034892e44c59f8172383090daf61",
+    "bytes": 15574,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 116
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/7.MAPS_표준코드_의사결정로그_v1.0.csv",
+    "sha256": "029a722920c4742556a8150ced040642cb797bd1ce9d363a37b32ab797431846",
+    "bytes": 784,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 4
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/8.MAPS_TO-BE_물리데이터모델_v1.0_확정.csv",
+    "sha256": "5bdf0d8c436f857c011abfd95f0914957ba7cbf8f913f943289eb9f15baad9d2",
+    "bytes": 5050,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 78
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/9.MAPS_TO-BE_물리데이터모델_v1.0.dbml",
+    "sha256": "d2953ef634f1ca9b4ccbb6948dd9e2f26acb92fd7adbed659a5b204834b672fe",
+    "bytes": 3505,
+    "extension": ".dbml",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/6.4HITL(Human-In-the-Loop)/MAPS_데이터이관_개발자_테이블_사용가이드_v1.0.md",
+    "sha256": "e321214338b2140535947d0687f6aeb53802ff3d1e23b7ebd9a368996f15d28e",
+    "bytes": 14258,
+    "extension": ".md",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/6.1MAPS_Mapping_평가_기준서_v1.0.docx",
+    "sha256": "d9eb1cc102bd4637a8ad07a50c04ed93a8486bd499261117d99be376f6166311",
+    "bytes": 63126,
+    "extension": ".docx",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx",
+    "sha256": "da6f25aa98fd209ee77a5c33896800f70266b96e24801c6eaaffb59fa007c207",
+    "bytes": 38931,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_raw.csv",
+    "sha256": "ecef3196fd9b584f963d47c14314a025e8bd87f5f89830fdd7a02fa21004eb23",
+    "bytes": 37173,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 540
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_raw_fixed.csv",
+    "sha256": "72edecaabb68ac1ef34487a0d1759b3c7344bb5c66cd8989807b5369d70e3fa1",
+    "bytes": 43450,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 540
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_summary.csv",
+    "sha256": "1d1a9ffb9cee267f6f88a161eb42723da55e6bc59a52ce7d72092161765f425e",
+    "bytes": 1833,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 18
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_summary_fixed.csv",
+    "sha256": "5c5dc99af9d7350f0a719a0b497c496f12bcd0e78c358538ed9e948fb8026c88",
+    "bytes": 1809,
+    "extension": ".csv",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": "",
+    "records": 18
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip",
+    "sha256": "19d3baa584e9f29bfb44328bab38edf7acc898ded7aa5f0a14fcdebc17c4188a",
+    "bytes": 4461212,
+    "extension": ".zip",
+    "status": "archive_expanded",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx",
+    "sha256": "ea616dc602425997b442686726def0bc7a1cd39ee4c5036d4c8ab4593a398a5d",
+    "bytes": 4266185,
+    "extension": ".xlsx",
+    "status": "structured_profiled",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/1.MAPS_TO-BE_논리모델_v0.4_확정.md",
+    "sha256": "94a2f7cf39683160e3dfc9058abe503a2ae40e661bdfc9f7880fb8fe206ca94b",
+    "bytes": 7167,
+    "extension": ".md",
+    "status": "duplicate",
+    "duplicate_of": "doc:9e59695969d7f00a0b96",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/10.MAPS_02_데이터표준화_단계마무리_팀공유가이드_v1.1_최종.md",
+    "sha256": "024273e480103c00439439edddc4ab65d06f635da970b557d5a7c774d7edd666",
+    "bytes": 5989,
+    "extension": ".md",
+    "status": "duplicate",
+    "duplicate_of": "doc:8ad5adcdebecc685ace8",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/2.MAPS_표준단어사전_v1.0_확정.csv",
+    "sha256": "0f5e98e2dcd2f062aa848a1a656a5fcf599a492fc6b01857e31dedc25193404d",
+    "bytes": 10168,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:54d336de565b8a9e3095",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/3.MAPS_표준용어사전_v1.0_확정.csv",
+    "sha256": "c5a9d96109e06b8a795720ac144833337c775350300765634cc503b574dbe3a7",
+    "bytes": 12793,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:053407a92fe6a963ea38",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/4.MAPS_표준도메인사전_v1.0_확정.csv",
+    "sha256": "6075211b025e11377ef46b4c8d81105a2ee907c87f23f66818d58c4603c7c2dc",
+    "bytes": 1655,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:2c4928280b5c092d165b",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/5.MAPS_TO-BE_표준코드사전_v1.1_최종.csv",
+    "sha256": "07c718a82ffb3dd7ca983b9e34fd8dda8c1c7fcf03987cfa7fc9d5d51be5cbf2",
+    "bytes": 12336,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:b0f237a75f29dd5578df",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/6.MAPS_ASIS_TO_TOBE_코드매핑_v1.1_최종.csv",
+    "sha256": "cd39650e2ce74d2cdefd953105237398a934034892e44c59f8172383090daf61",
+    "bytes": 15574,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:dfa4f3886105cdd21e47",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/7.MAPS_표준코드_의사결정로그_v1.0.csv",
+    "sha256": "029a722920c4742556a8150ced040642cb797bd1ce9d363a37b32ab797431846",
+    "bytes": 784,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:0ecc24818db7d4fc7b3f",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/8.MAPS_TO-BE_물리데이터모델_v1.0_확정.csv",
+    "sha256": "5bdf0d8c436f857c011abfd95f0914957ba7cbf8f913f943289eb9f15baad9d2",
+    "bytes": 5050,
+    "extension": ".csv",
+    "status": "duplicate",
+    "duplicate_of": "doc:8df8a5bca94ef3055f0d",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!3.Standardization/9.MAPS_TO-BE_물리데이터모델_v1.0.dbml",
+    "sha256": "d2953ef634f1ca9b4ccbb6948dd9e2f26acb92fd7adbed659a5b204834b672fe",
+    "bytes": 3505,
+    "extension": ".dbml",
+    "status": "duplicate",
+    "duplicate_of": "doc:0375e204f9f9d5733bbe",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!6.Mapping/6.1MAPS_Mapping_평가_기준서_v1.0.docx",
+    "sha256": "d9eb1cc102bd4637a8ad07a50c04ed93a8486bd499261117d99be376f6166311",
+    "bytes": 63126,
+    "extension": ".docx",
+    "status": "duplicate",
+    "duplicate_of": "doc:23e6876685fd47db5fb3",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!6.Mapping/6.4HITL(Human-In-the-Loop)/MAPS_데이터이관_개발자_테이블_사용가이드_v1.0.md",
+    "sha256": "e321214338b2140535947d0687f6aeb53802ff3d1e23b7ebd9a368996f15d28e",
+    "bytes": 14258,
+    "extension": ".md",
+    "status": "duplicate",
+    "duplicate_of": "doc:968ba20fc241b71a7da9",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx",
+    "sha256": "da6f25aa98fd209ee77a5c33896800f70266b96e24801c6eaaffb59fa007c207",
+    "bytes": 38931,
+    "extension": ".xlsx",
+    "status": "duplicate",
+    "duplicate_of": "doc:ead28d638e74e0564921",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!maps_ddl_export.dbc",
+    "sha256": "bd10192ef5f85940d9983c074946b184e27af1fadd64051ea6cbc6bba4abb264",
+    "bytes": 453,
+    "extension": ".dbc",
+    "status": "archive_expanded",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!maps_ddl_export.dbc!manifest.mf",
+    "sha256": "ffa7dd33892cd2134459da7adb526bfbdf10fd08f2ec00904024d10b453b7515",
+    "bytes": 101,
+    "extension": ".mf",
+    "status": "document_indexed",
+    "duplicate_of": "",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!MAPS_2차프로젝트_WBS_20260914.xlsx",
+    "sha256": "ea616dc602425997b442686726def0bc7a1cd39ee4c5036d4c8ab4593a398a5d",
+    "bytes": 4266185,
+    "extension": ".xlsx",
+    "status": "duplicate",
+    "duplicate_of": "doc:cadae688605e5db56da3",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!maps_ddl_export (2).dbc",
+    "sha256": "bd10192ef5f85940d9983c074946b184e27af1fadd64051ea6cbc6bba4abb264",
+    "bytes": 453,
+    "extension": ".dbc",
+    "status": "duplicate",
+    "duplicate_of": "doc:b347fa9a6602841bd790",
+    "error": ""
+  },
+  {
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!maps_ddl_export.dbc",
+    "sha256": "bd10192ef5f85940d9983c074946b184e27af1fadd64051ea6cbc6bba4abb264",
+    "bytes": 453,
+    "extension": ".dbc",
+    "status": "duplicate",
+    "duplicate_of": "doc:b347fa9a6602841bd790",
+    "error": ""
+  }
+]

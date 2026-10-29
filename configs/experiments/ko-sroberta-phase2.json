@@ -1,0 +1,8 @@
+{
+  "id": "ko-sroberta-phase2",
+  "model_config": "configs/models/ko-sroberta.json",
+  "suite": "phase2-model-93",
+  "saved_method": "dense_ko_sroberta",
+  "seed": 42,
+  "execution_kind": "saved_prediction_rescore"
+}

@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "suites": [
+    {
+      "id": "graph-114",
+      "scope": "all",
+      "snapshot": "experiments/maps-graph-lab/data/snapshot.json",
+      "expected_questions": 114,
+      "protocol": "nested-leave-one-source-system-out; inner threshold F1; grid .02",
+      "prediction_sources": [
+        {
+          "origin": "ontology-graph",
+          "path": "experiments/maps-graph-lab/results/predictions.csv",
+          "summary": "experiments/maps-graph-lab/results/metrics.csv",
+          "method_field": "method",
+          "summary_method_field": "method",
+          "rank_field": "top5",
+          "parity_fields": {
+            "questions": "n_queries",
+            "positive_questions": "n_positive_queries",
+            "gold_pairs": "gold_pairs",
+            "mapping_precision": "mapping_precision",
+            "mapping_recall": "mapping_recall",
+            "mapping_f1": "mapping_f1",
+            "tp": "tp",
+            "fp": "fp",
+            "fn": "fn",
+            "top1_hit_rate": "top1_accuracy",
+            "top5_hit_rate": "top5_accuracy",
+            "decision_accuracy": "decision_accuracy",
+            "exact_set_accuracy": "exact_set_accuracy",
+            "pair_recall_at5": "pair_recall_at5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "legacy-local-114",
+      "scope": "all",
+      "snapshot": "experiments/maps-local-lab/data/snapshot.json",
+      "expected_questions": 114,
+      "protocol": "nested-leave-one-source-system-out; inner threshold F1; grid .02",
+      "prediction_sources": [
+        {
+          "origin": "ontology-legacy-local",
+          "path": "experiments/maps-local-lab/results/latest/predictions.csv",
+          "summary": "experiments/maps-local-lab/results/latest/metrics.csv",
+          "method_field": "method",
+          "summary_method_field": "method",
+          "rank_field": "top5",
+          "parity_fields": {
+            "questions": "n_queries",
+            "positive_questions": "n_positive_queries",
+            "gold_pairs": "gold_pairs",
+            "mapping_precision": "mapping_precision",
+            "mapping_recall": "mapping_recall",
+            "mapping_f1": "mapping_f1",
+            "tp": "tp",
+            "fp": "fp",
+            "fn": "fn",
+            "top1_hit_rate": "top1_accuracy",
+            "top5_hit_rate": "top5_accuracy",
+            "decision_accuracy": "decision_accuracy",
+            "exact_set_accuracy": "exact_set_accuracy",
+            "pair_recall_at5": "pair_recall_at5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "benchmark-114",
+      "scope": "all",
+      "snapshot": "experiments/local-model-benchmark/data/snapshot.json",
+      "expected_questions": 114,
+      "protocol": "nested-leave-one-source-system-out; inner threshold F1; grid .02",
+      "prediction_sources": [
+        {
+          "origin": "benchmark-latest",
+          "path": "experiments/local-model-benchmark/results/latest/predictions.csv",
+          "summary": "experiments/local-model-benchmark/results/latest/metrics.csv",
+          "method_field": "method",
+          "summary_method_field": "method",
+          "rank_field": "top5",
+          "parity_fields": {
+            "questions": "n_queries",
+            "positive_questions": "n_positive_queries",
+            "gold_pairs": "gold_pairs",
+            "mapping_precision": "mapping_precision",
+            "mapping_recall": "mapping_recall",
+            "mapping_f1": "mapping_f1",
+            "tp": "tp",
+            "fp": "fp",
+            "fn": "fn",
+            "top1_hit_rate": "top1_accuracy",
+            "top5_hit_rate": "top5_accuracy",
+            "decision_accuracy": "decision_accuracy",
+            "exact_set_accuracy": "exact_set_accuracy",
+            "pair_recall_at5": "pair_recall_at5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase2-model-93",
+      "scope": "phase2",
+      "snapshot": "experiments/local-model-benchmark/data/snapshot.json",
+      "expected_questions": 93,
+      "protocol": "leave-one-source-system-out; threshold trained on other sources; grid .01; channel scope",
+      "prediction_sources": [
+        {
+          "origin": "benchmark-neural",
+          "path": "experiments/local-model-benchmark/results/latest/neural_predictions.csv",
+          "summary": "experiments/local-model-benchmark/results/latest/neural_model_metrics.csv",
+          "method_field": "model",
+          "summary_method_field": "model",
+          "rank_field": "ranked",
+          "parity_fields": {
+            "questions": "questions",
+            "positive_questions": "positive_questions",
+            "mapping_precision": "precision",
+            "mapping_recall": "recall",
+            "mapping_f1": "f1",
+            "tp": "tp",
+            "fp": "fp",
+            "fn": "fn",
+            "top1_hit_rate": "rank_top1",
+            "top5_hit_rate": "rank_top5",
+            "exact_set_accuracy": "accuracy"
+          },
+          "models": [
+            "cached_phase2_embedding",
+            "dense_e5_multilingual",
+            "dense_ko_sroberta",
+            "dense_mpnet",
+            "magneto_e5_multilingual_metadata",
+            "magneto_ko_sroberta_metadata",
+            "magneto_mpnet_metadata",
+            "magneto_mpnet_schema_only"
+          ],
+          "expected_file_methods": [
+            "2차 저장 출력 · self_consistency_raw.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw.csv · modal_30_repeats",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · modal_30_repeats",
+            "cached_phase2_embedding",
+            "dense_e5_multilingual",
+            "dense_ko_sroberta",
+            "dense_mpnet",
+            "magneto_e5_multilingual_metadata",
+            "magneto_ko_sroberta_metadata",
+            "magneto_mpnet_metadata",
+            "magneto_mpnet_schema_only"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homepage-new-model-18",
+      "scope": "homepage",
+      "snapshot": "experiments/local-model-benchmark/data/snapshot.json",
+      "expected_questions": 18,
+      "protocol": "leave-one-source-system-out; threshold trained on other sources; grid .01; channel scope",
+      "prediction_sources": [
+        {
+          "origin": "benchmark-neural",
+          "path": "experiments/local-model-benchmark/results/latest/neural_predictions.csv",
+          "summary": "experiments/local-model-benchmark/results/latest/neural_common18_metrics.csv",
+          "method_field": "model",
+          "summary_method_field": "model",
+          "rank_field": "ranked",
+          "parity_fields": {
+            "questions": "questions",
+            "positive_questions": "positive_questions",
+            "mapping_precision": "precision",
+            "mapping_recall": "recall",
+            "mapping_f1": "f1",
+            "tp": "tp",
+            "fp": "fp",
+            "fn": "fn",
+            "top1_hit_rate": "rank_top1",
+            "top5_hit_rate": "rank_top5",
+            "exact_set_accuracy": "accuracy"
+          },
+          "models": [
+            "cached_phase2_embedding",
+            "dense_e5_multilingual",
+            "dense_ko_sroberta",
+            "dense_mpnet",
+            "magneto_e5_multilingual_metadata",
+            "magneto_ko_sroberta_metadata",
+            "magneto_mpnet_metadata",
+            "magneto_mpnet_schema_only"
+          ],
+          "expected_file_methods": [
+            "2차 저장 출력 · self_consistency_raw.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw.csv · modal_30_repeats",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · modal_30_repeats",
+            "cached_phase2_embedding",
+            "dense_e5_multilingual",
+            "dense_ko_sroberta",
+            "dense_mpnet",
+            "magneto_e5_multilingual_metadata",
+            "magneto_ko_sroberta_metadata",
+            "magneto_mpnet_metadata",
+            "magneto_mpnet_schema_only"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homepage-historical-replay-18",
+      "scope": "homepage",
+      "snapshot": "experiments/local-model-benchmark/data/snapshot.json",
+      "expected_questions": 18,
+      "protocol": "historical stored outputs; first replicate and mode of 30 repeats separately; not new inference",
+      "prediction_sources": [
+        {
+          "origin": "historical-rag-replay",
+          "path": "experiments/local-model-benchmark/results/latest/neural_predictions.csv",
+          "summary": "experiments/local-model-benchmark/results/latest/neural_common18_metrics.csv",
+          "method_field": "model",
+          "summary_method_field": "model",
+          "rank_field": "ranked",
+          "parity_fields": {
+            "questions": "questions",
+            "positive_questions": "positive_questions",
+            "mapping_precision": "precision",
+            "mapping_recall": "recall",
+            "mapping_f1": "f1",
+            "tp": "tp",
+            "fp": "fp",
+            "fn": "fn",
+            "top1_hit_rate": "rank_top1",
+            "top5_hit_rate": "rank_top5",
+            "exact_set_accuracy": "accuracy"
+          },
+          "models": [
+            "2차 저장 출력 · self_consistency_raw.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw.csv · modal_30_repeats",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · modal_30_repeats"
+          ],
+          "expected_file_methods": [
+            "2차 저장 출력 · self_consistency_raw.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw.csv · modal_30_repeats",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · first_rep",
+            "2차 저장 출력 · self_consistency_raw_fixed.csv · modal_30_repeats",
+            "cached_phase2_embedding",
+            "dense_e5_multilingual",
+            "dense_ko_sroberta",
+            "dense_mpnet",
+            "magneto_e5_multilingual_metadata",
+            "magneto_ko_sroberta_metadata",
+            "magneto_mpnet_metadata",
+            "magneto_mpnet_schema_only"
+          ],
+          "fold_mode": "historical"
+        }
+      ]
+    }
+  ]
+}

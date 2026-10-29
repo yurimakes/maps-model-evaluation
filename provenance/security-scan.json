@@ -1,0 +1,93 @@
+{
+  "maps-ontology-graph": {
+    "scope": "all reachable historical Git blobs, ASCII byte pattern scan including binaries",
+    "blob_count": 69,
+    "binary_blob_count": 1,
+    "findings": [
+      {
+        "category": "korean_mobile",
+        "path": "experiments/maps-graph-lab/results/knowledge.sqlite",
+        "blob": "2ba130747fa7ff5db84ea8c8d59ab68c833d1d82",
+        "count": 10,
+        "line_numbers": [
+          4335,
+          4739,
+          4740,
+          4740,
+          5908,
+          7540,
+          7914,
+          7915
+        ],
+        "value_disclosure": "redacted; inspect original privately"
+      }
+    ],
+    "limitations": [
+      "Heuristic scan cannot prove absence of secrets or personal data.",
+      "Non-ASCII personal names, free text, embedded compressed payloads require manual review.",
+      "Ignored raw data, weights, environments and credentials were not imported or scanned."
+    ]
+  },
+  "maps-local-model-benchmark": {
+    "scope": "all reachable historical Git blobs, ASCII byte pattern scan including binaries",
+    "blob_count": 247,
+    "binary_blob_count": 4,
+    "findings": [
+      {
+        "category": "email_shape",
+        "path": "data/phase2_profiles.json",
+        "blob": "cb59cafff5cc3ccb98829328c56d5dc2811f9f9e",
+        "count": 1,
+        "line_numbers": [
+          1095
+        ],
+        "value_disclosure": "redacted; inspect original privately"
+      },
+      {
+        "category": "internal_endpoint",
+        "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/notebook_common.py",
+        "blob": "8a32f169cf6c89fbab7056efeb2002ea2ebdd0bb",
+        "count": 1,
+        "line_numbers": [
+          5
+        ],
+        "value_disclosure": "redacted; inspect original privately"
+      },
+      {
+        "category": "email_shape",
+        "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_10_DQ규칙.jsonl",
+        "blob": "06b18c945a6d5f20b6e9060b08b49651d18dc005",
+        "count": 1,
+        "line_numbers": [
+          91
+        ],
+        "value_disclosure": "redacted; inspect original privately"
+      },
+      {
+        "category": "email_shape",
+        "path": "phase2_original/data/10_운영_실행.py",
+        "blob": "c27c329a182ec74838c2f220d84886501ec7221d",
+        "count": 1,
+        "line_numbers": [
+          26
+        ],
+        "value_disclosure": "redacted; inspect original privately"
+      },
+      {
+        "category": "internal_endpoint",
+        "path": "phase2_original/data/maps_rag/notebook_common.py",
+        "blob": "bc423f1703e0fe7e2b5f5e09d88f4c790aa57033",
+        "count": 1,
+        "line_numbers": [
+          5
+        ],
+        "value_disclosure": "redacted; inspect original privately"
+      }
+    ],
+    "limitations": [
+      "Heuristic scan cannot prove absence of secrets or personal data.",
+      "Non-ASCII personal names, free text, embedded compressed payloads require manual review.",
+      "Ignored raw data, weights, environments and credentials were not imported or scanned."
+    ]
+  }
+}

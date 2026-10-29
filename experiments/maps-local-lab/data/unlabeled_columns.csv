@@ -1,0 +1,31 @@
+﻿system,table,column,description,dtype,status
+CHATBOT,session,consent_screen_shown,동의화면 노출 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,consent_privacy_accepted,개인정보 수집·이용 동의 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,consent_marketing_accepted,마케팅 수신 동의 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,consent_thirdparty_accepted,제3자 제공 동의 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,consent_answered_at,동의 응답 시각,VARCHAR(25),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,login_gate_hit,로그인 요구 화면 도달 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,mobile_only_redirect,모바일 전용 안내 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,external_site_redirect,챗봇 밖 사이트 이동 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,product_interest_product_category,상품 대분류 (상품상담 세션만),VARCHAR(30),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,product_interest_product_name,구체 상품명,VARCHAR(50),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,product_interest_product_code,보험상품_코드표의 보험코드 (조인키),VARCHAR(10),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,product_interest_reached_quote_calculator,계산/가입하기 도달 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,product_interest_purchase_completed,실제 가입 완료 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,accident_claim_claim_type,사고/청구 유형 (사고접수 세션만),VARCHAR(20),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,accident_claim_accident_report_requested,사고접수 요청 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,accident_claim_roadside_assistance_requested,고장출동 요청 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,contract_change_request_requested_item,변경 요청 항목 (계약변경 세션만),VARCHAR(50),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,contract_change_request_selected_menu,선택한 메뉴명,VARCHAR(50),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,contract_change_request_identity_verification_required,본인인증 필요 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,contract_change_request_identity_verification_completed,본인인증 완료 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,benefit_event_interaction_benefit_type,카드혜택/제휴혜택/이벤트 (혜택 세션만),VARCHAR(20),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,benefit_event_interaction_item_name,구체 항목명,VARCHAR(50),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,benefit_event_interaction_action,조회/참여/당첨확인,VARCHAR(20),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,resolution_resolved_in_chatbot,챗봇 내 해결 여부 — 이탈 세션은 NULL,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session,resolution_escalated_to_agent,상담원 이관 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session_navigation,menu_level,대분류/중분류/소분류/상품/액션/검색/처음으로,VARCHAR(10),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session_navigation,menu_name,클릭한 메뉴 텍스트 (품질테스트로 앞뒤공백 일부 포함),VARCHAR(50),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session_navigation,external_redirect_url,외부 사이트 이동 시 URL,VARCHAR(500),UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session_free_text_query,matched,매칭 성공 여부,BOOLEAN,UNLABELED_NOT_ASSUMED_NEGATIVE
+CHATBOT,session_free_text_query,matched_items,"매칭된 메뉴명 목록(JSON 배열, 품질테스트로 matched=true인데 빈 배열인 사례 일부 포함)",TEXT,UNLABELED_NOT_ASSUMED_NEGATIVE

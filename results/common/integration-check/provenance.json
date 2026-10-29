@@ -1,0 +1,62 @@
+[
+  {
+    "suite": "graph-114",
+    "origin": "ontology-graph",
+    "prediction_path": "experiments/maps-graph-lab/results/predictions.csv",
+    "prediction_sha256": "d7dfaf0d72aa40ebba9317a201398706b8de989c64e7063f4ab5158ae9619e3c",
+    "snapshot_sha256": "f8ce2fdf4f4a9e9146ee706f779efd4f3adee9b6cc8f4a7d57bf4f8f34f6bc4c",
+    "summary_sha256": "f30fe8dec60ed5eadc7e95aed248a1a3edfb874961e8a79f85f127eb542ee2a4",
+    "protocol": "nested-leave-one-source-system-out; inner threshold F1; grid .02",
+    "comparison_key": "c4b1232b6eb9cca8b30b5678d08ca858624b5ff46913d83f557e90bf90e84d33"
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "prediction_path": "experiments/maps-local-lab/results/latest/predictions.csv",
+    "prediction_sha256": "dbab10942cc1d87d558608eeb80a4769df64908f4373042113c688cd06c25fbe",
+    "snapshot_sha256": "f8ce2fdf4f4a9e9146ee706f779efd4f3adee9b6cc8f4a7d57bf4f8f34f6bc4c",
+    "summary_sha256": "35a1a23d6833a277011473a3c617a5c6d99e315009ef40ec89472a04830597a2",
+    "protocol": "nested-leave-one-source-system-out; inner threshold F1; grid .02",
+    "comparison_key": "c4b1232b6eb9cca8b30b5678d08ca858624b5ff46913d83f557e90bf90e84d33"
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "prediction_path": "experiments/local-model-benchmark/results/latest/predictions.csv",
+    "prediction_sha256": "f2ac2d3e913ef464043a3a477378f0e12455c1656d672e93d4cdcdcccf25094f",
+    "snapshot_sha256": "aa547096fb9d534788122a5f081088fe70e81f7c2d2e57163bd67cda5c32e7b6",
+    "summary_sha256": "59cfe27ba44cb89262b9dddd09ec8708ff3ae957905e8b72801f5491fc4b2de7",
+    "protocol": "nested-leave-one-source-system-out; inner threshold F1; grid .02",
+    "comparison_key": "c4b1232b6eb9cca8b30b5678d08ca858624b5ff46913d83f557e90bf90e84d33"
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "prediction_path": "experiments/local-model-benchmark/results/latest/neural_predictions.csv",
+    "prediction_sha256": "e44cf9c638c0461cbf07b1ae2c3befbba46d5a71da90bea03c6662e4b4245651",
+    "snapshot_sha256": "aa547096fb9d534788122a5f081088fe70e81f7c2d2e57163bd67cda5c32e7b6",
+    "summary_sha256": "57c94a7dbbbeb21647500769d1e5a249cc201bc0277e05c0d7e5389f1767e371",
+    "protocol": "leave-one-source-system-out; threshold trained on other sources; grid .01; channel scope",
+    "comparison_key": "932f245b9dcf23f202357a4d55e52155b983873de246670d6a892f2e269c4117"
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "prediction_path": "experiments/local-model-benchmark/results/latest/neural_predictions.csv",
+    "prediction_sha256": "e44cf9c638c0461cbf07b1ae2c3befbba46d5a71da90bea03c6662e4b4245651",
+    "snapshot_sha256": "aa547096fb9d534788122a5f081088fe70e81f7c2d2e57163bd67cda5c32e7b6",
+    "summary_sha256": "b167e6e6c66960a320efd29e11d428374ce69475807a9ab5338570ad320d5495",
+    "protocol": "leave-one-source-system-out; threshold trained on other sources; grid .01; channel scope",
+    "comparison_key": "0689a07b507fbcd553737fd4142a3dd348fd01202e202cbba523064e84643401"
+  },
+  {
+    "suite": "homepage-historical-replay-18",
+    "origin": "historical-rag-replay",
+    "prediction_path": "experiments/local-model-benchmark/results/latest/neural_predictions.csv",
+    "prediction_sha256": "e44cf9c638c0461cbf07b1ae2c3befbba46d5a71da90bea03c6662e4b4245651",
+    "snapshot_sha256": "aa547096fb9d534788122a5f081088fe70e81f7c2d2e57163bd67cda5c32e7b6",
+    "summary_sha256": "b167e6e6c66960a320efd29e11d428374ce69475807a9ab5338570ad320d5495",
+    "protocol": "historical stored outputs; first replicate and mode of 30 repeats separately; not new inference",
+    "comparison_key": "d87e8c48656f2d92d81db43a18acf1f5bd6162691d45991686cce69586a09770"
+  }
+]

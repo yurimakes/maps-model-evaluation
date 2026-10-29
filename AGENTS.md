@@ -1,13 +1,10 @@
-# MAPS phase-2 upgrade work
+# MAPS integrated local evaluation
 
-- The goal is to improve the existing phase-2 MAPS RAG/mapping workflow while retaining its datasets and target schema.
-- Commit code, tests, policies, evaluation input snapshots, predictions, metrics and execution logs to https://github.com/yurimakes/maps-local-model-benchmark . The repository must stay PRIVATE. The human explicitly requested snapshots for all experiments.
-- Use `python record_run.py --label <name> --commit --push` for a complete recorded experiment. Preserve failed test logs as well as successful runs.
-- Keep source ZIPs, original project references, and raw source datasets unchanged. Track metadata-only evaluation snapshots and hashes; omit installed libraries, caches and credentials.
-- Distinguish old-output replay, approved-mapping lookup, cross-source evaluation, and independent unseen-data evaluation. Do not label replay gains as confirmed phase-2 production improvement.
-- Preserve original AI predictions. Additional proposals go to Human Review and must not create approval or migration state automatically.
-- RAG.zip and maps_ai_demo_bundle.dat_(원본압축) were supplied on 2026-10-29. Original code, original corpus, source profiles and cached embeddings are available. Cached retrieval and validation code can be executed locally. Azure chat was not rerun; do not claim new end-to-end accuracy/precision/F1 from retrieval diagnostics or scripted contract tests.
-- Phase-2 already uses hybrid BM25/embedding retrieval and channel-to-target rules. Its original candidate scope is COUNSEL/COMPLAINT (25 columns). Earlier 78-candidate explorations are a separate experiment and must not be reported as the phase-2 baseline.
-- Keep original sources under phase2_original and actual knowledge under phase2_bundle. Changes are opt-in under phase2_upgrade. RRF+abbreviation expansion remains experimental because ranking diagnostics regressed at top-1; keep weighted fusion as the default.
-
-- Actual pretrained model comparison uses --local-models in record_run.py. Run the real MPNet, multilingual E5 and Korean SRoBERTa checkpoints, not scripted predictions. Official Magneto non-GPT mode is available. Distinguish cached embedding baseline, historical phase-2 final outputs, and newly inferred alternatives. Keep all model weights and environments out of Git; record revisions, hashes, package versions, predictions and elapsed time.
+- Do not commit, push, create PRs, merge, rewrite Git history, delete repositories or change visibility without explicit user approval.
+- Keep original checkouts and synced sources read-only. Legacy assets are byte-preserved according to provenance/import-manifest.json.
+- Run shared evaluation from the root with `python -m evaluation`. It re-scores saved predictions; it is not a model inference run.
+- New runs use new folders under results/. Never overwrite historical outputs.
+- Compare only equal comparison_key values; preserve evaluation scope and distinguish stored replay, cached retrieval, scripted tests and actual model inference.
+- Preserve all third-party license notices. Project code/data and ko-sroberta licensing remain unresolved; do not assign a blanket license.
+- Never upload internal data, embeddings, graph document text, raw source rows or new model outputs without checking their sharing scope.
+- Legacy scripts that contain --commit/--push are archival entry points. Do not execute them for this task.

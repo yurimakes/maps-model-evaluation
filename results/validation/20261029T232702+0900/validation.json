@@ -1,0 +1,29 @@
+{
+  "imported_files_verified": 441,
+  "legacy_assets_unchanged": true,
+  "checks": [
+    {
+      "name": "common-contract",
+      "exit_code": 0,
+      "tests": 6
+    },
+    {
+      "name": "benchmark-contract",
+      "exit_code": 0,
+      "tests": 32
+    },
+    {
+      "name": "legacy-local-contract",
+      "exit_code": 0,
+      "tests": 5
+    },
+    {
+      "name": "graph-isolation-and-integrity",
+      "exit_code": 0,
+      "tests": null
+    }
+  ],
+  "paid_api_calls": 0,
+  "model_inference_executed": false,
+  "passed": true
+}

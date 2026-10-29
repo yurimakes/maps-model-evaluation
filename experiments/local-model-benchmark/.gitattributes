@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+phase2_original/** -text
+phase2_bundle/** -text
+
+third_party/magneto_full/** -text

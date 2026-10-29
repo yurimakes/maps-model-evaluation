@@ -1,0 +1,43 @@
+{
+  "run_id": "20261029T234300+0900-021ae2e913",
+  "status": "completed",
+  "action": "saved_prediction_rescore",
+  "model": {
+    "id": "e5-multilingual",
+    "repository": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "license": "mit",
+    "task": "schema-mapping",
+    "environment": "legacy-neural",
+    "weights_in_git": false
+  },
+  "experiment": {
+    "id": "e5-multilingual-phase2",
+    "model_config": "configs/models/e5-multilingual.json",
+    "suite": "phase2-model-93",
+    "saved_method": "dense_e5_multilingual",
+    "seed": 42,
+    "execution_kind": "saved_prediction_rescore"
+  },
+  "model_inference_executed": false,
+  "paid_api_calls": 0,
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "snapshot_sha256": "aa547096fb9d534788122a5f081088fe70e81f7c2d2e57163bd67cda5c32e7b6",
+  "predictions_sha256": "9570b299685c4d89396150bb84a5c8cd1381f0d99b456bde49831967e480f7bc",
+  "experiment_sha256": "31ae3b704fda6594b6ddd2e33e2bbe071ea986b3148b6cb55d1a48b29fef2a5a",
+  "model_config_sha256": "1949160b33d69e6c30f8b29481939db7f60ae0b8fbf084b4e4bf66a443196017",
+  "source_sha256": {
+    "evaluation\\contract.py": "dea2077f5f841919f77ef753ae8738e2fbedbc0e68c32f0af8db2696d796c107",
+    "evaluation\\metrics.py": "3d6a5b6a328da802b0c212c5daed26357977e00f2d0d3315224a45a6525760e7",
+    "evaluation\\__init__.py": "7dbc0708b24c169c40df586e7e50cdcdda3639a8e6852a90884652941814df53",
+    "evaluation\\__main__.py": "5ef282381b3df75a90b146a0dee8e9d90d27da6c8bfc7e88869880625ac74caf",
+    "adapters\\record.py": "b1a3b4074eca12c5d36ecd736f2af9cd252ca66e559fada607e375f687c600a7",
+    "adapters\\__init__.py": "0a1e934921e6507643334dfb37bda5f8c47fc59e9818bc0cc6bf73474e72a1c8"
+  },
+  "comparison_key": "932f245b9dcf23f202357a4d55e52155b983873de246670d6a892f2e269c4117",
+  "protocol": "leave-one-source-system-out; threshold trained on other sources; grid .01; channel scope",
+  "parent_commit": "3bf941ebf81e717fe3cefcb040d2a564642b9500",
+  "working_tree_dirty": true,
+  "questions": 93
+}

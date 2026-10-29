@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-29T23:25:38.946331+09:00",
+  "action": "offline rescoring of preserved predictions; models and APIs not executed",
+  "registry_sha256": "a8a2049ed1267fa8cb6e01a65b97003d41c2490b410f961666d29b2e27be5257",
+  "evaluator_sha256": {
+    "evaluation\\__init__.py": "7dbc0708b24c169c40df586e7e50cdcdda3639a8e6852a90884652941814df53",
+    "evaluation\\__main__.py": "5ef282381b3df75a90b146a0dee8e9d90d27da6c8bfc7e88869880625ac74caf",
+    "evaluation\\contract.py": "dea2077f5f841919f77ef753ae8738e2fbedbc0e68c32f0af8db2696d796c107",
+    "evaluation\\metrics.py": "3d6a5b6a328da802b0c212c5daed26357977e00f2d0d3315224a45a6525760e7"
+  },
+  "method_count": 37,
+  "prediction_count": 2898,
+  "historical_parity_passed": 37,
+  "comparability": "Compare only equal comparison_key; protocol, gold, query scope and candidates must match.",
+  "limits": [
+    "Does not independently prove training/threshold isolation; legacy leakage tests cover implementations.",
+    "Replayed RAG, cached retrieval diagnostics and scripted tests are indexed separately; no new end-to-end model accuracy claim."
+  ]
+}

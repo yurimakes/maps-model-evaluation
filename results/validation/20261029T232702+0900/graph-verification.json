@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "leakage_checks": [
+    {
+      "system": "CHATBOT",
+      "method": "graph_catalog",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "CHATBOT",
+      "method": "graph_history",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "HOMEPAGE",
+      "method": "graph_catalog",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "HOMEPAGE",
+      "method": "graph_history",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "INBOUND",
+      "method": "graph_catalog",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "INBOUND",
+      "method": "graph_history",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "OUTBOUND",
+      "method": "graph_catalog",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "OUTBOUND",
+      "method": "graph_history",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "SALESFORCE",
+      "method": "graph_catalog",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    },
+    {
+      "system": "SALESFORCE",
+      "method": "graph_history",
+      "heldout_labels_changed": "all target IDs or empty",
+      "scores_identical": true,
+      "threshold_identical": true
+    }
+  ],
+  "metric_checks": [
+    {
+      "method": "metadata_tfidf",
+      "independent_metrics_match": true
+    },
+    {
+      "method": "hybrid_type_rules",
+      "independent_metrics_match": true
+    },
+    {
+      "method": "hybrid_transfer",
+      "independent_metrics_match": true
+    },
+    {
+      "method": "graph_catalog",
+      "independent_metrics_match": true
+    },
+    {
+      "method": "graph_history",
+      "independent_metrics_match": true
+    }
+  ],
+  "sqlite_integrity": "ok",
+  "dangling_edges": 0,
+  "physical_source_hashes_verified_unchanged": 51,
+  "source_files_unavailable_for_recheck": [],
+  "file_parse_errors": 0,
+  "document_search_hits_for_mapping": 22,
+  "elapsed_seconds": 2.8795936000024085
+}

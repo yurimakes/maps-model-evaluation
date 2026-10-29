@@ -1,0 +1,22 @@
+{
+  "version": "maps-2-design-policy-20261029",
+  "evidence": [
+    "3.Standardization/1.MAPS_TO-BE_논리모델_v0.4_확정.md sections 4-6",
+    "6.Mapping/6.4HITL(Human-In-the-Loop)/MAPS_데이터이관_개발자_테이블_사용가이드_v1.0.md section 9",
+    "6.Mapping/6.1MAPS_Mapping_평가_기준서_v1.0.docx sections 4.3, 5.1"
+  ],
+  "notes": "Existing MAPS business scope is known input, not inferred from held-out column mapping labels. Policies are versioned separately from ranking code. This is a project-specific exploratory ablation, not independent external validation.",
+  "allowed_tables": {
+    "HOMEPAGE": ["COMPLAINT"],
+    "SALESFORCE": ["COUNSEL"],
+    "CHATBOT": ["COUNSEL", "COUNSEL_DETAIL"],
+    "OUTBOUND": ["CUSTOMER", "COUNSEL"],
+    "INBOUND": ["CUSTOMER", "CONTRACT", "COUNSEL"]
+  },
+  "table_overrides": {
+    "CHATBOT|session": ["COUNSEL"],
+    "CHATBOT|session_navigation": ["COUNSEL_DETAIL"],
+    "CHATBOT|session_free_text_query": ["COUNSEL_DETAIL"]
+  },
+  "product_identifier_incompatible_tokens": ["gb", "category", "class", "classification", "status", "match", "type", "tp"]
+}

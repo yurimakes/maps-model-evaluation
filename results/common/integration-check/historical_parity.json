@@ -1,0 +1,756 @@
+[
+  {
+    "suite": "graph-114",
+    "origin": "ontology-graph",
+    "method": "graph_catalog",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "graph-114",
+    "origin": "ontology-graph",
+    "method": "graph_history",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "graph-114",
+    "origin": "ontology-graph",
+    "method": "hybrid_transfer",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "graph-114",
+    "origin": "ontology-graph",
+    "method": "hybrid_type_rules",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "graph-114",
+    "origin": "ontology-graph",
+    "method": "metadata_tfidf",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "method": "hybrid_dictionary",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "method": "hybrid_transfer",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "method": "hybrid_type_rules",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "method": "magneto_name",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "method": "maps_v3_candidate",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "legacy-local-114",
+    "origin": "ontology-legacy-local",
+    "method": "metadata_tfidf",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "method": "hybrid_dictionary",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "method": "hybrid_transfer",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "method": "hybrid_type_rules",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "method": "magneto_name",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "method": "maps_v3_candidate",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "benchmark-114",
+    "origin": "benchmark-latest",
+    "method": "metadata_tfidf",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "gold_pairs",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "decision_accuracy",
+      "exact_set_accuracy",
+      "pair_recall_at5"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "cached_phase2_embedding",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "dense_e5_multilingual",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "dense_ko_sroberta",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "dense_mpnet",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "magneto_e5_multilingual_metadata",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "magneto_ko_sroberta_metadata",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "magneto_mpnet_metadata",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "phase2-model-93",
+    "origin": "benchmark-neural",
+    "method": "magneto_mpnet_schema_only",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "cached_phase2_embedding",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "dense_e5_multilingual",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "dense_ko_sroberta",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "dense_mpnet",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "magneto_e5_multilingual_metadata",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "magneto_ko_sroberta_metadata",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "magneto_mpnet_metadata",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-new-model-18",
+    "origin": "benchmark-neural",
+    "method": "magneto_mpnet_schema_only",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-historical-replay-18",
+    "origin": "historical-rag-replay",
+    "method": "2차 저장 출력 · self_consistency_raw.csv · first_rep",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-historical-replay-18",
+    "origin": "historical-rag-replay",
+    "method": "2차 저장 출력 · self_consistency_raw.csv · modal_30_repeats",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-historical-replay-18",
+    "origin": "historical-rag-replay",
+    "method": "2차 저장 출력 · self_consistency_raw_fixed.csv · first_rep",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  },
+  {
+    "suite": "homepage-historical-replay-18",
+    "origin": "historical-rag-replay",
+    "method": "2차 저장 출력 · self_consistency_raw_fixed.csv · modal_30_repeats",
+    "fields_checked": [
+      "questions",
+      "positive_questions",
+      "mapping_precision",
+      "mapping_recall",
+      "mapping_f1",
+      "tp",
+      "fp",
+      "fn",
+      "top1_hit_rate",
+      "top5_hit_rate",
+      "exact_set_accuracy"
+    ],
+    "passed": true
+  }
+]

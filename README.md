@@ -1,72 +1,50 @@
-# MAPS 2차 고도화 실험
+# MAPS 통합 실험 작업본
 
-**실제 모델 간 비교 완료:** MPNet·다국어 E5·한국어 SRoBERTa의 실제 가중치를 로드하고 공식 Magneto 기본 모드를 실행했다. 최신 결과는 `results/latest/neural_model_report.html`, 판단은 [MODEL_FINDINGS.md](MODEL_FINDINGS.md), 재실행은 `run_model_comparison.cmd`를 사용한다.
+`maps-ontology-graph`와 `maps-local-model-benchmark`를 공통 평가체계를 중심으로 정리한 통합 실험 저장소다. 사용자가 만든 비공개 저장소 https://github.com/yurimakes/maps-model-evaluation 에 게시한다. 기존 benchmark 커밋 `3bf941ebf81e717fe3cefcb040d2a564642b9500`에서 이어지는 통합 커밋이며, 원본 두 저장소는 그대로 유지한다.
 
-**최신 기준:** 실제 2차 RAG 코드와 원본 지식·임베딩 묶음을 수령했다. 실제 검색 재실행 결과는 `results/latest/phase2_report.html`에서 확인한다. 초기 78후보 실험과 18문항 재생 결과는 별도 탐색 기록이다. 2차에도 이미 하이브리드 검색과 채널별 Target 고정이 있으므로 이를 신규 고도화 효과로 주장하지 않는다.
+원본 체크아웃, 원격 저장소, 기존 결과와 Git 이력을 보존했다. 원본 추적 파일 **441개**는 Git blob 바이트와 일치하며, `provenance/import-manifest.json`에 이전·현재 경로와 해시가 있다. 두 이력은 `refs/archive/`에 따로 보존했고, 독립 Git bundle과 mirror는 형제 폴더 `../maps-integration-preservation-20261029/`에 있다.
 
-목표는 기존 2차 MAPS의 RAG·매핑 추천 성능을 개선하는 것이다. 기존 데이터와 Target 표준체계를 유지하며 검색, 업무관계 검사, 승인 이력 활용을 추가한다.
+## 시작
 
-## 지금 실행할 수 있는 것
+여러 모델의 장기 실험을 위해 `configs/models/`, `configs/experiments/`, `adapters/`, `environments/`, `runs/`를 추가했다. [모델 추가·실행 기록 방법](docs/MULTI_MODEL_WORKFLOW.md)을 참고한다. 기존 결과를 run 형식으로 기록하는 기능을 제공하며, 새 모델의 자동 추론 실행기는 별도 구현 대상이다.
 
-- `open_report.cmd`: 실제 2차 RAG 검증 보고서 열기.
-- `run_local.cmd`: 테스트·실험·2차 로그 재생을 실행하고 결과를 고유 스냅샷 폴더에 저장한 뒤 지정한 비공개 저장소에 커밋·업로드한다. Python 3.13과 폴더 내 `.packages`를 사용한다.
-- `python test_evaluation.py`: 지표와 테스트 정답 누출 검사.
-- `python run_experiments.py --out experiments/새실험명`: 원천 시스템 5개를 번갈아 보류하는 평가.
-- `python record_run.py --label 실험명 --commit --push`: 검사 로그·전체 예측·실행 정보를 함께 기록하고 커밋한다. 실험명에는 영문·숫자·하이픈을 사용한다.
+Python 3.13 표준 라이브러리만으로 저장 예측을 다시 채점한다.
 
-새 환경에서는 `python -m pip install -r requirements.txt`로 설치한다. 기존 로컬 환경의 라이브러리는 `.packages`에 있으며 Git에는 실행 환경 버전만 기록한다.
+```powershell
+python -X utf8 -m evaluation
+python -X utf8 -m unittest discover -s tests -v
+```
 
-## 데이터와 평가
+매번 `results/common/<새 실행시각>/`에 성능표·정규화 예측·입력 해시·기존 성능표 대조 결과를 만든다. `--out results/common/새이름`으로 경로를 지정할 수 있다. 기존 폴더 덮어쓰기는 거부한다. 모델 추론이나 유료 API 호출은 없다.
 
-백업 매핑정의서 123행 중 생성 값 6행을 분리하고, 동일 원천·테이블·컬럼을 합친 114질문을 평가한다. 65질문에 68개 정답 쌍이 있고 49질문은 이관 제외다. Target은 테이블을 구분한 78개 후보이다. 이름이 같아도 다른 Target 테이블이면 다른 정답이다.
+검증 결과: **37개 성능표·2,898개 예측 재채점 일치**, 테스트 **43개 통과**, 그래프 10조건 정답 누출 검사·SQLite 무결성·원본 51파일 해시 확인 통과. [상세 작업 보고서](docs/INTEGRATION_REPORT.md), [평가 기준](docs/EVALUATION.md), [라이선스·민감정보](docs/LICENSE_AND_SECURITY.md)를 참고한다.
 
-승인 이력 모델은 테스트 원천의 매핑을 사용하지 않는다. 추천 보류 기준은 테스트 원천을 제외한 데이터 내부에서 다시 원천별로 나누어 결정한다. 정답표에 없는 메타데이터 컬럼은 제외 정답으로 만들지 않는다. `data/snapshot.json`은 메타데이터·표준사전·정답·기존 반복 로그를 고정한 재현 입력이며, 원천 고객 레코드는 담지 않는다. 입력 원본 해시는 `data/manifest.csv`에 남긴다.
+## 구조
 
-`maps_policy.json`은 2차 확정 논리모델·업무관계 Gate의 적용 범위를 별도 관리한다. 이 정책을 사용하는 실험과 사용하지 않는 실험을 구분한다. 현재 규칙과 방법은 이 프로젝트를 검토하며 설계했으므로 독립적인 외부 검증 결과로 주장하지 않는다.
+```text
+evaluation/                       공통 지표·평가 입력 검증·오프라인 채점
+configs/suites.json                평가셋·프로토콜·예측·기존 성능표 연결
+tests/                            공통 평가 계약 검사
+tools/validate_local.py            원본 보존·기존 코드 검증
+experiments/local-model-benchmark/ 최신 benchmark 전체 코드·실험·결과
+experiments/maps-graph-lab/         그래프 실험 전체 코드·입력·결과
+experiments/maps-local-lab/         그래프가 참조하는 당시 로컬 실험
+research_support/                 기존 연구 보고서 생성·검사 코드
+provenance/                        출처·파일 트리·경로 이동·보안·라이선스 기록
+results/common/                    새 공통 재채점 결과
+results/validation/                새 검증 로그
+```
 
-## 2차와 비교할 때 주의할 점
+그래프와 당시 로컬 실험은 형제 경로를 유지하여 기존 import가 작동한다. 최신 benchmark는 별도 디렉터리에 두어 동명 파일·과거 산출물을 덮어쓰지 않는다. 두 requirements 환경은 버전이 다르므로 별도 환경을 사용한다. 설치 라이브러리·모델 가중치·인증정보·브론즈 원천 레코드는 가져오지 않았다. 기존에 Git으로 관리하던 임베딩·지식 문서·DB는 출처를 보존한 내부 자산이다.
 
-2차 핵심 RAG 코드·프롬프트·지식·임베딩을 수령했다. 실제 지식 424개 중 검색 허용 문서는 186개이며 모두 원래 임베딩과 일치한다. 질문 프로파일 120개 중 114개가 원래 임베딩 캐시에 있다. 원본 운영 노트북은 Databricks 공유 테이블에 쓰는 코드이므로 실행하지 않고, 읽기·검색·검증 함수만 로컬 실행한다. Azure 연결 정보가 없어 최종 LLM 추천은 아직 재실행하지 않았다.
+## 기존 보고서
 
-홈페이지 18질문 × 30회 반복 로그는 과거 출력의 재생 실험이다. 540회를 독립 데이터 540건으로 세지 않는다. 최빈 출력은 30회 집계 결과이고 단일 실행과 비용이 다르다. 승인 매핑을 그대로 찾는 점수를 새로운 매핑의 예측 성능으로 제시하지 않는다.
+- [그래프 보고서](experiments/maps-graph-lab/results/report.html)
+- [최신 모델 비교 보고서](experiments/local-model-benchmark/results/latest/neural_model_report.html)
+- [2차 RAG 검색 진단](experiments/local-model-benchmark/results/latest/phase2_report.html)
+- [실제 모델 비교 해석](experiments/local-model-benchmark/MODEL_FINDINGS.md)
+- [공통 성능표](results/common/integration-check/metrics.csv)
 
-전체 114질문의 로컬 이름 비교보다 성능이 올랐다는 사실은 기존 2차 전체보다 좋아졌다는 증거가 아니다. 기존 코드 수령 후 동일 입력·모델·정답·데이터 분할로 A/B 재실행해야 한다.
+이전 실행 스크립트와 사용법은 당시 기록을 그대로 담고 있다. 특히 legacy `run_local.cmd`, `run_model_comparison.cmd`, `record_run.py --commit --push`는 자동 커밋·업로드 기능이 있으므로 이번 작업의 실행 경로로 사용하지 않는다. 루트 `run_evaluation.cmd`와 `python -m evaluation`은 로컬 채점만 한다. 원래 AGENTS 지침은 `provenance/benchmark-root/AGENTS.md`에 보존하고 현재 지침으로 교체했다.
 
-## 실제 2차 코드 기준 검증
-
-- `phase2_original/`: RAG.zip의 원본 코드·질문·임베딩을 보존한다. 압축 원본과 SHA-256으로 대조한다.
-- `phase2_bundle/`: 실제 지식 문서와 Target 모델, 원본 묶음의 해시를 보존한다. 원천 레코드는 로컬에만 두고 Git에서는 제외한다. Git에 포함한 `data/phase2_profiles.json`은 원본 프로파일러가 생성한 마스킹/집계 입력이다.
-- `build_phase2_upgrade.py`: 원본에서 별도의 opt-in 개선 패키지를 재생성한다.
-- `phase2_upgrade/`: 근거 누락과 N/A 구분, 필수 게이트 PASS 강제, 근거 ID·코드형 검증, 불완전 채점 보류, 부분 캐시 대응을 구현한다. 정상 캐시의 기본 가중합은 유지한다.
-- `run_phase2_rag.py`: 실제 문서·질문 벡터로 검색을 재실행한다. API 호출은 없다. 실제 2차 범위의 정답 질문 44개와 전체 범위 질문 93개를 사용한다.
-- `test_phase2_rag.py`: 원본 함수에서 잘못된 고확신을 재현하고 개선 함수가 차단하는지 확인한다. 정상 2단계 추천 흐름은 ScriptedClient로 검사하며, 이것을 LLM 성능으로 집계하지 않는다.
-
-원본 RAG는 상담·민원 25개 후보 중 채널에 따라 11개 또는 14개를 LLM에 모두 보여 준다. `phase2_candidate_ranking.csv`는 이 카드들을 검색해 보는 별도 진단이다. 실제 운영 RAG의 최종 Top-1 정확도가 아니다. `phase2_evidence_proxy.csv`는 검색 문서의 Target 참조를 이용한 프록시로, 사람이 판정한 관련성 정답이 아니다.
-
-약어 전개+RRF는 이번 데이터에서 근거 참조 적중 32/35→33/35, 후보 진단 @1은 28/44→26/44였다. 지표가 엇갈려 기본 검색에는 적용하지 않았다. 엄격한 검증이 실제 매핑 F1과 보류율에 주는 효과는 동일 모델로 유료 API A/B 실행 후 판단해야 한다.
-
-## 기존 2차 코드에 붙일 모듈
-
-실제 원본 코드의 A/B 실행 방법은 [PHASE2_INTEGRATION.md](PHASE2_INTEGRATION.md)에 정리했다. 기본 실행은 유료 API를 호출하지 않으며, 기존 Azure 연결 환경에서 명시적인 실행 옵션과 요청 한도를 지정해야 최종 모델 비교를 수행한다.
-
-`upgrade_adapter.py`의 `UpgradeEngine.recommend(source, legacy_target)`를 기존 RAG 추천 직후에 호출한다. source에는 `system`, `table`, `column`, `description`, `dtype`를 전달한다. 기존 Target 출력은 `legacy_target_original`로 보존하고, 재검토 후보를 `v3_target_proposal`로 따로 반환한다.
-
-기존 결과가 매핑이면 이를 유지한다. 기존 결과가 EXCLUDE이면 기존 하이브리드·업무관계 검사 후 하이브리드의 두 기준 중 더 엄격한 기준을 충족하는 후보만 추가한다. 두 기준은 현재 원천을 제외한 데이터에서 선택한다. 모든 추가 후보는 `requires_human_review=true`, `execution_allowed=false`이며 최종 승인이나 Gold 이관 규칙을 직접 만들지 않는다. 점수는 검색 점수이고 성공 확률·기존 7항목 Confidence가 아니다.
-
-`replay_predictions.csv`와 `replay_metrics.csv`는 저장된 기존 출력에 이 모듈을 붙인 탐색 결과다. 오류를 확인한 같은 18질문을 다시 사용한 것이므로 독립 검증·일반화 성능으로 주장하지 않는다. 기존 RAG 자체를 다시 실행한 결과도 아니다.
-
-## 오픈소스
-
-Magneto 공식 저장소 commit `6620623265fc7feac0f053996e62b68a13a72a57`의 문자열 비교 함수를 분리해 실제 실행한다. `third_party/magneto_name.py`에 변경 표시와 출처를, `third_party/LICENSE.txt`에 Apache-2.0 라이선스를 보존했다. 전체 Magneto 신경망 검색·LLM 재정렬이나 LLMatch 전체의 재현은 아니다.
-
-- https://github.com/VIDA-NYU/magneto-matcher
-- https://github.com/knowledge-fusion/LLMatch
-
-## 스냅샷 원칙
-
-이 저장소는 비공개를 유지한다. 코드, 테스트, 정책, 평가 입력 스냅샷, 예측, 지표, 실행 시간, 테스트 로그를 함께 커밋한다. 실행 바이너리·라이브러리·캐시·인증키는 커밋하지 않고 버전과 설치 방법을 기록한다. 실제 원천 데이터·첨부 원본은 읽기만 한다.
-
-## 실제 사전학습 모델 비교
-
-모델 간 비교 방법과 실행은 [MODEL_COMPARISON.md](MODEL_COMPARISON.md)를 참고한다. 
-실제 모델 비교 실행에는 record_run.py의 --local-models 옵션을 사용한다. 이전 검색·검증 테스트와 구분한다.
+커밋·푸시·PR·merge·이력 재작성·기존 저장소 삭제·공개 전환은 별도 명시적 승인 대상이다. 자체 코드·데이터와 일부 모델의 라이선스가 미확정이므로 통합 저장소 전체에 임의의 오픈소스 라이선스를 부여하지 않았다.

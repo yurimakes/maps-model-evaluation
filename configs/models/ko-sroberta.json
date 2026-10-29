@@ -1,0 +1,9 @@
+{
+  "id": "ko-sroberta",
+  "repository": "jhgan/ko-sroberta-multitask",
+  "revision": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+  "license": null,
+  "task": "schema-mapping",
+  "environment": "legacy-neural",
+  "weights_in_git": false
+}

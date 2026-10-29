@@ -1,0 +1,43 @@
+{
+  "run_id": "20261029T234301+0900-859d74dd80",
+  "status": "completed",
+  "action": "saved_prediction_rescore",
+  "model": {
+    "id": "ko-sroberta",
+    "repository": "jhgan/ko-sroberta-multitask",
+    "revision": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+    "license": null,
+    "task": "schema-mapping",
+    "environment": "legacy-neural",
+    "weights_in_git": false
+  },
+  "experiment": {
+    "id": "ko-sroberta-phase2",
+    "model_config": "configs/models/ko-sroberta.json",
+    "suite": "phase2-model-93",
+    "saved_method": "dense_ko_sroberta",
+    "seed": 42,
+    "execution_kind": "saved_prediction_rescore"
+  },
+  "model_inference_executed": false,
+  "paid_api_calls": 0,
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "snapshot_sha256": "aa547096fb9d534788122a5f081088fe70e81f7c2d2e57163bd67cda5c32e7b6",
+  "predictions_sha256": "9570b299685c4d89396150bb84a5c8cd1381f0d99b456bde49831967e480f7bc",
+  "experiment_sha256": "802b56bf14d520eeb2b6f8be142b3068d01addb81c584d284d4a5833a12cb4cd",
+  "model_config_sha256": "c1ceb5eb199fcea9adf59fb61f2a9ea3c89aef7da7e6f889771106da4fd3bc41",
+  "source_sha256": {
+    "evaluation\\contract.py": "dea2077f5f841919f77ef753ae8738e2fbedbc0e68c32f0af8db2696d796c107",
+    "evaluation\\metrics.py": "3d6a5b6a328da802b0c212c5daed26357977e00f2d0d3315224a45a6525760e7",
+    "evaluation\\__init__.py": "7dbc0708b24c169c40df586e7e50cdcdda3639a8e6852a90884652941814df53",
+    "evaluation\\__main__.py": "5ef282381b3df75a90b146a0dee8e9d90d27da6c8bfc7e88869880625ac74caf",
+    "adapters\\record.py": "b1a3b4074eca12c5d36ecd736f2af9cd252ca66e559fada607e375f687c600a7",
+    "adapters\\__init__.py": "0a1e934921e6507643334dfb37bda5f8c47fc59e9818bc0cc6bf73474e72a1c8"
+  },
+  "comparison_key": "932f245b9dcf23f202357a4d55e52155b983873de246670d6a892f2e269c4117",
+  "protocol": "leave-one-source-system-out; threshold trained on other sources; grid .01; channel scope",
+  "parent_commit": "3bf941ebf81e717fe3cefcb040d2a564642b9500",
+  "working_tree_dirty": true,
+  "questions": 93
+}

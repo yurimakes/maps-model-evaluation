@@ -1,0 +1,11 @@
+test_different_protocol_or_cohort_cannot_share_comparison_key (test_common_evaluation.ContractTests.test_different_protocol_or_cohort_cannot_share_comparison_key) ... ok
+test_duplicate_missing_gold_and_candidate_errors (test_common_evaluation.ContractTests.test_duplicate_missing_gold_and_candidate_errors) ... ok
+test_multiple_gold_targets_and_accuracy_denominators (test_common_evaluation.ContractTests.test_multiple_gold_targets_and_accuracy_denominators) ... ok
+test_negative_questions_and_abstention (test_common_evaluation.ContractTests.test_negative_questions_and_abstention) ... ok
+test_ranking_does_not_imply_a_mapping (test_common_evaluation.ContractTests.test_ranking_does_not_imply_a_mapping) ... ok
+test_wrong_table_counts_fp_and_fn (test_common_evaluation.ContractTests.test_wrong_table_counts_fp_and_fn) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

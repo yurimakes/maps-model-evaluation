@@ -1,0 +1,9 @@
+{
+  "id": "e5-multilingual",
+  "repository": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "license": "mit",
+  "task": "schema-mapping",
+  "environment": "legacy-neural",
+  "weights_in_git": false
+}

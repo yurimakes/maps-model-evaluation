@@ -1,0 +1,115 @@
+﻿system,table,column,description,dtype,id,gold
+CHATBOT,session,app_version,앱 버전 (앱만 값 존재),VARCHAR(20),CHATBOT|session|app_version,
+CHATBOT,session,channel,web 또는 app,VARCHAR(10),CHATBOT|session|channel,
+CHATBOT,session,customer_id,로그인 고객 식별자 (가상값) — 품질테스트로 로그인인데 NULL인 사례 일부 포함,VARCHAR(20),CHATBOT|session|customer_id,COUNSEL.CUST_ID
+CHATBOT,session,device_type,pc 또는 mobile (품질테스트로 tablet 등 비표준값 일부 포함),VARCHAR(10),CHATBOT|session|device_type,
+CHATBOT,session,duration_seconds,"세션 지속시간(초) — 이탈 세션 NULL, 일부 품질테스트로 음수/0/과대값 포함",INT,CHATBOT|session|duration_seconds,
+CHATBOT,session,ended_at,세션 종료 시각 — 이탈(미종결) 세션은 NULL,VARCHAR(25),CHATBOT|session|ended_at,COUNSEL.END_DTM
+CHATBOT,session,entry_login_status,guest/already_logged_in/logged_in_midway,VARCHAR(20),CHATBOT|session|entry_login_status,
+CHATBOT,session,free_text_queries[].query,,,CHATBOT|session|free_text_queries[].query,COUNSEL.CNSL_CNTNT
+CHATBOT,session,intent_category_guess,상품상담/자동차사고접수/계약내용변경·해지/기타계약관련문의/보험금청구·확인,VARCHAR(30),CHATBOT|session|intent_category_guess,COUNSEL.CNSL_TYPE_CD
+CHATBOT,session,is_logged_in,세션 종료 시점 로그인 여부,BOOLEAN,CHATBOT|session|is_logged_in,
+CHATBOT,session,os,iOS/Android (앱만 값 존재),VARCHAR(10),CHATBOT|session|os,
+CHATBOT,session,product_interest.product_code,,,CHATBOT|session|product_interest.product_code,COUNSEL.PRD_ID
+CHATBOT,session,session_id,세션 고유 ID,VARCHAR(30),CHATBOT|session|session_id,COUNSEL.CNSL_ID
+CHATBOT,session,started_at,세션 시작 시각 (일부 레코드는 품질테스트로 비표준 포맷 포함),VARCHAR(25),CHATBOT|session|started_at,COUNSEL.STRT_DTM
+CHATBOT,session_free_text_query,query,검색창 입력 원문 (품질테스트로 공백/과다·과소 길이 일부 포함),VARCHAR(200),CHATBOT|session_free_text_query|query,COUNSEL_DETAIL.DTL_CNTNT
+CHATBOT,session_free_text_query,query_seq,세션 내 검색 입력 순번 (PK 일부),INT,CHATBOT|session_free_text_query|query_seq,COUNSEL_DETAIL.SEQ_NO
+CHATBOT,session_free_text_query,session_id,FK -> session.session_id,VARCHAR(30),CHATBOT|session_free_text_query|session_id,COUNSEL_DETAIL.CNSL_ID
+CHATBOT,session_free_text_query,timestamp,입력 시각,VARCHAR(25),CHATBOT|session_free_text_query|timestamp,COUNSEL_DETAIL.EVT_DTM
+CHATBOT,session_navigation,full_path,시작화면부터의 전체 경로(브레드크럼),VARCHAR(200),CHATBOT|session_navigation|full_path,COUNSEL_DETAIL.DTL_CNTNT
+CHATBOT,session_navigation,session_id,FK -> session.session_id,VARCHAR(30),CHATBOT|session_navigation|session_id,COUNSEL_DETAIL.CNSL_ID
+CHATBOT,session_navigation,step,세션 내 클릭 순서 (PK 일부),INT,CHATBOT|session_navigation|step,COUNSEL_DETAIL.SEQ_NO
+CHATBOT,session_navigation,timestamp,클릭 시각,VARCHAR(25),CHATBOT|session_navigation|timestamp,COUNSEL_DETAIL.EVT_DTM
+HOMEPAGE,homepage_complaint,ANSWER_DUE_DT,답변 예정일,VARCHAR(10),HOMEPAGE|homepage_complaint|ANSWER_DUE_DT,COMPLAINT.ANS_DUE_DTM
+HOMEPAGE,homepage_complaint,COMPLAINT_CONTENT,민원 원문,TEXT,HOMEPAGE|homepage_complaint|COMPLAINT_CONTENT,COMPLAINT.CMPL_CNTNT
+HOMEPAGE,homepage_complaint,COMPLAINT_ID,민원접수번호,VARCHAR(30),HOMEPAGE|homepage_complaint|COMPLAINT_ID,COMPLAINT.CMPL_ID
+HOMEPAGE,homepage_complaint,COMPLAINT_TITLE,민원 제목,VARCHAR(200),HOMEPAGE|homepage_complaint|COMPLAINT_TITLE,COMPLAINT.CMPL_TTL
+HOMEPAGE,homepage_complaint,COMPLAINT_TP,민원 유형,VARCHAR(30),HOMEPAGE|homepage_complaint|COMPLAINT_TP,COMPLAINT.CMPL_TYPE_CD
+HOMEPAGE,homepage_complaint,CONTACT_EMAIL,회신 이메일(합성),VARCHAR(100),HOMEPAGE|homepage_complaint|CONTACT_EMAIL,
+HOMEPAGE,homepage_complaint,CONTACT_TEL,회신 전화번호(합성),VARCHAR(20),HOMEPAGE|homepage_complaint|CONTACT_TEL,COMPLAINT.RCV_CNTC_TEL_NO
+HOMEPAGE,homepage_complaint,CUST_ID,고객식별번호,VARCHAR(20),HOMEPAGE|homepage_complaint|CUST_ID,COMPLAINT.CUST_ID
+HOMEPAGE,homepage_complaint,FSS_CASE_NO,금융감독원 이첩 민원번호(가상),VARCHAR(30),HOMEPAGE|homepage_complaint|FSS_CASE_NO,COMPLAINT.FSS_CASE_NO
+HOMEPAGE,homepage_complaint,FSS_RELATED_YN,금융감독원 관련 여부,CHAR(1),HOMEPAGE|homepage_complaint|FSS_RELATED_YN,COMPLAINT.FSS_RLTD_YN
+HOMEPAGE,homepage_complaint,INBOUND_PRODUCT_CODE,,,HOMEPAGE|homepage_complaint|INBOUND_PRODUCT_CODE,COMPLAINT.PRD_ID
+HOMEPAGE,homepage_complaint,LANG_CD,민원 언어코드,VARCHAR(10),HOMEPAGE|homepage_complaint|LANG_CD,COMPLAINT.LANG_CD
+HOMEPAGE,homepage_complaint,PROCESS_ST,민원 처리상태,VARCHAR(20),HOMEPAGE|homepage_complaint|PROCESS_ST,COMPLAINT.PROC_ST_CD
+HOMEPAGE,homepage_complaint,PRODUCT_CODE_MATCH_STATUS,,,HOMEPAGE|homepage_complaint|PRODUCT_CODE_MATCH_STATUS,
+HOMEPAGE,homepage_complaint,PRODUCT_GB,보험상품 구분,VARCHAR(20),HOMEPAGE|homepage_complaint|PRODUCT_GB,
+HOMEPAGE,homepage_complaint,RCV_PATH,민원 접수경로,VARCHAR(20),HOMEPAGE|homepage_complaint|RCV_PATH,COMPLAINT.RCV_PATH_CD
+HOMEPAGE,homepage_complaint,REG_DT,민원 접수일시,VARCHAR(16),HOMEPAGE|homepage_complaint|REG_DT,COMPLAINT.REG_DTM
+HOMEPAGE,homepage_complaint,SENTIMENT_REF,생성 시 감정 참조라벨,VARCHAR(20),HOMEPAGE|homepage_complaint|SENTIMENT_REF,
+INBOUND,consultation,address,주소,VARCHAR(200),INBOUND|consultation|address,CUSTOMER.ADDR
+INBOUND,consultation,agent_id,상담원 식별자,VARCHAR(20),INBOUND|consultation|agent_id,
+INBOUND,consultation,agent_name,상담원명,VARCHAR(50),INBOUND|consultation|agent_name,
+INBOUND,consultation,ars_menu,ARS 메뉴(FK),VARCHAR(100),INBOUND|consultation|ars_menu,
+INBOUND,consultation,birth_date,생년월일,DATE,INBOUND|consultation|birth_date,CUSTOMER.BRTH_DT
+INBOUND,consultation,consultation_content,상담 내용,TEXT,INBOUND|consultation|consultation_content,COUNSEL.CNSL_CNTNT
+INBOUND,consultation,consultation_id,상담 식별자(PK),VARCHAR(30),INBOUND|consultation|consultation_id,COUNSEL.CNSL_ID
+INBOUND,consultation,consultation_type,상담 업무(FK),VARCHAR(100),INBOUND|consultation|consultation_type,COUNSEL.CNSL_TYPE_CD
+INBOUND,consultation,contract_date,계약일,DATE,INBOUND|consultation|contract_date,CONTRACT.CNTR_DT
+INBOUND,consultation,customer_id,고객 식별자,VARCHAR(20),INBOUND|consultation|customer_id,CONTRACT.CUST_ID ; COUNSEL.CUST_ID
+INBOUND,consultation,customer_name,고객명,VARCHAR(50),INBOUND|consultation|customer_name,CUSTOMER.CUST_NM
+INBOUND,consultation,ended_at,상담 종료일시,DATETIME,INBOUND|consultation|ended_at,COUNSEL.END_DTM
+INBOUND,consultation,expiration_date,만기일,DATE,INBOUND|consultation|expiration_date,CONTRACT.EXPR_DT
+INBOUND,consultation,gender,성별(FK),VARCHAR(10),INBOUND|consultation|gender,CUSTOMER.GEND_CD
+INBOUND,consultation,inbound_type,인입 채널(FK),VARCHAR(50),INBOUND|consultation|inbound_type,
+INBOUND,consultation,phone_number,연락처,VARCHAR(20),INBOUND|consultation|phone_number,CUSTOMER.TEL_NO
+INBOUND,consultation,policy_id,계약 식별자,VARCHAR(30),INBOUND|consultation|policy_id,CONTRACT.CNTR_ID ; CONTRACT.PLCY_NO
+INBOUND,consultation,policy_status,계약 상태(FK),VARCHAR(20),INBOUND|consultation|policy_status,CONTRACT.CNTR_ST_CD
+INBOUND,consultation,product_code,상품 코드(FK),VARCHAR(20),INBOUND|consultation|product_code,CONTRACT.PRD_ID ; COUNSEL.PRD_ID
+INBOUND,consultation,started_at,상담 시작일시,DATETIME,INBOUND|consultation|started_at,COUNSEL.STRT_DTM
+INBOUND,consultation,status,상담 상태(FK),VARCHAR(20),INBOUND|consultation|status,COUNSEL.CNSL_ST_CD
+INBOUND,consultation,team_name,상담원 소속(FK),VARCHAR(100),INBOUND|consultation|team_name,
+OUTBOUND,TM_SOURCE_EXPORT,APPL_NO,청약번호,VARCHAR,OUTBOUND|tm_source_export|APPL_NO,
+OUTBOUND,TM_SOURCE_EXPORT,BRTH_YMD,생년월일,CHAR,OUTBOUND|tm_source_export|BRTH_YMD,CUSTOMER.BRTH_DT
+OUTBOUND,TM_SOURCE_EXPORT,CALL_CONN_DTM,고객 연결시각,TIMESTAMP,OUTBOUND|tm_source_export|CALL_CONN_DTM,
+OUTBOUND,TM_SOURCE_EXPORT,CALL_END_DTM,통화 종료시각,TIMESTAMP,OUTBOUND|tm_source_export|CALL_END_DTM,COUNSEL.END_DTM
+OUTBOUND,TM_SOURCE_EXPORT,CALL_ST_DTM,발신 시작시각,TIMESTAMP,OUTBOUND|tm_source_export|CALL_ST_DTM,COUNSEL.STRT_DTM
+OUTBOUND,TM_SOURCE_EXPORT,CMPGN_CD,TM 캠페인 코드,VARCHAR,OUTBOUND|tm_source_export|CMPGN_CD,
+OUTBOUND,TM_SOURCE_EXPORT,CNTR_PRGS_CD,계약 진행단계,VARCHAR,OUTBOUND|tm_source_export|CNTR_PRGS_CD,
+OUTBOUND,TM_SOURCE_EXPORT,CONN_RSLT_CD,CTI 연결 결과,VARCHAR,OUTBOUND|tm_source_export|CONN_RSLT_CD,
+OUTBOUND,TM_SOURCE_EXPORT,CSLT_NOTE,상담원 메모,VARCHAR,OUTBOUND|tm_source_export|CSLT_NOTE,
+OUTBOUND,TM_SOURCE_EXPORT,CSLT_TP_CD,상담 유형,VARCHAR,OUTBOUND|tm_source_export|CSLT_TP_CD,COUNSEL.CNSL_TYPE_CD
+OUTBOUND,TM_SOURCE_EXPORT,CTI_ID,통화 시도 고유번호 (E01 의도 중복으로 파일 전체 PK는 아님),VARCHAR,OUTBOUND|tm_source_export|CTI_ID,COUNSEL.CNSL_ID
+OUTBOUND,TM_SOURCE_EXPORT,CUST_NM,고객명,VARCHAR,OUTBOUND|tm_source_export|CUST_NM,CUSTOMER.CUST_NM
+OUTBOUND,TM_SOURCE_EXPORT,DB_ACQ_DTM,리드 입수시각,TIMESTAMP,OUTBOUND|tm_source_export|DB_ACQ_DTM,
+OUTBOUND,TM_SOURCE_EXPORT,DB_ACQ_PATH_CD,리드 DB 입수경로,VARCHAR,OUTBOUND|tm_source_export|DB_ACQ_PATH_CD,
+OUTBOUND,TM_SOURCE_EXPORT,DB_ST_CD,리드 처리상태,VARCHAR,OUTBOUND|tm_source_export|DB_ST_CD,
+OUTBOUND,TM_SOURCE_EXPORT,DNC_YN,아웃바운드 제한 상태,CHAR,OUTBOUND|tm_source_export|DNC_YN,
+OUTBOUND,TM_SOURCE_EXPORT,GD_CD,상품 코드,VARCHAR,OUTBOUND|tm_source_export|GD_CD,COUNSEL.PRD_ID
+OUTBOUND,TM_SOURCE_EXPORT,GD_NM,상품명,VARCHAR,OUTBOUND|tm_source_export|GD_NM,
+OUTBOUND,TM_SOURCE_EXPORT,HP_NO,연락처,VARCHAR,OUTBOUND|tm_source_export|HP_NO,CUSTOMER.TEL_NO
+OUTBOUND,TM_SOURCE_EXPORT,LEAD_MGMT_NO,TM 리드 관리번호,VARCHAR,OUTBOUND|tm_source_export|LEAD_MGMT_NO,
+OUTBOUND,TM_SOURCE_EXPORT,MKT_AGR_YN,마케팅 동의 상태,CHAR,OUTBOUND|tm_source_export|MKT_AGR_YN,
+OUTBOUND,TM_SOURCE_EXPORT,MN_PREM,월 보험료,DECIMAL,OUTBOUND|tm_source_export|MN_PREM,
+OUTBOUND,TM_SOURCE_EXPORT,REC_AGR_YN,녹취 동의 상태,CHAR,OUTBOUND|tm_source_export|REC_AGR_YN,
+OUTBOUND,TM_SOURCE_EXPORT,REC_URI,녹취파일 저장 위치,VARCHAR,OUTBOUND|tm_source_export|REC_URI,
+OUTBOUND,TM_SOURCE_EXPORT,RJT_RSN_CD,거절·철회 사유,VARCHAR,OUTBOUND|tm_source_export|RJT_RSN_CD,
+OUTBOUND,TM_SOURCE_EXPORT,R_CALL_RSV_DTM,재통화 예약시각,TIMESTAMP,OUTBOUND|tm_source_export|R_CALL_RSV_DTM,
+OUTBOUND,TM_SOURCE_EXPORT,STT_TXT,STT 통화 전문,TEXT,OUTBOUND|tm_source_export|STT_TXT,COUNSEL.CNSL_CNTNT
+OUTBOUND,TM_SOURCE_EXPORT,SX_DV_CD,성별 구분코드,CHAR,OUTBOUND|tm_source_export|SX_DV_CD,CUSTOMER.GEND_CD
+OUTBOUND,TM_SOURCE_EXPORT,TALK_TM,실제 연결 통화시간,INTEGER,OUTBOUND|tm_source_export|TALK_TM,
+OUTBOUND,TM_SOURCE_EXPORT,TMR_ID,TM 상담원 식별자,VARCHAR,OUTBOUND|tm_source_export|TMR_ID,
+OUTBOUND,TM_SOURCE_EXPORT,TM_RSLT_CD,TM 상담 결과,VARCHAR,OUTBOUND|tm_source_export|TM_RSLT_CD,
+OUTBOUND,TM_SOURCE_EXPORT,TRY_CNT,리드별 통화 시도 순번,SMALLINT,OUTBOUND|tm_source_export|TRY_CNT,
+SALESFORCE,Insurance_Consultation__c,Access_Path__c,홈페이지 접근경로,String(255),SALESFORCE|insurance_consultation__c|Access_Path__c,
+SALESFORCE,Insurance_Consultation__c,Consent_Yn__c,개인정보 수집·이용 동의여부,Boolean,SALESFORCE|insurance_consultation__c|Consent_Yn__c,
+SALESFORCE,Insurance_Consultation__c,Consult_Category__c,상담분류,Picklist,SALESFORCE|insurance_consultation__c|Consult_Category__c,COUNSEL.CNSL_TYPE_CD
+SALESFORCE,Insurance_Consultation__c,Consult_Content__c,고객 상담 문의 원문,Long Text Area,SALESFORCE|insurance_consultation__c|Consult_Content__c,COUNSEL.CNSL_CNTNT
+SALESFORCE,Insurance_Consultation__c,Consult_Datetime__c,상담 등록일시,Datetime,SALESFORCE|insurance_consultation__c|Consult_Datetime__c,COUNSEL.STRT_DTM
+SALESFORCE,Insurance_Consultation__c,Consultation_No__c,상담ID,String(30),SALESFORCE|insurance_consultation__c|Consultation_No__c,COUNSEL.CNSL_ID
+SALESFORCE,Insurance_Consultation__c,Country_Code__c,접속 국가코드,String(2),SALESFORCE|insurance_consultation__c|Country_Code__c,
+SALESFORCE,Insurance_Consultation__c,CreatedDate,Salesforce 레코드 생성일시,Datetime,SALESFORCE|insurance_consultation__c|CreatedDate,
+SALESFORCE,Insurance_Consultation__c,Customer_Id__c,로그인 고객 식별번호,String(30),SALESFORCE|insurance_consultation__c|Customer_Id__c,COUNSEL.CUST_ID
+SALESFORCE,Insurance_Consultation__c,Customer_Type__c,로그인/비로그인 고객구분,Picklist,SALESFORCE|insurance_consultation__c|Customer_Type__c,
+SALESFORCE,Insurance_Consultation__c,Device_Type__c,접속기기 유형,Picklist,SALESFORCE|insurance_consultation__c|Device_Type__c,
+SALESFORCE,Insurance_Consultation__c,Id,Salesforce Record ID,String(18),SALESFORCE|insurance_consultation__c|Id,
+SALESFORCE,Insurance_Consultation__c,Inbound_Product_Code__c,Inbound 상품마스터 기준 매핑 상품코드,String(30),SALESFORCE|insurance_consultation__c|Inbound_Product_Code__c,COUNSEL.PRD_ID
+SALESFORCE,Insurance_Consultation__c,Inbound_Product_Match_Status__c,Inbound 상품코드 매핑 상태(MATCHED/UNMAPPED/DQ 상태),String(30),SALESFORCE|insurance_consultation__c|Inbound_Product_Match_Status__c,
+SALESFORCE,Insurance_Consultation__c,Language_Code__c,상담언어 코드,Picklist,SALESFORCE|insurance_consultation__c|Language_Code__c,COUNSEL.LANG_CD
+SALESFORCE,Insurance_Consultation__c,LastModifiedDate,Salesforce 최종수정일시,Datetime,SALESFORCE|insurance_consultation__c|LastModifiedDate,COUNSEL.END_DTM
+SALESFORCE,Insurance_Consultation__c,Process_Status__c,상담 처리상태,Picklist,SALESFORCE|insurance_consultation__c|Process_Status__c,COUNSEL.CNSL_ST_CD
+SALESFORCE,Insurance_Consultation__c,Product_Code__c,보험상품 코드,String(20),SALESFORCE|insurance_consultation__c|Product_Code__c,
+SALESFORCE,Insurance_Consultation__c,Referrer_Channel__c,홈페이지 유입채널,Picklist,SALESFORCE|insurance_consultation__c|Referrer_Channel__c,
+SALESFORCE,Insurance_Consultation__c,Session_Id__c,웹 세션 식별자,String(50),SALESFORCE|insurance_consultation__c|Session_Id__c,

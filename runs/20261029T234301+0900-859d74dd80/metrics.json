@@ -1,0 +1,20 @@
+{
+  "questions": 93,
+  "positive_questions": 44,
+  "gold_pairs": 44,
+  "mapping_precision": 0.16470588235294117,
+  "mapping_recall": 0.3181818181818182,
+  "mapping_f1": 0.21705426356589147,
+  "tp": 14,
+  "fp": 71,
+  "fn": 30,
+  "decision_accuracy": 0.1935483870967742,
+  "exact_set_accuracy": 0.1935483870967742,
+  "proposed_queries": 85,
+  "top1_hit_rate": 0.38636363636363635,
+  "top3_hit_rate": 0.75,
+  "top5_hit_rate": 0.8409090909090909,
+  "pair_recall_at1": 0.38636363636363635,
+  "pair_recall_at3": 0.75,
+  "pair_recall_at5": 0.8409090909090909
+}

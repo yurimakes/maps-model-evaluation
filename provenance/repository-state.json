@@ -1,0 +1,62 @@
+{
+  "maps-ontology-graph": {
+    "remote": "https://github.com/yurimakes/maps-ontology-graph",
+    "visibility": "private (GitHub connector verified)",
+    "remote_head": "740bca59ebbd8c2bae9275a2d97e8c8631d14dc5",
+    "refs": [
+      "740bca59ebbd8c2bae9275a2d97e8c8631d14dc5 refs/heads/main"
+    ],
+    "commit_count": 2,
+    "history": [
+      "740bca59ebbd8c2bae9275a2d97e8c8631d14dc5 2026-10-29T15:27:59+09:00 Snapshot MAPS ontology, graph experiments, tests, and approved derived artifacts",
+      "006b3e9f2f44c600a2706e3a4a20becafbb5aa77 2026-10-29T15:23:08+09:00 Initialize private MAPS ontology and graph experiment archive"
+    ],
+    "local_path": "C:\\choiyuri\\msdt-team-project-03\\maps-ontology-graph",
+    "local_head": "740bca59ebbd8c2bae9275a2d97e8c8631d14dc5",
+    "local_branch": "main",
+    "local_status_porcelain": "",
+    "local_branches": [
+      "* main                740bca5 [origin/main] Snapshot MAPS ontology, graph experiments, tests, and approved derived artifacts",
+      "  remotes/origin/main 740bca5 Snapshot MAPS ontology, graph experiments, tests, and approved derived artifacts"
+    ],
+    "tracked_files": 72,
+    "tracked_bytes": 5630726,
+    "top_level_licenses": [],
+    "bundle_sha256": "055c942093c2af2cdb2ce732cdb029d5b9b6e21fa4a41b1d4ed4573185cee10b",
+    "bundle_verified": true,
+    "fsck": ""
+  },
+  "maps-local-model-benchmark": {
+    "remote": "https://github.com/yurimakes/maps-local-model-benchmark",
+    "visibility": "private (GitHub connector verified)",
+    "remote_head": "3bf941ebf81e717fe3cefcb040d2a564642b9500",
+    "refs": [
+      "3bf941ebf81e717fe3cefcb040d2a564642b9500 refs/heads/main"
+    ],
+    "commit_count": 8,
+    "history": [
+      "3bf941ebf81e717fe3cefcb040d2a564642b9500 2026-10-29T17:31:51+09:00 reproducibility: pin evaluated model revisions and retain compatibility history",
+      "608f479b5f4d66cb928c39f7a1c09e4b396fd788 2026-10-29T17:28:31+09:00 snapshot: neural-model-findings 20261029T172757+0900",
+      "d2baa0ddebb4d14c9b21e399b6673d7ba9da1899 2026-10-29T17:20:03+09:00 snapshot: pretrained-model-comparison-compatible 20261029T171712+0900",
+      "19d5a590eb886b09d0a3126451c0ecf2d3357540 2026-10-29T17:13:11+09:00 snapshot: pretrained-model-comparison 20261029T171125+0900",
+      "0665bfbbdb60b4b68ff2ce52d241ec9cd3d4a0be 2026-10-29T16:42:27+09:00 snapshot: phase2-model-ab-ready 20261029T164203+0900",
+      "c4d9eab6230dc9478e5523c62b4da1efa3b36e9c 2026-10-29T16:35:57+09:00 snapshot: actual-phase2-rag 20261029T163532+0900",
+      "e5c589dd9a1016d2bb87351969ac6031f3d7a336 2026-10-29T15:30:08+09:00 snapshot: phase2-review-addon 20261029T152937+0900",
+      "18bf7249eb8249e7c00c6774327a3ed9510310a1 2026-10-29T15:25:12+09:00 snapshot: establish MAPS phase-2 upgrade benchmark and source-policy experiment"
+    ],
+    "local_path": "C:\\choiyuri\\msdt-team-project-03\\maps-local-model-benchmark",
+    "local_head": "3bf941ebf81e717fe3cefcb040d2a564642b9500",
+    "local_branch": "main",
+    "local_status_porcelain": "",
+    "local_branches": [
+      "* main                3bf941e [origin/main] reproducibility: pin evaluated model revisions and retain compatibility history",
+      "  remotes/origin/main 3bf941e reproducibility: pin evaluated model revisions and retain compatibility history"
+    ],
+    "tracked_files": 369,
+    "tracked_bytes": 15672303,
+    "top_level_licenses": [],
+    "bundle_sha256": "a9341d21cbece33918fcfc6e264124f19870948b00b9cfbed584371301f66bcf",
+    "bundle_verified": true,
+    "fsck": ""
+  }
+}

@@ -1,0 +1,2652 @@
+{
+  "maps-ontology-graph": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "blob": "daae77272a3631d97598d94ee1ef0543c298b0fd",
+      "bytes": 70
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "blob": "d48d387b700bdb651c8783241dc771418bf20449",
+      "bytes": 3151
+    },
+    {
+      "path": "SNAPSHOT_MANIFEST.json",
+      "mode": "100644",
+      "blob": "97afeaa6f6d8f39fef763ade6f700829e5582dc4",
+      "bytes": 18246
+    },
+    {
+      "path": "experiments/maps-graph-lab/README.md",
+      "mode": "100644",
+      "blob": "b3ee8ec4d1e22434bdce302e25fc496ecf3f8158",
+      "bytes": 6951
+    },
+    {
+      "path": "experiments/maps-graph-lab/benchmark.py",
+      "mode": "100644",
+      "blob": "f371df1dbfa37265c3ce4801f96262efb97aac3b",
+      "bytes": 24644
+    },
+    {
+      "path": "experiments/maps-graph-lab/build_graph.py",
+      "mode": "100644",
+      "blob": "64f4fa43cd716ceb017f792b7dfa931b42defe9a",
+      "bytes": 14115
+    },
+    {
+      "path": "experiments/maps-graph-lab/check_report.cjs",
+      "mode": "100644",
+      "blob": "e2b7429c58d5a65f13cfd40f71b44524287f6bfb",
+      "bytes": 1055
+    },
+    {
+      "path": "experiments/maps-graph-lab/data/catalog.json",
+      "mode": "100644",
+      "blob": "134168829a511b39a97fe203f71cf5e71cc4e173",
+      "bytes": 167839
+    },
+    {
+      "path": "experiments/maps-graph-lab/data/manifest.csv",
+      "mode": "100644",
+      "blob": "68aad72910359b30b7fa3102f6bce10a07132346",
+      "bytes": 3852
+    },
+    {
+      "path": "experiments/maps-graph-lab/data/queries.csv",
+      "mode": "100644",
+      "blob": "153b842f8191eab5d625e489203fbd518889c87e",
+      "bytes": 14394
+    },
+    {
+      "path": "experiments/maps-graph-lab/data/snapshot.json",
+      "mode": "100644",
+      "blob": "bfef99a067b9c41d26d6aff3324b6b866e698231",
+      "bytes": 412564
+    },
+    {
+      "path": "experiments/maps-graph-lab/data/unlabeled_columns.csv",
+      "mode": "100644",
+      "blob": "2130d16a18ceccee2eb3b9040779848f47af2374",
+      "bytes": 3858
+    },
+    {
+      "path": "experiments/maps-graph-lab/inspect_inputs.py",
+      "mode": "100644",
+      "blob": "5b1c07d7e31f54e5e1822d2fc1dfb645eb5b2781",
+      "bytes": 854
+    },
+    {
+      "path": "experiments/maps-graph-lab/measure_queries.py",
+      "mode": "100644",
+      "blob": "57a853d442cb6f36b2f11461508cfcfd7f87e55b",
+      "bytes": 1611
+    },
+    {
+      "path": "experiments/maps-graph-lab/query.py",
+      "mode": "100644",
+      "blob": "126b98d649d4d5b90a0845e9f305d984ce7ce65e",
+      "bytes": 2690
+    },
+    {
+      "path": "experiments/maps-graph-lab/read_pdf.py",
+      "mode": "100644",
+      "blob": "5bb7fa4fec9baa21b558448a13de199ac4456969",
+      "bytes": 185
+    },
+    {
+      "path": "experiments/maps-graph-lab/requirements.txt",
+      "mode": "100644",
+      "blob": "9297d5fdd59aaf9bc0db43b187b00fe9abfe5819",
+      "bytes": 96
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/baseline_tests.json",
+      "mode": "100644",
+      "blob": "d4d4705d969aab6b0a5257c1d1914789c66d9e53",
+      "bytes": 69
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/baseline_tests.log",
+      "mode": "100644",
+      "blob": "8500d8ee5254bcaebeea4a360c1733dd4c755bff",
+      "bytes": 711
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/build_summary.json",
+      "mode": "100644",
+      "blob": "bbb31a23b009abed1a81b7644674a3a3d9e4baa9",
+      "bytes": 5242
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/catalog_issues.csv",
+      "mode": "100644",
+      "blob": "c1c7a08c458a3c29e13e2d421148f341ab5d9e73",
+      "bytes": 3265
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/costs.csv",
+      "mode": "100644",
+      "blob": "b8e2d7ab1c2d4976b4982cdf6306b1276d6e7570",
+      "bytes": 545
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/deployment_thresholds.json",
+      "mode": "100644",
+      "blob": "3b6dfb65ef07d8104ce17cde2e269156a7133913",
+      "bytes": 57
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/errors.csv",
+      "mode": "100644",
+      "blob": "4fb0069e79f62cffac41bd71e7c2e5994edbe91e",
+      "bytes": 82279
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/fold_graph_audit.json",
+      "mode": "100644",
+      "blob": "d2956fe06bbf4f9b1f8b8cadf55f9d864b7ff287",
+      "bytes": 17007
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/graph.json",
+      "mode": "100644",
+      "blob": "d54478a6ab4bfeaf788c55734d649f11818e4e96",
+      "bytes": 674045
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/inventory.json",
+      "mode": "100644",
+      "blob": "d9a188a248bcca20b909514e125bc1037cf4cb27",
+      "bytes": 55802
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/knowledge.sqlite",
+      "mode": "100644",
+      "blob": "2ba130747fa7ff5db84ea8c8d59ab68c833d1d82",
+      "bytes": 1560576
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/metrics.csv",
+      "mode": "100644",
+      "blob": "d53d4c5d1d55cee34c82b01f083cf942d43f016d",
+      "bytes": 1562
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "4516876935cec1d08d91ad28a7ea55a70b7982d3",
+      "bytes": 5298
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/predictions.csv",
+      "mode": "100644",
+      "blob": "e6d05886c2bb9bbe9017e9fb7e31ff4476654c15",
+      "bytes": 163756
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/profiles.json",
+      "mode": "100644",
+      "blob": "36f78c930db038e64779551a3647061877ea0460",
+      "bytes": 36277
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/query_latency.json",
+      "mode": "100644",
+      "blob": "cc3d84e7b1c0268b7f8c2a8b898bd5dace8ca78d",
+      "bytes": 1396
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/report.html",
+      "mode": "100644",
+      "blob": "b5c7a69627f35b6b9b4f43d4f67ee7a31f06c092",
+      "bytes": 563932
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/report_checks.json",
+      "mode": "100644",
+      "blob": "7514ed1849d633d3c104a1ef5b7f089709845697",
+      "bytes": 207
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/results.json",
+      "mode": "100644",
+      "blob": "7395b01727442689984f949f55634d4302fca7fe",
+      "bytes": 384622
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/run_manifest.json",
+      "mode": "100644",
+      "blob": "6ecc6e125d3c2ab59fe98484558cbdb8baa3b34e",
+      "bytes": 1610
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/thresholds.csv",
+      "mode": "100644",
+      "blob": "3927a969948259d309727f9f3302eff25bc94144",
+      "bytes": 804
+    },
+    {
+      "path": "experiments/maps-graph-lab/results/verification.json",
+      "mode": "100644",
+      "blob": "856109d1b020950ee4b896072274f2b2216dbb0a",
+      "bytes": 2856
+    },
+    {
+      "path": "experiments/maps-graph-lab/stage_snapshot.py",
+      "mode": "100644",
+      "blob": "4c5ab976ce365058a4b75eb4a87e00e980f7751e",
+      "bytes": 5634
+    },
+    {
+      "path": "experiments/maps-graph-lab/verify.py",
+      "mode": "100644",
+      "blob": "8451a0dc73f0d5989206442145d560820c6316ad",
+      "bytes": 4398
+    },
+    {
+      "path": "experiments/maps-local-lab/.gitattributes",
+      "mode": "100644",
+      "blob": "c520a3135b0969150cc467c76f37cb6e8a2199d4",
+      "bytes": 103
+    },
+    {
+      "path": "experiments/maps-local-lab/.gitignore",
+      "mode": "100644",
+      "blob": "3b82c3e931a16271e1025c1aca6101d1b731b646",
+      "bytes": 54
+    },
+    {
+      "path": "experiments/maps-local-lab/EXPERIMENT_JOURNAL.md",
+      "mode": "100644",
+      "blob": "386b4ff88f21d760dbbb9bbc67009d55d5624cd2",
+      "bytes": 1878
+    },
+    {
+      "path": "experiments/maps-local-lab/README.md",
+      "mode": "100644",
+      "blob": "fc29faf5736c9e7e71b89d119250bd32bdb2f304",
+      "bytes": 3579
+    },
+    {
+      "path": "experiments/maps-local-lab/data/manifest.csv",
+      "mode": "100644",
+      "blob": "68aad72910359b30b7fa3102f6bce10a07132346",
+      "bytes": 3852
+    },
+    {
+      "path": "experiments/maps-local-lab/data/queries.csv",
+      "mode": "100644",
+      "blob": "153b842f8191eab5d625e489203fbd518889c87e",
+      "bytes": 14394
+    },
+    {
+      "path": "experiments/maps-local-lab/data/snapshot.json",
+      "mode": "100644",
+      "blob": "bfef99a067b9c41d26d6aff3324b6b866e698231",
+      "bytes": 412564
+    },
+    {
+      "path": "experiments/maps-local-lab/data/unlabeled_columns.csv",
+      "mode": "100644",
+      "blob": "2130d16a18ceccee2eb3b9040779848f47af2374",
+      "bytes": 3858
+    },
+    {
+      "path": "experiments/maps-local-lab/maps_policy.json",
+      "mode": "100644",
+      "blob": "286eec2f62d11d84b3af02b47d18e72b8b9db297",
+      "bytes": 1120
+    },
+    {
+      "path": "experiments/maps-local-lab/open_report.cmd",
+      "mode": "100644",
+      "blob": "f353ebc01edaef8e12692f39b153911588647a1c",
+      "bytes": 53
+    },
+    {
+      "path": "experiments/maps-local-lab/prepare_data.py",
+      "mode": "100644",
+      "blob": "6f811bc267a6207d545d278d02e92f55287206b4",
+      "bytes": 8388
+    },
+    {
+      "path": "experiments/maps-local-lab/requirements.txt",
+      "mode": "100644",
+      "blob": "adb9317380516f568306e36658c69e301bffedf7",
+      "bytes": 82
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/costs.csv",
+      "mode": "100644",
+      "blob": "d64d89cf13aa18c94329d0496081b557d3e67730",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/errors.csv",
+      "mode": "100644",
+      "blob": "4de9eea884ff9df8c376c53fe0d5043ab611a154",
+      "bytes": 98104
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/historical_comparison.json",
+      "mode": "100644",
+      "blob": "a5cb3b164413eb9de4b04fdead4c90dac42e9aea",
+      "bytes": 9596
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/historical_queries.csv",
+      "mode": "100644",
+      "blob": "71689380bfd8481153626ec75034ab9f5df84394",
+      "bytes": 3998
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/metrics.csv",
+      "mode": "100644",
+      "blob": "67ae44ff02457cd7108b9841b62e1b211f9d8938",
+      "bytes": 1704
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "f80de4bb081657c77a960ac59c18ea8b51cf7a96",
+      "bytes": 6278
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/predictions.csv",
+      "mode": "100644",
+      "blob": "238ef09904edab3129181218a75844e94a10e0d9",
+      "bytes": 195616
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/report.html",
+      "mode": "100644",
+      "blob": "cd4fa5ed41e02a5f107b6c2f8ededbf4077c84cb",
+      "bytes": 18184
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/results.json",
+      "mode": "100644",
+      "blob": "70aa3a37df032bca23570fe7626f12e6188b4f5f",
+      "bytes": 457390
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/run_manifest.json",
+      "mode": "100644",
+      "blob": "4946090c166158c4f30b358791eea37da62332aa",
+      "bytes": 6386
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/tests.txt",
+      "mode": "100644",
+      "blob": "7370345112bbcee7e4814f6dc8ad4afa162968de",
+      "bytes": 676
+    },
+    {
+      "path": "experiments/maps-local-lab/results/latest/thresholds.csv",
+      "mode": "100644",
+      "blob": "eab51bc45adde29116dffd0d9d83876b32dd27fa",
+      "bytes": 2146
+    },
+    {
+      "path": "experiments/maps-local-lab/run_experiments.py",
+      "mode": "100644",
+      "blob": "8496329e7e0647cea24e5393cfb2a3f9d3113be0",
+      "bytes": 26336
+    },
+    {
+      "path": "experiments/maps-local-lab/run_local.cmd",
+      "mode": "100644",
+      "blob": "6444ab6242316e2663773e144d54ebe096d2352a",
+      "bytes": 202
+    },
+    {
+      "path": "experiments/maps-local-lab/test_evaluation.py",
+      "mode": "100644",
+      "blob": "00fe2fcf4107b1fdd3973cff8d2be88050ab68c4",
+      "bytes": 2597
+    },
+    {
+      "path": "experiments/maps-local-lab/third_party/LICENSE.txt",
+      "mode": "100644",
+      "blob": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+      "bytes": 11358
+    },
+    {
+      "path": "experiments/maps-local-lab/third_party/magneto_name.py",
+      "mode": "100644",
+      "blob": "37e529276385ce87e3ac026f1c4de08b3a221ce7",
+      "bytes": 2943
+    },
+    {
+      "path": "research_support/build_maps_research.py",
+      "mode": "100644",
+      "blob": "805f581ebe2327c10dfb480caf15e63dbe5962c3",
+      "bytes": 83840
+    },
+    {
+      "path": "research_support/verify_maps_research.cjs",
+      "mode": "100644",
+      "blob": "d7097e366be4358c01d1a60dd7acf05bcb294fe3",
+      "bytes": 4727
+    }
+  ],
+  "maps-local-model-benchmark": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "blob": "298bfa95cb39dc42b49a1289e0e622201a41fcdc",
+      "bytes": 186
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "blob": "fb27b84ce0295d15544fb4d8fe8e4093df4d2965",
+      "bytes": 151
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "blob": "aafcdb29b7bc4144dd5e9f01a0eaaa8b58af59b2",
+      "bytes": 2403
+    },
+    {
+      "path": "EXPERIMENT_JOURNAL.md",
+      "mode": "100644",
+      "blob": "f9c219d6ec54b648e3c629683c6fa034770317b7",
+      "bytes": 6635
+    },
+    {
+      "path": "MODEL_COMPARISON.md",
+      "mode": "100644",
+      "blob": "3e17ceb56d0ecbb32dca4fc56272f809dd03d581",
+      "bytes": 4395
+    },
+    {
+      "path": "MODEL_FINDINGS.md",
+      "mode": "100644",
+      "blob": "4f4cddc7d9dce013bb25f7eb8b3bc32fccfb6375",
+      "bytes": 2025
+    },
+    {
+      "path": "PHASE2_INTEGRATION.md",
+      "mode": "100644",
+      "blob": "37cead74e73af4ec99cfd2f67d499c497a8720ec",
+      "bytes": 2686
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "blob": "515144ed79871ffeb833668978c015a75ae58da9",
+      "bytes": 8758
+    },
+    {
+      "path": "analyze_neural_results.py",
+      "mode": "100644",
+      "blob": "25ee4b4a72c92f07c796d1c4d330f294d5d89e0c",
+      "bytes": 7069
+    },
+    {
+      "path": "build_phase2_upgrade.py",
+      "mode": "100644",
+      "blob": "3699897f7315c4c986692299374cf16f49d1076c",
+      "bytes": 8470
+    },
+    {
+      "path": "data/manifest.csv",
+      "mode": "100644",
+      "blob": "8a5c99dadce68894b31d9ed8c8879940ea863931",
+      "bytes": 3834
+    },
+    {
+      "path": "data/phase2_initial_tests.log",
+      "mode": "100644",
+      "blob": "86b7fbcca5b650eb80fd63e3cf68d5c5673c7ea6",
+      "bytes": 1977
+    },
+    {
+      "path": "data/phase2_profiles.json",
+      "mode": "100644",
+      "blob": "cb59cafff5cc3ccb98829328c56d5dc2811f9f9e",
+      "bytes": 53545
+    },
+    {
+      "path": "data/phase2_readiness.json",
+      "mode": "100644",
+      "blob": "0e3aca63769daab11ad0655766763762ccac9bb8",
+      "bytes": 350
+    },
+    {
+      "path": "data/queries.csv",
+      "mode": "100644",
+      "blob": "289e8a3e529806feef41e45c69ed2e63c8d3ef03",
+      "bytes": 14279
+    },
+    {
+      "path": "data/snapshot.json",
+      "mode": "100644",
+      "blob": "88de9f1935b1a399a1f62a907fbfb780e4024f2c",
+      "bytes": 398084
+    },
+    {
+      "path": "data/unlabeled_columns.csv",
+      "mode": "100644",
+      "blob": "9136a7cce2b338c27331f8c7dce158e70d6253f0",
+      "bytes": 3827
+    },
+    {
+      "path": "download_comparison_models.py",
+      "mode": "100644",
+      "blob": "d9c69ea6ff368ed49c7aab505a51dba54f07bb4f",
+      "bytes": 3328
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "ad5dc3c8e9aaf48805b3ec5e018ffcb76c8af4dd",
+      "bytes": 262
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "3a4fbf396aed4d27851fb57befeae8ed856de66a",
+      "bytes": 246
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/phase2_report.html",
+      "mode": "100644",
+      "blob": "8107ccaac2dc8f361a8026b058961d8a3488a319",
+      "bytes": 6523
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "e50409c99de836b827ff04fb3cf20f6acb6a6675",
+      "bytes": 51414
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "628a7a876ef9dab0ec1383297314c94fdb0663fd",
+      "bytes": 14003
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/build_manifest.json",
+      "mode": "100644",
+      "blob": "676320b9dff33b0b1963752f5001849e89751089",
+      "bytes": 1404
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/azure_client.py",
+      "mode": "100644",
+      "blob": "5c3ec078543e0e94296fc7611d125e4a8e4b051f",
+      "bytes": 9047
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/delta_io.py",
+      "mode": "100644",
+      "blob": "ad3c010ea653063895aaebcb948e8468bcfed04e",
+      "bytes": 4640
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/delta_io_prod.py",
+      "mode": "100644",
+      "blob": "793922ecf2b9ca9af30ad650f0da223e5e00b833",
+      "bytes": 5280
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/embeddings.py",
+      "mode": "100644",
+      "blob": "1d10a613b3a021082768c4e7e0cbfdc36212242a",
+      "bytes": 1947
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/facts.py",
+      "mode": "100644",
+      "blob": "6a48836126b01ed86c243453959039e175196def",
+      "bytes": 4283
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/knowledge.py",
+      "mode": "100644",
+      "blob": "627e0ec74b7f781c4eec5937806edd084a110ca5",
+      "bytes": 2908
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/legacy_retrieval.py",
+      "mode": "100644",
+      "blob": "da5afb8a41cb8551c3646182c53eb8c582b7e4f0",
+      "bytes": 3692
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/notebook_common.py",
+      "mode": "100644",
+      "blob": "8a32f169cf6c89fbab7056efeb2002ea2ebdd0bb",
+      "bytes": 12966
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/paths.py",
+      "mode": "100644",
+      "blob": "4c853e1344d289cc9c67dbcbb580e6d2e2c86f84",
+      "bytes": 774
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/recommend.py",
+      "mode": "100644",
+      "blob": "16b6fa8a6d05d4b12f6f2e68586d67cf271a4a7e",
+      "bytes": 34686
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/retrieval.py",
+      "mode": "100644",
+      "blob": "94ce71f4ca59ad8ea665006d69254a05a9d26507",
+      "bytes": 2924
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/source_loader.py",
+      "mode": "100644",
+      "blob": "160601bc1a5de13a80fa3ef1aa8253597c105f05",
+      "bytes": 14032
+    },
+    {
+      "path": "experiments/20261029-phase2-cache-diagnostic/source_phase2_upgrade/maps_rag/strict_validation.py",
+      "mode": "100644",
+      "blob": "0ae8411be5fd34f794ee4781843e99384d107839",
+      "bytes": 1488
+    },
+    {
+      "path": "experiments/20261029-pretrained-model-setup/compatibility_notes.md",
+      "mode": "100644",
+      "blob": "0e8665bb1543230f3a4322d45f8768741e4d52dd",
+      "bytes": 1025
+    },
+    {
+      "path": "experiments/20261029-pretrained-model-setup/legacy_dependencies.log",
+      "mode": "100644",
+      "blob": "4d660561a3379303793f88fa1ccf4112b6e10210",
+      "bytes": 1298
+    },
+    {
+      "path": "experiments/20261029-pretrained-model-setup/model_download.log",
+      "mode": "100644",
+      "blob": "ee0b43396578b614ebb093b18a84063501803f23",
+      "bytes": 1952
+    },
+    {
+      "path": "experiments/20261029-pretrained-model-setup/runtime_preflight.log",
+      "mode": "100644",
+      "blob": "4089eb0924b097c32f528d45b478062079c00921",
+      "bytes": 435
+    },
+    {
+      "path": "experiments/20261029-pretrained-model-setup/valentine_compatibility.log",
+      "mode": "100644",
+      "blob": "25141d19db70412c78cc50af44275dbcea47d10d",
+      "bytes": 469
+    },
+    {
+      "path": "experiments/20261029-pretrained-model-setup/valentine_resolved.log",
+      "mode": "100644",
+      "blob": "48215074b532fc87ddfdaabc0d10ede54b51e591",
+      "bytes": 5089
+    },
+    {
+      "path": "experiments/20261029-rag-initial-fixture-failure/test_phase2_rag.py",
+      "mode": "100644",
+      "blob": "0ef7281d1ee6308d4119954b7d6feb6b46f0d9ec",
+      "bytes": 6474
+    },
+    {
+      "path": "experiments/20261029-rag-initial-fixture-failure/tests.log",
+      "mode": "100644",
+      "blob": "3c762481d78d8ad2c4f16e6ca196623baf6af21f",
+      "bytes": 317
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/benchmark.log",
+      "mode": "100644",
+      "blob": "0aeb52ad552718e5cca448804ceb8b91d45fe918",
+      "bytes": 3530
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/costs.csv",
+      "mode": "100644",
+      "blob": "f4086b8e24d2a5ec562e45d6dbfba782d954bd42",
+      "bytes": 585
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/errors.csv",
+      "mode": "100644",
+      "blob": "4057d834cca52c0ccde7ade869475aa1a59e7598",
+      "bytes": 97767
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/execution.json",
+      "mode": "100644",
+      "blob": "4835db58a998e781359ba12932b14ad41b498a23",
+      "bytes": 1665
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/phase2_replay.log",
+      "mode": "100644",
+      "blob": "15b453e7db5830d9d904ed4707d064ee2fc949e9",
+      "bytes": 1491
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/predictions.csv",
+      "mode": "100644",
+      "blob": "cd1dac4830ec8c2b0a83b566e84f46ce79d455f8",
+      "bytes": 194930
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "d0fb8d21350808eb7b7edcdee5ed05e8d11956c8",
+      "bytes": 246787
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/report.html",
+      "mode": "100644",
+      "blob": "29b0cb4c680ac688b2e97406975b36406471bf29",
+      "bytes": 18615
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/results.json",
+      "mode": "100644",
+      "blob": "21d3c44db31984940079e8c4d6d431840daeff43",
+      "bytes": 440924
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/run_manifest.json",
+      "mode": "100644",
+      "blob": "d603448ce7d26229e36991a422558b0029fd9b3f",
+      "bytes": 6274
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/tests.log",
+      "mode": "100644",
+      "blob": "e4069c71757f3a680a52eb4bf479d9b3a382738b",
+      "bytes": 1215
+    },
+    {
+      "path": "experiments/20261029T152937+0900-phase2-review-addon/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/benchmark.log",
+      "mode": "100644",
+      "blob": "f85fa0e89d8d09b478b4e445f6d2fb738f8a2e2d",
+      "bytes": 3528
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/costs.csv",
+      "mode": "100644",
+      "blob": "e5460bdfce7542e16e2e0d21813f2ff36f91cf5b",
+      "bytes": 587
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/errors.csv",
+      "mode": "100644",
+      "blob": "4651327c6ad6e2f08c8ab2157842c5a2f1de7a54",
+      "bytes": 97767
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/execution.json",
+      "mode": "100644",
+      "blob": "ef188ae993590a4cde40e6d9b951d44aa868317e",
+      "bytes": 5758
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_actual_cached_retrieval.log",
+      "mode": "100644",
+      "blob": "07a652c1f77771978572b694e719fddf114b8ab0",
+      "bytes": 2790
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_build.log",
+      "mode": "100644",
+      "blob": "94288c5c00e8ebd4e7c95fe01bd9db306e0c3210",
+      "bytes": 66
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "8600b203364d0ea80135cc69e30e529c521519b5",
+      "bytes": 367
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "6ffb0c8a10acec345eaae486aa0da14a035e5b9a",
+      "bytes": 334
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_replay.log",
+      "mode": "100644",
+      "blob": "15b453e7db5830d9d904ed4707d064ee2fc949e9",
+      "bytes": 1491
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_report.html",
+      "mode": "100644",
+      "blob": "0368cd71b777c058785248f4d5398e7d3953c705",
+      "bytes": 7047
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "fb883699db4b5b5df00729b739b58291474d6a48",
+      "bytes": 79391
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "79953ce2a4e5b3a9c7ce57e6d4d6f8fa4745a800",
+      "bytes": 14561
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/predictions.csv",
+      "mode": "100644",
+      "blob": "54ffc1d624df91b15e546a03fe7adc68581cea84",
+      "bytes": 194930
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "d0fb8d21350808eb7b7edcdee5ed05e8d11956c8",
+      "bytes": 246787
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/report.html",
+      "mode": "100644",
+      "blob": "f07e2d5c0fd912a38dac4f3d75320a9d1ebb82e3",
+      "bytes": 18944
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/results.json",
+      "mode": "100644",
+      "blob": "13bc36cfeafebbe26566f330cb60ba18ebfd8034",
+      "bytes": 440924
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/run_manifest.json",
+      "mode": "100644",
+      "blob": "2d90635b3cc4ea5ba09373331951a8d5089170ff",
+      "bytes": 6274
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/tests.log",
+      "mode": "100644",
+      "blob": "ce3497f8e17214e8c7cd3acd43a24573d8ea6355",
+      "bytes": 3421
+    },
+    {
+      "path": "experiments/20261029T163532+0900-actual-phase2-rag/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/benchmark.log",
+      "mode": "100644",
+      "blob": "d8586ca32d93bac4df0ec4e86818b978a515b705",
+      "bytes": 3532
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/costs.csv",
+      "mode": "100644",
+      "blob": "848851336e43714ee885bdac2ac969eaab0f3715",
+      "bytes": 583
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/errors.csv",
+      "mode": "100644",
+      "blob": "c920a25972323fc6fc0499e142cee50bf8fcc502",
+      "bytes": 97768
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/execution.json",
+      "mode": "100644",
+      "blob": "99f3e4db4b3a3b71a3070c6ea7a388bef9050b2f",
+      "bytes": 6378
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/model_ab_plan.json",
+      "mode": "100644",
+      "blob": "3071f2f3be30eab59abb0bfc8a5d1c54b8496619",
+      "bytes": 558
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_actual_cached_retrieval.log",
+      "mode": "100644",
+      "blob": "6f664c3e219c9b7d3c61eae61972af5fea6ca110",
+      "bytes": 2791
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_build.log",
+      "mode": "100644",
+      "blob": "94288c5c00e8ebd4e7c95fe01bd9db306e0c3210",
+      "bytes": 66
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "8600b203364d0ea80135cc69e30e529c521519b5",
+      "bytes": 367
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "9632f626207817229e43df375b2772992c481b4b",
+      "bytes": 335
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_model_ab_dry_run.log",
+      "mode": "100644",
+      "blob": "91238f78d190c74a9c7eb4a9b09e965e548df257",
+      "bytes": 560
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_replay.log",
+      "mode": "100644",
+      "blob": "15b453e7db5830d9d904ed4707d064ee2fc949e9",
+      "bytes": 1491
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_report.html",
+      "mode": "100644",
+      "blob": "836fe4d6848164133c201c4080530926fe26e2f0",
+      "bytes": 7047
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "fb883699db4b5b5df00729b739b58291474d6a48",
+      "bytes": 79391
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "c622321e97160132fd25bc9f899756c697989fda",
+      "bytes": 14562
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/predictions.csv",
+      "mode": "100644",
+      "blob": "1c8663bed878fc4170c802d936238a729a3db8bb",
+      "bytes": 194931
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "b7b666fdba5ba16d7c66a154ebaee093f768207f",
+      "bytes": 246787
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/report.html",
+      "mode": "100644",
+      "blob": "716119550d32a46d71bdc3b8f4f2c17bfeeb2095",
+      "bytes": 18944
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/results.json",
+      "mode": "100644",
+      "blob": "2bdf61aebe41632316d1c41ad7bd9d6987e91a42",
+      "bytes": 440925
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/run_manifest.json",
+      "mode": "100644",
+      "blob": "0884669ffed9ab9f3a305157785cc75c27a22206",
+      "bytes": 6274
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/tests.log",
+      "mode": "100644",
+      "blob": "bfde1f0fbce3148d37c0ea27cf8fad1c8e86876e",
+      "bytes": 3969
+    },
+    {
+      "path": "experiments/20261029T164203+0900-phase2-model-ab-ready/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/actual_neural_model_comparison.log",
+      "mode": "100644",
+      "blob": "f92c2aaf0a1ffaa55eb0c30670f61a29d6d2cb9b",
+      "bytes": 1930
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/benchmark.log",
+      "mode": "100644",
+      "blob": "e6b4d070487c642ef387ee7ef04597e1c6206e79",
+      "bytes": 3537
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/costs.csv",
+      "mode": "100644",
+      "blob": "48133f34cee0d8dcf15ed7a46bbb0a808fcc3a04",
+      "bytes": 587
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/embeddings_mpnet.npz",
+      "mode": "100644",
+      "blob": "972d2565f7ab1d4084d49f7f9e5cff215cc71e19",
+      "bytes": 339197
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/errors.csv",
+      "mode": "100644",
+      "blob": "c920a25972323fc6fc0499e142cee50bf8fcc502",
+      "bytes": 97768
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/execution.json",
+      "mode": "100644",
+      "blob": "4b5ce89a61c5bcd87329df11b527a6c15a5f4885",
+      "bytes": 9443
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/model_ab_plan.json",
+      "mode": "100644",
+      "blob": "3071f2f3be30eab59abb0bfc8a5d1c54b8496619",
+      "bytes": 558
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_actual_cached_retrieval.log",
+      "mode": "100644",
+      "blob": "6f2e7133e27462f1a4ec0329d07017829dd3c5f5",
+      "bytes": 2787
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_build.log",
+      "mode": "100644",
+      "blob": "f37e2ba9356841ac693c62bbf7b8877c1de3088b",
+      "bytes": 65
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "8600b203364d0ea80135cc69e30e529c521519b5",
+      "bytes": 367
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "88663f3e5c1aff606212895f2d43e9a98157a8ac",
+      "bytes": 332
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_model_ab_dry_run.log",
+      "mode": "100644",
+      "blob": "e27f5cdfde8ae024d1e34adac0f3fe5d36f6b898",
+      "bytes": 559
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_replay.log",
+      "mode": "100644",
+      "blob": "bd1657d84f4587b82fa056e6b57b1a8f191d1a94",
+      "bytes": 1490
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_report.html",
+      "mode": "100644",
+      "blob": "990b42186fd38948ab90e89a4be8f1a0c2d498c9",
+      "bytes": 7047
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "fb883699db4b5b5df00729b739b58291474d6a48",
+      "bytes": 79391
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "8ffc5d050cffc07c04b3960af207307450c7a6ee",
+      "bytes": 14559
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/predictions.csv",
+      "mode": "100644",
+      "blob": "1c8663bed878fc4170c802d936238a729a3db8bb",
+      "bytes": 194931
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "b7b666fdba5ba16d7c66a154ebaee093f768207f",
+      "bytes": 246787
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/report.html",
+      "mode": "100644",
+      "blob": "806aef5dfba2c08d82bd35f93adc0164b3bcd547",
+      "bytes": 18944
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/results.json",
+      "mode": "100644",
+      "blob": "2e1c9834b7874b9cfbc28a9fb7d26585f4627cb3",
+      "bytes": 440925
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/run_manifest.json",
+      "mode": "100644",
+      "blob": "a3dbe96dcedad1eed7be4bcf38f64e08d602cc64",
+      "bytes": 6274
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/tests.log",
+      "mode": "100644",
+      "blob": "f31b9cb9b9fb59bba74387e62ab450613bbd9f37",
+      "bytes": 4435
+    },
+    {
+      "path": "experiments/20261029T171125+0900-pretrained-model-comparison/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/actual_neural_model_comparison.log",
+      "mode": "100644",
+      "blob": "bcf1cf6e2dcdd5ecc9774a366fc38de52917168c",
+      "bytes": 4917
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/benchmark.log",
+      "mode": "100644",
+      "blob": "efab7beb015107671d2546df3bab8202d09ceb99",
+      "bytes": 3548
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/costs.csv",
+      "mode": "100644",
+      "blob": "f3026365c33a000511e6373fbaf2e3466ff6d947",
+      "bytes": 588
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/embeddings_e5_multilingual.npz",
+      "mode": "100644",
+      "blob": "4999b75e16ca244e95def183b7aad4464446da18",
+      "bytes": 168568
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/embeddings_ko_sroberta.npz",
+      "mode": "100644",
+      "blob": "e0a2c96e927731382d30b8965058241d4189bb6a",
+      "bytes": 338871
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/embeddings_mpnet.npz",
+      "mode": "100644",
+      "blob": "972d2565f7ab1d4084d49f7f9e5cff215cc71e19",
+      "bytes": 339197
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/errors.csv",
+      "mode": "100644",
+      "blob": "c920a25972323fc6fc0499e142cee50bf8fcc502",
+      "bytes": 97768
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/execution.json",
+      "mode": "100644",
+      "blob": "035a3ffb66b5e89d233975553f7a1bc3494ebb7c",
+      "bytes": 9498
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/model_ab_plan.json",
+      "mode": "100644",
+      "blob": "3071f2f3be30eab59abb0bfc8a5d1c54b8496619",
+      "bytes": 558
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_common18_metrics.csv",
+      "mode": "100644",
+      "blob": "e06a24e01d040ff0c7cc87b7cee6f0ca74f0c885",
+      "bytes": 1756
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_execution.json",
+      "mode": "100644",
+      "blob": "9a685466ff2f2cbcc945219a700858cbb66b2ece",
+      "bytes": 12784
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_model_metrics.csv",
+      "mode": "100644",
+      "blob": "4a081088fce12d731d020535a47fc1294098e34d",
+      "bytes": 1326
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_model_report.html",
+      "mode": "100644",
+      "blob": "00f3439b54824329c1fafade47d7ceff62986706",
+      "bytes": 10422
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_predictions.csv",
+      "mode": "100644",
+      "blob": "8644d80b6e83aa4f737670c1cf40deabc3e683f9",
+      "bytes": 303773
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_results.json",
+      "mode": "100644",
+      "blob": "d2bbffeb41df65eed28d6137cd2cc42d06dd443a",
+      "bytes": 7851
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_thresholds.csv",
+      "mode": "100644",
+      "blob": "b1ff0c06da9c03f243bb063c5e774d7ae6ef6ef0",
+      "bytes": 1796
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/neural_timing.csv",
+      "mode": "100644",
+      "blob": "5327cdc7e0535b141850aa41e613527a6230919c",
+      "bytes": 736
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_actual_cached_retrieval.log",
+      "mode": "100644",
+      "blob": "d3e3004cac7e0fa0f9b2a58c2bf796df5144e6d3",
+      "bytes": 2789
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_build.log",
+      "mode": "100644",
+      "blob": "f37e2ba9356841ac693c62bbf7b8877c1de3088b",
+      "bytes": 65
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "8600b203364d0ea80135cc69e30e529c521519b5",
+      "bytes": 367
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "89693a4dfde35744b36f221235d3035591b9360e",
+      "bytes": 334
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_model_ab_dry_run.log",
+      "mode": "100644",
+      "blob": "e27f5cdfde8ae024d1e34adac0f3fe5d36f6b898",
+      "bytes": 559
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_replay.log",
+      "mode": "100644",
+      "blob": "bd1657d84f4587b82fa056e6b57b1a8f191d1a94",
+      "bytes": 1490
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_report.html",
+      "mode": "100644",
+      "blob": "6663e9c56785fb25d3e63722280049b7500bbb03",
+      "bytes": 7047
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "fb883699db4b5b5df00729b739b58291474d6a48",
+      "bytes": 79391
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "ab7dd39a9ee32338d948858b6f0535472afcd6d8",
+      "bytes": 14561
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/predictions.csv",
+      "mode": "100644",
+      "blob": "1c8663bed878fc4170c802d936238a729a3db8bb",
+      "bytes": 194931
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/raw_scores_e5_multilingual.json",
+      "mode": "100644",
+      "blob": "cc71f0fc5c2b48eef092ab976c3a1b3309112907",
+      "bytes": 115764
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/raw_scores_ko_sroberta.json",
+      "mode": "100644",
+      "blob": "1855707f324aaf5e68bd8b54bec31fa0fb68bd57",
+      "bytes": 115766
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/raw_scores_mpnet.json",
+      "mode": "100644",
+      "blob": "0e3408509a3aa156a26f0a5f0aa0d2d6907a597c",
+      "bytes": 173160
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "b7b666fdba5ba16d7c66a154ebaee093f768207f",
+      "bytes": 246787
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/report.html",
+      "mode": "100644",
+      "blob": "0bb6d0685448445cd46e83c48a35f236f67b1e7c",
+      "bytes": 18944
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/requirements-models.lock.txt",
+      "mode": "100644",
+      "blob": "dba1ab2cc32f95c7946621105bd87521ba0cef32",
+      "bytes": 1552
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/results.json",
+      "mode": "100644",
+      "blob": "dd686794e357a87869ddb9fb033bb829eea3ce89",
+      "bytes": 440925
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/run_manifest.json",
+      "mode": "100644",
+      "blob": "728278edded3032b40f97287ea857106405ca18e",
+      "bytes": 6274
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/tests.log",
+      "mode": "100644",
+      "blob": "07cee8b0ba2d78467c2d4dcec7b153156e277126",
+      "bytes": 4435
+    },
+    {
+      "path": "experiments/20261029T171712+0900-pretrained-model-comparison-compatible/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/actual_neural_model_comparison.log",
+      "mode": "100644",
+      "blob": "bcf1cf6e2dcdd5ecc9774a366fc38de52917168c",
+      "bytes": 4917
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/benchmark.log",
+      "mode": "100644",
+      "blob": "0f70fbd937d48bc2535127a0523ffee3624dd43a",
+      "bytes": 3531
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/costs.csv",
+      "mode": "100644",
+      "blob": "4242f6b59d2d84c3ae65afafa262f90f2bb5eb02",
+      "bytes": 585
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/embeddings_e5_multilingual.npz",
+      "mode": "100644",
+      "blob": "4999b75e16ca244e95def183b7aad4464446da18",
+      "bytes": 168568
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/embeddings_ko_sroberta.npz",
+      "mode": "100644",
+      "blob": "e0a2c96e927731382d30b8965058241d4189bb6a",
+      "bytes": 338871
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/embeddings_mpnet.npz",
+      "mode": "100644",
+      "blob": "972d2565f7ab1d4084d49f7f9e5cff215cc71e19",
+      "bytes": 339197
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/errors.csv",
+      "mode": "100644",
+      "blob": "c920a25972323fc6fc0499e142cee50bf8fcc502",
+      "bytes": 97768
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/execution.json",
+      "mode": "100644",
+      "blob": "3e1a0c3d203cfde036078a6d99b8534e616337fb",
+      "bytes": 9488
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/model_ab_plan.json",
+      "mode": "100644",
+      "blob": "3071f2f3be30eab59abb0bfc8a5d1c54b8496619",
+      "bytes": 558
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_common18_metrics.csv",
+      "mode": "100644",
+      "blob": "e06a24e01d040ff0c7cc87b7cee6f0ca74f0c885",
+      "bytes": 1756
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_execution.json",
+      "mode": "100644",
+      "blob": "9a685466ff2f2cbcc945219a700858cbb66b2ece",
+      "bytes": 12784
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_findings.json",
+      "mode": "100644",
+      "blob": "d5c426fd063a088b6a43ef30c7f1423740639bfe",
+      "bytes": 2305
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_findings.md",
+      "mode": "100644",
+      "blob": "4f4cddc7d9dce013bb25f7eb8b3bc32fccfb6375",
+      "bytes": 2025
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_model_findings.log",
+      "mode": "100644",
+      "blob": "3c73efb74e418fcd86231dc7bc633567f0941629",
+      "bytes": 2306
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_model_metrics.csv",
+      "mode": "100644",
+      "blob": "4a081088fce12d731d020535a47fc1294098e34d",
+      "bytes": 1326
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_model_report.html",
+      "mode": "100644",
+      "blob": "b8b13bba960721775d42cd062fdac80b4c93d90e",
+      "bytes": 11277
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_predictions.csv",
+      "mode": "100644",
+      "blob": "8644d80b6e83aa4f737670c1cf40deabc3e683f9",
+      "bytes": 303773
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_results.json",
+      "mode": "100644",
+      "blob": "d2bbffeb41df65eed28d6137cd2cc42d06dd443a",
+      "bytes": 7851
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_thresholds.csv",
+      "mode": "100644",
+      "blob": "b1ff0c06da9c03f243bb063c5e774d7ae6ef6ef0",
+      "bytes": 1796
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/neural_timing.csv",
+      "mode": "100644",
+      "blob": "5327cdc7e0535b141850aa41e613527a6230919c",
+      "bytes": 736
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_actual_cached_retrieval.log",
+      "mode": "100644",
+      "blob": "2eb425bd2a2230cfe73b3032527d45f414ddbbd0",
+      "bytes": 2790
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_build.log",
+      "mode": "100644",
+      "blob": "f37e2ba9356841ac693c62bbf7b8877c1de3088b",
+      "bytes": 65
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "8600b203364d0ea80135cc69e30e529c521519b5",
+      "bytes": 367
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "b12a44005d131770ba72128c0a246057a49d1b23",
+      "bytes": 335
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_model_ab_dry_run.log",
+      "mode": "100644",
+      "blob": "e27f5cdfde8ae024d1e34adac0f3fe5d36f6b898",
+      "bytes": 559
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_replay.log",
+      "mode": "100644",
+      "blob": "bd1657d84f4587b82fa056e6b57b1a8f191d1a94",
+      "bytes": 1490
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_report.html",
+      "mode": "100644",
+      "blob": "e5b0b78019f5ed5f71a649665f7923328b376323",
+      "bytes": 7047
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "fb883699db4b5b5df00729b739b58291474d6a48",
+      "bytes": 79391
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "6639ef0a3c5577cfbc8c6c3d96ebaab2a41ed5ca",
+      "bytes": 14562
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/predictions.csv",
+      "mode": "100644",
+      "blob": "1c8663bed878fc4170c802d936238a729a3db8bb",
+      "bytes": 194931
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/raw_scores_e5_multilingual.json",
+      "mode": "100644",
+      "blob": "cc71f0fc5c2b48eef092ab976c3a1b3309112907",
+      "bytes": 115764
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/raw_scores_ko_sroberta.json",
+      "mode": "100644",
+      "blob": "1855707f324aaf5e68bd8b54bec31fa0fb68bd57",
+      "bytes": 115766
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/raw_scores_mpnet.json",
+      "mode": "100644",
+      "blob": "0e3408509a3aa156a26f0a5f0aa0d2d6907a597c",
+      "bytes": 173160
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "b7b666fdba5ba16d7c66a154ebaee093f768207f",
+      "bytes": 246787
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/report.html",
+      "mode": "100644",
+      "blob": "e8e8a4df8bba452f15f17cae1d97d0595a7f3df5",
+      "bytes": 18944
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/requirements-models.lock.txt",
+      "mode": "100644",
+      "blob": "dba1ab2cc32f95c7946621105bd87521ba0cef32",
+      "bytes": 1552
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/results.json",
+      "mode": "100644",
+      "blob": "ec75ea51b7132c9645a733c5e8568484b24e7804",
+      "bytes": 440925
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/run_manifest.json",
+      "mode": "100644",
+      "blob": "b4308df715242f77966eb048f2740c57d6dc0698",
+      "bytes": 6274
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/tests.log",
+      "mode": "100644",
+      "blob": "9b481793d70e991fc6aee23c1a576b9a9d104140",
+      "bytes": 4435
+    },
+    {
+      "path": "experiments/20261029T172757+0900-neural-model-findings/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "improved_retrieval.py",
+      "mode": "100644",
+      "blob": "bb1b7d6d6738e97eeae92f0ff9fb250d8d9c21cd",
+      "bytes": 3467
+    },
+    {
+      "path": "maps_policy.json",
+      "mode": "100644",
+      "blob": "286eec2f62d11d84b3af02b47d18e72b8b9db297",
+      "bytes": 1120
+    },
+    {
+      "path": "model_comparison_utils.py",
+      "mode": "100644",
+      "blob": "cad186d3d16cf48379b7708f95951346e45e7319",
+      "bytes": 2871
+    },
+    {
+      "path": "open_report.cmd",
+      "mode": "100644",
+      "blob": "ef69030d455b2e1d2ae1c881a4b46033d46bae56",
+      "bytes": 189
+    },
+    {
+      "path": "phase2_bundle/archive_manifest.json",
+      "mode": "100644",
+      "blob": "00bda2cef8c636e04db6155952fb3f1e34155f73",
+      "bytes": 6832
+    },
+    {
+      "path": "phase2_bundle/자료/2_타겟_정의/2_타겟_물리모델_v1.0.csv",
+      "mode": "100644",
+      "blob": "893ad55e067960f236937b46476fc1a4c7c00fff",
+      "bytes": 5050
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_01_타겟컬럼.jsonl",
+      "mode": "100644",
+      "blob": "b0b42fffa86de880245c635dbb4475ea3d2bfe99",
+      "bytes": 60294
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_02_표준단어.jsonl",
+      "mode": "100644",
+      "blob": "cd41b73e1472396fb45ddd220a89ec5f3bb7c07d",
+      "bytes": 30909
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_03_표준용어.jsonl",
+      "mode": "100644",
+      "blob": "875f14cbab0f161281e9ab2c677f82a8171f8496",
+      "bytes": 41881
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_04_표준도메인.jsonl",
+      "mode": "100644",
+      "blob": "52a547fe4966a1fc15a1ba32cd2e239a9d925a0e",
+      "bytes": 8217
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_05_표준코드.jsonl",
+      "mode": "100644",
+      "blob": "290dacc586026205d08880af31c2dc102e26e14e",
+      "bytes": 10860
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_09_설계결정.jsonl",
+      "mode": "100644",
+      "blob": "3b2241bdbb80ad1d7f2053f199270be912dd93f9",
+      "bytes": 6457
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_10_DQ규칙.jsonl",
+      "mode": "100644",
+      "blob": "06b18c945a6d5f20b6e9060b08b49651d18dc005",
+      "bytes": 87618
+    },
+    {
+      "path": "phase2_bundle/자료/4_지식조각_RAG용/지식조각/지식_11_원천코드표.jsonl",
+      "mode": "100644",
+      "blob": "812206c17b5e0d4af3673ccd991f6323b423beb6",
+      "bytes": 39354
+    },
+    {
+      "path": "phase2_original/archive_manifest.json",
+      "mode": "100644",
+      "blob": "3823e0fd292ba8e099d58752094fda00351fccec",
+      "bytes": 2470
+    },
+    {
+      "path": "phase2_original/data/10_운영_실행.py",
+      "mode": "100644",
+      "blob": "c27c329a182ec74838c2f220d84886501ec7221d",
+      "bytes": 17141
+    },
+    {
+      "path": "phase2_original/data/data/원천컬럼_입력목록.csv",
+      "mode": "100644",
+      "blob": "08684772c5a62e6bc4ed99988e37da721167f48b",
+      "bytes": 11653
+    },
+    {
+      "path": "phase2_original/data/data/임베딩/embeddings.npz",
+      "mode": "100644",
+      "blob": "cbf1a143ef857ded04153d0cf074bad0f4bece43",
+      "bytes": 1088352
+    },
+    {
+      "path": "phase2_original/data/maps_rag/azure_client.py",
+      "mode": "100644",
+      "blob": "84397f9a3b6a895af195d330ec40e06d7f9ad09d",
+      "bytes": 9239
+    },
+    {
+      "path": "phase2_original/data/maps_rag/delta_io.py",
+      "mode": "100644",
+      "blob": "56115e2adc7ae6c7518fc0f9d4cb7e04a7f50cc6",
+      "bytes": 4747
+    },
+    {
+      "path": "phase2_original/data/maps_rag/delta_io_prod.py",
+      "mode": "100644",
+      "blob": "793922ecf2b9ca9af30ad650f0da223e5e00b833",
+      "bytes": 5280
+    },
+    {
+      "path": "phase2_original/data/maps_rag/embeddings.py",
+      "mode": "100644",
+      "blob": "1d10a613b3a021082768c4e7e0cbfdc36212242a",
+      "bytes": 1947
+    },
+    {
+      "path": "phase2_original/data/maps_rag/facts.py",
+      "mode": "100644",
+      "blob": "6a48836126b01ed86c243453959039e175196def",
+      "bytes": 4283
+    },
+    {
+      "path": "phase2_original/data/maps_rag/knowledge.py",
+      "mode": "100644",
+      "blob": "627e0ec74b7f781c4eec5937806edd084a110ca5",
+      "bytes": 2908
+    },
+    {
+      "path": "phase2_original/data/maps_rag/notebook_common.py",
+      "mode": "100644",
+      "blob": "bc423f1703e0fe7e2b5f5e09d88f4c790aa57033",
+      "bytes": 13190
+    },
+    {
+      "path": "phase2_original/data/maps_rag/paths.py",
+      "mode": "100644",
+      "blob": "4c853e1344d289cc9c67dbcbb580e6d2e2c86f84",
+      "bytes": 774
+    },
+    {
+      "path": "phase2_original/data/maps_rag/recommend.py",
+      "mode": "100644",
+      "blob": "cc5842e8baf9857a9de6ce9f91363b135adb358a",
+      "bytes": 34004
+    },
+    {
+      "path": "phase2_original/data/maps_rag/retrieval.py",
+      "mode": "100644",
+      "blob": "da5afb8a41cb8551c3646182c53eb8c582b7e4f0",
+      "bytes": 3692
+    },
+    {
+      "path": "phase2_original/data/maps_rag/source_loader.py",
+      "mode": "100644",
+      "blob": "160601bc1a5de13a80fa3ef1aa8253597c105f05",
+      "bytes": 14032
+    },
+    {
+      "path": "phase2_upgrade/build_manifest.json",
+      "mode": "100644",
+      "blob": "f920e7f29ddb253de2aaf59120316d9d0615a904",
+      "bytes": 1404
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/azure_client.py",
+      "mode": "100644",
+      "blob": "5c3ec078543e0e94296fc7611d125e4a8e4b051f",
+      "bytes": 9047
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/delta_io.py",
+      "mode": "100644",
+      "blob": "ad3c010ea653063895aaebcb948e8468bcfed04e",
+      "bytes": 4640
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/delta_io_prod.py",
+      "mode": "100644",
+      "blob": "793922ecf2b9ca9af30ad650f0da223e5e00b833",
+      "bytes": 5280
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/embeddings.py",
+      "mode": "100644",
+      "blob": "1d10a613b3a021082768c4e7e0cbfdc36212242a",
+      "bytes": 1947
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/facts.py",
+      "mode": "100644",
+      "blob": "6a48836126b01ed86c243453959039e175196def",
+      "bytes": 4283
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/knowledge.py",
+      "mode": "100644",
+      "blob": "627e0ec74b7f781c4eec5937806edd084a110ca5",
+      "bytes": 2908
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/legacy_retrieval.py",
+      "mode": "100644",
+      "blob": "da5afb8a41cb8551c3646182c53eb8c582b7e4f0",
+      "bytes": 3692
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/notebook_common.py",
+      "mode": "100644",
+      "blob": "8a32f169cf6c89fbab7056efeb2002ea2ebdd0bb",
+      "bytes": 12966
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/paths.py",
+      "mode": "100644",
+      "blob": "4c853e1344d289cc9c67dbcbb580e6d2e2c86f84",
+      "bytes": 774
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/recommend.py",
+      "mode": "100644",
+      "blob": "16b6fa8a6d05d4b12f6f2e68586d67cf271a4a7e",
+      "bytes": 34686
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/retrieval.py",
+      "mode": "100644",
+      "blob": "bb1b7d6d6738e97eeae92f0ff9fb250d8d9c21cd",
+      "bytes": 3467
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/source_loader.py",
+      "mode": "100644",
+      "blob": "160601bc1a5de13a80fa3ef1aa8253597c105f05",
+      "bytes": 14032
+    },
+    {
+      "path": "phase2_upgrade/maps_rag/strict_validation.py",
+      "mode": "100644",
+      "blob": "0ae8411be5fd34f794ee4781843e99384d107839",
+      "bytes": 1488
+    },
+    {
+      "path": "prepare_data.py",
+      "mode": "100644",
+      "blob": "6f811bc267a6207d545d278d02e92f55287206b4",
+      "bytes": 8388
+    },
+    {
+      "path": "record_run.py",
+      "mode": "100644",
+      "blob": "4710b98a59a045638635f95d49ee17524ec8e909",
+      "bytes": 4810
+    },
+    {
+      "path": "requirements-models.txt",
+      "mode": "100644",
+      "blob": "7f3df0da4e2f7d1b12db316f16c269328aee7de6",
+      "bytes": 326
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "blob": "6ac3b785c4e44acbd734bf711a118afaad51fa1d",
+      "bytes": 113
+    },
+    {
+      "path": "results/latest/actual_neural_model_comparison.log",
+      "mode": "100644",
+      "blob": "bcf1cf6e2dcdd5ecc9774a366fc38de52917168c",
+      "bytes": 4917
+    },
+    {
+      "path": "results/latest/benchmark.log",
+      "mode": "100644",
+      "blob": "0f70fbd937d48bc2535127a0523ffee3624dd43a",
+      "bytes": 3531
+    },
+    {
+      "path": "results/latest/costs.csv",
+      "mode": "100644",
+      "blob": "4242f6b59d2d84c3ae65afafa262f90f2bb5eb02",
+      "bytes": 585
+    },
+    {
+      "path": "results/latest/embeddings_e5_multilingual.npz",
+      "mode": "100644",
+      "blob": "4999b75e16ca244e95def183b7aad4464446da18",
+      "bytes": 168568
+    },
+    {
+      "path": "results/latest/embeddings_ko_sroberta.npz",
+      "mode": "100644",
+      "blob": "e0a2c96e927731382d30b8965058241d4189bb6a",
+      "bytes": 338871
+    },
+    {
+      "path": "results/latest/embeddings_mpnet.npz",
+      "mode": "100644",
+      "blob": "972d2565f7ab1d4084d49f7f9e5cff215cc71e19",
+      "bytes": 339197
+    },
+    {
+      "path": "results/latest/errors.csv",
+      "mode": "100644",
+      "blob": "c920a25972323fc6fc0499e142cee50bf8fcc502",
+      "bytes": 97768
+    },
+    {
+      "path": "results/latest/execution.json",
+      "mode": "100644",
+      "blob": "3e1a0c3d203cfde036078a6d99b8534e616337fb",
+      "bytes": 9488
+    },
+    {
+      "path": "results/latest/historical_comparison.json",
+      "mode": "100644",
+      "blob": "85832f05559e4e040809b1b77dbd1ec77aa98a3d",
+      "bytes": 9279
+    },
+    {
+      "path": "results/latest/historical_queries.csv",
+      "mode": "100644",
+      "blob": "6092d3342a4b3422d7bb43dfb4f2a5166be2e5a2",
+      "bytes": 3961
+    },
+    {
+      "path": "results/latest/metrics.csv",
+      "mode": "100644",
+      "blob": "7901e869c53f2983c4699f9226f399915baf8e98",
+      "bytes": 1697
+    },
+    {
+      "path": "results/latest/metrics_by_system.csv",
+      "mode": "100644",
+      "blob": "999c7bef81ed0988cfd4214119f3fde87b010041",
+      "bytes": 6247
+    },
+    {
+      "path": "results/latest/model_ab_plan.json",
+      "mode": "100644",
+      "blob": "3071f2f3be30eab59abb0bfc8a5d1c54b8496619",
+      "bytes": 558
+    },
+    {
+      "path": "results/latest/neural_common18_metrics.csv",
+      "mode": "100644",
+      "blob": "e06a24e01d040ff0c7cc87b7cee6f0ca74f0c885",
+      "bytes": 1756
+    },
+    {
+      "path": "results/latest/neural_execution.json",
+      "mode": "100644",
+      "blob": "9a685466ff2f2cbcc945219a700858cbb66b2ece",
+      "bytes": 12784
+    },
+    {
+      "path": "results/latest/neural_findings.json",
+      "mode": "100644",
+      "blob": "d5c426fd063a088b6a43ef30c7f1423740639bfe",
+      "bytes": 2305
+    },
+    {
+      "path": "results/latest/neural_findings.md",
+      "mode": "100644",
+      "blob": "4f4cddc7d9dce013bb25f7eb8b3bc32fccfb6375",
+      "bytes": 2025
+    },
+    {
+      "path": "results/latest/neural_model_findings.log",
+      "mode": "100644",
+      "blob": "3c73efb74e418fcd86231dc7bc633567f0941629",
+      "bytes": 2306
+    },
+    {
+      "path": "results/latest/neural_model_metrics.csv",
+      "mode": "100644",
+      "blob": "4a081088fce12d731d020535a47fc1294098e34d",
+      "bytes": 1326
+    },
+    {
+      "path": "results/latest/neural_model_report.html",
+      "mode": "100644",
+      "blob": "b8b13bba960721775d42cd062fdac80b4c93d90e",
+      "bytes": 11277
+    },
+    {
+      "path": "results/latest/neural_predictions.csv",
+      "mode": "100644",
+      "blob": "8644d80b6e83aa4f737670c1cf40deabc3e683f9",
+      "bytes": 303773
+    },
+    {
+      "path": "results/latest/neural_results.json",
+      "mode": "100644",
+      "blob": "d2bbffeb41df65eed28d6137cd2cc42d06dd443a",
+      "bytes": 7851
+    },
+    {
+      "path": "results/latest/neural_thresholds.csv",
+      "mode": "100644",
+      "blob": "b1ff0c06da9c03f243bb063c5e774d7ae6ef6ef0",
+      "bytes": 1796
+    },
+    {
+      "path": "results/latest/neural_timing.csv",
+      "mode": "100644",
+      "blob": "5327cdc7e0535b141850aa41e613527a6230919c",
+      "bytes": 736
+    },
+    {
+      "path": "results/latest/phase2_actual_cached_retrieval.log",
+      "mode": "100644",
+      "blob": "2eb425bd2a2230cfe73b3032527d45f414ddbbd0",
+      "bytes": 2790
+    },
+    {
+      "path": "results/latest/phase2_build.log",
+      "mode": "100644",
+      "blob": "f37e2ba9356841ac693c62bbf7b8877c1de3088b",
+      "bytes": 65
+    },
+    {
+      "path": "results/latest/phase2_candidate_ranking.csv",
+      "mode": "100644",
+      "blob": "8600b203364d0ea80135cc69e30e529c521519b5",
+      "bytes": 367
+    },
+    {
+      "path": "results/latest/phase2_evidence_proxy.csv",
+      "mode": "100644",
+      "blob": "b12a44005d131770ba72128c0a246057a49d1b23",
+      "bytes": 335
+    },
+    {
+      "path": "results/latest/phase2_model_ab_dry_run.log",
+      "mode": "100644",
+      "blob": "e27f5cdfde8ae024d1e34adac0f3fe5d36f6b898",
+      "bytes": 559
+    },
+    {
+      "path": "results/latest/phase2_replay.log",
+      "mode": "100644",
+      "blob": "bd1657d84f4587b82fa056e6b57b1a8f191d1a94",
+      "bytes": 1490
+    },
+    {
+      "path": "results/latest/phase2_report.html",
+      "mode": "100644",
+      "blob": "e5b0b78019f5ed5f71a649665f7923328b376323",
+      "bytes": 7047
+    },
+    {
+      "path": "results/latest/phase2_retrieval_predictions.csv",
+      "mode": "100644",
+      "blob": "fb883699db4b5b5df00729b739b58291474d6a48",
+      "bytes": 79391
+    },
+    {
+      "path": "results/latest/phase2_run_manifest.json",
+      "mode": "100644",
+      "blob": "6639ef0a3c5577cfbc8c6c3d96ebaab2a41ed5ca",
+      "bytes": 14562
+    },
+    {
+      "path": "results/latest/phase2_validation_diagnostics.csv",
+      "mode": "100644",
+      "blob": "2b5246fe11e9867eecc229385b35a1f614c2310e",
+      "bytes": 286
+    },
+    {
+      "path": "results/latest/predictions.csv",
+      "mode": "100644",
+      "blob": "1c8663bed878fc4170c802d936238a729a3db8bb",
+      "bytes": 194931
+    },
+    {
+      "path": "results/latest/raw_scores_e5_multilingual.json",
+      "mode": "100644",
+      "blob": "cc71f0fc5c2b48eef092ab976c3a1b3309112907",
+      "bytes": 115764
+    },
+    {
+      "path": "results/latest/raw_scores_ko_sroberta.json",
+      "mode": "100644",
+      "blob": "1855707f324aaf5e68bd8b54bec31fa0fb68bd57",
+      "bytes": 115766
+    },
+    {
+      "path": "results/latest/raw_scores_mpnet.json",
+      "mode": "100644",
+      "blob": "0e3408509a3aa156a26f0a5f0aa0d2d6907a597c",
+      "bytes": 173160
+    },
+    {
+      "path": "results/latest/replay_metrics.csv",
+      "mode": "100644",
+      "blob": "5a7ccee4f878adc5fdf87e9f0a4faa0da63952da",
+      "bytes": 595
+    },
+    {
+      "path": "results/latest/replay_notes.json",
+      "mode": "100644",
+      "blob": "86cd7ad0f1aabde2f56219fca37a90bd8c23a3e7",
+      "bytes": 2212
+    },
+    {
+      "path": "results/latest/replay_predictions.csv",
+      "mode": "100644",
+      "blob": "b7b666fdba5ba16d7c66a154ebaee093f768207f",
+      "bytes": 246787
+    },
+    {
+      "path": "results/latest/report.html",
+      "mode": "100644",
+      "blob": "e8e8a4df8bba452f15f17cae1d97d0595a7f3df5",
+      "bytes": 18944
+    },
+    {
+      "path": "results/latest/requirements-models.lock.txt",
+      "mode": "100644",
+      "blob": "dba1ab2cc32f95c7946621105bd87521ba0cef32",
+      "bytes": 1552
+    },
+    {
+      "path": "results/latest/results.json",
+      "mode": "100644",
+      "blob": "ec75ea51b7132c9645a733c5e8568484b24e7804",
+      "bytes": 440925
+    },
+    {
+      "path": "results/latest/run_manifest.json",
+      "mode": "100644",
+      "blob": "b4308df715242f77966eb048f2740c57d6dc0698",
+      "bytes": 6274
+    },
+    {
+      "path": "results/latest/tests.log",
+      "mode": "100644",
+      "blob": "9b481793d70e991fc6aee23c1a576b9a9d104140",
+      "bytes": 4435
+    },
+    {
+      "path": "results/latest/tests.txt",
+      "mode": "100644",
+      "blob": "385750818b13137627219cb6046d814556c1949b",
+      "bytes": 666
+    },
+    {
+      "path": "results/latest/thresholds.csv",
+      "mode": "100644",
+      "blob": "7097402e56cb2d98c4fcb67eb04229b0bf43b095",
+      "bytes": 2115
+    },
+    {
+      "path": "run_experiments.py",
+      "mode": "100644",
+      "blob": "47f25109c2f1c993e93a6957688b4cf21b419b14",
+      "bytes": 26858
+    },
+    {
+      "path": "run_local.cmd",
+      "mode": "100644",
+      "blob": "b02b506945e4b6fb897226060358fd6be16f08c9",
+      "bytes": 234
+    },
+    {
+      "path": "run_model_comparison.cmd",
+      "mode": "100644",
+      "blob": "cd3e2f241a7e7051cbf504a93b3d891d2d0ea6f8",
+      "bytes": 278
+    },
+    {
+      "path": "run_neural_model_comparison.py",
+      "mode": "100644",
+      "blob": "8823362adad147ae039f12029152299ac5ec8667",
+      "bytes": 21429
+    },
+    {
+      "path": "run_phase2_model_ab.py",
+      "mode": "100644",
+      "blob": "38695bcc8489f882e55b2c47d6f0c97d4173f224",
+      "bytes": 8715
+    },
+    {
+      "path": "run_phase2_rag.py",
+      "mode": "100644",
+      "blob": "083910fc67ab2ddfc37a09335eb7d03d1f4b536f",
+      "bytes": 16365
+    },
+    {
+      "path": "setup_model_runtime.ps1",
+      "mode": "100644",
+      "blob": "79b077c2618bcf7c8dff377a509be198b2591ef5",
+      "bytes": 1078
+    },
+    {
+      "path": "strict_validation.py",
+      "mode": "100644",
+      "blob": "0ae8411be5fd34f794ee4781843e99384d107839",
+      "bytes": 1488
+    },
+    {
+      "path": "test_evaluation.py",
+      "mode": "100644",
+      "blob": "818f2b0a91d2e47497fe1ae10837b488c0f1f1c9",
+      "bytes": 3954
+    },
+    {
+      "path": "test_model_ab.py",
+      "mode": "100644",
+      "blob": "459ef89d31cdcc0d7813063b531f98a5bc1324fb",
+      "bytes": 1580
+    },
+    {
+      "path": "test_model_comparison.py",
+      "mode": "100644",
+      "blob": "03656ad93c7bd19f9fdac55ea56b2cd76a34549a",
+      "bytes": 1271
+    },
+    {
+      "path": "test_phase2_rag.py",
+      "mode": "100644",
+      "blob": "db66b7cab7066da546ae8261b58a2bbc38c1fc7f",
+      "bytes": 7171
+    },
+    {
+      "path": "third_party/LICENSE.txt",
+      "mode": "100644",
+      "blob": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+      "bytes": 11358
+    },
+    {
+      "path": "third_party/magneto_full/LICENSE",
+      "mode": "100644",
+      "blob": "29f81d812f3e768fa89638d1f72920dbfd1413a8",
+      "bytes": 11558
+    },
+    {
+      "path": "third_party/magneto_full/PROVENANCE.json",
+      "mode": "100644",
+      "blob": "228996457279a28cb4b7116ed7bcf815a02fd34f",
+      "bytes": 299
+    },
+    {
+      "path": "third_party/magneto_full/README.md",
+      "mode": "100644",
+      "blob": "55ed28fcda9e98ae28c79ddae949a73d7d8ed9a5",
+      "bytes": 7730
+    },
+    {
+      "path": "third_party/magneto_full/magneto/__init__.py",
+      "mode": "100644",
+      "blob": "9f6506f1046e184bedfb5e48ce2e48292c2e73ff",
+      "bytes": 96
+    },
+    {
+      "path": "third_party/magneto_full/magneto/basic_matcher.py",
+      "mode": "100644",
+      "blob": "60e416923cbdf43e60063826cbc0e084d18c137b",
+      "bytes": 2386
+    },
+    {
+      "path": "third_party/magneto_full/magneto/bp_reranker.py",
+      "mode": "100644",
+      "blob": "7fc5774cf3eab4e7082fd7f6f6e1f53fb76e43ba",
+      "bytes": 3155
+    },
+    {
+      "path": "third_party/magneto_full/magneto/column_encoder.py",
+      "mode": "100644",
+      "blob": "701df1d1bc94b66a92a673f823b57c69ff627d6e",
+      "bytes": 5766
+    },
+    {
+      "path": "third_party/magneto_full/magneto/embedding_matcher.py",
+      "mode": "100644",
+      "blob": "e160de1d2f479e9865957751021f37211f2b3631",
+      "bytes": 6256
+    },
+    {
+      "path": "third_party/magneto_full/magneto/llm_reranker.py",
+      "mode": "100644",
+      "blob": "f34d6856b82367bae013af82ff7700800bfab2d3",
+      "bytes": 4357
+    },
+    {
+      "path": "third_party/magneto_full/magneto/magneto.py",
+      "mode": "100644",
+      "blob": "bffb66464f89fb8da7d8615e8b887dc0a7d8b1b6",
+      "bytes": 10945
+    },
+    {
+      "path": "third_party/magneto_full/magneto/retriever.py",
+      "mode": "100644",
+      "blob": "7c40525a1e5ba50d4d4570a88aea3d155aaa962f",
+      "bytes": 8254
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/__init__.py",
+      "mode": "100644",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/base_column.py",
+      "mode": "100644",
+      "blob": "d4bea6dc9a50397b9a33fe24005c6cbd97dda154",
+      "bytes": 955
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/base_table.py",
+      "mode": "100644",
+      "blob": "6fdd3abd476ca3bc87ef5358341cb57f06928e6f",
+      "bytes": 1918
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/constants.py",
+      "mode": "100644",
+      "blob": "e31bffa6b5a2d48eb9a658545e92d6015439fc56",
+      "bytes": 2631
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/dataframe_column.py",
+      "mode": "100644",
+      "blob": "fd7d1fd670c9de44bc355be903d456cde74b13e3",
+      "bytes": 799
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/dataframe_table.py",
+      "mode": "100644",
+      "blob": "ecf3cc039f43577c7526796126e78de1cc1721df",
+      "bytes": 1319
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/embedding_utils.py",
+      "mode": "100644",
+      "blob": "c629681170f945d9cf0075d19f9f9bf01a0ba438",
+      "bytes": 2282
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/retriever_utils.py",
+      "mode": "100644",
+      "blob": "3f89b90d9370c60da5cb6d430b6bb9d3a62937d3",
+      "bytes": 7656
+    },
+    {
+      "path": "third_party/magneto_full/magneto/utils/utils.py",
+      "mode": "100644",
+      "blob": "7527d492fdc1ec925595b410afa3a2cbb09882ac",
+      "bytes": 10366
+    },
+    {
+      "path": "third_party/magneto_name.py",
+      "mode": "100644",
+      "blob": "37e529276385ce87e3ac026f1c4de08b3a221ce7",
+      "bytes": 2943
+    },
+    {
+      "path": "upgrade_adapter.py",
+      "mode": "100644",
+      "blob": "78d7d4054f411c87eaf219d3cbf7973bbbc0cdb9",
+      "bytes": 8637
+    }
+  ]
+}

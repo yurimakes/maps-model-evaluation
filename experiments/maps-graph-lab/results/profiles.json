@@ -1,0 +1,1057 @@
+[
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#01_WBS",
+    "rows": 57,
+    "columns": 35,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#SourceData",
+    "rows": 26,
+    "columns": 6,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#환경정보",
+    "rows": 34,
+    "columns": 43,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#TargetDataModel",
+    "rows": 1,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#Architecture",
+    "rows": 1,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#02_Milestone",
+    "rows": 14,
+    "columns": 8,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#03_Deliverables",
+    "rows": 17,
+    "columns": 9,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#04_Risk_Issue",
+    "rows": 12,
+    "columns": 10,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#00_Control",
+    "rows": 7,
+    "columns": 4,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#DQ Review",
+    "rows": 1,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#MAPS Review설계",
+    "rows": 38,
+    "columns": 41,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#JOB연계-민찬기",
+    "rows": 21,
+    "columns": 3,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#JOB연계-김보련",
+    "rows": 32,
+    "columns": 6,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#구현범위",
+    "rows": 203,
+    "columns": 10,
+    "headers": []
+  },
+  {
+    "document_id": "doc:5d0fa416d4e69be054d1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_2차프로젝트_WBS_20260914_공유.xlsx#구현범위(종합)",
+    "rows": 120,
+    "columns": 10,
+    "headers": []
+  },
+  {
+    "document_id": "doc:b006ee34f75221d57a22",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/consultation_error_log.csv",
+    "rows": 146,
+    "columns": 3,
+    "headers": [
+      "consultation_id",
+      "error_type",
+      "error_note"
+    ]
+  },
+  {
+    "document_id": "doc:6338026775ddca2d7035",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/product_code_master_코드체계.xlsx#상품리스트_원본",
+    "rows": 1000,
+    "columns": 3,
+    "headers": []
+  },
+  {
+    "document_id": "doc:6338026775ddca2d7035",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/product_code_master_코드체계.xlsx#상품분류_코드",
+    "rows": 1000,
+    "columns": 4,
+    "headers": []
+  },
+  {
+    "document_id": "doc:6338026775ddca2d7035",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/product_code_master_코드체계.xlsx#코드체계",
+    "rows": 1000,
+    "columns": 3,
+    "headers": []
+  },
+  {
+    "document_id": "doc:6338026775ddca2d7035",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/상세/product_code_master_코드체계.xlsx#안내",
+    "rows": 1000,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:837578eb22962c95a765",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/ars_menu.csv",
+    "rows": 9,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:9f742b847a459e918182",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/consultation.csv",
+    "rows": 1000,
+    "columns": 22,
+    "headers": [
+      "consultation_id",
+      "inbound_type",
+      "ars_menu",
+      "consultation_type",
+      "started_at",
+      "ended_at",
+      "status",
+      "customer_id",
+      "customer_name",
+      "birth_date",
+      "gender",
+      "phone_number",
+      "address",
+      "policy_id",
+      "policy_status",
+      "contract_date",
+      "expiration_date",
+      "product_code",
+      "agent_id",
+      "agent_name",
+      "team_name",
+      "consultation_content"
+    ]
+  },
+  {
+    "document_id": "doc:f6e440d07e49aba8f6c7",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/consultation.xlsx#in",
+    "rows": 1001,
+    "columns": 22,
+    "headers": []
+  },
+  {
+    "document_id": "doc:e8aee1b1e575a6bcce66",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/consultation_type.csv",
+    "rows": 9,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:ad4c3724f6faebeb4ab0",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/gender.csv",
+    "rows": 2,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:081a07267bd704376a8a",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/inbound_type.csv",
+    "rows": 4,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:1bc249e74e659d6c9c37",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/policy_status.csv",
+    "rows": 4,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:d131dd3b1ee26eb47bed",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/product_master_code.csv",
+    "rows": 185,
+    "columns": 4,
+    "headers": [
+      "product_code",
+      "insurance_type",
+      "insurance_kind",
+      "product_name"
+    ]
+  },
+  {
+    "document_id": "doc:9111b175e4343cee3a7c",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/status.csv",
+    "rows": 4,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:874ca49b29ef69f34719",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!인바운드 상담 데이터/team_name.csv",
+    "rows": 6,
+    "columns": 2,
+    "headers": [
+      "code",
+      "code_name"
+    ]
+  },
+  {
+    "document_id": "doc:54232fce81a10965b10d",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_complaint_type.csv",
+    "rows": 10,
+    "columns": 3,
+    "headers": [
+      "CODE",
+      "NAME_KO",
+      "RATIO"
+    ]
+  },
+  {
+    "document_id": "doc:45731593b8fedd4213ec",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_process_status.csv",
+    "rows": 4,
+    "columns": 3,
+    "headers": [
+      "CODE",
+      "NAME_KO",
+      "RATIO"
+    ]
+  },
+  {
+    "document_id": "doc:4438588bde617f24a3a6",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_product_area.csv",
+    "rows": 8,
+    "columns": 3,
+    "headers": [
+      "CODE",
+      "NAME_KO",
+      "RATIO"
+    ]
+  },
+  {
+    "document_id": "doc:05cd6a2b716a677071ec",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_receive_channel.csv",
+    "rows": 4,
+    "columns": 3,
+    "headers": [
+      "CODE",
+      "NAME_KO",
+      "RATIO"
+    ]
+  },
+  {
+    "document_id": "doc:228cad95cb639e324b4c",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/01_master/code_sentiment_reference.csv",
+    "rows": 4,
+    "columns": 3,
+    "headers": [
+      "CODE",
+      "NAME_KO",
+      "RATIO"
+    ]
+  },
+  {
+    "document_id": "doc:2162c922efa9341be790",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/02_source/homepage_complaint_source_1000_v1_2.csv",
+    "rows": 1000,
+    "columns": 18,
+    "headers": [
+      "COMPLAINT_ID",
+      "CUST_ID",
+      "PRODUCT_GB",
+      "INBOUND_PRODUCT_CODE",
+      "PRODUCT_CODE_MATCH_STATUS",
+      "COMPLAINT_TP",
+      "COMPLAINT_TITLE",
+      "COMPLAINT_CONTENT",
+      "LANG_CD",
+      "RCV_PATH",
+      "FSS_RELATED_YN",
+      "FSS_CASE_NO",
+      "SENTIMENT_REF",
+      "PROCESS_ST",
+      "REG_DT",
+      "ANSWER_DUE_DT",
+      "CONTACT_EMAIL",
+      "CONTACT_TEL"
+    ]
+  },
+  {
+    "document_id": "doc:b04b91e3d297dd9135df",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/02_source/이력/homepage_complaint_source_1000_v1_1.csv",
+    "rows": 1000,
+    "columns": 16,
+    "headers": [
+      "COMPLAINT_ID",
+      "CUST_ID",
+      "PRODUCT_GB",
+      "COMPLAINT_TP",
+      "COMPLAINT_TITLE",
+      "COMPLAINT_CONTENT",
+      "LANG_CD",
+      "RCV_PATH",
+      "FSS_RELATED_YN",
+      "FSS_CASE_NO",
+      "SENTIMENT_REF",
+      "PROCESS_ST",
+      "REG_DT",
+      "ANSWER_DUE_DT",
+      "CONTACT_EMAIL",
+      "CONTACT_TEL"
+    ]
+  },
+  {
+    "document_id": "doc:7f18621613adaedb14ae",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/04_metadata/homepage_complaint_dq_test_scenario_log.csv",
+    "rows": 54,
+    "columns": 6,
+    "headers": [
+      "CSV_ROW_NO",
+      "COMPLAINT_ID",
+      "COLUMN_NAME",
+      "TEST_SCENARIO",
+      "BEFORE_VALUE",
+      "AFTER_VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:3b3475ff76b702a013c1",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/04_metadata/homepage_complaint_metadata.csv",
+    "rows": 16,
+    "columns": 12,
+    "headers": [
+      "SOURCE_SYSTEM",
+      "TABLE_NAME",
+      "TABLE_DESCRIPTION",
+      "COLUMN_NAME",
+      "COLUMN_DESCRIPTION",
+      "DATA_TYPE",
+      "PK_YN",
+      "BUSINESS_KEY_YN",
+      "NULLABLE_YN",
+      "CODE_YN",
+      "PII_YN",
+      "SAMPLE_VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:a2ddec915b5a3f46a01b",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!홈페이지_민원상담데이터/MAPS_homepage_complaint_v1_0/04_metadata/homepage_complaint_profile_precheck.csv",
+    "rows": 22,
+    "columns": 2,
+    "headers": [
+      "METRIC",
+      "VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:ec1d6855de1002595f23",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!챗봇 데이터/챗봇_Source_Metadata.xlsx#챗봇_메타데이터",
+    "rows": 54,
+    "columns": 12,
+    "headers": []
+  },
+  {
+    "document_id": "doc:b38a640371d8ccf7e06b",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!챗봇 데이터/chatbot_dummy_sessions_1000_dq.json",
+    "rows": 1005,
+    "columns": 27,
+    "headers": [
+      "session_id",
+      "channel",
+      "device_type",
+      "os",
+      "app_version",
+      "started_at",
+      "ended_at",
+      "duration_seconds",
+      "entry_login_status",
+      "is_logged_in",
+      "customer_id",
+      "consent_screen_shown",
+      "consent_privacy_accepted",
+      "consent_marketing_accepted",
+      "consent_thirdparty_accepted",
+      "consent_answered_at",
+      "navigation_path",
+      "free_text_queries",
+      "product_interest",
+      "login_gate_hit",
+      "mobile_only_redirect",
+      "external_site_redirect",
+      "accident_claim",
+      "contract_change_request",
+      "benefit_event_interaction",
+      "resolution",
+      "intent_category_guess"
+    ]
+  },
+  {
+    "document_id": "doc:1b1fa2dffa729d60e6f5",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_error_manifest_1000_v02.csv",
+    "rows": 150,
+    "columns": 10,
+    "headers": [
+      "ROW_SEQ",
+      "ROW_KEY_EXPECTED",
+      "ERR_TP_CD",
+      "ERROR_TYPE",
+      "ERROR_DESCRIPTION",
+      "ERROR_COLUMNS",
+      "OBSERVED_VALUE",
+      "EXPECTED_VALUE",
+      "CAUSE_CATEGORY",
+      "SEVERITY"
+    ]
+  },
+  {
+    "document_id": "doc:1056e9214be516a76c93",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_schema_code_product_v02.xlsx#사용 안내",
+    "rows": 8,
+    "columns": 2,
+    "headers": []
+  },
+  {
+    "document_id": "doc:1056e9214be516a76c93",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_schema_code_product_v02.xlsx#컬럼 스키마",
+    "rows": 33,
+    "columns": 19,
+    "headers": []
+  },
+  {
+    "document_id": "doc:1056e9214be516a76c93",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_schema_code_product_v02.xlsx#코드표",
+    "rows": 54,
+    "columns": 6,
+    "headers": []
+  },
+  {
+    "document_id": "doc:1056e9214be516a76c93",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_schema_code_product_v02.xlsx#상품·캠페인",
+    "rows": 27,
+    "columns": 7,
+    "headers": []
+  },
+  {
+    "document_id": "doc:1056e9214be516a76c93",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_schema_code_product_v02.xlsx#Source 특성·테스트",
+    "rows": 44,
+    "columns": 5,
+    "headers": []
+  },
+  {
+    "document_id": "doc:8d7ba9772143d688d2fc",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!아웃바운드 상담 데이터/tm_source_export_1000_v02.csv",
+    "rows": 1000,
+    "columns": 32,
+    "headers": [
+      "CUST_NM",
+      "BRTH_YMD",
+      "SX_DV_CD",
+      "HP_NO",
+      "LEAD_MGMT_NO",
+      "DB_ACQ_PATH_CD",
+      "DB_ACQ_DTM",
+      "DB_ST_CD",
+      "CMPGN_CD",
+      "GD_CD",
+      "GD_NM",
+      "CTI_ID",
+      "TMR_ID",
+      "TRY_CNT",
+      "CALL_ST_DTM",
+      "CALL_CONN_DTM",
+      "CALL_END_DTM",
+      "CONN_RSLT_CD",
+      "TALK_TM",
+      "TM_RSLT_CD",
+      "CSLT_TP_CD",
+      "RJT_RSN_CD",
+      "CSLT_NOTE",
+      "R_CALL_RSV_DTM",
+      "STT_TXT",
+      "REC_URI",
+      "MKT_AGR_YN",
+      "REC_AGR_YN",
+      "DNC_YN",
+      "APPL_NO",
+      "CNTR_PRGS_CD",
+      "MN_PREM"
+    ]
+  },
+  {
+    "document_id": "doc:676ff076925858dc1b23",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/(참고용)insurance_consultation_clean_1000.csv",
+    "rows": 1000,
+    "columns": 18,
+    "headers": [
+      "Id",
+      "Consultation_No__c",
+      "Product_Code__c",
+      "Customer_Type__c",
+      "Customer_Id__c",
+      "Consult_Category__c",
+      "Consult_Content__c",
+      "Access_Path__c",
+      "Language_Code__c",
+      "Device_Type__c",
+      "Referrer_Channel__c",
+      "Session_Id__c",
+      "Country_Code__c",
+      "Process_Status__c",
+      "Consent_Yn__c",
+      "Consult_Datetime__c",
+      "CreatedDate",
+      "LastModifiedDate"
+    ]
+  },
+  {
+    "document_id": "doc:a80cb2f82581b08ed37c",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/이력/insurance_consultation_source_1000.csv",
+    "rows": 1000,
+    "columns": 18,
+    "headers": [
+      "Id",
+      "Consultation_No__c",
+      "Product_Code__c",
+      "Customer_Type__c",
+      "Customer_Id__c",
+      "Consult_Category__c",
+      "Consult_Content__c",
+      "Access_Path__c",
+      "Language_Code__c",
+      "Device_Type__c",
+      "Referrer_Channel__c",
+      "Session_Id__c",
+      "Country_Code__c",
+      "Process_Status__c",
+      "Consent_Yn__c",
+      "Consult_Datetime__c",
+      "CreatedDate",
+      "LastModifiedDate"
+    ]
+  },
+  {
+    "document_id": "doc:789cdb67dea5195fc7a5",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/insurance_consultation_ASIS_CODE_MASTER_v1.0.csv",
+    "rows": 63,
+    "columns": 8,
+    "headers": [
+      "CODE_GROUP_ID",
+      "CODE_GROUP_NAME",
+      "CODE_VALUE",
+      "CODE_NAME",
+      "VALID_YN",
+      "USE_YN",
+      "SORT_ORDER",
+      "DESCRIPTION"
+    ]
+  },
+  {
+    "document_id": "doc:2779f7621071e7ba07ce",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/02_source/insurance_consultation_source_1000_v1_2.csv",
+    "rows": 1000,
+    "columns": 20,
+    "headers": [
+      "Id",
+      "Consultation_No__c",
+      "Product_Code__c",
+      "Inbound_Product_Code__c",
+      "Inbound_Product_Match_Status__c",
+      "Customer_Type__c",
+      "Customer_Id__c",
+      "Consult_Category__c",
+      "Consult_Content__c",
+      "Access_Path__c",
+      "Language_Code__c",
+      "Device_Type__c",
+      "Referrer_Channel__c",
+      "Session_Id__c",
+      "Country_Code__c",
+      "Process_Status__c",
+      "Consent_Yn__c",
+      "Consult_Datetime__c",
+      "CreatedDate",
+      "LastModifiedDate"
+    ]
+  },
+  {
+    "document_id": "doc:b3f794f885f1056acd3c",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/salesforce_dq_test_scenario_log.csv",
+    "rows": 60,
+    "columns": 7,
+    "headers": [
+      "CSV_ROW_NO",
+      "SALESFORCE_ID",
+      "CONSULTATION_NO",
+      "COLUMN_NAME",
+      "TEST_SCENARIO",
+      "BEFORE_VALUE",
+      "AFTER_VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:4012146e6070b11d9ad3",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/이력/salesforce_source_metadata_v1_1.csv",
+    "rows": 18,
+    "columns": 12,
+    "headers": [
+      "SOURCE_SYSTEM",
+      "TABLE_NAME",
+      "TABLE_DESCRIPTION",
+      "COLUMN_NAME",
+      "COLUMN_DESCRIPTION",
+      "DATA_TYPE",
+      "PK_YN",
+      "BUSINESS_KEY_YN",
+      "NULLABLE_YN",
+      "CODE_YN",
+      "PII_YN",
+      "SAMPLE_VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:4e7e15ac3b5412934e19",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/salesforce_profile_precheck.csv",
+    "rows": 13,
+    "columns": 2,
+    "headers": [
+      "METRIC",
+      "VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:a26d386f5d392f1c0a64",
+    "path": "C:\\Users\\최유리\\Desktop\\마이크로소프트 데이터스쿨 2026\\3차프로젝트\\1016\\MAPS_SourceData.zip!보험상품가입데이터(세일즈포스)/MAPS_salesforce_asis_v1_1/04_metadata/salesforce_source_metadata_v1_2.csv",
+    "rows": 20,
+    "columns": 12,
+    "headers": [
+      "SOURCE_SYSTEM",
+      "TABLE_NAME",
+      "TABLE_DESCRIPTION",
+      "COLUMN_NAME",
+      "COLUMN_DESCRIPTION",
+      "DATA_TYPE",
+      "PK_YN",
+      "BUSINESS_KEY_YN",
+      "NULLABLE_YN",
+      "CODE_YN",
+      "PII_YN",
+      "SAMPLE_VALUE"
+    ]
+  },
+  {
+    "document_id": "doc:54d336de565b8a9e3095",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/2.MAPS_표준단어사전_v1.0_확정.csv",
+    "rows": 59,
+    "columns": 9,
+    "headers": [
+      "표준단어명",
+      "영문FullName",
+      "표준단어약어",
+      "분류",
+      "정의",
+      "작성근거",
+      "Source_근거",
+      "표준화_사유",
+      "확정상태"
+    ]
+  },
+  {
+    "document_id": "doc:053407a92fe6a963ea38",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/3.MAPS_표준용어사전_v1.0_확정.csv",
+    "rows": 66,
+    "columns": 10,
+    "headers": [
+      "표준용어명",
+      "논리영문FullName",
+      "구성표준단어",
+      "표준용어영문명_물리컬럼명",
+      "적용Entity",
+      "도메인",
+      "정의",
+      "작성근거",
+      "Source_근거",
+      "확정상태"
+    ]
+  },
+  {
+    "document_id": "doc:2c4928280b5c092d165b",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/4.MAPS_표준도메인사전_v1.0_확정.csv",
+    "rows": 16,
+    "columns": 7,
+    "headers": [
+      "도메인명",
+      "도메인설명",
+      "논리데이터유형",
+      "정의/물리후보",
+      "검증기준",
+      "물리데이터유형",
+      "확정상태"
+    ]
+  },
+  {
+    "document_id": "doc:b0f237a75f29dd5578df",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/5.MAPS_TO-BE_표준코드사전_v1.1_최종.csv",
+    "rows": 80,
+    "columns": 10,
+    "headers": [
+      "CODE_GROUP_ID",
+      "CODE_GROUP_NAME",
+      "CODE_VALUE",
+      "CODE_NAME",
+      "VALID_YN",
+      "USE_YN",
+      "작성근거",
+      "SOURCE_근거",
+      "확정상태",
+      "비고"
+    ]
+  },
+  {
+    "document_id": "doc:dfa4f3886105cdd21e47",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/6.MAPS_ASIS_TO_TOBE_코드매핑_v1.1_최종.csv",
+    "rows": 116,
+    "columns": 10,
+    "headers": [
+      "SOURCE_SYSTEM",
+      "SOURCE_COLUMN",
+      "SOURCE_CODE",
+      "SOURCE_CODE_NAME",
+      "SOURCE_USE_COUNT",
+      "TARGET_CODE_GROUP_ID",
+      "TARGET_CODE",
+      "MAPPING_TYPE",
+      "MAPPING_STATUS",
+      "MAPPING_RULE"
+    ]
+  },
+  {
+    "document_id": "doc:0ecc24818db7d4fc7b3f",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/7.MAPS_표준코드_의사결정로그_v1.0.csv",
+    "rows": 4,
+    "columns": 8,
+    "headers": [
+      "DECISION_ID",
+      "SOURCE_SYSTEM",
+      "SOURCE_COLUMN",
+      "SOURCE_VALUE",
+      "TARGET_DECISION",
+      "PROCESS_RULE",
+      "STATUS",
+      "RATIONALE"
+    ]
+  },
+  {
+    "document_id": "doc:8df8a5bca94ef3055f0d",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!3.Standardization/8.MAPS_TO-BE_물리데이터모델_v1.0_확정.csv",
+    "rows": 78,
+    "columns": 9,
+    "headers": [
+      "TABLE_NAME",
+      "COLUMN_NAME",
+      "DATA_TYPE",
+      "KEY",
+      "NULLABLE",
+      "DESCRIPTION",
+      "CONSTRAINT_NAME",
+      "INDEX_NAME",
+      "PHYSICAL_POLICY"
+    ]
+  },
+  {
+    "document_id": "doc:ead28d638e74e0564921",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx#Mapping_Definition",
+    "rows": 124,
+    "columns": 22,
+    "headers": []
+  },
+  {
+    "document_id": "doc:ead28d638e74e0564921",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx#Review_Items",
+    "rows": 6,
+    "columns": 6,
+    "headers": []
+  },
+  {
+    "document_id": "doc:ead28d638e74e0564921",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx#Design_Decisions",
+    "rows": 7,
+    "columns": 4,
+    "headers": []
+  },
+  {
+    "document_id": "doc:ead28d638e74e0564921",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx#Source_Inventory",
+    "rows": 6,
+    "columns": 5,
+    "headers": []
+  },
+  {
+    "document_id": "doc:ead28d638e74e0564921",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx#README",
+    "rows": 11,
+    "columns": 2,
+    "headers": []
+  },
+  {
+    "document_id": "doc:ead28d638e74e0564921",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!6.Mapping/MAPS_Source_Target_Mapping_v1.2.xlsx#Code_Guide",
+    "rows": 31,
+    "columns": 4,
+    "headers": []
+  },
+  {
+    "document_id": "doc:56775064a2f9637c314e",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_raw.csv",
+    "rows": 540,
+    "columns": 8,
+    "headers": [
+      "query_id",
+      "채널",
+      "원천컬럼",
+      "rep",
+      "target",
+      "confidence_score",
+      "confidence_level",
+      "flags"
+    ]
+  },
+  {
+    "document_id": "doc:487c07892b2881398939",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_raw_fixed.csv",
+    "rows": 540,
+    "columns": 10,
+    "headers": [
+      "query_id",
+      "채널",
+      "원천컬럼",
+      "rep",
+      "target",
+      "confidence_score",
+      "confidence_level",
+      "flags",
+      "temperature",
+      "seed"
+    ]
+  },
+  {
+    "document_id": "doc:d392962b2e56cd48bc02",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_summary.csv",
+    "rows": 18,
+    "columns": 12,
+    "headers": [
+      "query_id",
+      "채널",
+      "원천컬럼",
+      "시도횟수",
+      "최다target",
+      "최다target_횟수",
+      "일치율",
+      "target_종류수",
+      "confidence_score_평균",
+      "confidence_score_표준편차",
+      "원래_confidence_level",
+      "원래_target"
+    ]
+  },
+  {
+    "document_id": "doc:f9e6360f206fcabe2d19",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!fixed 가 설정값 고정했을 때의 나온 값들 민찬기/hive_metastore__maps_ai_demo__self_consistency_summary_fixed.csv",
+    "rows": 18,
+    "columns": 12,
+    "headers": [
+      "query_id",
+      "채널",
+      "원천컬럼",
+      "시도횟수",
+      "최다target",
+      "최다target_횟수",
+      "일치율",
+      "target_종류수",
+      "confidence_score_평균",
+      "confidence_score_표준편차",
+      "원래_confidence_level",
+      "원래_target"
+    ]
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#01_WBS",
+    "rows": 57,
+    "columns": 35,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#SourceData",
+    "rows": 26,
+    "columns": 6,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#환경정보",
+    "rows": 34,
+    "columns": 43,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#TargetDataModel",
+    "rows": 1,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#Architecture",
+    "rows": 1,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#02_Milestone",
+    "rows": 14,
+    "columns": 8,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#03_Deliverables",
+    "rows": 17,
+    "columns": 9,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#04_Risk_Issue",
+    "rows": 12,
+    "columns": 10,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#00_Control",
+    "rows": 7,
+    "columns": 4,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#DQ Review",
+    "rows": 1,
+    "columns": 1,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#MAPS Review설계",
+    "rows": 38,
+    "columns": 41,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#JOB연계-민찬기",
+    "rows": 21,
+    "columns": 3,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#JOB연계-김보련",
+    "rows": 32,
+    "columns": 6,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#구현범위",
+    "rows": 203,
+    "columns": 10,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#데이터검증",
+    "rows": 120,
+    "columns": 10,
+    "headers": []
+  },
+  {
+    "document_id": "doc:cadae688605e5db56da3",
+    "path": "C:\\choiyuri\\msdt-team-project-03\\2차백업파일.zip!2차프로젝트참고.zip!MAPS_2차프로젝트_WBS_20260914.xlsx#통합테스트결과",
+    "rows": 1,
+    "columns": 5,
+    "headers": []
+  }
+]

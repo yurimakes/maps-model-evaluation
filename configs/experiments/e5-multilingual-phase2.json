@@ -1,0 +1,8 @@
+{
+  "id": "e5-multilingual-phase2",
+  "model_config": "configs/models/e5-multilingual.json",
+  "suite": "phase2-model-93",
+  "saved_method": "dense_e5_multilingual",
+  "seed": 42,
+  "execution_kind": "saved_prediction_rescore"
+}
