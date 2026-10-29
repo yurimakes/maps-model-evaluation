@@ -6,3 +6,5 @@
 *.cmd text eol=crlf
 phase2_original/** -text
 phase2_bundle/** -text
+
+third_party/magneto_full/** -text

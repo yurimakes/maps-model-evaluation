@@ -6,3 +6,7 @@ __pycache__/
 *.zip
 *.dbc
 phase2_bundle/자료/1_원천데이터(브론즈)/
+
+models/
+.model-env/
+model_runtime.local.json

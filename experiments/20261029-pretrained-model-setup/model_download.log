@@ -1,0 +1,40 @@
+DOWNLOAD_MODEL mpnet sentence-transformers/all-mpnet-base-v2 e8c3b32edf5434bc2275fc9bab85f82640a19130
+DOWNLOADED mpnet 1_Pooling/config.json 190
+DOWNLOADED mpnet README.md 11612
+DOWNLOADED mpnet config.json 571
+DOWNLOADED mpnet config_sentence_transformers.json 116
+DOWNLOADED mpnet data_config.json 39265
+DOWNLOADED mpnet model.safetensors 437971872
+DOWNLOADED mpnet modules.json 349
+DOWNLOADED mpnet sentence_bert_config.json 53
+DOWNLOADED mpnet special_tokens_map.json 239
+DOWNLOADED mpnet tokenizer.json 466021
+DOWNLOADED mpnet tokenizer_config.json 363
+DOWNLOADED mpnet vocab.txt 231536
+MODEL_READY mpnet
+DOWNLOAD_MODEL e5_multilingual intfloat/multilingual-e5-small 614241f622f53c4eeff9890bdc4f31cfecc418b3
+DOWNLOADED e5_multilingual 1_Pooling/config.json 200
+DOWNLOADED e5_multilingual README.md 497538
+DOWNLOADED e5_multilingual config.json 655
+DOWNLOADED e5_multilingual model.safetensors 470641600
+DOWNLOADED e5_multilingual modules.json 387
+DOWNLOADED e5_multilingual sentence_bert_config.json 57
+DOWNLOADED e5_multilingual sentencepiece.bpe.model 5069051
+DOWNLOADED e5_multilingual special_tokens_map.json 167
+DOWNLOADED e5_multilingual tokenizer.json 17082730
+DOWNLOADED e5_multilingual tokenizer_config.json 443
+MODEL_READY e5_multilingual
+DOWNLOAD_MODEL ko_sroberta jhgan/ko-sroberta-multitask 8fca7c9c98c26599be0e14b9916b11a756a26f19
+DOWNLOADED ko_sroberta 1_Pooling/config.json 190
+DOWNLOADED ko_sroberta README.md 4858
+DOWNLOADED ko_sroberta config.json 744
+DOWNLOADED ko_sroberta config_sentence_transformers.json 123
+DOWNLOADED ko_sroberta model.safetensors 442499016
+DOWNLOADED ko_sroberta modules.json 229
+DOWNLOADED ko_sroberta sentence_bert_config.json 53
+DOWNLOADED ko_sroberta special_tokens_map.json 156
+DOWNLOADED ko_sroberta tokenizer.json 495027
+DOWNLOADED ko_sroberta tokenizer_config.json 585
+DOWNLOADED ko_sroberta vocab.txt 248477
+MODEL_READY ko_sroberta
+REGISTRY C:\choiyuri\msdt-team-project-03\models\registry.json

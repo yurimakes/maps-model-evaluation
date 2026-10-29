@@ -1,0 +1,5 @@
+﻿case,original_level,original_confidence,upgraded_level,upgraded_confidence
+Only NAME score; six criteria missing,HIGH,1.0,LOW,0.15
+Mandatory relationship gate NA,HIGH,1.0,INVALID_CANDIDATE,1.0
+No cited evidence,HIGH,1.0,INVALID_CANDIDATE,1.0
+Valid complete mapping,HIGH,1.0,HIGH,1.0

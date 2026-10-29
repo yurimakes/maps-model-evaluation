@@ -1,0 +1,25 @@
+C:\Users\최유리\.codex\.chatgpt-projects\g-p-6ad1c67af0f88191a49734bfa61b87d9\output\maps-model-runtime\Lib\site-packages\fuzzywuzzy\fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+LOAD_REAL_MODEL mpnet e8c3b32edf5434bc2275fc9bab85f82640a19130
+Attempting to load HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/mpnet'...
+Successfully loaded HuggingFace model 'C:/choiyuri/msdt-team-project-03/models/mpnet' on cpu
+REAL_FORWARD_COMPLETE mpnet texts 118
+Traceback (most recent call last):
+  File "C:\choiyuri\msdt-team-project-03\run_neural_model_comparison.py", line 187, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--out',default='results/latest');a=p.parse_args();run(HERE/a.out)
+                                                                                                  ~~~^^^^^^^^^^^^
+  File "C:\choiyuri\msdt-team-project-03\run_neural_model_comparison.py", line 147, in run
+    tick=time.perf_counter();scores=official_magneto_scores(matcher,key,questions,targets,metadata=False)
+                                    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\choiyuri\msdt-team-project-03\run_neural_model_comparison.py", line 75, in official_magneto_scores
+    matches=model.get_matches(left,right)
+  File "C:\choiyuri\msdt-team-project-03\third_party\magneto_full\magneto\magneto.py", line 258, in get_matches
+    matches = arrange_bipartite_matches(
+        matches,
+    ...<3 lines>...
+        target_table.name,
+    )
+  File "C:\choiyuri\msdt-team-project-03\third_party\magneto_full\magneto\bp_reranker.py", line 67, in arrange_bipartite_matches
+    initial_matches.pop(key, None)
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MatcherResults' object has no attribute 'pop'

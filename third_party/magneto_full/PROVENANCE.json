@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/VIDA-NYU/magneto-matcher",
+  "commit": "6620623265fc7feac0f053996e62b68a13a72a57",
+  "source_files_modified": false,
+  "mode": "Official Magneto non-GPT mode; actual embedding model + equal matching + bipartite reranking; MAPS schema-only configuration."
+}
