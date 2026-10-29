@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-29T15:24:41+09:00",
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "snapshot_sha256": "f8ce2fdf4f4a9e9146ee706f779efd4f3adee9b6cc8f4a7d57bf4f8f34f6bc4c",
+  "protocol": "nested leave-one-source-system-out; fixed graph weights; threshold inner LOSO 0..1 step .02",
+  "test_queries": 114,
+  "positive_queries": 65,
+  "gold_pairs": 68,
+  "target_candidates": 78,
+  "graph_walk": {
+    "iterations": 24,
+    "restart": 0.65,
+    "base_weight": 0.75,
+    "graph_weight": 0.25,
+    "domain_edge_weight": 0.25,
+    "approved_edge_weight": 2.0
+  },
+  "prediction_limit": 1,
+  "transductive_metadata": "Known target catalog and unlabeled query metadata allowed; heldout labels excluded from every training graph.",
+  "nonindependent_standards": "Project dictionaries may encode design decisions informed by source schemas. Exploratory only.",
+  "runtime_note": "Existing scikit-learn dependencies require the installed Python 3.13 interpreter; bundled Python 3.12 is used for PDF extraction.",
+  "excluded_from_scoring": [
+    "document chunks",
+    "source code mappings",
+    "mapping transformation rules",
+    "review comments",
+    "customer row values"
+  ],
+  "source_code_sha256": {
+    "build_graph.py": "d5d95015832ed8476bcff9abd2f3de61873cb509300409cb3870c7cbeb79514e",
+    "benchmark.py": "bcae317335fbf053c1ed990246e33df1b2ad73499e58c0a59077e0dc5e583de7",
+    "run_experiments.py": "238281bdf3d637acd63303b61b4270b4bd6f7a917b7ad76f91e4801bbbc6f25a"
+  }
+}

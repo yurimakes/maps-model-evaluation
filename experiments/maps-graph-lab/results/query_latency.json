@@ -1,0 +1,42 @@
+{
+  "cold_cli_process_seconds": 14.76348020000296,
+  "in_process_fresh_feature_requests": 10,
+  "in_process_full_request_p50_seconds": 1.9582449999998062,
+  "in_process_full_request_p95_seconds": 10.295621534998993,
+  "samples_seconds": [
+    16.469347800000833,
+    1.8197837000006984,
+    1.5826621000014711,
+    1.8807339999984833,
+    2.035756000001129,
+    2.212471499999083,
+    2.74995609999678,
+    2.266178800000489,
+    1.5395649000020057,
+    1.2985515000000305
+  ],
+  "scope": "Prototype rebuilds all text features and the scoring graph per request. First in-process sample includes model library imports; later imports are cached. Cold CLI includes process startup and imports. Ten repetitions of one metadata query; latency only, not accuracy.",
+  "example": {
+    "method": "graph_history",
+    "fold": "new_query",
+    "query_id": "NEW|external|customer_name",
+    "system": "NEW",
+    "table": "external",
+    "column": "customer_name",
+    "description": "고객 이름",
+    "predicted": [
+      "CUSTOMER.CUST_NM"
+    ],
+    "score": 0.9447916224845795,
+    "threshold": 0.66,
+    "ranked": [
+      "CUSTOMER.CUST_NM",
+      "COMPLAINT.CUST_ID",
+      "CONTRACT.CUST_ID",
+      "COUNSEL.CUST_ID",
+      "CUSTOMER.CUST_ID"
+    ],
+    "purpose": "PROTOTYPE_RECOMMENDATION_REQUIRES_REVIEW",
+    "elapsed_seconds": 13.860972700000275
+  }
+}

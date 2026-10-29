@@ -1,0 +1,434 @@
+{
+  "timestamp": "2026-10-29T15:25:38+09:00",
+  "repository": "https://github.com/yurimakes/maps-ontology-graph",
+  "visibility_required": "private",
+  "source_code_policy": "All workspace-authored experiment and research helper code included; third-party runtime dependency directories and caches excluded.",
+  "files": [
+    {
+      "source": "output\\maps-local-lab\\.gitattributes",
+      "path": "experiments/maps-local-lab/.gitattributes",
+      "bytes": 103,
+      "sha256": "56e65f8cd10b88d79eaf08ce31aa1c36d2b38e02a80027c9528b03215232e753"
+    },
+    {
+      "source": "output\\maps-local-lab\\.gitignore",
+      "path": "experiments/maps-local-lab/.gitignore",
+      "bytes": 54,
+      "sha256": "5e6a2c10aeeb90afe01beb097ddf4cd5cff24976b17bade85e67647b4059b081"
+    },
+    {
+      "source": "output\\maps-local-lab\\data\\manifest.csv",
+      "path": "experiments/maps-local-lab/data/manifest.csv",
+      "bytes": 3852,
+      "sha256": "04044c980ea8660245958ccd221577e17b75d56426e28b09828e0818325eceed"
+    },
+    {
+      "source": "output\\maps-local-lab\\data\\queries.csv",
+      "path": "experiments/maps-local-lab/data/queries.csv",
+      "bytes": 14394,
+      "sha256": "70bebbf4290e21d86ebfbfbcd6017f46fab7c8509a1ca6a6223585679971e243"
+    },
+    {
+      "source": "output\\maps-local-lab\\data\\snapshot.json",
+      "path": "experiments/maps-local-lab/data/snapshot.json",
+      "bytes": 412564,
+      "sha256": "f8ce2fdf4f4a9e9146ee706f779efd4f3adee9b6cc8f4a7d57bf4f8f34f6bc4c"
+    },
+    {
+      "source": "output\\maps-local-lab\\data\\unlabeled_columns.csv",
+      "path": "experiments/maps-local-lab/data/unlabeled_columns.csv",
+      "bytes": 3858,
+      "sha256": "200a7258e85270b1caaa6f5252701b2cc9b72359c4efc0dee085d77f1fd42f57"
+    },
+    {
+      "source": "output\\maps-local-lab\\EXPERIMENT_JOURNAL.md",
+      "path": "experiments/maps-local-lab/EXPERIMENT_JOURNAL.md",
+      "bytes": 1878,
+      "sha256": "207c3049be8de2bee99ba1f643e117bbd05aebf8dea19470b55060ab52ac3362"
+    },
+    {
+      "source": "output\\maps-local-lab\\maps_policy.json",
+      "path": "experiments/maps-local-lab/maps_policy.json",
+      "bytes": 1120,
+      "sha256": "e4b1bf883a3d913334d8fb25ccca232fcd88e021dead7533a75437e4901a2e06"
+    },
+    {
+      "source": "output\\maps-local-lab\\open_report.cmd",
+      "path": "experiments/maps-local-lab/open_report.cmd",
+      "bytes": 53,
+      "sha256": "f740daf647c70358e49cc149bf0476b93025597019318285654ffb3e663b4760"
+    },
+    {
+      "source": "output\\maps-local-lab\\prepare_data.py",
+      "path": "experiments/maps-local-lab/prepare_data.py",
+      "bytes": 8388,
+      "sha256": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf"
+    },
+    {
+      "source": "output\\maps-local-lab\\README.md",
+      "path": "experiments/maps-local-lab/README.md",
+      "bytes": 3579,
+      "sha256": "1da363984cc2c06d895617345d2ec078ef8a7a09ee81cb987a908da7bb2e5ff7"
+    },
+    {
+      "source": "output\\maps-local-lab\\requirements.txt",
+      "path": "experiments/maps-local-lab/requirements.txt",
+      "bytes": 82,
+      "sha256": "dab55f452eaf6fbad5ab486ffed48de364284db1fc177c9ddc147bd229561786"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\costs.csv",
+      "path": "experiments/maps-local-lab/results/latest/costs.csv",
+      "bytes": 595,
+      "sha256": "e94652dd7fa658fb13b792835a1816000931bd348b3b7d5024177e82a38d8f14"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\errors.csv",
+      "path": "experiments/maps-local-lab/results/latest/errors.csv",
+      "bytes": 98104,
+      "sha256": "13bff7c79a9cc6f93c838c18c1c3fa075e7036e30dfabcc221054fcd5c009685"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\historical_comparison.json",
+      "path": "experiments/maps-local-lab/results/latest/historical_comparison.json",
+      "bytes": 9596,
+      "sha256": "71f66e54073346cfde410c380b0c756bc72236bd1d7b7afd55808faf230ffd52"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\historical_queries.csv",
+      "path": "experiments/maps-local-lab/results/latest/historical_queries.csv",
+      "bytes": 3998,
+      "sha256": "61c0868ccd838972ecb98e2ce2f216c94486feece8453a725dabbc4f606f7334"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\metrics.csv",
+      "path": "experiments/maps-local-lab/results/latest/metrics.csv",
+      "bytes": 1704,
+      "sha256": "35a1a23d6833a277011473a3c617a5c6d99e315009ef40ec89472a04830597a2"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\metrics_by_system.csv",
+      "path": "experiments/maps-local-lab/results/latest/metrics_by_system.csv",
+      "bytes": 6278,
+      "sha256": "43eb427995e635e553b7e0b63ee02573c41b17c7b3cab1f9496dbd91f8bcd019"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\predictions.csv",
+      "path": "experiments/maps-local-lab/results/latest/predictions.csv",
+      "bytes": 195616,
+      "sha256": "dbab10942cc1d87d558608eeb80a4769df64908f4373042113c688cd06c25fbe"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\report.html",
+      "path": "experiments/maps-local-lab/results/latest/report.html",
+      "bytes": 18184,
+      "sha256": "37eda7a77d9a7043bfb8eb1894c6c956daf5c6916cdd1dbad7d78ea2ef16caec"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\results.json",
+      "path": "experiments/maps-local-lab/results/latest/results.json",
+      "bytes": 457390,
+      "sha256": "0c298e02015fe53c616dc112059791c3740d4fbdfaf8d6b72e347768922fff84"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\run_manifest.json",
+      "path": "experiments/maps-local-lab/results/latest/run_manifest.json",
+      "bytes": 6386,
+      "sha256": "d3114bae1cca17175274c593b345ac6c23dbbf4150c40fdb9df739d7557531a5"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\tests.txt",
+      "path": "experiments/maps-local-lab/results/latest/tests.txt",
+      "bytes": 676,
+      "sha256": "8cd53dadafbebfee4d8be10894d1bf07ed9129d75904d9d0800c0854f924be04"
+    },
+    {
+      "source": "output\\maps-local-lab\\results\\latest\\thresholds.csv",
+      "path": "experiments/maps-local-lab/results/latest/thresholds.csv",
+      "bytes": 2146,
+      "sha256": "056297f250235167771de4304fc6bccef23eaf7892e6ef4e07871333f3ff6b4c"
+    },
+    {
+      "source": "output\\maps-local-lab\\run_experiments.py",
+      "path": "experiments/maps-local-lab/run_experiments.py",
+      "bytes": 26336,
+      "sha256": "238281bdf3d637acd63303b61b4270b4bd6f7a917b7ad76f91e4801bbbc6f25a"
+    },
+    {
+      "source": "output\\maps-local-lab\\run_local.cmd",
+      "path": "experiments/maps-local-lab/run_local.cmd",
+      "bytes": 202,
+      "sha256": "a6ea3ce7248cc288ce93075bfd17f8e887bd07b22c7ab02794900601738f669c"
+    },
+    {
+      "source": "output\\maps-local-lab\\test_evaluation.py",
+      "path": "experiments/maps-local-lab/test_evaluation.py",
+      "bytes": 2597,
+      "sha256": "48be612d2d9d5f323caae58509f3f48fbee11a084d8a97b406ec8346cff702af"
+    },
+    {
+      "source": "output\\maps-local-lab\\third_party\\LICENSE.txt",
+      "path": "experiments/maps-local-lab/third_party/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+    },
+    {
+      "source": "output\\maps-local-lab\\third_party\\magneto_name.py",
+      "path": "experiments/maps-local-lab/third_party/magneto_name.py",
+      "bytes": 2943,
+      "sha256": "b9423f36dac0674f4ad25b86c6a0c9714ab9ed503f2a1ad8ef0fd31d194803ee"
+    },
+    {
+      "source": "output\\maps-graph-lab\\benchmark.py",
+      "path": "experiments/maps-graph-lab/benchmark.py",
+      "bytes": 24644,
+      "sha256": "bcae317335fbf053c1ed990246e33df1b2ad73499e58c0a59077e0dc5e583de7"
+    },
+    {
+      "source": "output\\maps-graph-lab\\build_graph.py",
+      "path": "experiments/maps-graph-lab/build_graph.py",
+      "bytes": 14115,
+      "sha256": "d5d95015832ed8476bcff9abd2f3de61873cb509300409cb3870c7cbeb79514e"
+    },
+    {
+      "source": "output\\maps-graph-lab\\check_report.cjs",
+      "path": "experiments/maps-graph-lab/check_report.cjs",
+      "bytes": 1055,
+      "sha256": "2f3524dcae86827f62ead3593986e39749d37f63c29ed6b7c5ab9a2357fabdf0"
+    },
+    {
+      "source": "output\\maps-graph-lab\\data\\catalog.json",
+      "path": "experiments/maps-graph-lab/data/catalog.json",
+      "bytes": 167839,
+      "sha256": "2288cd6f6cb2f539122aa621b07d196bde0a510a073f455dd2607b9c21624cb5"
+    },
+    {
+      "source": "output\\maps-graph-lab\\data\\manifest.csv",
+      "path": "experiments/maps-graph-lab/data/manifest.csv",
+      "bytes": 3852,
+      "sha256": "04044c980ea8660245958ccd221577e17b75d56426e28b09828e0818325eceed"
+    },
+    {
+      "source": "output\\maps-graph-lab\\data\\queries.csv",
+      "path": "experiments/maps-graph-lab/data/queries.csv",
+      "bytes": 14394,
+      "sha256": "70bebbf4290e21d86ebfbfbcd6017f46fab7c8509a1ca6a6223585679971e243"
+    },
+    {
+      "source": "output\\maps-graph-lab\\data\\snapshot.json",
+      "path": "experiments/maps-graph-lab/data/snapshot.json",
+      "bytes": 412564,
+      "sha256": "f8ce2fdf4f4a9e9146ee706f779efd4f3adee9b6cc8f4a7d57bf4f8f34f6bc4c"
+    },
+    {
+      "source": "output\\maps-graph-lab\\data\\unlabeled_columns.csv",
+      "path": "experiments/maps-graph-lab/data/unlabeled_columns.csv",
+      "bytes": 3858,
+      "sha256": "200a7258e85270b1caaa6f5252701b2cc9b72359c4efc0dee085d77f1fd42f57"
+    },
+    {
+      "source": "output\\maps-graph-lab\\inspect_inputs.py",
+      "path": "experiments/maps-graph-lab/inspect_inputs.py",
+      "bytes": 854,
+      "sha256": "bb691b407bf4c8ec291d0d34891a0964df935005304f9f3d31cd6945c338a31c"
+    },
+    {
+      "source": "output\\maps-graph-lab\\measure_queries.py",
+      "path": "experiments/maps-graph-lab/measure_queries.py",
+      "bytes": 1611,
+      "sha256": "87d256d6772d2d449595e2e6e4a44ac9d92609c7d6dda8f9b338ea9aa87adefa"
+    },
+    {
+      "source": "output\\maps-graph-lab\\query.py",
+      "path": "experiments/maps-graph-lab/query.py",
+      "bytes": 2690,
+      "sha256": "268879dfc6491f72bcadc62723f6a1357e227b6e28acefdb2981f95526a10fa7"
+    },
+    {
+      "source": "output\\maps-graph-lab\\read_pdf.py",
+      "path": "experiments/maps-graph-lab/read_pdf.py",
+      "bytes": 185,
+      "sha256": "46b492432cb957501489b6de6283802d835135c851ffbb52afd3e4f1944fdcab"
+    },
+    {
+      "source": "output\\maps-graph-lab\\README.md",
+      "path": "experiments/maps-graph-lab/README.md",
+      "bytes": 6951,
+      "sha256": "34c0face01f88f2ca686b220f3bf43f6159f02586996da5023e774c1167d772c"
+    },
+    {
+      "source": "output\\maps-graph-lab\\requirements.txt",
+      "path": "experiments/maps-graph-lab/requirements.txt",
+      "bytes": 96,
+      "sha256": "8e94f084db300b26b7a1369c3649db463eeb694cb73514324dd139e8d668733f"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\baseline_tests.json",
+      "path": "experiments/maps-graph-lab/results/baseline_tests.json",
+      "bytes": 69,
+      "sha256": "c1b7227fe70295193fb29a2903602f2b17e0166bf3907f6d82918b7974768c5c"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\baseline_tests.log",
+      "path": "experiments/maps-graph-lab/results/baseline_tests.log",
+      "bytes": 711,
+      "sha256": "c4522764c18e1591d62a7d838d3d8769a1d4d86edf3dac7e318605802e2bc2d7"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\build_summary.json",
+      "path": "experiments/maps-graph-lab/results/build_summary.json",
+      "bytes": 5242,
+      "sha256": "dc87e0c327a855fbdbd7c33d670e51ec43e917be102e49d4cf118b074173b730"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\catalog_issues.csv",
+      "path": "experiments/maps-graph-lab/results/catalog_issues.csv",
+      "bytes": 3265,
+      "sha256": "5efa80fea9c51c199bd13c9ee8cd51af59ef124bbac3fc823e550c29a0fcb88a"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\costs.csv",
+      "path": "experiments/maps-graph-lab/results/costs.csv",
+      "bytes": 545,
+      "sha256": "a23a186649a543e8b618d3dfc0121c0e8242a17160faff90ef9dce4d335504b3"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\deployment_thresholds.json",
+      "path": "experiments/maps-graph-lab/results/deployment_thresholds.json",
+      "bytes": 57,
+      "sha256": "2f287494a6719120332eea4925c4ce68a3b14d9866cda17b193a0abad2585fa7"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\errors.csv",
+      "path": "experiments/maps-graph-lab/results/errors.csv",
+      "bytes": 82279,
+      "sha256": "b72cbde498ec77726f39808b312eef2b295dc34f9303e4c19f489808482dcb23"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\fold_graph_audit.json",
+      "path": "experiments/maps-graph-lab/results/fold_graph_audit.json",
+      "bytes": 17007,
+      "sha256": "d7874aa07b4c4d3452a89696f3ebae3b3118a4349f2223bc38702a0d53737677"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\graph.json",
+      "path": "experiments/maps-graph-lab/results/graph.json",
+      "bytes": 674045,
+      "sha256": "2000b3668219194fad9ee997b2ec4c197224abd45d1046e99d945df82ae73ae9"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\inventory.json",
+      "path": "experiments/maps-graph-lab/results/inventory.json",
+      "bytes": 55802,
+      "sha256": "d168c9d0e4b4818c438f39021cc2f5a3d58720d20a0dae3565019dd9997e3dfe"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\knowledge.sqlite",
+      "path": "experiments/maps-graph-lab/results/knowledge.sqlite",
+      "bytes": 1560576,
+      "sha256": "71725b19c95e20bc276a9240f47b5e742ee6232bbc0939e00a287b7ed7414594"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\metrics.csv",
+      "path": "experiments/maps-graph-lab/results/metrics.csv",
+      "bytes": 1562,
+      "sha256": "f30fe8dec60ed5eadc7e95aed248a1a3edfb874961e8a79f85f127eb542ee2a4"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\metrics_by_system.csv",
+      "path": "experiments/maps-graph-lab/results/metrics_by_system.csv",
+      "bytes": 5298,
+      "sha256": "494dbf5e747c6bd3ebf6f1e4c656ddbeb5842c4824fb06a082e0f7cd5bed7d5d"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\predictions.csv",
+      "path": "experiments/maps-graph-lab/results/predictions.csv",
+      "bytes": 163756,
+      "sha256": "d7dfaf0d72aa40ebba9317a201398706b8de989c64e7063f4ab5158ae9619e3c"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\profiles.json",
+      "path": "experiments/maps-graph-lab/results/profiles.json",
+      "bytes": 36277,
+      "sha256": "4771b91c45b3774bd3a4489a01cc4a232cf86419e830463b6b183f1dc8cedcb0"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\query_latency.json",
+      "path": "experiments/maps-graph-lab/results/query_latency.json",
+      "bytes": 1396,
+      "sha256": "6bdfe7418fe8bd6c36de16c99c341fb7df525bbe8e22b74e488315255fc87fa1"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\report.html",
+      "path": "experiments/maps-graph-lab/results/report.html",
+      "bytes": 563932,
+      "sha256": "3f47e170d246124e8efddb5525c3504a2c775a3ff5d21df4c200ba7c05aaa577"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\report_checks.json",
+      "path": "experiments/maps-graph-lab/results/report_checks.json",
+      "bytes": 207,
+      "sha256": "cd61391df8416c4cbe40be5ea8ce9d514ac9731a0b205895ff8331d71afed428"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\results.json",
+      "path": "experiments/maps-graph-lab/results/results.json",
+      "bytes": 384622,
+      "sha256": "bc3aad081a5de3bd0b302c07766aaf5783683fbe5ef5a86d9b1a725c7dd6f1bf"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\run_manifest.json",
+      "path": "experiments/maps-graph-lab/results/run_manifest.json",
+      "bytes": 1610,
+      "sha256": "8cafd97534981a3a8c73e5d137199369091a15d2c035aa60ecbecdeb11277a7a"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\thresholds.csv",
+      "path": "experiments/maps-graph-lab/results/thresholds.csv",
+      "bytes": 804,
+      "sha256": "97c4e622cb2782efa0c886874e8a745021740a4ead3b9721ea3a9b2674c10e64"
+    },
+    {
+      "source": "output\\maps-graph-lab\\results\\verification.json",
+      "path": "experiments/maps-graph-lab/results/verification.json",
+      "bytes": 2856,
+      "sha256": "73b9a0c16ac723aaa65de2bbda8c78ea3f34d5329146b49331b30aba382a7829"
+    },
+    {
+      "source": "output\\maps-graph-lab\\stage_snapshot.py",
+      "path": "experiments/maps-graph-lab/stage_snapshot.py",
+      "bytes": 5634,
+      "sha256": "28f61a76b4af6cd71e4fe0c2c5c639c5e31209e261b78b1a63e072a9c2082ee6"
+    },
+    {
+      "source": "output\\maps-graph-lab\\verify.py",
+      "path": "experiments/maps-graph-lab/verify.py",
+      "bytes": 4398,
+      "sha256": "47975d0e72ebaf64c128403126f2abb6bcac58f187085ed2d1b50b843a3066ac"
+    },
+    {
+      "source": "tmp\\build_maps_research.py",
+      "path": "research_support/build_maps_research.py",
+      "bytes": 83840,
+      "sha256": "cfd86bdcc439bb750332c552aae512d215bade074969cb6215e46c83381cdf21"
+    },
+    {
+      "source": "tmp\\verify_maps_research.cjs",
+      "path": "research_support/verify_maps_research.cjs",
+      "bytes": 4727,
+      "sha256": "adada832f1fa5e976d8071e1a552f6cf7e061df4238e15ca9a3942906a18e927"
+    },
+    {
+      "source": "generated",
+      "path": "README.md",
+      "bytes": 3151,
+      "sha256": "e2cafc370b7ae9bdbba270bc4ea85be198931d458438bbc695e68f54bfbe71a1"
+    },
+    {
+      "source": "generated",
+      "path": ".gitignore",
+      "bytes": 70,
+      "sha256": "7579751e14f2a1dfcc672a0a9b634ef358a29f9fd6d519decb9eb72b153b45b3"
+    }
+  ]
+}
