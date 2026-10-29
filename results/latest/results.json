@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T16:35:49+09:00",
+  "timestamp": "2026-10-29T16:42:17+09:00",
   "audit": {
     "mapping_rows": 123,
     "positive_mapping_rows": 74,
@@ -7290,7 +7290,7 @@
         "COUNSEL.PRD_ID"
       ],
       "predicted": [],
-      "score": 0.575242448370578,
+      "score": 0.5752424483705779,
       "threshold": 0.6,
       "ranked": [
         "PRODUCT.PRD_CD",
@@ -9937,7 +9937,7 @@
         "COUNSEL.PRD_ID"
       ],
       "predicted": [],
-      "score": 0.575242448370578,
+      "score": 0.5752424483705779,
       "threshold": 0.6,
       "ranked": [
         "PRODUCT.PRD_CD",
@@ -12600,7 +12600,7 @@
         "COUNSEL.PRD_ID"
       ],
       "predicted": [],
-      "score": 0.42071668327136696,
+      "score": 0.4207166832713669,
       "threshold": 0.44,
       "ranked": [
         "CONTRACT.PRD_ID",
@@ -15934,7 +15934,7 @@
       "predicted": [
         "COUNSEL.CNSL_ST_CD"
       ],
-      "score": 0.32183686276223844,
+      "score": 0.32183686276223833,
       "threshold": 0.26,
       "ranked": [
         "COUNSEL.CNSL_ST_CD",

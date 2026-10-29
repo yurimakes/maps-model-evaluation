@@ -5,7 +5,7 @@ from pathlib import Path
 HERE=Path(__file__).resolve().parent
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--label',default='local');p.add_argument('--commit',action='store_true');p.add_argument('--push',action='store_true');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--label',default='local');p.add_argument('--commit',action='store_true');p.add_argument('--push',action='store_true');p.add_argument('--model-ab-api',action='store_true');p.add_argument('--model-ab-questions',type=int,default=5);p.add_argument('--model-ab-max-requests',type=int,default=24);a=p.parse_args()
     import re
     if not re.fullmatch(r'[a-zA-Z0-9_-]+',a.label):p.error('Use letters, numbers, underscores or hyphens in label')
     stamp=datetime.now(timezone(timedelta(hours=9))).strftime('%Y%m%dT%H%M%S%z');relative='experiments/'+stamp+'-'+a.label
@@ -15,6 +15,10 @@ def main():
     if (HERE/'build_phase2_upgrade.py').exists():steps.append(('phase2_build',[sys.executable,'-X','utf8','build_phase2_upgrade.py']))
     steps.extend([('tests',[sys.executable,'-X','utf8','-m','unittest','discover','-v','-p','test_*.py']),('benchmark',[sys.executable,'-X','utf8','run_experiments.py','--out',relative]),('phase2_replay',[sys.executable,'-X','utf8','upgrade_adapter.py','--out',relative])])
     if (HERE/'run_phase2_rag.py').exists():steps.append(('phase2_actual_cached_retrieval',[sys.executable,'-X','utf8','run_phase2_rag.py','--out',relative]))
+    if (HERE/'run_phase2_model_ab.py').exists():
+        command=[sys.executable,'-X','utf8','run_phase2_model_ab.py','--out',relative,'--max-questions',str(a.model_ab_questions),'--max-requests',str(a.model_ab_max_requests)]
+        if a.model_ab_api:command.append('--execute-api')
+        steps.append(('phase2_model_ab_paid' if a.model_ab_api else 'phase2_model_ab_dry_run',command))
     for name,command in steps:
         proc=subprocess.run(command,cwd=HERE,capture_output=True,text=True,encoding='utf-8',errors='replace')
         (out/(name+'.log')).write_text(proc.stdout+'\n'+proc.stderr,encoding='utf-8')

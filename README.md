@@ -45,6 +45,8 @@
 
 ## 기존 2차 코드에 붙일 모듈
 
+실제 원본 코드의 A/B 실행 방법은 [PHASE2_INTEGRATION.md](PHASE2_INTEGRATION.md)에 정리했다. 기본 실행은 유료 API를 호출하지 않으며, 기존 Azure 연결 환경에서 명시적인 실행 옵션과 요청 한도를 지정해야 최종 모델 비교를 수행한다.
+
 `upgrade_adapter.py`의 `UpgradeEngine.recommend(source, legacy_target)`를 기존 RAG 추천 직후에 호출한다. source에는 `system`, `table`, `column`, `description`, `dtype`를 전달한다. 기존 Target 출력은 `legacy_target_original`로 보존하고, 재검토 후보를 `v3_target_proposal`로 따로 반환한다.
 
 기존 결과가 매핑이면 이를 유지한다. 기존 결과가 EXCLUDE이면 기존 하이브리드·업무관계 검사 후 하이브리드의 두 기준 중 더 엄격한 기준을 충족하는 후보만 추가한다. 두 기준은 현재 원천을 제외한 데이터에서 선택한다. 모든 추가 후보는 `requires_human_review=true`, `execution_allowed=false`이며 최종 승인이나 Gold 이관 규칙을 직접 만들지 않는다. 점수는 검색 점수이고 성공 확률·기존 7항목 Confidence가 아니다.

@@ -1,0 +1,19 @@
+{
+  "mode": "DRY_RUN_NO_API",
+  "available_questions": 93,
+  "selected_query_ids": [
+    "Q096",
+    "Q057",
+    "Q001",
+    "Q028",
+    "Q075"
+  ],
+  "selected_questions": 5,
+  "max_actual_http_attempts": 24,
+  "per_attempt_output_token_limit": 2200,
+  "embedding_api_calls": 0,
+  "databricks_writes": 0,
+  "comparison": "Original recommend_v2 vs strict recommend_v2; same corpus, cached embeddings, weighted fusion and deployment.",
+  "sampling_note": "A small round-robin run is a smoke test; full-scope results and independent validation are required."
+}
+

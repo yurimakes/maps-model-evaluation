@@ -1,0 +1,64 @@
+{
+  "purpose": "Phase-2 output replay with an additive Human Review suggestion module",
+  "validation_status": "EXPLORATORY_NOT_BLINDED",
+  "limitations": [
+    "Only 18 existing HOMEPAGE questions are available; repetitions are not independent examples.",
+    "Business policies and method design were informed by inspecting existing project artifacts and errors.",
+    "This is a replay of saved outputs, not a rerun of the original RAG or evidence that production migration accuracy improved.",
+    "New suggestions require human review; no approval or migration rule is automatically written."
+  ],
+  "scores": [
+    {
+      "log": "self_consistency_raw.csv",
+      "stage": "phase2_logged_output",
+      "distinct_queries": 18,
+      "repeated_outputs": 540,
+      "mapping_precision": 1.0,
+      "mapping_recall": 0.7761904761904762,
+      "mapping_f1": 0.8739946380697051,
+      "decision_accuracy": 0.825925925925926,
+      "new_review_suggestions": 0,
+      "corrected_outputs": 0,
+      "regressed_outputs": 0
+    },
+    {
+      "log": "self_consistency_raw.csv",
+      "stage": "phase2_plus_review_suggestions",
+      "distinct_queries": 18,
+      "repeated_outputs": 540,
+      "mapping_precision": 1.0,
+      "mapping_recall": 1.0,
+      "mapping_f1": 1.0,
+      "decision_accuracy": 1.0,
+      "new_review_suggestions": 94,
+      "corrected_outputs": 94,
+      "regressed_outputs": 0
+    },
+    {
+      "log": "self_consistency_raw_fixed.csv",
+      "stage": "phase2_logged_output",
+      "distinct_queries": 18,
+      "repeated_outputs": 540,
+      "mapping_precision": 1.0,
+      "mapping_recall": 0.7619047619047619,
+      "mapping_f1": 0.8648648648648648,
+      "decision_accuracy": 0.8148148148148148,
+      "new_review_suggestions": 0,
+      "corrected_outputs": 0,
+      "regressed_outputs": 0
+    },
+    {
+      "log": "self_consistency_raw_fixed.csv",
+      "stage": "phase2_plus_review_suggestions",
+      "distinct_queries": 18,
+      "repeated_outputs": 540,
+      "mapping_precision": 1.0,
+      "mapping_recall": 1.0,
+      "mapping_f1": 1.0,
+      "decision_accuracy": 1.0,
+      "new_review_suggestions": 100,
+      "corrected_outputs": 100,
+      "regressed_outputs": 0
+    }
+  ]
+}

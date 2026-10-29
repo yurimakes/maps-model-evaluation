@@ -8,6 +8,10 @@ test_upgrade_conflict_is_flagged_without_silent_rewrite (test_evaluation.Evaluat
 test_upgrade_only_adds_above_threshold_candidates (test_evaluation.EvaluationTests.test_upgrade_only_adds_above_threshold_candidates) ... ok
 test_upgrade_preserves_existing_positive_output (test_evaluation.EvaluationTests.test_upgrade_preserves_existing_positive_output) ... ok
 test_wrong_table_is_wrong_mapping (test_evaluation.EvaluationTests.test_wrong_table_is_wrong_mapping) ... ok
+test_budget_prevents_http_attempt (test_model_ab.ModelABTests.test_budget_prevents_http_attempt) ... ok
+test_invalid_proposal_is_not_counted_as_a_true_positive (test_model_ab.ModelABTests.test_invalid_proposal_is_not_counted_as_a_true_positive) ... ok
+test_negative_question_error_is_not_counted_as_correct_exclusion (test_model_ab.ModelABTests.test_negative_question_error_is_not_counted_as_correct_exclusion) ... ok
+test_output_limit_is_enforced_on_every_attempt (test_model_ab.ModelABTests.test_output_limit_is_enforced_on_every_attempt) ... ok
 test_citing_unseen_evidence_blocks_valid_mapping (test_phase2_rag.Phase2Tests.test_citing_unseen_evidence_blocks_valid_mapping) ... ok
 test_default_full_cache_weighting_preserves_original_ranking (test_phase2_rag.Phase2Tests.test_default_full_cache_weighting_preserves_original_ranking) ... ok
 test_duplicate_candidate_is_flagged (test_phase2_rag.Phase2Tests.test_duplicate_candidate_is_flagged) ... ok
@@ -26,6 +30,6 @@ test_unknown_scan_stops_before_unjustified_detail_call (test_phase2_rag.Phase2Te
 test_zero_relevance_does_not_fill_evidence_with_arbitrary_docs (test_phase2_rag.Phase2Tests.test_zero_relevance_does_not_fill_evidence_with_arbitrary_docs) ... ok
 
 ----------------------------------------------------------------------
-Ran 25 tests in 1.553s
+Ran 29 tests in 1.718s
 
 OK

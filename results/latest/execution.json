@@ -1,5 +1,5 @@
 {
-  "timestamp": "20261029T163532+0900",
+  "timestamp": "20261029T164203+0900",
   "steps": [
     {
       "name": "phase2_build",
@@ -34,7 +34,7 @@
         "utf8",
         "run_experiments.py",
         "--out",
-        "experiments/20261029T163532+0900-actual-phase2-rag"
+        "experiments/20261029T164203+0900-phase2-model-ab-ready"
       ],
       "exit_code": 0
     },
@@ -46,7 +46,7 @@
         "utf8",
         "upgrade_adapter.py",
         "--out",
-        "experiments/20261029T163532+0900-actual-phase2-rag"
+        "experiments/20261029T164203+0900-phase2-model-ab-ready"
       ],
       "exit_code": 0
     },
@@ -58,7 +58,23 @@
         "utf8",
         "run_phase2_rag.py",
         "--out",
-        "experiments/20261029T163532+0900-actual-phase2-rag"
+        "experiments/20261029T164203+0900-phase2-model-ab-ready"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "phase2_model_ab_dry_run",
+      "command": [
+        "C:\\Users\\최유리\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "run_phase2_model_ab.py",
+        "--out",
+        "experiments/20261029T164203+0900-phase2-model-ab-ready",
+        "--max-questions",
+        "5",
+        "--max-requests",
+        "24"
       ],
       "exit_code": 0
     }
@@ -67,11 +83,13 @@
     "build_phase2_upgrade.py": "46607e5e024bf201f1455bbedd2a1a6c26cf6719f1187edb9fdc60600d6ec7cb",
     "improved_retrieval.py": "895b9719445320a160a146d402362b7d62cc46cbad461e77c6eaefb92530df85",
     "prepare_data.py": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf",
-    "record_run.py": "b156b1d97905a9ee3989daddc91c18c92be5cd0b8c70a206eb2a92fb1c8bd234",
+    "record_run.py": "f577b2d618f82b71732dfdac4f2e9afb1bc5e95c15ce72da1cad75caaac82d5f",
     "run_experiments.py": "8820d84bb43bfe382a9a44f354fc8bc10c72dc0be836cb41a1ffcc06859a8db8",
+    "run_phase2_model_ab.py": "de24247d48e43fb9f0597e8cfb545a03385140d9239969946481c36e52be9df9",
     "run_phase2_rag.py": "186ebcab3b1919e0b58f3ecce74ac37b14a9768e1be7c82dfc9b7412d09d4216",
     "strict_validation.py": "a34f55795937f658800e283030e2407c405905ec37573c71465fca7132dc7dcf",
     "test_evaluation.py": "f249598fa90a803ff23854474ef4e4ab7f2963c361ec33273d8965b12875b896",
+    "test_model_ab.py": "7db63dc8a472b985364617ada7a71640c0482d539c46da22a2c196e8d1e39212",
     "test_phase2_rag.py": "8c58024b2aeef5ba058d5d5ad73edfa7a4f07e7afa65db3c46280cc40a60fc51",
     "upgrade_adapter.py": "0c03c15913378b8a294e1b2079a342ddd2620a59e415494a16b5c6989da6f7be",
     "maps_policy.json": "e4b1bf883a3d913334d8fb25ccca232fcd88e021dead7533a75437e4901a2e06",
@@ -102,5 +120,5 @@
     "phase2_upgrade\\maps_rag\\source_loader.py": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585",
     "phase2_upgrade\\maps_rag\\strict_validation.py": "a34f55795937f658800e283030e2407c405905ec37573c71465fca7132dc7dcf"
   },
-  "parent_commit": "e5c589dd9a1016d2bb87351969ac6031f3d7a336"
+  "parent_commit": "c4d9eab6230dc9478e5523c62b4da1efa3b36e9c"
 }
