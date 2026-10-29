@@ -1,2 +1,2 @@
 @echo off
-start "" "%~dp0results\latest\report.html"
+start "" "%~dp0results\latest\phase2_report.html"

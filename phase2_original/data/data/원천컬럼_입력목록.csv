@@ -1,0 +1,121 @@
+﻿query_id,channel,source_table,source_column,query_kind,as_is_desc,as_is_dtype,code_column_yn,pii_yn
+Q001,INBOUND,consultation,consultation_id,REAL_COLUMN,상담 식별자,VARCHAR(30),N,N
+Q002,INBOUND,consultation,inbound_type,REAL_COLUMN,인입 채널,VARCHAR(50),Y,N
+Q003,INBOUND,consultation,ars_menu,REAL_COLUMN,ARS 선택 메뉴,VARCHAR(100),Y,N
+Q004,INBOUND,consultation,consultation_type,REAL_COLUMN,상담 업무 영역,VARCHAR(100),Y,N
+Q005,INBOUND,consultation,started_at,REAL_COLUMN,상담 시작일시,DATETIME,N,N
+Q006,INBOUND,consultation,ended_at,REAL_COLUMN,상담 종료일시,DATETIME,N,N
+Q007,INBOUND,consultation,status,REAL_COLUMN,상담 처리상태,VARCHAR(20),Y,N
+Q008,INBOUND,consultation,customer_id,REAL_COLUMN,고객 식별자,VARCHAR(20),N,Y
+Q009,INBOUND,consultation,customer_name,REAL_COLUMN,고객명,VARCHAR(50),N,Y
+Q010,INBOUND,consultation,birth_date,REAL_COLUMN,생년월일,DATE,N,Y
+Q011,INBOUND,consultation,gender,REAL_COLUMN,성별,VARCHAR(10),Y,Y
+Q012,INBOUND,consultation,phone_number,REAL_COLUMN,연락처,VARCHAR(20),N,Y
+Q013,INBOUND,consultation,address,REAL_COLUMN,주소,VARCHAR(200),N,Y
+Q014,INBOUND,consultation,policy_id,REAL_COLUMN,계약 식별자,VARCHAR(30),N,N
+Q015,INBOUND,consultation,policy_status,REAL_COLUMN,계약 상태,VARCHAR(20),Y,N
+Q016,INBOUND,consultation,contract_date,REAL_COLUMN,계약일,DATE,N,N
+Q017,INBOUND,consultation,expiration_date,REAL_COLUMN,만기일,DATE,N,N
+Q018,INBOUND,consultation,product_code,REAL_COLUMN,상품 코드,VARCHAR(20),Y,N
+Q019,INBOUND,consultation,agent_id,REAL_COLUMN,상담원 식별자,VARCHAR(20),N,N
+Q020,INBOUND,consultation,agent_name,REAL_COLUMN,상담원명,VARCHAR(50),N,Y
+Q021,INBOUND,consultation,team_name,REAL_COLUMN,상담원 소속,VARCHAR(100),Y,N
+Q022,INBOUND,consultation,consultation_content,REAL_COLUMN,상담 내용(문의·처리·결과 통합),TEXT,N,N
+Q023,INBOUND,consultation,<SOURCE_SYSTEM>,PSEUDO_CONSTANT,,,,N
+Q024,OUTBOUND,TM_SOURCE_EXPORT,CUST_NM,REAL_COLUMN,고객명,VARCHAR(50),N,Y
+Q025,OUTBOUND,TM_SOURCE_EXPORT,BRTH_YMD,REAL_COLUMN,생년월일,CHAR(8),N,Y
+Q026,OUTBOUND,TM_SOURCE_EXPORT,SX_DV_CD,REAL_COLUMN,성별 구분코드,CHAR(1),Y,N
+Q027,OUTBOUND,TM_SOURCE_EXPORT,HP_NO,REAL_COLUMN,연락처,VARCHAR(20),N,Y
+Q028,OUTBOUND,TM_SOURCE_EXPORT,LEAD_MGMT_NO,REAL_COLUMN,TM 리드 관리번호,VARCHAR(20),N,N
+Q029,OUTBOUND,TM_SOURCE_EXPORT,DB_ACQ_PATH_CD,REAL_COLUMN,리드 DB 입수경로,VARCHAR(4),Y,N
+Q030,OUTBOUND,TM_SOURCE_EXPORT,DB_ACQ_DTM,REAL_COLUMN,리드 입수시각,TIMESTAMP,N,N
+Q031,OUTBOUND,TM_SOURCE_EXPORT,DB_ST_CD,REAL_COLUMN,리드 처리상태,VARCHAR(4),Y,N
+Q032,OUTBOUND,TM_SOURCE_EXPORT,CMPGN_CD,REAL_COLUMN,TM 캠페인 코드,VARCHAR(15),Y,N
+Q033,OUTBOUND,TM_SOURCE_EXPORT,GD_CD,REAL_COLUMN,상품 코드,VARCHAR(10),Y,N
+Q034,OUTBOUND,TM_SOURCE_EXPORT,GD_NM,REAL_COLUMN,상품명,VARCHAR(100),N,N
+Q035,OUTBOUND,TM_SOURCE_EXPORT,CTI_ID,REAL_COLUMN,통화 시도 고유번호,VARCHAR(20),N,N
+Q036,OUTBOUND,TM_SOURCE_EXPORT,TMR_ID,REAL_COLUMN,TM 상담원 식별자,VARCHAR(10),N,N
+Q037,OUTBOUND,TM_SOURCE_EXPORT,TRY_CNT,REAL_COLUMN,리드별 통화 시도 순번,SMALLINT,N,N
+Q038,OUTBOUND,TM_SOURCE_EXPORT,CALL_ST_DTM,REAL_COLUMN,발신 시작시각,TIMESTAMP,N,N
+Q039,OUTBOUND,TM_SOURCE_EXPORT,CALL_CONN_DTM,REAL_COLUMN,고객 연결시각,TIMESTAMP,N,N
+Q040,OUTBOUND,TM_SOURCE_EXPORT,CALL_END_DTM,REAL_COLUMN,통화 종료시각,TIMESTAMP,N,N
+Q041,OUTBOUND,TM_SOURCE_EXPORT,CONN_RSLT_CD,REAL_COLUMN,CTI 연결 결과,VARCHAR(4),Y,N
+Q042,OUTBOUND,TM_SOURCE_EXPORT,TALK_TM,REAL_COLUMN,실제 연결 통화시간(초),INTEGER,N,N
+Q043,OUTBOUND,TM_SOURCE_EXPORT,TM_RSLT_CD,REAL_COLUMN,TM 상담 결과,VARCHAR(4),Y,N
+Q044,OUTBOUND,TM_SOURCE_EXPORT,CSLT_TP_CD,REAL_COLUMN,상담 유형,VARCHAR(4),Y,N
+Q045,OUTBOUND,TM_SOURCE_EXPORT,RJT_RSN_CD,REAL_COLUMN,거절·철회 사유,VARCHAR(4),Y,N
+Q046,OUTBOUND,TM_SOURCE_EXPORT,CSLT_NOTE,REAL_COLUMN,상담원 메모,VARCHAR(1000),N,N
+Q047,OUTBOUND,TM_SOURCE_EXPORT,R_CALL_RSV_DTM,REAL_COLUMN,재통화 예약시각,TIMESTAMP,N,N
+Q048,OUTBOUND,TM_SOURCE_EXPORT,STT_TXT,REAL_COLUMN,STT 통화 전문,TEXT,N,Y
+Q049,OUTBOUND,TM_SOURCE_EXPORT,REC_URI,REAL_COLUMN,녹취파일 저장 위치,VARCHAR(500),N,N
+Q050,OUTBOUND,TM_SOURCE_EXPORT,MKT_AGR_YN,REAL_COLUMN,마케팅 동의 상태,CHAR(1),Y,N
+Q051,OUTBOUND,TM_SOURCE_EXPORT,REC_AGR_YN,REAL_COLUMN,녹취 동의 상태,CHAR(1),Y,N
+Q052,OUTBOUND,TM_SOURCE_EXPORT,DNC_YN,REAL_COLUMN,아웃바운드 제한 상태,CHAR(1),Y,N
+Q053,OUTBOUND,TM_SOURCE_EXPORT,APPL_NO,REAL_COLUMN,청약번호,VARCHAR(20),N,N
+Q054,OUTBOUND,TM_SOURCE_EXPORT,CNTR_PRGS_CD,REAL_COLUMN,계약 진행단계,VARCHAR(4),Y,N
+Q055,OUTBOUND,TM_SOURCE_EXPORT,MN_PREM,REAL_COLUMN,월 보험료,"DECIMAL(12,0)",N,N
+Q056,OUTBOUND,TM_SOURCE_EXPORT,<SOURCE_SYSTEM>,PSEUDO_CONSTANT,,,,N
+Q057,HOMEPAGE,homepage_complaint,COMPLAINT_ID,REAL_COLUMN,민원접수번호,VARCHAR(30),N,N
+Q058,HOMEPAGE,homepage_complaint,CUST_ID,REAL_COLUMN,고객식별번호,VARCHAR(20),N,Y
+Q059,HOMEPAGE,homepage_complaint,PRODUCT_GB,REAL_COLUMN,보험상품 구분,VARCHAR(20),Y,N
+Q060,HOMEPAGE,homepage_complaint,INBOUND_PRODUCT_CODE,REAL_COLUMN,,,,N
+Q061,HOMEPAGE,homepage_complaint,PRODUCT_CODE_MATCH_STATUS,REAL_COLUMN,,,,N
+Q062,HOMEPAGE,homepage_complaint,COMPLAINT_TP,REAL_COLUMN,민원 유형,VARCHAR(30),Y,N
+Q063,HOMEPAGE,homepage_complaint,COMPLAINT_TITLE,REAL_COLUMN,민원 제목,VARCHAR(200),N,N
+Q064,HOMEPAGE,homepage_complaint,COMPLAINT_CONTENT,REAL_COLUMN,민원 원문,TEXT,N,N
+Q065,HOMEPAGE,homepage_complaint,LANG_CD,REAL_COLUMN,민원 언어코드,VARCHAR(10),Y,N
+Q066,HOMEPAGE,homepage_complaint,RCV_PATH,REAL_COLUMN,민원 접수경로,VARCHAR(20),Y,N
+Q067,HOMEPAGE,homepage_complaint,FSS_RELATED_YN,REAL_COLUMN,금융감독원 관련 여부,CHAR(1),Y,N
+Q068,HOMEPAGE,homepage_complaint,FSS_CASE_NO,REAL_COLUMN,금융감독원 이첩 민원번호(가상),VARCHAR(30),N,N
+Q069,HOMEPAGE,homepage_complaint,SENTIMENT_REF,REAL_COLUMN,생성 시 감정 참조라벨,VARCHAR(20),Y,N
+Q070,HOMEPAGE,homepage_complaint,PROCESS_ST,REAL_COLUMN,민원 처리상태,VARCHAR(20),Y,N
+Q071,HOMEPAGE,homepage_complaint,REG_DT,REAL_COLUMN,민원 접수일시,VARCHAR(16),N,N
+Q072,HOMEPAGE,homepage_complaint,ANSWER_DUE_DT,REAL_COLUMN,답변 예정일,VARCHAR(10),N,N
+Q073,HOMEPAGE,homepage_complaint,CONTACT_EMAIL,REAL_COLUMN,회신 이메일(합성),VARCHAR(100),N,Y
+Q074,HOMEPAGE,homepage_complaint,CONTACT_TEL,REAL_COLUMN,회신 전화번호(합성),VARCHAR(20),N,Y
+Q075,SALESFORCE,Insurance_Consultation__c,Id,REAL_COLUMN,Salesforce Record ID,String(18),N,N
+Q076,SALESFORCE,Insurance_Consultation__c,Consultation_No__c,REAL_COLUMN,상담ID,String(30),N,N
+Q077,SALESFORCE,Insurance_Consultation__c,Product_Code__c,REAL_COLUMN,보험상품 코드,String(20),Y,N
+Q078,SALESFORCE,Insurance_Consultation__c,Inbound_Product_Code__c,REAL_COLUMN,Inbound 상품마스터 기준 매핑 상품코드,String(30),Y,N
+Q079,SALESFORCE,Insurance_Consultation__c,Inbound_Product_Match_Status__c,REAL_COLUMN,Inbound 상품코드 매핑 상태(MATCHED/UNMAPPED/DQ 상태),String(30),Y,N
+Q080,SALESFORCE,Insurance_Consultation__c,Customer_Type__c,REAL_COLUMN,로그인/비로그인 고객구분,Picklist,Y,N
+Q081,SALESFORCE,Insurance_Consultation__c,Customer_Id__c,REAL_COLUMN,로그인 고객 식별번호,String(30),N,Y
+Q082,SALESFORCE,Insurance_Consultation__c,Consult_Category__c,REAL_COLUMN,상담분류,Picklist,Y,N
+Q083,SALESFORCE,Insurance_Consultation__c,Consult_Content__c,REAL_COLUMN,고객 상담 문의 원문,Long Text Area,N,N
+Q084,SALESFORCE,Insurance_Consultation__c,Access_Path__c,REAL_COLUMN,홈페이지 접근경로,String(255),N,N
+Q085,SALESFORCE,Insurance_Consultation__c,Language_Code__c,REAL_COLUMN,상담언어 코드,Picklist,Y,N
+Q086,SALESFORCE,Insurance_Consultation__c,Device_Type__c,REAL_COLUMN,접속기기 유형,Picklist,Y,N
+Q087,SALESFORCE,Insurance_Consultation__c,Referrer_Channel__c,REAL_COLUMN,홈페이지 유입채널,Picklist,Y,N
+Q088,SALESFORCE,Insurance_Consultation__c,Session_Id__c,REAL_COLUMN,웹 세션 식별자,String(50),N,N
+Q089,SALESFORCE,Insurance_Consultation__c,Country_Code__c,REAL_COLUMN,접속 국가코드,String(2),Y,N
+Q090,SALESFORCE,Insurance_Consultation__c,Process_Status__c,REAL_COLUMN,상담 처리상태,Picklist,Y,N
+Q091,SALESFORCE,Insurance_Consultation__c,Consent_Yn__c,REAL_COLUMN,개인정보 수집·이용 동의여부,Boolean,Y,Y
+Q092,SALESFORCE,Insurance_Consultation__c,Consult_Datetime__c,REAL_COLUMN,상담 등록일시,Datetime,N,N
+Q093,SALESFORCE,Insurance_Consultation__c,CreatedDate,REAL_COLUMN,Salesforce 레코드 생성일시,Datetime,N,N
+Q094,SALESFORCE,Insurance_Consultation__c,LastModifiedDate,REAL_COLUMN,Salesforce 최종수정일시,Datetime,N,N
+Q095,SALESFORCE,Insurance_Consultation__c,<SOURCE_SYSTEM>,PSEUDO_CONSTANT,,,,N
+Q096,CHATBOT,session,session_id,REAL_COLUMN,세션 고유 ID,VARCHAR(30),N,N
+Q097,CHATBOT,session,channel,REAL_COLUMN,web 또는 app,VARCHAR(10),Y,N
+Q098,CHATBOT,session,device_type,REAL_COLUMN,pc 또는 mobile (품질테스트로 tablet 등 비표준값 일부 포함),VARCHAR(10),Y,N
+Q099,CHATBOT,session,os,REAL_COLUMN,iOS/Android (앱만 값 존재),VARCHAR(10),Y,N
+Q100,CHATBOT,session,app_version,REAL_COLUMN,앱 버전 (앱만 값 존재),VARCHAR(20),N,N
+Q101,CHATBOT,session,started_at,REAL_COLUMN,세션 시작 시각 (일부 레코드는 품질테스트로 비표준 포맷 포함),VARCHAR(25),N,N
+Q102,CHATBOT,session,ended_at,REAL_COLUMN,세션 종료 시각 — 이탈(미종결) 세션은 NULL,VARCHAR(25),N,N
+Q103,CHATBOT,session,duration_seconds,REAL_COLUMN,"세션 지속시간(초) — 이탈 세션 NULL, 일부 품질테스트로 음수/0/과대값 포함",INT,N,N
+Q104,CHATBOT,session,entry_login_status,REAL_COLUMN,guest/already_logged_in/logged_in_midway,VARCHAR(20),Y,N
+Q105,CHATBOT,session,is_logged_in,REAL_COLUMN,세션 종료 시점 로그인 여부,BOOLEAN,N,N
+Q106,CHATBOT,session,customer_id,REAL_COLUMN,로그인 고객 식별자 (가상값) — 품질테스트로 로그인인데 NULL인 사례 일부 포함,VARCHAR(20),N,Y
+Q107,CHATBOT,session,intent_category_guess,REAL_COLUMN,상품상담/자동차사고접수/계약내용변경·해지/기타계약관련문의/보험금청구·확인,VARCHAR(30),Y,N
+Q108,CHATBOT,session,product_interest.product_code,REAL_COLUMN,,,,N
+Q109,CHATBOT,session,<SOURCE_SYSTEM>,PSEUDO_CONSTANT,,,,N
+Q110,CHATBOT,session,free_text_queries[].query,REAL_COLUMN,검색창 입력 원문 (품질테스트로 공백/과다·과소 길이 일부 포함),VARCHAR(200),N,N
+Q111,CHATBOT,session_navigation,session_id,REAL_COLUMN,FK -> session.session_id,VARCHAR(30),N,N
+Q112,CHATBOT,session_navigation,step,REAL_COLUMN,세션 내 클릭 순서 (PK 일부),INT,N,N
+Q113,CHATBOT,session_navigation,full_path,REAL_COLUMN,시작화면부터의 전체 경로(브레드크럼),VARCHAR(200),N,N
+Q114,CHATBOT,session_navigation,timestamp,REAL_COLUMN,클릭 시각,VARCHAR(25),N,N
+Q115,CHATBOT,session_navigation,<DETAIL_TYPE>,PSEUDO_CONSTANT,,,,N
+Q116,CHATBOT,session_free_text_query,session_id,REAL_COLUMN,FK -> session.session_id,VARCHAR(30),N,N
+Q117,CHATBOT,session_free_text_query,query_seq,REAL_COLUMN,세션 내 검색 입력 순번 (PK 일부),INT,N,N
+Q118,CHATBOT,session_free_text_query,query,REAL_COLUMN,검색창 입력 원문 (품질테스트로 공백/과다·과소 길이 일부 포함),VARCHAR(200),N,N
+Q119,CHATBOT,session_free_text_query,timestamp,REAL_COLUMN,입력 시각,VARCHAR(25),N,N
+Q120,CHATBOT,session_free_text_query,<DETAIL_TYPE>,PSEUDO_CONSTANT,,,,N

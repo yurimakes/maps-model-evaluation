@@ -11,12 +11,18 @@ def main():
     stamp=datetime.now(timezone(timedelta(hours=9))).strftime('%Y%m%dT%H%M%S%z');relative='experiments/'+stamp+'-'+a.label
     out=HERE/relative;out.mkdir(parents=True,exist_ok=False)
     logs=[]
-    for name,command in [('tests',[sys.executable,'-X','utf8','test_evaluation.py']),('benchmark',[sys.executable,'-X','utf8','run_experiments.py','--out',relative]),('phase2_replay',[sys.executable,'-X','utf8','upgrade_adapter.py','--out',relative])]:
+    steps=[]
+    if (HERE/'build_phase2_upgrade.py').exists():steps.append(('phase2_build',[sys.executable,'-X','utf8','build_phase2_upgrade.py']))
+    steps.extend([('tests',[sys.executable,'-X','utf8','-m','unittest','discover','-v','-p','test_*.py']),('benchmark',[sys.executable,'-X','utf8','run_experiments.py','--out',relative]),('phase2_replay',[sys.executable,'-X','utf8','upgrade_adapter.py','--out',relative])])
+    if (HERE/'run_phase2_rag.py').exists():steps.append(('phase2_actual_cached_retrieval',[sys.executable,'-X','utf8','run_phase2_rag.py','--out',relative]))
+    for name,command in steps:
         proc=subprocess.run(command,cwd=HERE,capture_output=True,text=True,encoding='utf-8',errors='replace')
         (out/(name+'.log')).write_text(proc.stdout+'\n'+proc.stderr,encoding='utf-8')
         logs.append({'name':name,'command':command,'exit_code':proc.returncode});print(name,'exit',proc.returncode,flush=True)
         if proc.returncode:break
-    sources={str(path.relative_to(HERE)):hashlib.sha256(path.read_bytes()).hexdigest() for path in list(HERE.glob('*.py'))+[HERE/'maps_policy.json',HERE/'requirements.txt']}
+    source_files=list(HERE.glob('*.py'))+[HERE/'maps_policy.json',HERE/'requirements.txt']
+    for folder in ['phase2_original','phase2_upgrade']:source_files.extend((HERE/folder).rglob('*.py'))
+    sources={str(path.relative_to(HERE)):hashlib.sha256(path.read_bytes()).hexdigest() for path in source_files}
     (out/'execution.json').write_text(json.dumps({'timestamp':stamp,'steps':logs,'source_sha256':sources,'parent_commit':subprocess.run(['git','rev-parse','HEAD'],cwd=HERE,capture_output=True,text=True).stdout.strip()},ensure_ascii=False,indent=2),encoding='utf-8')
     if all(x['exit_code']==0 for x in logs):
         latest=HERE/'results'/'latest';latest.mkdir(parents=True,exist_ok=True)

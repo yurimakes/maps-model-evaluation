@@ -1,0 +1,3 @@
+﻿method,scope_questions,eligible_positive_questions,target_reference_hit_at5,elapsed_seconds,api_calls
+phase2_original_hybrid,93,35,0.9142857142857143,0.08363920000192593,0
+phase2_upgrade_rrf_alias,93,35,0.9428571428571428,0.1049483999995573,0

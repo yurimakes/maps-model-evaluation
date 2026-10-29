@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T15:30:02+09:00",
+  "timestamp": "2026-10-29T16:35:49+09:00",
   "seed": 42,
   "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
   "platform": "Windows-10-10.0.19045-SP0",
@@ -107,7 +107,7 @@
   ],
   "source_code_sha256": {
     "prepare_data.py": "3a903457f334173623dafa0ee90ae45d2cfd6d58329f23b137175e644a573ebf",
-    "run_experiments.py": "5c8ae45ebc870df7102d497cbf3b4401052c8197f73f0e33e82f8a3dfe1a54bc",
+    "run_experiments.py": "8820d84bb43bfe382a9a44f354fc8bc10c72dc0be836cb41a1ffcc06859a8db8",
     "magneto_name.py": "b9423f36dac0674f4ad25b86c6a0c9714ab9ed503f2a1ad8ef0fd31d194803ee"
   }
 }

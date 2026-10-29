@@ -1,0 +1,4 @@
+Initial phase-2 contract test run: 15 tests; 14 passed, 1 fixture error.
+ERROR: test_positive_two_stage_flow_is_preserved
+KeyError: KEY in original recommend.py _OneCandidateCatalog.compact (line 211).
+Cause: the test Catalog fixture omitted KEY, NULLABLE, DATA_TYPE, DESCRIPTION. Production data was not implicated.

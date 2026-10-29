@@ -1,0 +1,20 @@
+test_citing_unseen_evidence_blocks_valid_mapping (__main__.Phase2Tests.test_citing_unseen_evidence_blocks_valid_mapping) ... ok
+test_duplicate_candidate_is_flagged (__main__.Phase2Tests.test_duplicate_candidate_is_flagged) ... ok
+test_embedding_mode_without_query_vector_returns_no_fake_hits (__main__.Phase2Tests.test_embedding_mode_without_query_vector_returns_no_fake_hits) ... ok
+test_embedding_space_mismatch_is_explicit (__main__.Phase2Tests.test_embedding_space_mismatch_is_explicit) ... ok
+test_invalid_mapping_and_process_types_block_mapping (__main__.Phase2Tests.test_invalid_mapping_and_process_types_block_mapping) ... ok
+test_justified_na_can_be_excluded_from_denominator (__main__.Phase2Tests.test_justified_na_can_be_excluded_from_denominator) ... ok
+test_missing_scores_cannot_be_renormalized_to_high (__main__.Phase2Tests.test_missing_scores_cannot_be_renormalized_to_high) ... ok
+test_no_evidence_blocks_valid_mapping (__main__.Phase2Tests.test_no_evidence_blocks_valid_mapping) ... ok
+test_original_requires_complete_embedding_cache (__main__.Phase2Tests.test_original_requires_complete_embedding_cache) ... ok
+test_out_of_range_and_non_finite_scores_rejected (__main__.Phase2Tests.test_out_of_range_and_non_finite_scores_rejected) ... ok
+test_positive_two_stage_flow_is_preserved (__main__.Phase2Tests.test_positive_two_stage_flow_is_preserved) ... ok
+test_unjustified_na_is_not_silently_accepted (__main__.Phase2Tests.test_unjustified_na_is_not_silently_accepted) ... ok
+test_unknown_gate_is_not_pass (__main__.Phase2Tests.test_unknown_gate_is_not_pass) ... ok
+test_unknown_scan_stops_before_unjustified_detail_call (__main__.Phase2Tests.test_unknown_scan_stops_before_unjustified_detail_call) ... ok
+test_zero_relevance_does_not_fill_evidence_with_arbitrary_docs (__main__.Phase2Tests.test_zero_relevance_does_not_fill_evidence_with_arbitrary_docs) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.017s
+
+OK

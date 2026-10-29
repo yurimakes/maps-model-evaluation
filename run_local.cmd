@@ -6,5 +6,5 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
-start "" "%~dp0results\latest\report.html"
+start "" "%~dp0results\latest\phase2_report.html"
 pause

@@ -1,0 +1,24 @@
+{
+  "source_archive_sha256": "86faaff4fe24d9e26f57b82def4131d2f1a84ca37570db3eafe47d72251517e4",
+  "modified_files": [
+    "recommend.py",
+    "strict_validation.py",
+    "retrieval.py"
+  ],
+  "source_preserved": true,
+  "files": {
+    "azure_client.py": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83",
+    "delta_io.py": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450",
+    "delta_io_prod.py": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5",
+    "embeddings.py": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc",
+    "facts.py": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa",
+    "knowledge.py": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a",
+    "legacy_retrieval.py": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0",
+    "notebook_common.py": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3",
+    "paths.py": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede",
+    "recommend.py": "d8d23cad63fa85c3f2eef05849d8b9605b75596f4f0feeba91ad199073958cdb",
+    "retrieval.py": "895b9719445320a160a146d402362b7d62cc46cbad461e77c6eaefb92530df85",
+    "source_loader.py": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585",
+    "strict_validation.py": "a34f55795937f658800e283030e2407c405905ec37573c71465fca7132dc7dcf"
+  }
+}

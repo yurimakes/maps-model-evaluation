@@ -1,0 +1,75 @@
+{
+  "archive_sha256": "86faaff4fe24d9e26f57b82def4131d2f1a84ca37570db3eafe47d72251517e4",
+  "files": [
+    {
+      "path": "data/10_운영_실행.py",
+      "bytes": 17141,
+      "sha256": "e182025ea8187a3a2684a9a23020bd8c3db564b7684e268ba245b0cf1976937f"
+    },
+    {
+      "path": "data/data/원천컬럼_입력목록.csv",
+      "bytes": 11653,
+      "sha256": "e92ae30b26420231704d59130ce8f3c419ea2cd43f6915969dbf74d87c929ea2"
+    },
+    {
+      "path": "data/data/임베딩/embeddings.npz",
+      "bytes": 1088352,
+      "sha256": "9837a7736f5c7951b1d0064a13dbf5200f64dd75f9394aa543ce33193c7bb32d"
+    },
+    {
+      "path": "data/maps_rag/azure_client.py",
+      "bytes": 9239,
+      "sha256": "ff4fd72c7acb398215b17652fa2f268a7df6e9d7374a071b0a7e44b3f100ec83"
+    },
+    {
+      "path": "data/maps_rag/delta_io.py",
+      "bytes": 4747,
+      "sha256": "2efc8218dfaf4743785d643dab44cf8067d9990d6da5daac00d2fd948a42b450"
+    },
+    {
+      "path": "data/maps_rag/delta_io_prod.py",
+      "bytes": 5280,
+      "sha256": "5896123490f09e9bd09a2f237f174441e3a6b6a4869e3c71b598aad62acd55c5"
+    },
+    {
+      "path": "data/maps_rag/embeddings.py",
+      "bytes": 1947,
+      "sha256": "fc22adb324b170c318060152afce4f4c70c0f7c25a39e4d5eee8e6bb263b5ebc"
+    },
+    {
+      "path": "data/maps_rag/facts.py",
+      "bytes": 4283,
+      "sha256": "eb8a10091c1649fd54828f0b87b01700574dbadb5f27f8846014bdafeec5c7aa"
+    },
+    {
+      "path": "data/maps_rag/knowledge.py",
+      "bytes": 2908,
+      "sha256": "9022536e3ca6cd45151c42789154de112105c56b8653b35312e99dac3be16e2a"
+    },
+    {
+      "path": "data/maps_rag/notebook_common.py",
+      "bytes": 13190,
+      "sha256": "20346158b3ac2678ae624bad3ba78d3928d2c20f679ac99413526d58b34dc3c3"
+    },
+    {
+      "path": "data/maps_rag/paths.py",
+      "bytes": 774,
+      "sha256": "395af61930495d514bf9fb3071943f339cff1b74063a709dfec886aa6fe80ede"
+    },
+    {
+      "path": "data/maps_rag/recommend.py",
+      "bytes": 34004,
+      "sha256": "4502c3d3b1630c1f314bc49ed1d1fbb6c6a9ab4d01248967ddc26929ecfa0353"
+    },
+    {
+      "path": "data/maps_rag/retrieval.py",
+      "bytes": 3692,
+      "sha256": "fa8c2d3734c20982d93feec0da7a6d7e5426b63ea2dadea3c49e2bb18dbe0cc0"
+    },
+    {
+      "path": "data/maps_rag/source_loader.py",
+      "bytes": 14032,
+      "sha256": "619bca9d0728c99298019200be52d6b6cc32b172a49e9ae4b6c1c35acad68585"
+    }
+  ]
+}

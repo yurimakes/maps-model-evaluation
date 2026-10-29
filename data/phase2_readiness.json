@@ -1,0 +1,16 @@
+{
+  "knowledge_chunks": 424,
+  "retrievable_chunks": 186,
+  "cached_retrievable_chunks": 186,
+  "cached_question_profiles": 114,
+  "question_profiles": 120,
+  "raw_row_counts": {
+    "INBOUND": 1000,
+    "OUTBOUND": 1000,
+    "SALESFORCE": 1000,
+    "HOMEPAGE": 1000,
+    "CHATBOT": 1005
+  },
+  "bundle_code_identical": true,
+  "cache_entries": 306
+}
