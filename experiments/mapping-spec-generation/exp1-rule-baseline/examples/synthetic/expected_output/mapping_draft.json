@@ -1,0 +1,189 @@
+[
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_MBR_MASTER",
+    "source_column": "MEMBER_NAME",
+    "decision": "MIGRATE",
+    "targets": [
+      {
+        "target_table": "MEMBER",
+        "target_column": "MBR_NM",
+        "operation": "COPY",
+        "parameters": {
+          "source_data_type": "VARCHAR(50)",
+          "target_data_type": "VARCHAR(80)"
+        },
+        "exception_policy": "입력 메타데이터에서 확인된 추가 제약 없음"
+      }
+    ],
+    "reason": "Target 1위 MEMBER.MBR_NM: 종합 0.635, 2위와 차이 0.495, 이름 0.100/약어 0.800/설명 1.000, 테이블 친화도 1.000. 동일 문자 계열, 길이 수용. 이름·설명·자료형 근거가 단일 후보를 지지하여 COPY로 초안 작성(업무 승인 전).",
+    "missing_information": [
+      "개인정보(PII_YN=Y) 이관 처리 기준"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_MBR_MASTER",
+    "source_column": "JOIN_YMD",
+    "decision": "MIGRATE",
+    "targets": [
+      {
+        "target_table": "MEMBER",
+        "target_column": "JOIN_DT",
+        "operation": "FORMAT",
+        "parameters": {
+          "source_format_hint": "YYYYMMDD",
+          "parse_pattern": "%Y%m%d",
+          "source_data_type": "CHAR(8)",
+          "target_data_type": "DATE"
+        },
+        "exception_policy": "명시 형식과 다른 값의 처리 기준 미제공(변환 실패 값 별도 집계 필요)"
+      }
+    ],
+    "reason": "Target 1위 MEMBER.JOIN_DT: 종합 0.726, 2위와 차이 0.726, 이름 0.574/약어 0.500/설명 1.000, 테이블 친화도 1.000. 명시 형식 YYYYMMDD -> DATE. 이름·설명·자료형 근거가 단일 후보를 지지하여 FORMAT로 초안 작성(업무 승인 전).",
+    "missing_information": [
+      "형식 불일치 값 처리 기준"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_MBR_MASTER",
+    "source_column": "SMS_AGREE_YN",
+    "decision": "MIGRATE",
+    "targets": [
+      {
+        "target_table": "MEMBER",
+        "target_column": "SMS_AGR_YN",
+        "operation": "COPY",
+        "parameters": {
+          "source_data_type": "CHAR(1)",
+          "target_data_type": "CHAR(1)",
+          "allowed_values": [
+            "N",
+            "Y"
+          ],
+          "source_values": [
+            "N",
+            "Y"
+          ]
+        },
+        "exception_policy": "허용값 외 값 발견 시 처리 기준 미제공"
+      }
+    ],
+    "reason": "Target 1위 MEMBER.SMS_AGR_YN: 종합 0.838, 2위와 차이 0.838, 이름 0.745/약어 0.933/설명 0.859, 테이블 친화도 1.000. Source 코드값 집합이 Target 명시 허용값의 부분집합 -> 값 변환 없이 COPY. 이름·설명·자료형 근거가 단일 후보를 지지하여 COPY로 초안 작성(업무 승인 전).",
+    "missing_information": [
+      "허용값 외 코드값 처리 기준"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_MBR_MASTER",
+    "source_column": "MEMBER_GRADE",
+    "decision": "REVIEW",
+    "targets": [
+      {
+        "target_table": "MEMBER",
+        "target_column": "GRADE_CD",
+        "operation": "REVIEW",
+        "parameters": {},
+        "exception_policy": "입력 메타데이터에서 확인된 추가 제약 없음"
+      }
+    ],
+    "reason": "Target 1위 MEMBER.GRADE_CD: 종합 0.734, 2위와 차이 0.567, 이름 0.597/약어 0.500/설명 1.000, 테이블 친화도 1.000. Target은 단일 후보로 식별되었으나 변환 규칙 미확정 - 코드성 컬럼: 코드 대응표 미제공(LOOKUP 추측 금지) - Source 코드값 목록 없음, Target 닫힌 허용값 목록 없음. operation=REVIEW는 담당자 확정 필요를 뜻함.",
+    "missing_information": [
+      "Source->Target 코드값 대응표"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_MBR_MASTER",
+    "source_column": "MEMBER_NO",
+    "decision": "REVIEW",
+    "targets": [],
+    "reason": "Target 미확정 - 1위 점수 0.196 < 기준 0.45; 1·2위 차이 0.014 < 기준 0.08 (다중 후보/동률); 설명 유사도 0.122 < 기준 0.2. 참고 후보(확정 아님): ORDERS.ORD_NO(0.196), MEMBER.MBR_NM(0.183), MEMBER.MBR_KEY(0.178). 점수는 유사도이며 확률이 아님.",
+    "missing_information": [
+      "Target 확정을 위한 업무 규칙 또는 담당자 검토"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_ORD_HIST",
+    "source_column": "ORDER_NO",
+    "decision": "REVIEW",
+    "targets": [
+      {
+        "target_table": "ORDERS",
+        "target_column": "ORD_NO",
+        "operation": "REVIEW",
+        "parameters": {},
+        "exception_policy": "입력 메타데이터에서 확인된 추가 제약 없음"
+      }
+    ],
+    "reason": "Target 1위 ORDERS.ORD_NO: 종합 0.855, 2위와 차이 0.620, 이름 0.657/약어 0.900/설명 1.000, 테이블 친화도 1.000. Target은 단일 후보로 식별되었으나 변환 규칙 미확정 - Target이 키 컬럼(PK): 식별자 생성·재사용·참조 매칭 규칙이 입력에 없음. operation=REVIEW는 담당자 확정 필요를 뜻함.",
+    "missing_information": [
+      "Target 키 생성 또는 참조 매칭 규칙"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_ORD_HIST",
+    "source_column": "ORDER_MEMO",
+    "decision": "REVIEW",
+    "targets": [
+      {
+        "target_table": "ORDERS",
+        "target_column": "ORD_MEMO",
+        "operation": "REVIEW",
+        "parameters": {},
+        "exception_policy": "입력 메타데이터에서 확인된 추가 제약 없음"
+      }
+    ],
+    "reason": "Target 1위 ORDERS.ORD_MEMO: 종합 0.800, 2위와 차이 0.584, 이름 0.753/약어 0.900/설명 1.000, 테이블 친화도 1.000. Target은 단일 후보로 식별되었으나 변환 규칙 미확정 - 길이 초과 가능: VARCHAR(200) -> VARCHAR(100). operation=REVIEW는 담당자 확정 필요를 뜻함.",
+    "missing_information": [
+      "자료형 변환 규칙"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_ORD_HIST",
+    "source_column": "RAW_FIELD_X",
+    "decision": "REVIEW",
+    "targets": [],
+    "reason": "Target 미확정 - Source 설명 없음: 이름만으로 Target 확정 불가; Source 자료형 없음: 자료형 적합성 확인 불가; 최소 점수 이상 후보 없음. 참고 후보(확정 아님): 없음. 점수는 유사도이며 확률이 아님.",
+    "missing_information": [
+      "실제 물리 테이블명 미확정(TABLE_NAME_ASSUMED=Y)",
+      "Source 자료형(DATA_TYPE) 미확인",
+      "Source 컬럼 설명(COLUMN_DESCRIPTION) 미확인",
+      "Target 확정을 위한 업무 규칙 또는 담당자 검토"
+    ]
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_ORD_HIST",
+    "source_column": "ORDER_AMT",
+    "decision": "MIGRATE",
+    "targets": [
+      {
+        "target_table": "ORDERS",
+        "target_column": "ORD_AMT",
+        "operation": "COPY",
+        "parameters": {
+          "source_data_type": "DECIMAL(12,0)",
+          "target_data_type": "DECIMAL(15,2)"
+        },
+        "exception_policy": "입력 메타데이터에서 확인된 추가 제약 없음"
+      }
+    ],
+    "reason": "Target 1위 ORDERS.ORD_AMT: 종합 0.885, 2위와 차이 0.682, 이름 0.744/약어 0.900/설명 1.000, 테이블 친화도 1.000. 동일 숫자 계열, 정밀도 수용. 이름·설명·자료형 근거가 단일 후보를 지지하여 COPY로 초안 작성(업무 승인 전).",
+    "missing_information": []
+  },
+  {
+    "source_system": "SHOPSYS",
+    "source_table": "TB_ORD_HIST",
+    "source_column": "DEL_FLAG",
+    "decision": "EXCLUDE",
+    "targets": [],
+    "reason": "명시적 제외 규칙 적용: 합성 예시용 명시 제외 규칙",
+    "missing_information": []
+  }
+]

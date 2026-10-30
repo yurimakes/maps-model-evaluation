@@ -1,0 +1,110 @@
+MAPS 실험 1 - 매핑정의서 초안 자동 생성 보고서
+알고리즘 버전: exp1-baseline-1.0.0
+==============================================================================
+[1] 입력
+  Source 행: 10 / 시스템: 1 / 테이블(시스템+테이블): 2
+  Target 행: 8 / 테이블: 2
+  TABLE_NAME_ASSUMED=Y 행: 1
+  DATA_TYPE·COLUMN_DESCRIPTION 모두 빈 행: 1
+  제외 규칙 입력 사용: 예
+  SHA-256 source_metadata.csv: 78ab799072f422292070c6601c48f7a23abbb52d3c10645b39f7ec6f2875e6ac
+  SHA-256 target_schema.csv: d07229f507345ada8b7c98b2f118b917b8950d18e79cb55667c1b4b4162e8fbc
+  SHA-256 OUTPUT_CONTRACT.txt: 27436d031ba82110d4f73c9becf96a0da75f5bdb69162b8759e523633a81c24c
+  SHA-256 exclusion_rules.csv: 7d2c804ba93d3461f49e69bd04699a885367f342f846d3e5ef4248c67f4d344b
+  실행 전후 입력 파일 해시 동일(원본 미변경): 예
+
+[2] 알고리즘
+  후보 점수 = 텍스트 점수 x 자료형 계수 x (floor + (1-floor) x 테이블 친화도)
+  텍스트 점수 = 이름 문자 n-gram TF-IDF, 약어 부분수열 매칭, 설명 문자 n-gram TF-IDF의 가중 평균
+  (설명이 없는 쌍은 설명 성분을 제외하고 재정규화). 테이블 친화도는 라벨 없이 계산한 값임.
+  Target 확정 게이트: 점수, 1·2위 차이, Source 설명·자료형 존재, 설명·이름 근거 최소값을 모두 충족해야 함.
+  연산: Target PK/FK -> REVIEW, 코드성 컬럼 -> 닫힌 허용값 부분집합일 때만 COPY 아니면 REVIEW,
+        그 외 자료형 규칙으로 COPY/FORMAT/REVIEW. LOOKUP 등 나머지 연산은 근거 입력이 없어 생성하지 않음.
+  EXCLUDE는 명시적 제외 규칙 입력이 있을 때만 사용.
+  설정: {"top_k": 3, "candidate_min_score": 0.05, "accept_score": 0.45, "min_margin": 0.08, "min_desc_similarity": 0.2, "min_name_evidence": 0.2, "weight_name_char": 0.35, "weight_name_abbrev": 0.25, "weight_desc": 0.4, "table_affinity_floor": 0.6, "type_factor_safe": 1.0, "type_factor_rule_needed": 0.9, "type_factor_incompatible": 0.7, "type_factor_unknown": 1.0, "abbrev_min_ratio": 0.3, "abbrev_partial_credit": 0.8, "name_ngram_min": 2, "name_ngram_max": 4, "desc_ngram_min": 2, "desc_ngram_max": 3}
+  라이브러리: Python 3.12.3, numpy 2.4.4, scikit-learn 1.8.0
+
+[3] 생성 결과
+  출력 Source 객체: 10
+  MIGRATE : 4/10 (40.0%)
+  EXCLUDE : 1/10 (10.0%)
+  REVIEW  : 5/10 (50.0%)
+  입력 커버리지: 10/10 (100.0%)
+  확정률(MIGRATE+EXCLUDE): 5/10 (50.0%)
+  보류율(REVIEW): 5/10 (50.0%)
+  Target 식별 행(MIGRATE + 'Target 식별·변환 보류' REVIEW): 7/10 (70.0%)
+    그중 REVIEW(Target 식별, operation=REVIEW): 3
+  REVIEW(Target 미확정, targets=[]): 2
+  operation 분포: {"COPY": 3, "REVIEW": 3, "FORMAT": 1}
+  1위 후보 점수(유사도, 확률 아님): 최소 0.196 / 중앙 0.767 / 최대 0.885, 후보 없음 2행
+  시스템별:
+  SHOPSYS                      행  10 | REVIEW 5, MIGRATE 4, EXCLUDE 1
+  테이블명 가정 여부별:
+  TABLE_NAME_ASSUMED=N         행   9 | MIGRATE 4, REVIEW 4, EXCLUDE 1
+  TABLE_NAME_ASSUMED=Y         행   1 | REVIEW 1
+  메타데이터 완비 여부별:
+  자료형/설명 누락                    행   1 | REVIEW 1
+  자료형·설명 있음                    행   9 | MIGRATE 4, REVIEW 4, EXCLUDE 1
+
+[4] REVIEW 사유 분류 (한 행에 복수 코드 가능)
+  AMBIGUOUS_CANDIDATES             1
+  CODE_MAPPING_MISSING             1
+  LENGTH_OVERFLOW                  1
+  LOW_DESCRIPTION_EVIDENCE         1
+  LOW_SCORE                        1
+  NO_CANDIDATE                     1
+  NO_SOURCE_DESCRIPTION            1
+  NO_SOURCE_TYPE                   1
+  TARGET_KEY_POLICY_UNDEFINED      1
+
+[5] 추가 정보 필요 항목 빈도 (missing_information)
+     2  Target 확정을 위한 업무 규칙 또는 담당자 검토
+     1  Source 자료형(DATA_TYPE) 미확인
+     1  Source 컬럼 설명(COLUMN_DESCRIPTION) 미확인
+     1  Source->Target 코드값 대응표
+     1  Target 키 생성 또는 참조 매칭 규칙
+     1  개인정보(PII_YN=Y) 이관 처리 기준
+     1  실제 물리 테이블명 미확정(TABLE_NAME_ASSUMED=Y)
+     1  자료형 변환 규칙
+     1  허용값 외 코드값 처리 기준
+     1  형식 불일치 값 처리 기준
+
+[6] 자동 검증 (validate_output.py, 출력 파일을 디스크에서 다시 읽어 독립 검사)
+  전체 결과: PASS
+  [PASS] no_code_fence: 코드펜스 없음
+  [PASS] json_parse: JSON 파싱 성공
+  [PASS] root_is_array: 최상위 배열
+  [PASS] count_matches_source: 출력 10건 / Source 10행
+  [PASS] object_fields_exact: 모든 객체 필드 일치
+  [PASS] field_types: 필드 자료형 정상
+  [PASS] decision_enum: 결정값 MIGRATE/EXCLUDE/REVIEW 만 사용
+  [PASS] operation_enum: 연산값 계약 목록 내
+  [PASS] target_fields_exact: targets 원소 필드 일치
+  [PASS] target_reference_valid: Target 미존재 참조 0건
+  [PASS] no_duplicate_target_pair: Source 내 중복 Target 쌍 없음
+  [PASS] decision_target_consistency: 결정·연산 일관
+  [PASS] reason_nonempty: 판단 근거 모두 기재
+  [PASS] source_identifier_exists: 출력 Source 식별자 모두 입력에 존재
+  [PASS] source_no_duplicates: Source 중복 0건
+  [PASS] source_no_missing: Source 누락 0건
+  [PASS] source_order_preserved: 입력 순서 유지
+  [PASS] candidates_header: candidates.csv 헤더 일치
+  [PASS] candidates_valid: 후보 19행, Source 8개, 최대 3개/Source
+  [PASS] no_hardcoded_identifiers: 알고리즘 소스에 입력 식별자(시스템·테이블·컬럼명) 문자열 리터럴 없음
+  [PASS] no_network_or_db_imports: 네트워크·외부 API·DB 모듈 import 없음
+
+[7] 해석상 주의와 미검증 범위
+  - 정답(기존 승인 매핑정의서) 대조는 실시하지 않음. 매핑 F1·이관 여부 일치도는 미측정.
+  - 실제 값 샘플·기대 출력이 없으므로 변환 실행 정확도는 측정하지 않음.
+  - 구조 검증 PASS는 출력 규격 충족을 뜻할 뿐 매핑 정확도를 뜻하지 않음.
+  - 후보 점수는 이름·설명 유사도이며 정답 확률이 아님. candidates.csv는 확정 매핑이 아님.
+  - REVIEW 중 targets가 있는 행은 'Target 단일 후보는 식별했으나 변환 규칙 미확정'이라는 이 기준선의
+    출력 관례임. 평가 시 매핑 쌍 집계에 포함할지(포함/제외 두 방식) 평가 전에 정해야 함.
+  - 복수 Target 자동 확정은 근거 규칙이 없어 생성하지 않음(1:N 관계는 REVIEW로 남음).
+  - 설계자(구현 보조자)는 규칙 작성 시 입력 메타데이터 구조를 열람했음. 개별 컬럼 예외 규칙은 없으나,
+    임계값·가중치가 이 입력에 우연히 유리하거나 불리할 수 있으므로 독립 입력에서 재검증이 필요함.
+
+[8] 작업 범위 확인
+  - 이 프로그램은 네트워크·외부 API·Azure·DB 접속 코드를 포함하지 않음(정적 검사 결과는 [6] 참조).
+  - 입력 파일은 읽기 전용으로 열며, 출력은 입력과 다른 폴더에만 기록함.
+  - Git 작업을 수행하지 않음.
