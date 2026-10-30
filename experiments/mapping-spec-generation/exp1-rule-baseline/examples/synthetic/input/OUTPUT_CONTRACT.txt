@@ -1,0 +1,19 @@
+출력 계약 (합성 예시용 공개 사양)
+
+출력은 Source 컬럼 1개당 객체 1개로 구성된 JSON 배열이다. 코드펜스는 포함하지 않는다.
+
+Source 객체 필드:
+  source_system        Source 시스템 식별자 (입력값 그대로)
+  source_table         Source 테이블 식별자 (입력값 그대로)
+  source_column        Source 컬럼 식별자 (입력값 그대로)
+  decision             MIGRATE | EXCLUDE | REVIEW
+  targets              Target 원소 배열 (Target 미확정이면 빈 배열)
+  reason               판단 근거
+  missing_information  추가로 필요한 정보 목록
+
+Target 원소 필드:
+  target_table         입력 Target 스키마에 존재하는 테이블
+  target_column        입력 Target 스키마에 존재하는 컬럼
+  operation            COPY | FORMAT | LOOKUP | EXPLODE | CONSTANT | CUSTOMER_MATCH | GENERATE_ID | REVIEW
+  parameters           연산 인자 객체
+  exception_policy     확인 가능한 제약과 예외 처리 메모

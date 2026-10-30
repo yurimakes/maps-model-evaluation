@@ -1,0 +1,13 @@
+# 실행 출력: 실제 입력으로 생성한 결과에는 실제 식별자와 입력 해시가 들어간다.
+/output/
+# 비공개 실제 입력을 두는 로컬 폴더
+/input/
+/data/
+# 가상환경·캐시·임시 파일
+.venv/
+__pycache__/
+*.py[cod]
+*.zip
+*.log
+.DS_Store
+Thumbs.db
