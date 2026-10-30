@@ -1,6 +1,6 @@
 # MAPS 통합 실험 작업본
 
-`maps-ontology-graph`와 `maps-local-model-benchmark`를 공통 평가체계를 중심으로 정리한 통합 실험 저장소다. 사용자가 만든 비공개 저장소 https://github.com/yurimakes/maps-model-evaluation 에 게시한다. 기존 benchmark 커밋 `3bf941ebf81e717fe3cefcb040d2a564642b9500`에서 이어지는 통합 커밋이며, 원본 두 저장소는 그대로 유지한다.
+`maps-ontology-graph`와 `maps-local-model-benchmark`를 공통 평가체계를 중심으로 정리한 통합 실험 저장소다. 저장소 https://github.com/yurimakes/maps-model-evaluation 에 게시한다. 기존 benchmark 커밋 `3bf941ebf81e717fe3cefcb040d2a564642b9500`에서 이어지는 통합 커밋이며, 원본 두 저장소는 그대로 유지한다.
 
 원본 체크아웃, 원격 저장소, 기존 결과와 Git 이력을 보존했다. 원본 추적 파일 **441개**는 Git blob 바이트와 일치하며, `provenance/import-manifest.json`에 이전·현재 경로와 해시가 있다. 두 이력은 `refs/archive/`에 따로 보존했고, 독립 Git bundle과 mirror는 형제 폴더 `../maps-integration-preservation-20261029/`에 있다.
 
