@@ -122,7 +122,7 @@ Top-K 적중률은 올바른 후보가 추천 목록에 포함됐는지 측정�
 [실험 코드와 합성 테스트 확인 — PR #1 검토 중](https://github.com/yurimakes/maps-model-evaluation/tree/feature/exp1-rule-baseline-reviewed/experiments/mapping-spec-generation/exp1-rule-baseline/)
 
 
-## 04. Raw 데이터 기반 표준화·Target 설계 — 신규 검증 과제
+## 04. Raw 데이터 기반 표준화·Target 설계 — 신규 검증 과제 (빨간 테두리 박스 내부 작업을 자동화)
 
 ### 문제 정의
 
