@@ -99,7 +99,7 @@ def render_report(metrics, shareable=False):
               '<p><a href="두기준_참고비교.csv">집계 CSV</a> / <a href="두기준_상세.csv">상세와 확인 이유</a></p>')
     return '''<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MAPS 두 기준 참고 비교</title>
 <style>body{font:16px/1.65 system-ui;max-width:1120px;margin:32px auto;padding:0 24px;color:#253443}h1{font-size:28px}h2{font-size:22px}section{margin:32px 0 40px}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:650px}th,td{padding:12px;border-bottom:1px solid #dce2e8;text-align:left}th{background:#294560;color:white}tbody tr:nth-child(even){background:#f5f7fa}.note{background:#fff2cc;padding:18px}.definition{font-size:17px;color:#334d64}</style>
-<h1>찬기님 1차 결과: 두 기준 참고 비교</h1>
+<h1>1차 표준화 결과: 두 기준 참고 비교</h1>
 <p class="note">이 수치는 독립 정확도가 아닙니다. 정답 승인 상태를 바꾸지 않고 두 기준의 명세를 각각 대조했습니다.</p>
 <p>분모는 비교 가능한 항목입니다. 비교 대상과 질문이 달라 두 점수의 차이를 AI의 개선 효과나 우열로 해석하지 않습니다.</p>
 ''' + ''.join(sections) + '''
