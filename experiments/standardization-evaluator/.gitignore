@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+inputs/
+results/
+*.zip
+*.xlsx
+*.csv
+!examples/predictions.csv
+!examples/gold.csv
