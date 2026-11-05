@@ -1,0 +1,53 @@
+{"id": "phone_dash", "group": "PHONE", "text": "연락처 010-2345-6789", "spans": [{"label": "PHONE", "start": 4, "end": 17}]}
+{"id": "phone_plain", "group": "PHONE", "text": "연락처 01023456789", "spans": [{"label": "PHONE", "start": 4, "end": 15}]}
+{"id": "phone_intl", "group": "PHONE", "text": "전화 +82-10-2345-6789", "spans": [{"label": "PHONE", "start": 3, "end": 19}]}
+{"id": "phone_fullwidth", "group": "PHONE", "text": "연락처 ０１０－２３４５－６７８９", "spans": [{"label": "PHONE", "start": 4, "end": 17}]}
+{"id": "phone_zwsp", "group": "PHONE", "text": "연락처 010-2345-67​89", "spans": [{"label": "PHONE", "start": 4, "end": 18}]}
+{"id": "phone_landline", "group": "PHONE", "text": "전화 02-234-5678", "spans": [{"label": "PHONE", "start": 3, "end": 14}]}
+{"id": "email_ascii", "group": "EMAIL", "text": "이메일 maps.demo@example.com", "spans": [{"label": "EMAIL", "start": 4, "end": 25}]}
+{"id": "email_korean", "group": "EMAIL", "text": "메일 demo@예시.kr", "spans": [{"label": "EMAIL", "start": 3, "end": 13}]}
+{"id": "email_intrAnet", "group": "EMAIL", "text": "이메일 demo@intranet", "spans": [{"label": "EMAIL", "start": 4, "end": 17}]}
+{"id": "rrn_checksum", "group": "RRN", "text": "주민번호 880101-1234568", "spans": [{"label": "RRN", "start": 5, "end": 19}]}
+{"id": "rrn_unverified", "group": "RRN", "text": "주민번호 000101-3123456", "spans": [{"label": "RRN", "start": 5, "end": 19}]}
+{"id": "rrn_plain", "group": "RRN", "text": "주민번호 8801011234568", "spans": [{"label": "RRN", "start": 5, "end": 18}]}
+{"id": "frn_candidate", "group": "FRN", "text": "외국인등록번호 900101-5123456", "spans": [{"label": "FRN", "start": 8, "end": 22}]}
+{"id": "card_spaces", "group": "CARD", "text": "카드번호 4111 1111 1111 1111", "spans": [{"label": "CARD", "start": 5, "end": 24}]}
+{"id": "card_dash", "group": "CARD", "text": "카드번호 4111-1111-1111-1111", "spans": [{"label": "CARD", "start": 5, "end": 24}]}
+{"id": "account_context", "group": "ACCOUNT", "text": "국민은행 계좌 123456-01-123456", "spans": [{"label": "ACCOUNT", "start": 8, "end": 24}]}
+{"id": "account_plain", "group": "ACCOUNT", "text": "12345601123456", "spans": [{"label": "ACCOUNT", "start": 0, "end": 14}]}
+{"id": "person_field", "group": "PERSON", "text": "성명: 김도구", "spans": [{"label": "PERSON", "start": 4, "end": 7}]}
+{"id": "person_particle", "group": "PERSON", "text": "홍길동에게 연락 바랍니다.", "spans": [{"label": "PERSON", "start": 0, "end": 3}]}
+{"id": "person_short", "group": "PERSON", "text": "고객 이름: 이상", "spans": [{"label": "PERSON", "start": 7, "end": 9}]}
+{"id": "person_english", "group": "PERSON", "text": "고객 이름: Alex Kim", "spans": [{"label": "PERSON", "start": 7, "end": 15}]}
+{"id": "person_nfd", "group": "PERSON", "text": "성명: 김도구", "spans": [{"label": "PERSON", "start": 4, "end": 11}]}
+{"id": "address_road", "group": "ADDRESS", "text": "주소: 서울특별시 강남구 테헤란로 123", "spans": [{"label": "ADDRESS", "start": 4, "end": 22}]}
+{"id": "address_detail", "group": "ADDRESS", "text": "주소: 서울특별시 강남구 테헤란로 123 101동 202호", "spans": [{"label": "ADDRESS", "start": 4, "end": 32}]}
+{"id": "address_local", "group": "ADDRESS", "text": "거주지 가상마을 3층 302호", "spans": [{"label": "ADDRESS", "start": 4, "end": 16}]}
+{"id": "birth_field", "group": "DT_BIRTH", "text": "생년월일: 1988-01-01", "spans": [{"label": "DT_BIRTH", "start": 6, "end": 16}]}
+{"id": "birth_plain", "group": "DT_BIRTH", "text": "1988-01-01", "spans": [{"label": "DT_BIRTH", "start": 0, "end": 10}]}
+{"id": "passport_old", "group": "PASSPORT", "text": "여권번호 M12345678", "spans": [{"label": "PASSPORT", "start": 5, "end": 14}]}
+{"id": "passport_new", "group": "PASSPORT", "text": "여권번호 M123A4567", "spans": [{"label": "PASSPORT", "start": 5, "end": 14}]}
+{"id": "vehicle", "group": "VEHICLE", "text": "차량번호 123가4567", "spans": [{"label": "VEHICLE", "start": 5, "end": 13}]}
+{"id": "license", "group": "DRIVER_LICENSE", "text": "면허번호 11-23-123456-78", "spans": [{"label": "DRIVER_LICENSE", "start": 5, "end": 20}]}
+{"id": "ip", "group": "IP", "text": "접속 IP 10.23.45.67", "spans": [{"label": "IP", "start": 6, "end": 17}]}
+{"id": "mixed", "group": "mixed", "text": "성명 홍길동 전화 010-2345-6789 메일 demo@example.com", "spans": [{"label": "PERSON", "start": 3, "end": 6}, {"label": "PHONE", "start": 10, "end": 23}, {"label": "EMAIL", "start": 27, "end": 43}]}
+{"id": "dialogue_callback", "group": "dialogue", "text": "고객: 저 홍길동인데요, 전화가 끊겼어요. 010-2345-6789로 다시 연락 주실래요?\n상담사: 네, 확인하겠습니다.", "spans": [{"label": "PERSON", "start": 6, "end": 9}, {"label": "PHONE", "start": 24, "end": 37}]}
+{"id": "dialogue_name_short", "group": "dialogue", "text": "고객: 이름은 이상이고요. 메일은 maps.demo@example.com이에요. 안내문 좀 보내 주세요.", "spans": [{"label": "PERSON", "start": 8, "end": 10}, {"label": "EMAIL", "start": 19, "end": 40}]}
+{"id": "dialogue_address", "group": "dialogue", "text": "상담사: 우편 받으실 곳이 어디세요?\n고객: 서울특별시 강남구 테헤란로 123 101동 202호요. 전화는 010-2345-6789고요.", "spans": [{"label": "ADDRESS", "start": 25, "end": 53}, {"label": "PHONE", "start": 60, "end": 73}]}
+{"id": "dialogue_address_local", "group": "dialogue", "text": "고객: 집은 가상마을 3층 302호예요. 이번 달부터 여기로 보내 주세요.", "spans": [{"label": "ADDRESS", "start": 7, "end": 19}]}
+{"id": "dialogue_account", "group": "dialogue", "text": "상담사: 환급 계좌를 말씀해 주시겠어요?\n고객: 국민은행 계좌 123456-01-123456이고, 예금주는 김도구예요.", "spans": [{"label": "ACCOUNT", "start": 35, "end": 51}, {"label": "PERSON", "start": 60, "end": 63}]}
+{"id": "dialogue_account_plain", "group": "dialogue", "text": "고객: 아까 번호 잘못 알려 드렸네요. 12345601123456으로 해 주세요.", "spans": [{"label": "ACCOUNT", "start": 22, "end": 36}]}
+{"id": "dialogue_birth", "group": "dialogue", "text": "상담사: 생년월일 알려 주세요.\n고객: 1988년 1월 1일이에요. 이름은 홍길동이요.", "spans": [{"label": "DT_BIRTH", "start": 22, "end": 33}, {"label": "PERSON", "start": 42, "end": 45}]}
+{"id": "dialogue_spoken_phone", "group": "dialogue", "text": "고객: 제 휴대폰은 공일공 이삼사오 육칠팔구예요. 문자로 보내 주세요.", "spans": [{"label": "PHONE", "start": 11, "end": 24}]}
+{"id": "dialogue_repeat", "group": "dialogue", "text": "고객: 010-2345-6789요. 네, 맞아요. 010-2345-6789입니다. 메일은 demo@example.com이고요.", "spans": [{"label": "PHONE", "start": 4, "end": 17}, {"label": "PHONE", "start": 28, "end": 41}, {"label": "EMAIL", "start": 50, "end": 66}]}
+{"id": "dialogue_foreign_name", "group": "dialogue", "text": "고객: 이름은 Alex Kim이고 이메일은 demo@example.com입니다. 보험 변경 문의드려요.", "spans": [{"label": "PERSON", "start": 8, "end": 16}, {"label": "EMAIL", "start": 24, "end": 40}]}
+{"id": "negative_dialogue", "group": "negative", "text": "고객: 이번 달 보험료가 얼마죠?\n상담사: 상품코드는 A01이고 상태는 정상입니다.", "spans": []}
+{"id": "negative_column", "group": "negative", "text": "customer_name phone_number birth_date address policy_id", "spans": []}
+{"id": "negative_definition", "group": "negative", "text": "고객명은 계약을 체결한 고객의 이름이며 계약번호는 계약의 식별자이다.", "spans": []}
+{"id": "negative_dates", "group": "negative", "text": "배치 실행일 2026-11-05 완료일 2026-11-06", "spans": []}
+{"id": "negative_codes", "group": "negative", "text": "상태코드 A01 B02 001 002 보험상품 P2026", "spans": []}
+{"id": "negative_metrics", "group": "negative", "text": "NULL 0건 distinct 120건 평균길이 12", "spans": []}
+{"id": "negative_terms", "group": "negative", "text": "이상 탐지와 정상 처리 결과를 비교한다.", "spans": []}
+{"id": "negative_biz", "group": "negative", "text": "보험계약 관리 고객 통합 매핑 표준화", "spans": []}
+{"id": "negative_money", "group": "negative", "text": "보험료 120000원 청구금액 3000000원", "spans": []}
+{"id": "negative_schema", "group": "negative", "text": "VARCHAR(100) DECIMAL(18,2) TIMESTAMP", "spans": []}

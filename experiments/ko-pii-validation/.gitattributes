@@ -1,0 +1,2 @@
+*.jsonl text eol=lf
+*.txt text eol=lf

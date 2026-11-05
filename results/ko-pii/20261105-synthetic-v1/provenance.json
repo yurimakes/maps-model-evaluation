@@ -1,0 +1,27 @@
+{
+  "protocol_id": "ko-pii-synthetic-v1",
+  "action": "preserved results of actual local rule-library execution",
+  "synthetic_only": true,
+  "raw_maps_data_used": false,
+  "model_or_api_calls": false,
+  "sharing_scope": "Public repository: only purpose-written synthetic fixtures and their outputs; no internal source data, real customer rows, credentials or runtime binaries.",
+  "code_adaptation": "Published runner reads fixed fixtures and creates a new results folder; original measurements and result files are preserved.",
+  "license_notice": "Third-party ko-pii code is MIT. This does not assign a license to other project material.",
+  "limitations": [
+    "Hand-authored small synthetic set, repeated values, no independent holdout.",
+    "Explicit field masking is a schema assertion, not automatic detector accuracy.",
+    "Six-column residual count excludes custom policy IDs and free-text notes.",
+    "No operational MAPS migration or API integration verification."
+  ],
+  "measurement_input_sha256": {
+    "synthetic_input.csv": "1f3722f6bfd38d9511e048de201f2aa2ab8a942d7476d32de523ea69b906102e",
+    "synthetic_input.json": "524d4b0afe63c5f3f8316e18e860c28912c1844fd27ffb6231680905a76f4a0c",
+    "text_cases.jsonl": "6cf41b43ee87eeef07c691135d64d50be0e0fe1d186da192d5817ea208b71c2b"
+  },
+  "publication_note": "Repository text uses normalized LF line endings. Measurement input hashes refer to the original local test files; each rerun records its own actual input hashes.",
+  "published_fixture_sha256": {
+    "text_cases.jsonl": "6cf41b43ee87eeef07c691135d64d50be0e0fe1d186da192d5817ea208b71c2b",
+    "synthetic_input.csv": "f4a18bd94c6cbe2e35de5cbcf82df6c185a0df3506fca508c23cb8fc5c3d443d",
+    "synthetic_input.json": "4498bebc10302b5e71b4d50fca68e5b8cc034c6fd8027a1bfd4eb0d04909a397"
+  }
+}

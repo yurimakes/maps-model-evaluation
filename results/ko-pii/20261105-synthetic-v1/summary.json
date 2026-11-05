@@ -1,0 +1,266 @@
+{
+  "all_text": {
+    "STRICT": {
+      "tp": 39,
+      "fp": 5,
+      "fn": 14,
+      "gold": 53,
+      "literal_remaining": 15,
+      "uncovered": 15
+    },
+    "PARANOID": {
+      "tp": 39,
+      "fp": 5,
+      "fn": 14,
+      "gold": 53,
+      "literal_remaining": 12,
+      "uncovered": 14
+    }
+  },
+  "dialogue": {
+    "STRICT": {
+      "tp": 10,
+      "fp": 2,
+      "fn": 8,
+      "gold": 18,
+      "literal_remaining": 8,
+      "uncovered": 8
+    },
+    "PARANOID": {
+      "tp": 10,
+      "fp": 2,
+      "fn": 8,
+      "gold": 18,
+      "literal_remaining": 7,
+      "uncovered": 8
+    }
+  },
+  "structured": {
+    "csv_auto": {
+      "rows": 8,
+      "target_nonempty_cells": 46,
+      "original_value_remaining_cells": 22,
+      "remaining_locations": [
+        {
+          "row": 1,
+          "column": "phone_number"
+        },
+        {
+          "row": 1,
+          "column": "birth_date"
+        },
+        {
+          "row": 1,
+          "column": "account_number"
+        },
+        {
+          "row": 2,
+          "column": "phone_number"
+        },
+        {
+          "row": 2,
+          "column": "birth_date"
+        },
+        {
+          "row": 2,
+          "column": "account_number"
+        },
+        {
+          "row": 3,
+          "column": "phone_number"
+        },
+        {
+          "row": 3,
+          "column": "birth_date"
+        },
+        {
+          "row": 3,
+          "column": "account_number"
+        },
+        {
+          "row": 4,
+          "column": "phone_number"
+        },
+        {
+          "row": 4,
+          "column": "birth_date"
+        },
+        {
+          "row": 4,
+          "column": "account_number"
+        },
+        {
+          "row": 5,
+          "column": "account_number"
+        },
+        {
+          "row": 6,
+          "column": "phone_number"
+        },
+        {
+          "row": 6,
+          "column": "birth_date"
+        },
+        {
+          "row": 6,
+          "column": "account_number"
+        },
+        {
+          "row": 7,
+          "column": "phone_number"
+        },
+        {
+          "row": 7,
+          "column": "birth_date"
+        },
+        {
+          "row": 7,
+          "column": "account_number"
+        },
+        {
+          "row": 8,
+          "column": "phone_number"
+        },
+        {
+          "row": 8,
+          "column": "birth_date"
+        },
+        {
+          "row": 8,
+          "column": "account_number"
+        }
+      ],
+      "row_and_column_shape_preserved": true
+    },
+    "csv_explicit": {
+      "rows": 8,
+      "target_nonempty_cells": 46,
+      "original_value_remaining_cells": 0,
+      "remaining_locations": [],
+      "row_and_column_shape_preserved": true
+    },
+    "json_auto": {
+      "rows": 8,
+      "target_nonempty_cells": 46,
+      "original_value_remaining_cells": 27,
+      "remaining_locations": [
+        {
+          "row": 1,
+          "column": "customer_name"
+        },
+        {
+          "row": 1,
+          "column": "birth_date"
+        },
+        {
+          "row": 1,
+          "column": "account_number"
+        },
+        {
+          "row": 2,
+          "column": "customer_name"
+        },
+        {
+          "row": 2,
+          "column": "address"
+        },
+        {
+          "row": 2,
+          "column": "birth_date"
+        },
+        {
+          "row": 2,
+          "column": "account_number"
+        },
+        {
+          "row": 3,
+          "column": "customer_name"
+        },
+        {
+          "row": 3,
+          "column": "birth_date"
+        },
+        {
+          "row": 3,
+          "column": "account_number"
+        },
+        {
+          "row": 4,
+          "column": "customer_name"
+        },
+        {
+          "row": 4,
+          "column": "email"
+        },
+        {
+          "row": 4,
+          "column": "address"
+        },
+        {
+          "row": 4,
+          "column": "birth_date"
+        },
+        {
+          "row": 4,
+          "column": "account_number"
+        },
+        {
+          "row": 5,
+          "column": "customer_name"
+        },
+        {
+          "row": 5,
+          "column": "account_number"
+        },
+        {
+          "row": 6,
+          "column": "customer_name"
+        },
+        {
+          "row": 6,
+          "column": "birth_date"
+        },
+        {
+          "row": 6,
+          "column": "account_number"
+        },
+        {
+          "row": 7,
+          "column": "customer_name"
+        },
+        {
+          "row": 7,
+          "column": "address"
+        },
+        {
+          "row": 7,
+          "column": "birth_date"
+        },
+        {
+          "row": 7,
+          "column": "account_number"
+        },
+        {
+          "row": 8,
+          "column": "customer_name"
+        },
+        {
+          "row": 8,
+          "column": "birth_date"
+        },
+        {
+          "row": 8,
+          "column": "account_number"
+        }
+      ],
+      "row_and_column_shape_preserved": true
+    },
+    "json_explicit": {
+      "rows": 8,
+      "target_nonempty_cells": 46,
+      "original_value_remaining_cells": 0,
+      "remaining_locations": [],
+      "row_and_column_shape_preserved": true
+    }
+  }
+}
