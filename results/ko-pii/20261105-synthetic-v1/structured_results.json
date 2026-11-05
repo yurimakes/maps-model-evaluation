@@ -1,0 +1,285 @@
+{
+  "notice": "Synthetic field-residual comparison. Explicit labels are schema assertions, not improved automatic detector accuracy.",
+  "column_map": {
+    "customer_name": "PERSON",
+    "phone_number": "PHONE",
+    "email": "EMAIL",
+    "address": "ADDRESS",
+    "birth_date": "DT_BIRTH",
+    "account_number": "ACCOUNT"
+  },
+  "auto_header_map": {
+    "email": "EMAIL",
+    "address": "ADDRESS",
+    "customer_name": "PERSON"
+  },
+  "csv_auto": {
+    "rows": 8,
+    "target_nonempty_cells": 46,
+    "original_value_remaining_cells": 22,
+    "remaining_locations": [
+      {
+        "row": 1,
+        "column": "phone_number"
+      },
+      {
+        "row": 1,
+        "column": "birth_date"
+      },
+      {
+        "row": 1,
+        "column": "account_number"
+      },
+      {
+        "row": 2,
+        "column": "phone_number"
+      },
+      {
+        "row": 2,
+        "column": "birth_date"
+      },
+      {
+        "row": 2,
+        "column": "account_number"
+      },
+      {
+        "row": 3,
+        "column": "phone_number"
+      },
+      {
+        "row": 3,
+        "column": "birth_date"
+      },
+      {
+        "row": 3,
+        "column": "account_number"
+      },
+      {
+        "row": 4,
+        "column": "phone_number"
+      },
+      {
+        "row": 4,
+        "column": "birth_date"
+      },
+      {
+        "row": 4,
+        "column": "account_number"
+      },
+      {
+        "row": 5,
+        "column": "account_number"
+      },
+      {
+        "row": 6,
+        "column": "phone_number"
+      },
+      {
+        "row": 6,
+        "column": "birth_date"
+      },
+      {
+        "row": 6,
+        "column": "account_number"
+      },
+      {
+        "row": 7,
+        "column": "phone_number"
+      },
+      {
+        "row": 7,
+        "column": "birth_date"
+      },
+      {
+        "row": 7,
+        "column": "account_number"
+      },
+      {
+        "row": 8,
+        "column": "phone_number"
+      },
+      {
+        "row": 8,
+        "column": "birth_date"
+      },
+      {
+        "row": 8,
+        "column": "account_number"
+      }
+    ],
+    "row_and_column_shape_preserved": true
+  },
+  "csv_explicit": {
+    "rows": 8,
+    "target_nonempty_cells": 46,
+    "original_value_remaining_cells": 0,
+    "remaining_locations": [],
+    "row_and_column_shape_preserved": true
+  },
+  "json_auto": {
+    "rows": 8,
+    "target_nonempty_cells": 46,
+    "original_value_remaining_cells": 27,
+    "remaining_locations": [
+      {
+        "row": 1,
+        "column": "customer_name"
+      },
+      {
+        "row": 1,
+        "column": "birth_date"
+      },
+      {
+        "row": 1,
+        "column": "account_number"
+      },
+      {
+        "row": 2,
+        "column": "customer_name"
+      },
+      {
+        "row": 2,
+        "column": "address"
+      },
+      {
+        "row": 2,
+        "column": "birth_date"
+      },
+      {
+        "row": 2,
+        "column": "account_number"
+      },
+      {
+        "row": 3,
+        "column": "customer_name"
+      },
+      {
+        "row": 3,
+        "column": "birth_date"
+      },
+      {
+        "row": 3,
+        "column": "account_number"
+      },
+      {
+        "row": 4,
+        "column": "customer_name"
+      },
+      {
+        "row": 4,
+        "column": "email"
+      },
+      {
+        "row": 4,
+        "column": "address"
+      },
+      {
+        "row": 4,
+        "column": "birth_date"
+      },
+      {
+        "row": 4,
+        "column": "account_number"
+      },
+      {
+        "row": 5,
+        "column": "customer_name"
+      },
+      {
+        "row": 5,
+        "column": "account_number"
+      },
+      {
+        "row": 6,
+        "column": "customer_name"
+      },
+      {
+        "row": 6,
+        "column": "birth_date"
+      },
+      {
+        "row": 6,
+        "column": "account_number"
+      },
+      {
+        "row": 7,
+        "column": "customer_name"
+      },
+      {
+        "row": 7,
+        "column": "address"
+      },
+      {
+        "row": 7,
+        "column": "birth_date"
+      },
+      {
+        "row": 7,
+        "column": "account_number"
+      },
+      {
+        "row": 8,
+        "column": "customer_name"
+      },
+      {
+        "row": 8,
+        "column": "birth_date"
+      },
+      {
+        "row": 8,
+        "column": "account_number"
+      }
+    ],
+    "row_and_column_shape_preserved": true
+  },
+  "json_explicit": {
+    "rows": 8,
+    "target_nonempty_cells": 46,
+    "original_value_remaining_cells": 0,
+    "remaining_locations": [],
+    "row_and_column_shape_preserved": true
+  },
+  "free_text_policy_note": "CSV table API preserves unmapped note values; JSON recursively detects string values but can miss them. Notes and custom policy IDs remain outside explicit 6-column assurance.",
+  "custom_policy_id_remaining_all_outputs": true,
+  "csv_unmapped_notes_unchanged": true,
+  "numeric_json": {
+    "input": {
+      "phone_number": 1023456789,
+      "account_number": 0,
+      "customer_name": null
+    },
+    "auto": {
+      "phone_number": 1023456789,
+      "account_number": 0,
+      "customer_name": null
+    },
+    "explicit": {
+      "phone_number": "[전화번호]",
+      "account_number": "[계좌번호]",
+      "customer_name": null
+    }
+  },
+  "error_cases": [
+    {
+      "case": "bool_identifier",
+      "rejected": true
+    },
+    {
+      "case": "missing_pointer",
+      "rejected": true
+    },
+    {
+      "case": "float_identifier",
+      "rejected": true
+    }
+  ],
+  "input_objects_unchanged": true,
+  "input_file_hashes_before": {
+    "synthetic_input.csv": "1f3722f6bfd38d9511e048de201f2aa2ab8a942d7476d32de523ea69b906102e",
+    "synthetic_input.json": "524d4b0afe63c5f3f8316e18e860c28912c1844fd27ffb6231680905a76f4a0c"
+  },
+  "input_file_hashes_after": {
+    "synthetic_input.csv": "1f3722f6bfd38d9511e048de201f2aa2ab8a942d7476d32de523ea69b906102e",
+    "synthetic_input.json": "524d4b0afe63c5f3f8316e18e860c28912c1844fd27ffb6231680905a76f4a0c"
+  }
+}

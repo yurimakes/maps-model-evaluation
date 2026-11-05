@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-001",
+      "consultation_note": "[성명]에게 [전화번호]로 연락",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-002",
+      "consultation_note": "이름은 이상이고 주소는 가상마을 3층 302호예요.",
+      "status": "CLOSED"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-003",
+      "consultation_note": "고객이 안내문 재발송 요청\n메일 [이메일]",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-004",
+      "consultation_note": "Alex Kim이라고 해요. 환급 계좌 [계좌번호]예요.",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-005",
+      "consultation_note": "가상질환 진단으로 보험금 문의",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-006",
+      "consultation_note": "상품코드 A01 상태 정상",
+      "status": "CLOSED"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-007",
+      "consultation_note": "주민번호 [주민등록번호] 정정 요청",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "[성명]",
+      "phone_number": "[전화번호]",
+      "email": "[이메일]",
+      "address": "[주소]",
+      "birth_date": "[생년월일]",
+      "account_number": "[계좌번호]",
+      "policy_id": "P-2026-008",
+      "consultation_note": "보험료 120000원 납부 문의",
+      "status": "OPEN"
+    }
+  ]
+}

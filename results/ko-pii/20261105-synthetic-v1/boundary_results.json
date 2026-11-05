@@ -1,0 +1,37 @@
+{
+  "raw_synthetic": {
+    "customer_name": "이상",
+    "phone_number": 1023456789,
+    "address": "가상마을 3층 302호",
+    "policy_id": "P-2026-001",
+    "diagnosis": "가상질환 진단",
+    "note": "콜백 요청",
+    "demo@example.com": "key-is-preserved"
+  },
+  "json_auto": {
+    "customer_name": "이상",
+    "phone_number": 1023456789,
+    "address": "가상마을 3층 302호",
+    "policy_id": "P-2026-001",
+    "diagnosis": "가상질환 진단",
+    "note": "콜백 요청",
+    "demo@example.com": "key-is-preserved"
+  },
+  "json_explicit_labels": {
+    "customer_name": "[성명]",
+    "phone_number": "[전화번호]",
+    "address": "[주소]",
+    "policy_id": "P-2026-001",
+    "diagnosis": "가상질환 진단",
+    "note": "콜백 요청",
+    "demo@example.com": "key-is-preserved"
+  },
+  "map_columns": {
+    "성명": "PERSON",
+    "전화번호": "PHONE",
+    "customer_name": "PERSON"
+  },
+  "tokenized": "<EMAIL_1> / <EMAIL_1>",
+  "vault_can_reveal": true,
+  "input_not_mutated": true
+}

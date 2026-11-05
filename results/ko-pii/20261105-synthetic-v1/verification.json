@@ -1,0 +1,20 @@
+{
+  "pinned_package_regression": "passed",
+  "preserved_results_not_overwritten": true,
+  "output_guards": [
+    {
+      "output": "results/ko-pii/20261105-synthetic-v1",
+      "rejected": true
+    },
+    {
+      "output": "results/common/ko-pii-must-not-write",
+      "rejected": true
+    }
+  ],
+  "shared_evaluation": {
+    "method_count": 37,
+    "prediction_count": 2898,
+    "historical_parity_passed": 37
+  },
+  "sharing_review": "Synthetic fixtures, their outputs, code and reports only. No internal source files, runtime packages, wheel binaries or secrets selected."
+}

@@ -1,0 +1,18 @@
+{
+  "version": "public-standardization-1.0",
+  "wbs": "07.8.1",
+  "scope": "공공표준·행안부 문서를 지식자료로 사용하는 표준화의 평가항목·가중치·Evidence 정의",
+  "weighting": {"within_check": "각 제공 대응 1건에 동일 가중치", "between_checks": null, "composite_score": false},
+  "checks": [
+    {"id":"P01", "area":"표준단어", "fields":["단어명","약어"], "mode":"automated_dictionary_check"},
+    {"id":"P02", "area":"표준용어", "fields":["용어명","약어"], "mode":"automated_dictionary_check"},
+    {"id":"P03", "area":"표준도메인", "fields":["도메인명","타입","길이","소수점길이"], "mode":"automated_dictionary_check"},
+    {"id":"P04", "area":"신규 후보", "fields":["구성단어","형식단어","도메인","정의","중복검토","출처","승인상태"], "mode":"evidence_review_not_automated"},
+    {"id":"P05", "area":"실행근거", "fields":["입력해시","사전버전과해시","문서명과버전과위치","모델버전","프롬프트버전","검색설정버전","평가코드버전"], "mode":"manifest_and_generation_record_review"}
+  ],
+  "not_measured": ["업무 의미 정확도","원천 누락 재현율","실제 변환값 품질","공공 표준코드 의미 정확도","LLM 생성 재현성"],
+  "novel_candidates": "미등록을 자동 오답이나 승인으로 처리하지 않음",
+  "acceptance": "필수 근거 누락·명세 불일치·미등록·충돌을 목록화하고 해당 항목은 해결 또는 검토대기로 기록. 산출물 작성 완료와 표준화 결과 승인을 분리",
+  "reference_documents": [{"title":"공공데이터베이스 표준화 관리 매뉴얼", "version":"2026-04", "sections":"인쇄 p.104, p.118~121, p.155~156", "usage":"구성·명명·신규 후보 검토 기준; 전체 규칙 자동 검증 구현을 뜻하지 않음"}],
+  "dictionary_snapshot": "20251101; 실행마다 실제 파일 SHA-256 기록. 최신판 여부는 별도 관리"
+}

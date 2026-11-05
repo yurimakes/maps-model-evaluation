@@ -1,0 +1,29 @@
+{
+  "package": "ko-pii",
+  "version": "1.22.17",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "fixture_sha256": "6cf41b43ee87eeef07c691135d64d50be0e0fe1d186da192d5817ea208b71c2b",
+  "wheel_sha256": "74855b2f082676570c67e0f43683bf4230c26db7a5aa228a615fce882eeff753",
+  "upstream_commit": "8957e8bc9f0ade3d21381734523b18920330c159",
+  "synthetic_only": true,
+  "cases": 53,
+  "gold_spans": 53,
+  "supported_labels_evaluated": [
+    "ACCOUNT",
+    "ADDRESS",
+    "CARD",
+    "DRIVER_LICENSE",
+    "DT_BIRTH",
+    "EMAIL",
+    "FRN",
+    "IP",
+    "PASSPORT",
+    "PERSON",
+    "PHONE",
+    "RRN",
+    "VEHICLE"
+  ],
+  "limitations": "Exploratory hand-authored cases, no independent holdout, no production accuracy or SLA claim."
+}

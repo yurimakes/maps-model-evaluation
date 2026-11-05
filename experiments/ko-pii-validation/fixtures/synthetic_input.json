@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "customer_name": "홍길동",
+      "phone_number": "010-2345-6789",
+      "email": "demo1@example.com",
+      "address": "서울특별시 강남구 테헤란로 123",
+      "birth_date": "1988-01-01",
+      "account_number": "123456-01-123456",
+      "policy_id": "P-2026-001",
+      "consultation_note": "홍길동에게 010-2345-6789로 연락",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "이상",
+      "phone_number": "01023456789",
+      "email": "demo2@example.com",
+      "address": "가상마을 3층 302호",
+      "birth_date": "1990-02-03",
+      "account_number": "12345601123456",
+      "policy_id": "P-2026-002",
+      "consultation_note": "이름은 이상이고 주소는 가상마을 3층 302호예요.",
+      "status": "CLOSED"
+    },
+    {
+      "customer_name": "김도구",
+      "phone_number": "０１０－２３４５－６７８９",
+      "email": "demo3@예시.kr",
+      "address": "부산광역시 해운대구 센텀중앙로 12",
+      "birth_date": "2000-12-31",
+      "account_number": "98765432109876",
+      "policy_id": "P-2026-003",
+      "consultation_note": "고객이 안내문 재발송 요청\n메일 demo3@예시.kr",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "Alex Kim",
+      "phone_number": "010-2345-6789",
+      "email": "demo@intranet",
+      "address": "가상빌라 302호",
+      "birth_date": "1995-04-10",
+      "account_number": "11122233344455",
+      "policy_id": "P-2026-004",
+      "consultation_note": "Alex Kim이라고 해요. 환급 계좌 11122233344455예요.",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "홍길동",
+      "phone_number": "",
+      "email": "demo5@example.com",
+      "address": "서울특별시 강남구 테헤란로 45",
+      "birth_date": "",
+      "account_number": "10000000000001",
+      "policy_id": "P-2026-005",
+      "consultation_note": "가상질환 진단으로 보험금 문의",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "김도구",
+      "phone_number": "02-234-5678",
+      "email": "demo6@example.com",
+      "address": "서울특별시 강남구 테헤란로 67",
+      "birth_date": "1980-08-20",
+      "account_number": "10000000000002",
+      "policy_id": "P-2026-006",
+      "consultation_note": "상품코드 A01 상태 정상",
+      "status": "CLOSED"
+    },
+    {
+      "customer_name": "이상",
+      "phone_number": "010-2345-6789",
+      "email": "demo7@example.com",
+      "address": "가상마을 2층",
+      "birth_date": "1999-07-01",
+      "account_number": "10000000000003",
+      "policy_id": "P-2026-007",
+      "consultation_note": "주민번호 880101-1234568 정정 요청",
+      "status": "OPEN"
+    },
+    {
+      "customer_name": "홍길동",
+      "phone_number": "010-2345-6789",
+      "email": "demo8@example.com",
+      "address": "서울특별시 강남구 테헤란로 89",
+      "birth_date": "1975-11-30",
+      "account_number": "10000000000004",
+      "policy_id": "P-2026-008",
+      "consultation_note": "보험료 120000원 납부 문의",
+      "status": "OPEN"
+    }
+  ]
+}

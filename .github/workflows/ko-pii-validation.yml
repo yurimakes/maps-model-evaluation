@@ -1,0 +1,23 @@
+name: Ko-pii synthetic validation
+on:
+  push:
+    paths:
+      - 'experiments/ko-pii-validation/**'
+      - '.github/workflows/ko-pii-validation.yml'
+  pull_request:
+    paths:
+      - 'experiments/ko-pii-validation/**'
+      - '.github/workflows/ko-pii-validation.yml'
+permissions:
+  contents: read
+jobs:
+  synthetic-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --require-hashes -r experiments/ko-pii-validation/requirements.txt
+      - run: python experiments/ko-pii-validation/run.py --out results/ko-pii/ci-${{ github.run_id }}-${{ github.run_attempt }}
+      - run: python experiments/ko-pii-validation/verify_results.py --results results/ko-pii/ci-${{ github.run_id }}-${{ github.run_attempt }}

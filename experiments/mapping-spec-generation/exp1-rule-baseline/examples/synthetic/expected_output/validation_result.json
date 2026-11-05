@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "no_code_fence",
+      "passed": true,
+      "detail": "코드펜스 없음"
+    },
+    {
+      "name": "json_parse",
+      "passed": true,
+      "detail": "JSON 파싱 성공"
+    },
+    {
+      "name": "root_is_array",
+      "passed": true,
+      "detail": "최상위 배열"
+    },
+    {
+      "name": "count_matches_source",
+      "passed": true,
+      "detail": "출력 10건 / Source 10행"
+    },
+    {
+      "name": "object_fields_exact",
+      "passed": true,
+      "detail": "모든 객체 필드 일치"
+    },
+    {
+      "name": "field_types",
+      "passed": true,
+      "detail": "필드 자료형 정상"
+    },
+    {
+      "name": "decision_enum",
+      "passed": true,
+      "detail": "결정값 MIGRATE/EXCLUDE/REVIEW 만 사용"
+    },
+    {
+      "name": "operation_enum",
+      "passed": true,
+      "detail": "연산값 계약 목록 내"
+    },
+    {
+      "name": "target_fields_exact",
+      "passed": true,
+      "detail": "targets 원소 필드 일치"
+    },
+    {
+      "name": "target_reference_valid",
+      "passed": true,
+      "detail": "Target 미존재 참조 0건"
+    },
+    {
+      "name": "no_duplicate_target_pair",
+      "passed": true,
+      "detail": "Source 내 중복 Target 쌍 없음"
+    },
+    {
+      "name": "decision_target_consistency",
+      "passed": true,
+      "detail": "결정·연산 일관"
+    },
+    {
+      "name": "reason_nonempty",
+      "passed": true,
+      "detail": "판단 근거 모두 기재"
+    },
+    {
+      "name": "source_identifier_exists",
+      "passed": true,
+      "detail": "출력 Source 식별자 모두 입력에 존재"
+    },
+    {
+      "name": "source_no_duplicates",
+      "passed": true,
+      "detail": "Source 중복 0건"
+    },
+    {
+      "name": "source_no_missing",
+      "passed": true,
+      "detail": "Source 누락 0건"
+    },
+    {
+      "name": "source_order_preserved",
+      "passed": true,
+      "detail": "입력 순서 유지"
+    },
+    {
+      "name": "candidates_header",
+      "passed": true,
+      "detail": "candidates.csv 헤더 일치"
+    },
+    {
+      "name": "candidates_valid",
+      "passed": true,
+      "detail": "후보 19행, Source 8개, 최대 3개/Source"
+    },
+    {
+      "name": "no_hardcoded_identifiers",
+      "passed": true,
+      "detail": "알고리즘 소스에 입력 식별자(시스템·테이블·컬럼명) 문자열 리터럴 없음"
+    },
+    {
+      "name": "no_network_or_db_imports",
+      "passed": true,
+      "detail": "네트워크·외부 API·DB 모듈 import 없음"
+    }
+  ],
+  "summary": {
+    "output_objects": 10,
+    "source_rows": 10,
+    "target_rows": 8,
+    "decision_counts": {
+      "EXCLUDE": 1,
+      "MIGRATE": 4,
+      "REVIEW": 5
+    },
+    "operation_counts": {
+      "COPY": 3,
+      "FORMAT": 1,
+      "REVIEW": 3
+    },
+    "candidate_rows": 19,
+    "sources_with_candidates": 8
+  }
+}
