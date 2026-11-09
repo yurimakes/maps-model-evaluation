@@ -1,0 +1,888 @@
+{
+  "example_notice": "합성 데이터의 논리 계약 v0.1 예시다. 실제 고객·승인·모델 실행 결과가 아니다. AI 적용 제안과 사람의 최종 적용값, 공공 참조사전 미사용, 입력 스냅샷과 스키마 판본을 구분한다. 상태·오류·필드 명칭은 검토 제안이다.",
+  "request": {
+    "contract_version": "0.1-draft",
+    "request_id": "demo-request-01",
+    "scope_id": "demo-scope-a",
+    "recommendation_types": [
+      "standard_term",
+      "mapping"
+    ],
+    "purpose": "synthetic_contract_demonstration",
+    "input_snapshot_id": "demo-input-snapshot-01",
+    "source_schema_version": "demo-schema-v1",
+    "policy_ref": {
+      "id": "demo-policy",
+      "version": "demo-v1",
+      "status": "approved_for_synthetic_example"
+    },
+    "reference_assets": [
+      {
+        "id": "demo-dictionary",
+        "kind": "organization_dictionary",
+        "version": "demo-v1",
+        "scope_id": "demo-scope-a",
+        "status": "approved_for_synthetic_example"
+      },
+      {
+        "id": "demo-public-reference",
+        "kind": "public_reference",
+        "version": "demo-v1",
+        "scope_id": "demo-scope-a",
+        "status": "approved_for_synthetic_example"
+      },
+      {
+        "id": "demo-target",
+        "kind": "target_model",
+        "version": "demo-v1",
+        "scope_id": "demo-scope-a",
+        "status": "approved_for_synthetic_example"
+      }
+    ],
+    "sources": [
+      {
+        "source_ref": "demo-col-01",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_column": "DISPLAY_LABEL",
+        "source_batch_id": "demo-batch-01",
+        "description": "화면에 표시할 구분 명칭",
+        "declared_type": {
+          "value": "VARCHAR",
+          "length": 60,
+          "status": "provided",
+          "basis_ref": "demo-source-schema-01"
+        },
+        "storage_type": "string",
+        "observed_type": {
+          "value": "string",
+          "basis_ref": "demo-profile-01",
+          "observation_scope": "sample",
+          "observed_record_count": 30
+        },
+        "profiling_run_ref": "demo-profile-01",
+        "dq_run_ref": "demo-dq-01",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_schema_version": "demo-schema-v1",
+        "code_group_ref": null,
+        "code_group_status": "not_applicable",
+        "requested_recommendation_types": [
+          "standard_term"
+        ]
+      },
+      {
+        "source_ref": "demo-col-02",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_column": "STATE_CD",
+        "source_batch_id": "demo-batch-01",
+        "description": null,
+        "declared_type": {
+          "value": null,
+          "status": "unknown"
+        },
+        "storage_type": "string",
+        "observed_type": {
+          "value": "code_like_string",
+          "basis_ref": "demo-profile-01",
+          "observation_scope": "sample",
+          "observed_record_count": 30
+        },
+        "code_group_ref": null,
+        "profiling_run_ref": "demo-profile-01",
+        "dq_run_ref": "demo-dq-01",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_schema_version": "demo-schema-v1",
+        "code_group_status": "missing",
+        "requested_recommendation_types": [
+          "standard_term"
+        ]
+      },
+      {
+        "source_ref": "demo-col-03",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_column": "DISPLAY_TEXT",
+        "source_batch_id": "demo-batch-01",
+        "description": "화면에 표시할 설명문",
+        "declared_type": {
+          "value": "VARCHAR",
+          "length": 60,
+          "status": "provided",
+          "basis_ref": "demo-source-schema-01"
+        },
+        "storage_type": "string",
+        "observed_type": {
+          "value": "string",
+          "basis_ref": "demo-profile-01",
+          "observation_scope": "sample",
+          "observed_record_count": 30
+        },
+        "profiling_run_ref": "demo-profile-01",
+        "dq_run_ref": "demo-dq-01",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_schema_version": "demo-schema-v1",
+        "code_group_ref": null,
+        "code_group_status": "not_applicable",
+        "requested_recommendation_types": [
+          "mapping"
+        ]
+      },
+      {
+        "source_ref": "demo-col-04",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_column": "RECONTACT_BOOKING_LABEL",
+        "source_batch_id": "demo-batch-01",
+        "description": "재연락 예약 구분을 표시하는 명칭",
+        "declared_type": {
+          "value": "VARCHAR",
+          "length": 60,
+          "status": "provided",
+          "basis_ref": "demo-source-schema-01"
+        },
+        "storage_type": "string",
+        "observed_type": {
+          "value": "string",
+          "basis_ref": "demo-profile-01",
+          "observation_scope": "sample",
+          "observed_record_count": 30
+        },
+        "profiling_run_ref": "demo-profile-01",
+        "dq_run_ref": "demo-dq-01",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_schema_version": "demo-schema-v1",
+        "code_group_ref": null,
+        "code_group_status": "not_applicable",
+        "requested_recommendation_types": [
+          "standard_term"
+        ]
+      },
+      {
+        "source_ref": "demo-col-05",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_column": "CATEGORY_LABEL",
+        "source_batch_id": "demo-batch-01",
+        "description": "화면 표시용 분류 명칭",
+        "declared_type": {
+          "value": "VARCHAR",
+          "length": 60,
+          "status": "provided",
+          "basis_ref": "demo-source-schema-01"
+        },
+        "storage_type": "string",
+        "observed_type": {
+          "value": "string",
+          "basis_ref": "demo-profile-01",
+          "observation_scope": "sample",
+          "observed_record_count": 30
+        },
+        "profiling_run_ref": "demo-profile-01",
+        "dq_run_ref": "demo-dq-01",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_schema_version": "demo-schema-v1",
+        "code_group_ref": null,
+        "code_group_status": "not_applicable",
+        "requested_recommendation_types": [
+          "standard_term"
+        ]
+      }
+    ],
+    "data_protection": {
+      "policy_id": "demo-metadata-only",
+      "version": "demo-v1",
+      "raw_values_included": false
+    },
+    "requested_at": "2026-11-05T10:00:00+09:00",
+    "approved_target_model_ref": {
+      "id": "demo-target",
+      "version": "demo-v1"
+    },
+    "reference_manifest_id": "demo-reference-manifest-01",
+    "profiling_assets": [
+      {
+        "ref": "demo-profile-01",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_batch_id": "demo-batch-01",
+        "reference_kind": "preserved_snapshot",
+        "snapshot_id": "demo-profile-snapshot-01",
+        "ingest_date": "2026-11-05",
+        "executed_at": "2026-11-05T09:59:00+09:00",
+        "notice": "합성 보존 스냅샷 참조다. 현행에 전용 Profiling 실행 ID가 있다는 의미가 아니다."
+      }
+    ],
+    "schema_assets": [
+      {
+        "ref": "demo-source-schema-01",
+        "id": "demo-schema",
+        "version": "demo-schema-v1",
+        "scope_id": "demo-scope-a",
+        "origin": "synthetic_registered_metadata",
+        "status": "provided_for_example"
+      }
+    ],
+    "target_assets": [
+      {
+        "id": "demo-target",
+        "version": "demo-v1",
+        "scope_id": "demo-scope-a",
+        "tables": [
+          {
+            "table_id": "demo-target-table",
+            "columns": [
+              {
+                "column_id": "demo-target-display-text",
+                "name": "DISPLAY_TEXT",
+                "definition": "화면에 표시할 설명문",
+                "datatype": "VARCHAR",
+                "length": 60
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dictionary_entries": [
+      {
+        "asset_id": "demo-dictionary",
+        "version": "demo-v1",
+        "entry_id": "demo-term-01",
+        "label": "표시구분명",
+        "definition": "화면에 표시할 구분 명칭"
+      }
+    ],
+    "candidate_word_entries": [
+      {
+        "asset_id": "demo-dictionary",
+        "version": "demo-v1",
+        "entry_id": "demo-word-01",
+        "label": "재연락"
+      },
+      {
+        "asset_id": "demo-dictionary",
+        "version": "demo-v1",
+        "entry_id": "demo-word-02",
+        "label": "예약"
+      },
+      {
+        "asset_id": "demo-dictionary",
+        "version": "demo-v1",
+        "entry_id": "demo-word-03",
+        "label": "구분"
+      },
+      {
+        "asset_id": "demo-dictionary",
+        "version": "demo-v1",
+        "entry_id": "demo-word-04",
+        "label": "명"
+      }
+    ],
+    "input_snapshot_version": "demo-snapshot-v1"
+  },
+  "response": {
+    "contract_version": "0.1-draft",
+    "request_id": "demo-request-01",
+    "scope_id": "demo-scope-a",
+    "run_id": "demo-run-01",
+    "run_status": "partially_succeeded",
+    "input_snapshot_id": "demo-input-snapshot-01",
+    "versions": {
+      "input_schema_ref": {
+        "id": "demo-schema",
+        "version": "demo-schema-v1"
+      },
+      "policy_refs": [
+        {
+          "id": "demo-policy",
+          "version": "demo-v1"
+        }
+      ],
+      "reference_assets": [
+        {
+          "id": "demo-dictionary",
+          "kind": "organization_dictionary",
+          "version": "demo-v1"
+        },
+        {
+          "id": "demo-target",
+          "kind": "target_model",
+          "version": "demo-v1"
+        }
+      ],
+      "reference_manifest_id": "demo-reference-manifest-01",
+      "rule": {
+        "id": "demo-rules",
+        "version": "demo-v1"
+      },
+      "retrieval": {
+        "id": "demo-exact-lookup",
+        "version": "demo-v1"
+      },
+      "model": {
+        "provider": null,
+        "id": null,
+        "version": null,
+        "status": "not_used"
+      },
+      "prompt": {
+        "id": null,
+        "version": null,
+        "status": "not_used"
+      },
+      "code": {
+        "id": "demo-adapter",
+        "version": "demo-v1"
+      },
+      "config": {
+        "id": "demo-config",
+        "version": "demo-v1"
+      },
+      "input_snapshot_ref": {
+        "id": "demo-input-snapshot-01",
+        "version": "demo-snapshot-v1"
+      }
+    },
+    "counts": {
+      "input_subjects": 5,
+      "processed_subjects": 4,
+      "failed_subjects": 1,
+      "recommendations": 4,
+      "by_disposition": {
+        "reuse_candidate": 1,
+        "hold": 1,
+        "apply_candidate": 1,
+        "new_term_candidate": 1
+      }
+    },
+    "recommendations": [
+      {
+        "recommendation_id": "demo-rec-01",
+        "revision": 1,
+        "recommendation_type": "standard_term",
+        "subject_refs": [
+          "demo-col-01"
+        ],
+        "disposition": "reuse_candidate",
+        "candidates": [
+          {
+            "candidate_id": "demo-candidate-01",
+            "rank": 1,
+            "asset_ref": {
+              "id": "demo-dictionary",
+              "version": "demo-v1",
+              "entry_id": "demo-term-01"
+            },
+            "label": "표시구분명",
+            "reason": "합성 사전의 정의와 원천 설명을 대조한 재사용 검토 후보",
+            "dependency_refs": []
+          }
+        ],
+        "reason": "기존 승인 자산의 적용 범위와 의미를 검토할 수 있음",
+        "evidence_refs": [
+          "demo-evidence-01",
+          "demo-evidence-03"
+        ],
+        "checks": [
+          {
+            "check": "business_definition",
+            "status": "pass",
+            "evidence_refs": [
+              "demo-evidence-01",
+              "demo-evidence-03"
+            ]
+          },
+          {
+            "check": "domain",
+            "status": "not_checked",
+            "evidence_refs": []
+          },
+          {
+            "check": "datatype",
+            "status": "not_checked",
+            "evidence_refs": []
+          }
+        ],
+        "confidence": {
+          "value": null,
+          "method_id": null,
+          "method_version": null,
+          "status": "not_computed",
+          "level": null,
+          "reason": "유형별 점수 정책 미선택",
+          "components": []
+        },
+        "review_status": "PENDING",
+        "warnings": [
+          {
+            "code": "REVIEW_PENDING",
+            "message": "검토 전 최종 표준으로 등록하지 않음"
+          },
+          {
+            "code": "CHECKS_INCOMPLETE",
+            "message": "도메인·타입 검사가 남은 재사용 검토 후보"
+          }
+        ],
+        "missing_requirements": []
+      },
+      {
+        "recommendation_id": "demo-rec-02",
+        "revision": 1,
+        "recommendation_type": "standard_term",
+        "subject_refs": [
+          "demo-col-02"
+        ],
+        "disposition": "hold",
+        "candidates": [],
+        "reason": "코드의 업무 정의와 코드표가 없어 의미를 판단할 수 없음",
+        "evidence_refs": [
+          "demo-evidence-02"
+        ],
+        "checks": [
+          {
+            "check": "business_definition",
+            "status": "missing",
+            "evidence_refs": [
+              "demo-evidence-02"
+            ]
+          }
+        ],
+        "confidence": {
+          "value": null,
+          "method_id": null,
+          "method_version": null,
+          "status": "insufficient_evidence",
+          "level": null,
+          "reason": "필수 업무 근거 누락",
+          "components": [
+            {
+              "criterion": "business_definition",
+              "status": "missing",
+              "score": null
+            }
+          ]
+        },
+        "review_status": "PENDING",
+        "warnings": [],
+        "missing_requirements": [
+          {
+            "code": "BUSINESS_DEFINITION_MISSING",
+            "message": "업무 정의 필요"
+          },
+          {
+            "code": "CODE_REFERENCE_MISSING",
+            "message": "원천 코드그룹과 코드값 설명 필요"
+          }
+        ]
+      },
+      {
+        "recommendation_id": "demo-rec-03",
+        "revision": 1,
+        "recommendation_type": "mapping",
+        "subject_refs": [
+          "demo-col-03"
+        ],
+        "disposition": "apply_candidate",
+        "candidates": [
+          {
+            "candidate_id": "demo-candidate-03",
+            "rank": 1,
+            "asset_ref": {
+              "id": "demo-target",
+              "version": "demo-v1",
+              "entry_id": "demo-target-display-text"
+            },
+            "target_table_id": "demo-target-table",
+            "mapping_type": "DIRECT",
+            "process_type": "COPY",
+            "dependency_refs": [
+              {
+                "id": "demo-target",
+                "version": "demo-v1"
+              }
+            ],
+            "reason": "합성 예시에서 의미·길이가 같음"
+          }
+        ],
+        "reason": "원천 설명과 합성 승인 Target의 정의·타입을 비교한 직접 대응 후보",
+        "evidence_refs": [
+          "demo-evidence-04",
+          "demo-evidence-05"
+        ],
+        "checks": [
+          {
+            "check": "business_definition",
+            "status": "pass",
+            "evidence_refs": [
+              "demo-evidence-04",
+              "demo-evidence-05"
+            ]
+          },
+          {
+            "check": "datatype",
+            "status": "pass",
+            "evidence_refs": [
+              "demo-evidence-04",
+              "demo-evidence-05"
+            ]
+          },
+          {
+            "check": "other_constraints",
+            "status": "not_checked",
+            "evidence_refs": []
+          },
+          {
+            "check": "transformation_rule",
+            "status": "not_applicable",
+            "evidence_refs": [],
+            "reason": "DIRECT/COPY 합성 예시로 별도 변환 규칙을 적용하지 않음"
+          },
+          {
+            "check": "code_mapping_rule",
+            "status": "not_applicable",
+            "evidence_refs": [],
+            "reason": "코드 변환 대상이 아닌 합성 예시"
+          }
+        ],
+        "confidence": {
+          "value": null,
+          "method_id": null,
+          "method_version": null,
+          "status": "not_computed",
+          "level": null,
+          "reason": "유형별 점수 정책 미선택",
+          "components": []
+        },
+        "review_status": "PENDING",
+        "migration_apply": null,
+        "warnings": [
+          {
+            "code": "REVIEW_PENDING",
+            "message": "사람 검토와 나머지 제약 확인 전 실행 적용 금지"
+          }
+        ],
+        "missing_requirements": [],
+        "ai_migration_apply": true,
+        "ai_exclude_reason": null,
+        "exclude_reason": null
+      },
+      {
+        "recommendation_id": "demo-rec-04",
+        "revision": 1,
+        "recommendation_type": "standard_term",
+        "subject_refs": [
+          "demo-col-04"
+        ],
+        "disposition": "new_term_candidate",
+        "candidates": [
+          {
+            "candidate_id": "demo-candidate-04",
+            "rank": 1,
+            "asset_ref": null,
+            "label": "재연락예약구분명",
+            "definition": "재연락 예약 구분을 화면에 표시하는 명칭",
+            "word_refs": [
+              {
+                "id": "demo-dictionary",
+                "version": "demo-v1",
+                "entry_id": "demo-word-01"
+              },
+              {
+                "id": "demo-dictionary",
+                "version": "demo-v1",
+                "entry_id": "demo-word-02"
+              },
+              {
+                "id": "demo-dictionary",
+                "version": "demo-v1",
+                "entry_id": "demo-word-03"
+              },
+              {
+                "id": "demo-dictionary",
+                "version": "demo-v1",
+                "entry_id": "demo-word-04"
+              }
+            ],
+            "domain_ref": null,
+            "status": "proposed",
+            "dependency_refs": [],
+            "reason": "기존 구성 단어를 재사용하며 의미 중복·도메인 확인이 남음"
+          }
+        ],
+        "reason": "기존 단어를 조합한 신규 용어 검토 후보",
+        "evidence_refs": [
+          "demo-evidence-06",
+          "demo-evidence-07"
+        ],
+        "checks": [
+          {
+            "check": "word_composition",
+            "status": "pass",
+            "evidence_refs": [
+              "demo-evidence-07"
+            ]
+          },
+          {
+            "check": "synonym_and_semantic_duplicate",
+            "status": "not_checked",
+            "evidence_refs": []
+          },
+          {
+            "check": "domain",
+            "status": "missing",
+            "evidence_refs": []
+          },
+          {
+            "check": "public_reference",
+            "status": "not_checked",
+            "evidence_refs": []
+          }
+        ],
+        "confidence": {
+          "value": null,
+          "method_id": null,
+          "method_version": null,
+          "status": "not_computed",
+          "level": null,
+          "reason": "유형별 점수 정책 미선택",
+          "components": []
+        },
+        "review_status": "PENDING",
+        "warnings": [
+          {
+            "code": "NOVELTY_UNCONFIRMED",
+            "message": "조회 미발견만으로 신규 필요성을 확정하지 않음"
+          },
+          {
+            "code": "REVIEW_PENDING",
+            "message": "조직 등록·공공표준 제정으로 간주하지 않음"
+          }
+        ],
+        "missing_requirements": [
+          {
+            "code": "DOMAIN_MISSING",
+            "message": "도메인 확인 필요"
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "demo-evidence-01",
+        "scope_id": "demo-scope-a",
+        "kind": "dictionary_entry",
+        "asset_ref": {
+          "id": "demo-dictionary",
+          "version": "demo-v1",
+          "entry_id": "demo-term-01"
+        },
+        "locator": "entry:demo-term-01",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "합성 사전 항목이 표시용 구분 명칭으로 정의됨",
+        "interpretation": "재사용 검토 후보로 연결 가능",
+        "synthetic": true
+      },
+      {
+        "evidence_id": "demo-evidence-02",
+        "scope_id": "demo-scope-a",
+        "kind": "input_metadata",
+        "asset_ref": {
+          "id": "demo-input-snapshot-01",
+          "version": "demo-snapshot-v1"
+        },
+        "locator": "source_ref:demo-col-02",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "설명과 코드그룹 참조가 제공되지 않음",
+        "interpretation": "신규 생성보다 추가 자료 확인이 필요",
+        "synthetic": true
+      },
+      {
+        "evidence_id": "demo-evidence-03",
+        "scope_id": "demo-scope-a",
+        "kind": "input_metadata",
+        "asset_ref": {
+          "id": "demo-input-snapshot-01",
+          "version": "demo-snapshot-v1"
+        },
+        "locator": "source_ref:demo-col-01/description",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "입력 설명이 화면 표시용 구분 명칭임",
+        "interpretation": "사전 정의와 함께 재사용 검토에 사용",
+        "synthetic": true
+      },
+      {
+        "evidence_id": "demo-evidence-04",
+        "scope_id": "demo-scope-a",
+        "kind": "target_model",
+        "asset_ref": {
+          "id": "demo-target",
+          "version": "demo-v1",
+          "entry_id": "demo-target-display-text"
+        },
+        "locator": "table:demo-target-table/column:demo-target-display-text",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "승인 자산을 가정한 Target의 업무 정의·타입·길이를 확인",
+        "interpretation": "원천 설명·타입과 비교할 수 있음",
+        "synthetic": true
+      },
+      {
+        "evidence_id": "demo-evidence-05",
+        "scope_id": "demo-scope-a",
+        "kind": "input_metadata",
+        "asset_ref": {
+          "id": "demo-input-snapshot-01",
+          "version": "demo-snapshot-v1"
+        },
+        "locator": "source_ref:demo-col-03",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "원천 선언 VARCHAR(60), 업무 설명은 화면 표시용 설명문",
+        "interpretation": "합성 Target과 비교",
+        "synthetic": true
+      },
+      {
+        "evidence_id": "demo-evidence-06",
+        "scope_id": "demo-scope-a",
+        "kind": "input_metadata",
+        "asset_ref": {
+          "id": "demo-input-snapshot-01",
+          "version": "demo-snapshot-v1"
+        },
+        "locator": "source_ref:demo-col-04",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "업무 설명이 재연락 예약 구분 명칭임",
+        "interpretation": "기존 단어 조합 후보 검토",
+        "synthetic": true
+      },
+      {
+        "evidence_id": "demo-evidence-07",
+        "scope_id": "demo-scope-a",
+        "kind": "dictionary_lookup",
+        "asset_ref": {
+          "id": "demo-dictionary",
+          "version": "demo-v1"
+        },
+        "locator": "entries:demo-word-01,demo-word-02,demo-word-03,demo-word-04",
+        "input_snapshot_id": "demo-input-snapshot-01",
+        "observed_fact": "합성 사전에 구성 단어가 있고, 예시 조회에서는 동일 용어를 찾지 못함",
+        "interpretation": "미등록 확정이 아닌 신규 용어 검토 후보. 동의어·의미 중복 확인이 남음",
+        "synthetic": true
+      }
+    ],
+    "approval_baseline_ref": null,
+    "warnings": [
+      {
+        "code": "PARTIAL_FAILURE",
+        "message": "기술 실패 1개 대상은 승인 가능한 추천에서 제외됨"
+      },
+      {
+        "code": "REVIEW_PENDING",
+        "message": "실행 종료는 추천 승인·적용 완료를 뜻하지 않음"
+      }
+    ],
+    "requested_at": "2026-11-05T10:00:00+09:00",
+    "started_at": "2026-11-05T10:00:01+09:00",
+    "completed_at": "2026-11-05T10:00:05+09:00",
+    "subjects": [
+      {
+        "source_ref": "demo-col-01",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_column": "DISPLAY_LABEL",
+        "source_batch_id": "demo-batch-01",
+        "source_schema_version": "demo-schema-v1"
+      },
+      {
+        "source_ref": "demo-col-02",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_column": "STATE_CD",
+        "source_batch_id": "demo-batch-01",
+        "source_schema_version": "demo-schema-v1"
+      },
+      {
+        "source_ref": "demo-col-03",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_column": "DISPLAY_TEXT",
+        "source_batch_id": "demo-batch-01",
+        "source_schema_version": "demo-schema-v1"
+      },
+      {
+        "source_ref": "demo-col-04",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_column": "RECONTACT_BOOKING_LABEL",
+        "source_batch_id": "demo-batch-01",
+        "source_schema_version": "demo-schema-v1"
+      },
+      {
+        "source_ref": "demo-col-05",
+        "scope_id": "demo-scope-a",
+        "source_system": "demo-system-a",
+        "source_table": "demo-table-a",
+        "source_table_kind": "registered_dataset",
+        "storage_table_ref": "demo-storage-table-a",
+        "source_column": "CATEGORY_LABEL",
+        "source_batch_id": "demo-batch-01",
+        "source_schema_version": "demo-schema-v1"
+      }
+    ],
+    "failures": [
+      {
+        "subject_refs": [
+          "demo-col-05"
+        ],
+        "recommendation_type": "standard_term",
+        "stage": "retrieval",
+        "code": "REFERENCE_LOOKUP_UNAVAILABLE",
+        "message": "합성 실패 사례: 참조 조회를 완료하지 못함",
+        "retryable": true
+      }
+    ],
+    "input_snapshot_version": "demo-snapshot-v1",
+    "reference_asset_usage": [
+      {
+        "id": "demo-dictionary",
+        "version": "demo-v1",
+        "usage": "used",
+        "reason": "표준용어와 구성 단어의 조회 근거로 사용"
+      },
+      {
+        "id": "demo-public-reference",
+        "version": "demo-v1",
+        "usage": "not_used",
+        "reason": "공공 참조 조회를 수행하지 않은 합성 예시"
+      },
+      {
+        "id": "demo-target",
+        "version": "demo-v1",
+        "usage": "used",
+        "reason": "Mapping 대상의 업무 정의·자료형·길이 비교에 사용"
+      }
+    ]
+  }
+}

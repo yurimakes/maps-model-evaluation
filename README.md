@@ -12,6 +12,8 @@
 
 ## 연구 개요
 
+WBS 07.1.1의 [AI 입력·출력 연계규칙과 로컬 검증](experiments/ai-contract-validation/)도 제공한다. VS Code 또는 터미널에서 `python -X utf8 experiments/ai-contract-validation/validate.py`로 문서·합성 예시의 구조와 참조 관계를 검사한다. 모델 성능 평가·Fabric 연동·승인 판정과는 별개다.
+
 | 구분 | 핵심 질문 | 접근 방법 | 현재 상태 |
 |---|---|---|---|
 | **01. 사전학습 모델 비교** | 컬럼 이름 외에 설명·자료형을 활용하고 임베딩 모델을 바꾸면 매핑 품질이 개선되는가? | MPNet·다국어 E5·한국어 SRoBERTa 및 Magneto의 비LLM 매칭 구성 비교 | 실제 모델 추론·평가 완료 |

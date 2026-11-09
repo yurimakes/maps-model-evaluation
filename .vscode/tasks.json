@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MAPS: 연계규칙 검증",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-X", "utf8", "experiments/ai-contract-validation/validate.py"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "MAPS: 연계규칙 테스트",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-X", "utf8", "-m", "unittest", "discover", "-s", "experiments/ai-contract-validation", "-p", "test_validate.py", "-v"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "MAPS: 연계규칙 HTML 갱신",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-X", "utf8", "experiments/ai-contract-validation/render_html.py"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    }
+  ]
+}

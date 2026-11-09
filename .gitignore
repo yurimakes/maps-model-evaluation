@@ -18,4 +18,5 @@ __pycache__/
 *.dbc
 *.bundle
 results/validation/**/maps_validation_*/
+results/ai-contract-validation/
 **/phase2_bundle/자료/1_원천데이터(브론즈)/
